@@ -1,0 +1,292 @@
+#tuscany-container {
+    margin: -20px auto 43px;
+    display: block;
+    width: 300px;
+}
+
+#tuscany-container p {
+    margin: 0px 0px 0px 20px;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.tuscanyCheckbox {
+	width: 28px;
+    height: 28px;
+    margin: 0px;
+	position: relative;
+	float:left;
+}
+
+#tuscanyCheckboxInput {
+	display:none;
+}
+
+.tuscanyCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .tuscanyCheckbox label:after {
+	opacity: 0.1;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+ .tuscanyCheckbox label:hover::after {
+    opacity: 0.2;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.tuscanyCheckbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+.gameSection {
+    opacity: 0.95;
+    position: absolute;
+    width: 300px;
+    height: 79px;
+    left: 0px;
+    z-index: 1;
+} 
+
+.gameSection1Active {
+    top: 61px;
+}
+
+.gameSection2Active {
+    top: 151px;
+}
+
+.gameSection3Active {
+    top: 241px;
+}
+
+.gameSection4Active {
+    top: 332px;
+}
+
+.springBackgroundColor {
+	background-color:#708e2a;
+}
+
+.summerBackgroundColor {
+	background-color:#d0a638;
+}
+
+.autumnBackgroundColor {
+	background-color:#973518;
+}
+
+.winterBackgroundColor {
+	background-color:#1d6559;
+}
+
+.springColor {
+	color:#7fca0b;
+}
+
+.summerColor {
+	color:#ffb303;
+}
+
+.autumnColor {
+	color:#c51919;
+}
+
+.winterColor {
+	color:#0093ff;
+}
+
+.tuscany-icon {
+    position: absolute;
+    top: -5px;
+    left: 21px;
+    width: 22px;
+    opacity: 0.9;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+	.gameSection {
+		width: 43.45vw;
+		height: 11.75vw;
+		left: 0vw;
+	}
+
+	.gameSection1Active {
+		top: 8.7vw;
+	}
+	
+	.gameSection2Active {
+		top: 21.7vw;
+	}
+	
+	.gameSection3Active {
+		top: 35vw;
+	}
+	
+	.gameSection4Active {
+		top: 48vw;
+	}
+	
+	.tuscany-icon {
+		top: -.8vw;
+		left: 3vw;
+		width: 3.5vw;
+	}
+
+	#tuscany-container {
+		margin: 0vw auto 5vw;
+		display: block;
+		width: 39vw;
+	}
+
+	.tuscanyCheckbox label {
+		width: 3vw;
+		height: 3vw;
+		border: .25vw solid #ccc;
+	}
+
+	#tuscany-container p {
+		margin: 0vw 0vw 0vw 2.5vw;
+		font-style: italic;
+		font-size: 3.5vw;
+		line-height: 3vw;
+		float: left;
+	}
+
+	.tuscanyCheckbox label:after {
+		opacity: 0.1;
+		content: '';
+		position: absolute;
+		width: 1.5vw;
+		height: .6vw;
+		background: transparent;
+		top: .7vw;
+		left: .6vw;
+		border: .35vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+
+	.layer:not(#startLayer) p {
+		text-align: center;
+		font-size: 5vw;
+	}
+
+	#tuscany-container {
+		margin: -2vw auto 8vw;
+		display: block;
+		width: 53vw;
+	}
+
+	#tuscany-container p {
+		margin: 0vw 0vw 0vw 4vw;
+		font-style: italic;
+		font-size: 5vw;
+		line-height: 5vw;
+		float: left;
+	}
+
+	.gameSection {
+		width: 56.05vw;
+		height: 15.4vw;
+		left: 0vw;
+	}
+
+	.gameSection1Active {
+		top: 11.2vw;
+	}
+	
+	.gameSection2Active {
+		top: 27.7vw;
+	}
+	
+	.gameSection3Active {
+		top: 45vw;
+	}
+	
+	.gameSection4Active {
+		top: 62vw;
+	}
+	
+	.tuscany-icon {
+		top: -.9vw;
+		left: 3.7vw;
+		width: 4.7vw;
+	}
+
+	#tuscany-container {
+		margin: -2vw auto 7vw;
+		display: block;
+		width: 50vw;
+	}
+
+	.tuscanyCheckbox {
+		width: 4vw;
+		height: 4vw;
+		margin: 0vw;
+	}
+
+	.tuscanyCheckbox label {
+		width: 4vw;
+		height: 4vw;
+		border: .35vw solid #ccc;
+	}
+
+	#tuscany-container p {
+		margin: 0vw 0vw 0vw 4vw;
+		font-size: 4.5vw;
+		line-height: 5vw;
+	}
+
+	.tuscanyCheckbox label:after {
+		opacity: 0.1;
+		content: '';
+		position: absolute;
+		width: 2.2vw;
+		height: 1vw;
+		background: transparent;
+		top: .9vw;
+		left: .8vw;
+		border: .5vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+	
+
+}
