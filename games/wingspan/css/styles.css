@@ -1,0 +1,2107 @@
+#tierSelectionLayer .btn, #bonusCardAndScoreSideLayer .btn, #roundBonusLayer .btn {
+	float:none;
+	margin:0 auto;
+}
+
+#automasBonusCard {
+	margin-bottom: 0px;
+}
+
+#bonusCards {
+	margin: 20px auto 40px;
+    font-size: 20px;
+    display: block;
+    width: 350px;
+    padding: 10px;
+}
+
+#roundBonusLayer {
+    width: 615px!important;
+}
+
+#roundBonusCardContainer {
+	margin-bottom: 22px;
+}
+
+#roundBonusImgContainer {
+	width: 400px;
+}
+
+#roundBonusConfirmed {
+    width: 185px;
+    float: left;
+    margin-left: 30px;
+}
+
+.bonusRoundContainer {
+    height: 100px;
+    margin: 12px 0px 15px 0px;
+}
+
+#roundBonusConfirmed > .bonusRoundContainer > .roundBonusHeading {
+    height: 23px;
+    margin: 32px 0px 0px 0px;
+}
+
+#roundBonusConfirmed > .bonusRoundContainer > .roundVal > img {
+    height: 90px;
+    margin: 0 auto;
+    display: none;
+}
+
+.roundBonusHeading, .roundVal {
+	float:left;
+}
+
+#blueGreenScoring {
+	width: 520px;
+    margin: 10px auto 40px;
+}
+
+.scoringImage {
+	height: 170px;
+    width: 220px;
+    float: left;
+	margin: 0px 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+.scoringImage:not(.activeScoringOption) {
+	cursor:hand;
+	cursor:pointer;
+}
+
+.scoringImage > .scoringHelpImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#greenScoring {
+	background-image: url('../img/roundBonus/greenScoring-inactive.png');
+}
+
+#greenScoring.activeScoringOption {
+	background-image: url('../img/roundBonus/greenScoring.png')!important;
+}
+
+#blueScoring {
+	background-image: url('../img/roundBonus/blueScoring-inactive.png');
+}
+
+#blueScoring.activeScoringOption {
+	background-image: url('../img/roundBonus/blueScoring.png')!important;
+}
+
+.chosenPic {
+	opacity:0.3;
+}
+
+.roundVal {
+    border: solid 1px #000;
+	margin-left: 10px;
+    height: 90px;
+    width: 78px;
+}
+
+.roundVal.active {
+    box-shadow: 0px 0px 10px #f7ff00;
+}
+
+.roundBonusContainer {
+	float:left;
+}
+
+#roundBonusCardContainer:after, #roundBonusImgContainer:after, .bonusRoundContainer:after, #blueGreenScoring:after, .automaRoundSummary:after {
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#roundBonusImgContainer .roundBonusImgs {
+    margin: 5px;
+    border: 1px solid #7d7d7d96;
+    position: relative;
+    float: left;
+}
+
+#roundBonusImgContainer .roundBonusImgs.clickable:not(.chosenPic) {
+    cursor: hand;
+    cursor: pointer;
+}
+
+#roundBonusImgContainer .roundBonusImgs.clickable:not(.chosenPic):hover {
+    box-shadow: 0px 0px 4px #888;
+}
+
+#roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
+	width: 87px;
+}
+
+#roundBonusButtons {
+	margin: 0 auto;
+}
+
+#roundBonusButtons[btns="1"] {
+    width: 163px;
+}
+
+#roundBonusButtons[btns="2"] {
+    width: 325px;
+}
+
+#roundBonusButtons[btns="3"] {
+    width: 475px;
+}
+
+.chosenRoundGoals {
+	display:none;
+}
+
+.chosenRoundGoals .roundGoal {
+    width: 110px;
+    float: left;
+    padding: 10px;
+    margin: 7px;
+}
+
+.chosenRoundGoals .roundGoal .roundGoalDetails {
+    border: 1px solid #BBB;
+    padding: 5px 5px 13px;
+    margin-top: 10px;
+}
+
+.chosenRoundGoals .roundGoal p {
+	margin: 0px 0px 0px 0px;
+}
+
+.chosenRoundGoals .roundGoal img.roundBonusImage {
+    width: 90px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.chosenRoundGoals .roundGoal img.cubeValueImage {
+    width: 33px;
+    margin-top: 14px;
+}
+
+.confirmationBox.chosenRoundGoals .helpImage {
+    left: 419px!important;
+    width: 34px!important;
+    top: 30px;
+}
+
+#startGame {
+	display:none;
+}
+
+#roundBonusButtons .btn {
+	float: left;
+    width: 80px;
+    margin: 0px 10px;
+}
+
+#tierSelectionLayer {
+	display:none;
+	width: 401px;
+    margin: 0 auto 30px;
+    font-size: 22px;
+}
+
+#difficultyExplanation {
+    font-size: 20px;
+    width: 310px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.slider {
+    width: 62%;
+    margin: 0 auto;
+    display: block;
+}
+
+.difficultyLevelText {
+	display:none;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 38px auto 50px;
+}
+
+#difficultyLevelRange {
+	width: 54%;
+}
+
+#faceupBirdPoints {
+    width: 74%;
+    margin: 58px auto 60px;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	/* margin-top: -14px; */
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+	background: #3071a9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background: #367ebd;
+}
+
+#levelContainer {
+    width: 300px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    box-shadow: #999 1px 1px 5px;
+    border-radius: 21px;
+    padding: 10px 40px 0px;
+    display: block;
+    border: 2px solid #676767;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+#levelContainer h3 {
+    text-align: center;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 27px;
+}
+
+#levelContainer ul {
+	padding: 0px 10px 15px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+#levelContainer ul li {
+	margin-bottom:9px;
+	list-style:none;
+}
+
+#automaSetup > p, #automasBonusCard {
+	font-size: 27px!important;
+	text-align: center;
+}
+
+.roundMarkerTable img {
+    height: 37px;
+}
+
+.gameActionInfo {
+    /* float: none!important; */
+    margin: 0 auto!important;
+}
+
+.cardPic {
+    overflow: hidden!important;
+    height: 100px!important;
+}
+
+#cardArea {
+    /* float: none!important; */
+	margin: 10px auto 0px!important;
+}
+
+.gameActionInfo {
+    width: 310px!important;
+}
+
+.roundMarkerTable {
+    font-size: 27px;
+    margin: 0px auto 10px;
+}
+
+.roundMarkerTable tbody tr td {
+    padding-right: 4px!important;
+}
+
+.roundMarkerTable tbody tr td.info.rnd {
+    padding-right: 11px!important;
+}
+
+.rndInfoAnimation {
+	position: relative;
+	transition: all 500ms linear;
+	opacity:1;
+}
+
+.roundMarkerTable td {
+	transition: all 500ms linear;
+	opacity:1;
+}
+
+.rndInfoAnimation .animationBox {
+	transition: all 500ms linear!important;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    top: 1px;
+    right: -36px;
+    border-radius: 14px;
+	padding-top: 8px;
+	font-weight:bold;
+    color: #16b939;
+    font-size: 23px;
+    text-align: left;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.rnd-Score.rndInfoAnimation .animationBox {
+	top: -6px;
+}
+
+.rndInfoAnimation.active .animationBox {
+	opacity:1;
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	-ms-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+
+.roundMarkerTable td.inactive {
+	opacity:.1;
+	-webkit-transition: 500ms;
+	-moz-transition: 500ms;
+	-ms-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+
+table#roundMarkerTable2 {
+    padding-left: 13px;
+}
+
+#roundMarkerTable1 {
+	margin-bottom: 17px;
+}
+
+#table-container:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#gameLayer .buttons {
+	margin: 30px auto 30px!important;
+}
+
+.helpImage {
+    left: -300px!important;
+    width: 40px!important;
+}
+
+.wingspanRoundBonusHeading {
+	margin: 120px auto 0px;
+}
+
+.wingspanRoundBonus {
+    display: block;
+    width: 300px;
+    margin: 20px auto 0px;
+    box-shadow: 0px 0px 6px #999;
+    overflow: hidden;
+    position: relative;
+}
+
+.wingspanRoundBonus .roundBonusImage, .wingspanRoundBonus .cubeValueImage {
+    margin-left: 14px;
+    display: block;
+}
+
+.wingspanRoundBonus .roundBonusImage {
+    width: 90px;
+    padding: 10px 10px 10px 0px;
+}
+
+.wingspanRoundBonus .cubeValueImage {
+    width: 35px;
+    position: absolute;
+    right: 143px;
+    top: 40px;
+}
+
+
+#roundCubeContainer {
+    padding: 0px 0px;
+    margin-top: 10px;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    right: 0px;
+    top: 0px;
+}
+
+#roundCubeContainer .roundCubes {
+    width: 35px;
+	margin: 0px 17px -3px 0px;
+	float: left;
+	opacity:0;
+	transition: all 0.2s linear;
+}
+
+#roundCubeContainer .roundCubes.activeCube {
+	opacity:1;
+	-webkit-transition: 800ms;
+	-moz-transition: 800ms;
+	-ms-transition: 800ms;
+	-o-transition: 800ms;
+	transition: 800ms;
+}
+
+.wingspan-card-container {
+	position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 81px;
+    overflow: hidden;
+}
+
+.wingspan-card {
+	width: 300px;
+	position: absolute;
+}
+
+.wingspan-card-instructions p, .wingspan-card-instructions ul, .wingspan-card-instructions li {
+	font-size: 20px!important;
+	text-align:center!important;
+}
+
+.wingspan-card-buttons {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.wingspan-card-buttons .btn {
+	margin: 10px 0px;
+}
+
+#automubon-container {
+    margin: 30px auto 30px;
+    display: block;
+    width: 240px;
+}
+
+#automubon-container p {
+    margin: 0px 0px 0px 20px;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.automubonCheckbox {
+	width: 28px;
+    height: 28px;
+    margin: 0px;
+	position: relative;
+	float:left;
+}
+
+#automubonCheckboxInput {
+	display:none;
+}
+
+.automubonCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .automubonCheckbox label:after {
+	opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+
+/**
+ * Create the checkbox state for the tick
+ */
+.automubonCheckbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+.actionCard {
+    left: 0px;
+    position: absolute;
+}
+
+.actionCardRound1 {
+	top: -25px;
+}
+
+.actionCardRound2 {
+	top: -129px;
+}
+
+.actionCardRound3 {
+	top: -233px;
+}
+
+.actionCardRound4 {
+    top: -338px;
+}
+
+.confirmationBox.faceUpBirds .buttons {
+    width: 379px;
+}
+
+.confirmationBox.faceUpBirds a {
+	margin: 10px 14px 0px;
+    padding: 13px 34px;
+    font-size: 22px;
+    width: 89px;
+    float: left;
+}
+
+.confirmationBox.confirmFaceUpBirds a {
+	margin: 10px auto 0px;
+    float: none;
+}
+
+.endOfRoundScoring .roundBonusImage {
+	width: 90px;
+}
+
+.confirmationBox.wingspanBox {
+	top: 8%;
+    width: 640px;
+    margin-left: -320px;
+}
+
+.automaRoundSummary {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.automaRoundSummary p {
+    margin: 14px 0px 0px 30px;
+    float: left;
+}
+
+.automaRoundSummary .automaRoundSummaryImg {
+	float:left;
+	border: solid 1px #000;
+    box-shadow: 0px 0px 2px #6b6b6be8;
+}
+
+.automaRoundSummary .automaRoundSummaryImg img {
+    width: 100px;
+}
+
+#humanItemScoringInput {
+    width: 38px;
+    font-size: 24px;
+	font-weight: bold;
+    margin: 0 auto;
+    padding: 3px 0px;
+    display: inline;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center!important;
+	font-family: 'Times New Roman', serif;
+}
+
+.automaCubes {
+	margin-left: 6px;
+}
+
+.confirmationBox.wingspanBox .buttons {
+    margin-top: 30px;
+}
+
+.confirmationBox.wingspanBox.noEndOfRoundScore a {
+	width: 85px;
+}
+
+.confirmationBox.wingspanBox.endOfRoundScoring a {
+    width: 85px;
+    margin: 10px 9px 0px;
+}
+
+#roundMarkerTable4.finalScore {
+    margin-top: 10px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.confirmationBox.wingspanBox.faceUpBirds, .confirmationBox.wingspanBox.endOfRoundScoring {
+	display:none;
+}
+
+.scoringHelpImage {
+	cursor:hand;
+	cursor:pointer;
+	width: 33px;
+    margin-left: 10px;
+	margin-bottom: -8px;
+}
+.wsScoringTable  {
+    font-family:Verdana, Geneva, sans-serif !important;
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 558px;
+    margin: 0 auto;
+    font-size:19px;
+}
+
+.wsScoringTable th, .wsScoringTable td {
+    border-style:solid;
+    border-width: 4px;
+    overflow:hidden;
+    word-break:normal;
+    border-color: #e2e2e2;
+}
+
+.wsScoringTable th {
+    font-weight:normal;
+    padding:10px 20px;
+}
+
+.wsScoringTable .columnTitle, .wsScoringTable .rowTitle {
+    font-style:italic;
+}
+
+.wsScoringTable #humanColumn {
+    text-align:center;
+    width: 100px;
+}
+
+.wsScoringTable .rowTitle {
+    font-style:italic;
+    text-align:right;
+    padding: 18px 20px;
+}
+
+.wsScoringTable .scoreCell {
+    text-align:center;
+}
+
+.wsScoringTable input, .wsScoringTable input:focus {
+	/* background-color: #e0e0e0; */
+    font-size:19px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: inline;
+	width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: none;
+	text-align: center!important;
+    font-size: 19px;
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+
+.wsFinalScores {
+	border-collapse:collapse;
+	border-spacing:0;
+	width: 100%;
+	 margin: 0px auto 40px;
+	 table-layout: fixed;
+}
+.wsFinalScores td{
+	font-family:Verdana, Geneva, sans-serif !important;
+	 font-size: 24px;
+	border-style:solid;
+    border-width: 4px;
+	overflow:hidden;
+	word-break:normal;
+    border-color: #e2e2e2;
+	width: 33%;
+	padding: 15px 0px;
+}
+.wsFinalScores th{
+	font-family:Verdana, Geneva, sans-serif !important;
+	font-size:19px;
+	font-weight:normal;
+	padding: 13px 20px;
+	border-style:solid;
+    border-width: 4px;
+	overflow:hidden;
+	word-break:normal;
+    border-color: #e2e2e2;
+}
+
+#finalResults {
+	text-align: center;
+    margin: 0 auto;
+}
+
+#scoringTable h2, #finalResults h2 {
+    margin-bottom: 35px;
+}
+
+#scoringTable h2 {
+    margin-bottom: 35px;
+    text-decoration: underline;
+}
+
+.wsFinalScores tr th, .wsFinalScores tr td {
+	opacity: .3;
+}
+
+#finalScoreStats {
+	font-size: 32px!important;
+    margin: 0px 0px 0px 0px;
+}
+
+#finalScoreStatement {
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+
+#finalResults .buttons[btns="2"] {
+	width: 430px;
+}
+
+#finalResults .buttons[btns="2"] .btn {
+	float: left;
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+	h1 {
+		font-size: 5.2vw!important;
+		padding: 1.3vw 0 2vw 0!important;
+	}
+
+
+	.btn, .confirmationBox.wingspanBox .btn {
+		margin: 11vw 2vw 0vw;
+		padding: 2.2vw 4.9vw!important;
+		width: 15.5vw!important;
+		font-size: 3.5vw!important;
+		-moz-border-radius: 1vw!important;
+		-webkit-border-radius: 1vw!important;
+		border-radius: 1vw!important;
+		float: left;
+		border-width: 0vw!important;
+	}
+
+	#startLayer > .buttons > .btn {
+		padding: 2.2vw 3.9vw!important;
+		width: 15.5vw!important;
+		font-size: 3vw!important;
+		margin: 0vw 3vw!important;
+	}
+
+	#startLayer p, #startLayer ul, #startLayer li {
+		font-size: 3.3vw;
+		line-height: 4vw;
+		margin-bottom: 1vw;
+	}
+
+	#startLayer p, #startLayer ul {
+		margin-bottom: 3vw;
+	}
+
+	.automubonCheckbox {
+		width: 6vw;
+		height: 6vw;
+	}
+
+	.automubonCheckbox label {
+		width: 5.6vw;
+		height: 5.6vw;
+		border: .3vw solid #adadad;
+	}
+
+	.automubonCheckbox label:after {
+		width: 3.5vw;
+		height: 1.6vw;
+		top: 1vw;
+		left: .9vw;
+		border: .65vw solid #333;
+		border-top: none;
+		border-right: none;
+	}
+
+	#automubon-container {
+		margin: 3vw auto;
+		width: 42vw;
+	}
+
+	#automaSetup > p, #automasBonusCard {
+		font-size: 4.2vw!important;
+	}
+
+	#bonusCards {
+		margin: 2vw auto 6vw;
+		font-size: 3.5vw;
+		width: 45vw;
+		padding: 2vw;
+	}
+
+	#blueGreenScoring {
+		width: 76vw;
+		margin: 2vw auto 8vw;
+	}
+
+	.scoringImage {
+		height: 26vw;
+		width: 34vw;
+		margin: 0vw 2vw;
+	}
+
+	.scoringImage > .scoringHelpImage {
+		top: 0vw;
+		left: 0vw;
+		width: 7vw;
+	}
+
+	#roundBonusLayer {
+		margin: 4vw auto 2vw!important;
+	}
+
+	#roundBonusCardContainer {
+		margin-bottom: -3vw;
+	}
+
+	#roundBonusImgContainer {
+		width: 54.2vw;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
+		width: 11.2vw;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs {
+		margin: 1vw;
+		border: .15vw solid #7d7d7d96;
+	}
+	
+	#roundBonusConfirmed {
+		width: 56vw;
+		float: none;
+		height: 22vw;
+		margin: 2vw auto 5vw;
+	}
+	
+	.bonusRoundContainer {
+		height: 21vw;
+		width: 11.9vw;
+		float: left;
+		margin: 1vw 1vw 1vw 1vw;
+	}
+
+	#roundBonusConfirmed > .bonusRoundContainer > .roundBonusHeading {
+		height: 3.4vw;
+		margin: 0vw 0vw 1vw 0vw;
+		font-size: 2.8vw;
+	}
+
+	.roundVal {
+		border: solid .1vw #000;
+		height: 13vw;
+		width: 11.1vw;
+		margin: 0 auto;
+		padding: .2vw;
+	}
+
+	.roundBonusHeading, .roundVal {
+		float: none;
+	}
+
+	#roundBonusConfirmed > .bonusRoundContainer > .roundVal > img {
+		height: 12.6vw;
+		margin: 0 auto;
+	}
+
+	#roundBonusButtons[btns="1"] {
+		width: 25vw;
+	}
+
+	#roundBonusButtons[btns="2"] {
+		width: 50vw!important;
+	}
+
+	#roundBonusButtons[btns="3"] {
+		width: 76vw!important;
+	}
+
+	#roundBonusButtons .btn {
+		width: 11vw!important;
+		margin: 0vw 2vw!important;
+	}
+
+	.gameActionInfo {
+		width: 59vw!important;
+	}
+
+	.gameActionInfo .buttons[btns="2"] {
+		width: 59vw!important;
+	}
+
+	#table-container {
+		float: none;
+		margin-top: 0vw;
+	}
+
+	.roundMarkerTable {
+		font-size: 4vw;
+		margin: 0vw auto 2vw!important;
+		float: none;
+	}
+
+	#roundMarkerTable2 {
+		margin-bottom: 1vw!important;
+	}
+
+	.roundMarkerTable tbody tr td {
+		padding: 0vw 1.1vw 0vw 0vw!important;
+	}
+
+	.roundMarkerTable tbody tr td.info.rnd {
+		padding-right: 3vw!important;
+	}
+
+	.roundMarkerTable img {
+		height: 6vw;
+	}
+
+	#gameLayer .buttons {
+		margin: 1vw auto 2vw!important;
+	}
+
+	#gameLayer .buttons[btns="1"] {
+		width: 31vw!important;
+	}
+
+	#automaSetup > p {
+		font-size: 4.2vw!important;
+	}
+
+	#levelContainer {
+		width: 58vw;
+		margin: 7vw auto 4vw;
+		font-size: 4vw;
+		border-radius: 3vw;
+		padding: 2vw;
+		border: .3vw solid #676767;
+	}
+
+	#levelContainer h3 {
+		font-size: 5vw;
+	}
+
+	#levelContainer p {
+		font-size: 4vw!important;
+	}
+
+	#automubon-container p {
+		line-height: 6vw!important;
+	}
+
+	#levelContainer ul {
+		padding: 0vw 1vw 1vw 2vw;
+		margin: 2vw 0px 0px 0px;
+	}
+
+	#levelContainer ul li {
+		font-size: 2.9vw;
+		margin-bottom: 1.6vw;
+	}
+	
+	.wingspanRoundBonusHeading {
+		margin: 0vw auto 0vw;
+		font-size: 3.5vw!important;
+	}
+
+	#cardArea, .actionCard, .flip-card {
+		width: 54.5vw;
+	}
+    
+	.flip-card {
+		margin-top: 3vw;
+		margin-bottom: 3vw;
+		float: left;
+		height: 17.5vw;
+	}
+	
+	#cardArea {
+		margin-top: 0vw!important;
+	}
+
+	.actionCardRound1 {
+		top: -5vw;
+	}
+
+	.actionCardRound2 {
+		top: -24vw;
+	}
+
+	.actionCardRound3 {
+		top: -43vw;
+	}
+
+	.actionCardRound4 {
+		top: -62vw;
+	}
+
+	.cardPic {
+		height: 17.5vw!important;
+	}
+
+	.helpImage {
+		left: -54vw!important;
+		width: 7vw!important;
+	}
+
+	.wingspanRoundBonus {
+		width: 53vw;
+		margin: 2vw auto 0vw;
+		box-shadow: 0vw 0vw 1vw #999;
+	}
+
+	.wingspanRoundBonus .roundBonusImage {
+		width: 17vw;
+	}
+
+	.wingspanRoundBonus .roundBonusImage, .wingspanRoundBonus .cubeValueImage {
+		margin-left: 3vw;
+	}
+
+	.wingspanRoundBonus .cubeValueImage {
+		width: 6vw;
+		position: absolute;
+		right: 22vw;
+		top: 8.3vw;
+	}
+
+	#roundCubeContainer {
+		padding: 0vw 0vw;
+		margin-top: 3vw;
+		position: absolute;
+		width: 17vw;
+		height: 16vw;
+		right: 0vw;
+		top: 0vw;
+	}
+
+	#roundCubeContainer .roundCubes {
+		width: 5vw;
+		margin: 0px 3vw 1vw 0vw;
+	}
+
+	.confirmationBox.wingspanBox {
+		top: 6%;
+		width: 90vw;
+		margin-left: -45vw;
+		font-size: 4vw;
+	}
+
+	.confirmationBox.faceUpBirds .buttons {
+		width: 63vw;
+		margin: 5vw auto 2vw!important;
+	}
+
+	.confirmationBox.wingspanBox.noEndOfRoundScore .buttons[btns="1"] {
+		width: 33vw!important;
+	}
+
+	.confirmationBox.confirmFaceUpBirds a {
+		margin: 4vw auto 0vw;
+		float: none;
+		width: 15vw;
+	}
+
+	.automaRoundSummary .automaRoundSummaryImg img {
+		width: 15vw;
+	}
+
+	.automaRoundSummary {
+		margin: 0 auto;
+		width: 42vw;
+	}
+
+	.confirmationBox.wingspanBox.noEndOfRoundScore a {
+		width: 12vw;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring a {
+		width: 13vw!important;
+		margin: 1vw 1.5vw 0px!important;
+		font-size: 3.6vw!important;
+	}
+
+	.automaRoundSummary {
+		margin: 5vw auto 4vw;
+		width: 55vw;
+	}
+
+	.automaRoundSummary p {
+		margin: 2vw 0vw 0vw 5vw;
+		float: left;
+	}
+
+	#humanItemScoringInput {
+		width: 6.4vw;
+		font-size: 3.7vw;
+		margin: 0 auto;
+		padding: 1vw 0vw;
+	}
+
+	#startLayer .buttons[btns="2"] {
+		width: 60.2vw!important;
+		margin-top: 7vw!important;
+	}
+
+	.buttons[btns="3"] {
+		width: 62.6vw!important;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring .buttons[btns="3"] {
+		width: 75.6vw!important;
+	}
+	
+	.confirmationBox.wingspanBox.confirmFaceUpBirds .buttons[btns="1"] {
+		width: 31vw!important;
+	}
+
+	#roundMarkerTable4.finalScore {
+		margin-top: 1vw;
+		font-size: 5vw;
+		font-weight: bold;
+		padding: 2vw 17vw 1vw!important;
+	}
+
+	.scoringHelpImage {
+		width: 5.5vw;
+		margin-left: 1.2vw;
+		margin-bottom: -1vw;
+	}
+
+	#finalResults h2 {
+		font-size: 4vw;
+	}
+
+	.wsFinalScores th {
+		font-size: 3vw;
+		padding: 1vw 2vw;
+		border-width: .5vw;
+	}
+
+	.wsFinalScores td {
+		font-size: 3vw;
+		border-width: .5vw;
+		width: 33%;
+		padding: 2vw 0vw;
+	}
+
+	.wsFinalScores {
+		margin: 4vw auto;
+		overflow: hidden;
+	}
+
+	.wsScoringTable {
+		width: 69vw;
+	}
+
+	.wsScoringTable th, .wsScoringTable td  {
+		font-size: 3vw;
+		padding: 1vw 2vw;
+		border-width: .5vw;
+	}
+
+	.wsScoringTable input, .wsScoringTable input:focus {
+		padding: 1vw 0vw;
+		font-size: 3vw;
+	}
+
+	.wsScoringTable .tg-vys0 {
+		padding: 2vw 3vw 2vw 0vw;
+	}
+
+	#finalScoreStats {
+		font-size: 5vw!important;
+	}
+
+	#finalResults .buttons[btns="2"] {
+		width: 62vw!important;
+	}
+	
+	#finalResults .buttons[btns="2"] .btn {
+		width: 16.5vw!important;
+	}
+
+	.wsScoringTable #humanColumn {
+		width: 12vw!important;
+	}
+
+	.automaCubes {
+		margin-left: 1.2vw;
+	}
+
+	.rndInfoAnimation .animationBox {
+		width: 5vw;
+		height: 3vw;
+		top: .5vw;
+		right: -3vw;
+		padding-top: 1vw;
+		font-size: 3.5vw;
+	}
+
+	.rnd-Score.rndInfoAnimation .animationBox {
+		top: -.6vw;
+	}
+
+	.roundMarkerTable td.inactive {
+		opacity:1;
+		-webkit-transition: 500ms;
+		-moz-transition: 500ms;
+		-ms-transition: 500ms;
+		-o-transition: 500ms;
+		transition: 500ms;
+	}
+
+	.confirmationBox.chosenRoundGoals h2 {
+		font-size: 5vw;
+		margin-bottom: 1vw;
+		margin-top: 0.5vw;
+	}
+
+	.chosenRoundGoals .roundGoal p {
+		margin: 0vw 0vw 0vw 0vw;
+		font-size: 3.6vw;
+	}
+
+	.chosenRoundGoals .roundGoal {
+		width: 15vw;
+		float: left;
+		padding: 0vw;
+		margin: 2.3vw 2.3vw 5.3vw 2.3vw;
+	}
+
+	.chosenRoundGoals .roundGoal .roundGoalDetails {
+		border: .3vw solid #BBB;
+		padding: 1vw 0vw 2vw;
+		margin-top: 1vw;
+	}
+
+	.chosenRoundGoals .roundGoal img.roundBonusImage {
+		width: 14.2vw;
+		margin-top: 0vw;
+	}
+
+	.chosenRoundGoals .roundGoal img.cubeValueImage {
+		width: 5vw;
+		margin-top: 3vw;
+	}
+
+	.confirmationBox.chosenRoundGoals .buttons[btns="1"] {
+		width: 32vw!important;
+	}
+
+	.confirmationBox.chosenRoundGoals .helpImage {
+		left: 61vw!important;
+		top: 3vw;
+		width: 5vw!important;
+	}
+	
+
+}
+
+@media screen and (max-width: 599px) {
+
+	h1 {
+		font-size: 8.7vw!important;
+	}
+
+	.confirmationBox {
+		font-size: 4.5vw!important;
+	}
+
+	#startLayer p, #startLayer ul, #startLayer li {
+		font-size: 4.8vw;
+		line-height: 6.3vw;
+		margin-bottom: 1vw;
+	}
+
+	.layer:not(#startLayer) {
+		width: 100%;
+		margin: 5vw auto 0;
+		padding-left: 0vw;
+	}
+
+	#automaSetup > p, #automasBonusCard {
+		font-size: 6vw!important;
+	}
+
+	#bonusCards {
+		margin: 5vw auto 2vw;
+		font-size: 5vw;
+		display: block;
+		width: 61vw;
+		padding: 2vw;
+	}
+
+	#blueGreenScoring {
+		width: 96%;
+		margin: 5vw 0vw 8vw 7vw;
+	}
+
+	.scoringImage {
+		height: 29vw;
+		width: 37.7vw;
+		float: left;
+		margin: 0vw 1vw;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.scoringImage > .scoringHelpImage {
+		width: 8vw;
+	}
+
+	#tierSelectionLayer {
+		margin-top: 11vw!important;
+	}
+
+	#automubon-container {
+		margin: 1vw 0vw 4vw 6vw;
+		display: block;
+		width: 71vw;
+	}
+
+	#difficultyLevelRange {
+		width: 64%;
+		padding-top: 3vw;
+	}
+
+	.automubonCheckbox label {
+		cursor: pointer;
+		position: absolute;
+		width: 6vw;
+		height: 6vw;
+		top: 0;
+		left: 0;
+		background: #eee;
+		border: 0.3vw solid #ddd;
+	}
+
+	.automubonCheckbox label:after {
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 3.7vw;
+		height: 1.8vw;
+		background: transparent;
+		top: 1.1vw;
+		left: 1.05vw;
+		border: .7vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+
+	.automubonCheckbox {
+		width: 7vw;
+		height: 7vw;
+	}
+
+	#automubon-container p {
+		margin: 0.5vw 0vw 0vw 3vw;
+	}
+
+	#roundBonusLayer {
+		margin: 4vw auto 2vw!important;
+		width: 100%!important;
+	}
+
+	#roundBonusCardContainer {
+		margin-bottom: -1vw;
+	}
+
+	#roundBonusImgContainer {
+		width: 76vw;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
+		width: 16vw;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs {
+		margin: 1vw;
+		border: .35vw solid #7d7d7d96;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs.clickable:not(.chosenPic):hover {
+		box-shadow: 0vw 0vw 0.4vw #888;
+	}
+	
+	#roundBonusConfirmed {
+		width: 86vw;
+		float: none;
+		height: 29vw;
+		margin: 2vw auto 5vw;
+	}
+	
+	.bonusRoundContainer {
+		height: 31vw;
+		width: 17.9vw;
+		float: left;
+		margin: 1vw 1.7vw 1vw;
+	}
+
+	#roundBonusConfirmed > .bonusRoundContainer > .roundBonusHeading {
+		height: 6.4vw;
+		margin: 0vw 0vw 1vw 0vw;
+		font-size: 3.8vw;
+		font-weight:bold;
+	}
+
+	.roundVal {
+		border: solid .1vw #000;
+		height: 19vw;
+		width: 16.1vw;
+		margin: 0 auto;
+		padding: .2vw;
+	}
+
+	.roundBonusHeading, .roundVal {
+		float: none;
+	}
+
+	#roundBonusConfirmed > .bonusRoundContainer > .roundVal > img {
+		height: 17.6vw;
+		margin: 0 auto;
+		padding: .1vw;
+	}
+
+	#roundBonusButtons[btns="1"] {
+		width: 31.5vw;
+	}
+
+	#roundBonusButtons[btns="2"] {
+		width: 57vw!important;
+	}
+
+	#roundBonusButtons[btns="3"] {
+		width: 85vw!important;
+	}
+
+	#roundBonusButtons .btn {
+		width: 21vw!important;
+		margin: 0vw 2vw!important;
+	}
+
+	#gameLayer .buttons {
+		margin: 3vw auto 8vw!important;
+		height: 14vw;
+	}
+
+	#gameLayer .buttons[btns="1"] {
+		width: 42vw!important;
+	}
+
+	#gameLayer .buttons .btn {
+		font-size: 4.9vw;
+		padding: 2.7vw 2.3vw;
+		width: 28vw;
+	}
+
+	input[type=range] {
+		width: 72%;
+	}
+
+	.gameActionInfo {
+		width: 72vw!important;
+	}
+
+	#table-container {
+		margin-top: 1vw;
+	}
+
+	.roundMarkerTable {
+		font-size: 5.5vw;
+		margin: 0vw 0vw 0vw -1.2vw;
+		padding: 0vw 0vw 0vw 6vw;
+	}
+
+	#roundMarkerTable1 {
+		float: left;
+		margin-bottom:0vw!important;
+	}
+
+	.roundMarkerTable img {
+		height: 6vw;
+		padding-top: 0vw;
+	}
+
+	#roundMarkerTable1 tbody tr td {
+		padding: 0vw 2vw 1.3vw 0vw!important;
+		display: inline-block;
+	}
+
+	#roundMarkerTable3 tbody tr td {
+		padding: 0vw 2vw 0vw 0vw!important;
+		display: inline-block;
+	}
+
+	#roundMarkerTable4 {
+		margin: 2vw auto 5vw!important;
+	}
+	
+	#cardArea, .actionCard, .flip-card {
+		width: 68vw;
+	}
+
+	.cardPic {
+		height: 21.8vw!important;
+	}
+
+	.helpImage {
+		left: -67.5vw!important;
+		top: 0.5vw;
+		width: 9vw!important;
+	}
+
+	.flip-card {
+		margin-top: 3vw;
+		margin-bottom: 3vw;
+		float: none;
+		height: 23.5vw;
+	}
+
+	.wingspanRoundBonusHeading {
+		margin: 3vw auto 0vw;
+		font-size: 5.5vw!important;
+	}
+
+	.actionCardRound1 {
+		top: -6vw;
+	}
+
+	.actionCardRound2{
+		top: -29.5vw;
+	}
+
+	.actionCardRound3 {
+		top: -53.5vw;
+	}
+
+	.actionCardRound4 {
+		top: -77.5vw;
+	}
+
+	.wingspanRoundBonus {
+		width: 68vw;
+		margin: 3vw auto 0px;
+		box-shadow: 0vw 0vw 2vw #999;
+	}
+
+	.wingspanRoundBonus .roundBonusImage {
+		width: 23vw;
+		padding: 1vw 1vw 1vw 0vw;
+	}
+
+	.wingspanRoundBonus .roundBonusImage {
+		margin-left: 4vw;
+	}
+
+	.wingspanRoundBonus .cubeValueImage {
+		width: 8vw;
+		right: 28vw;
+		top: 10vw;
+	}
+
+	.wingspanRoundBonus .roundBonusImage {
+		margin-left: 4vw;
+	}
+
+	#roundCubeContainer {
+		padding: 0vw 0vw;
+		position: absolute;
+		width: 21vw;
+		height: 24vw;
+		right: 0vw;
+		top: 0.5vw;
+	}
+
+	#roundCubeContainer .roundCubes {
+		width: 7vw;
+		margin: 0vw 3vw -1vw 0vw;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring .buttons[btns="3"] {
+		width: 72vw!important;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring .buttons .btn {
+		margin: 0vw 2vw 3vw!important;
+		padding: 2.8vw 5vw!important;
+		font-size: 5vw!important;
+		width: 22vw!important;
+		float: left!important;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring .buttons .btn:nth-child(3) {
+		margin: 3vw auto!important;
+		float: none!important;
+		clear: both;
+	}
+
+	.confirmationBox.wingspanBox .buttons {
+		margin-top: 4vw;
+	}
+
+	#cardArea {
+		margin: 6vw auto 0vw!important;
+	}
+
+	.automaRoundSummary {
+		margin: 0vw auto 3vw;
+		width: 45vw;
+	}
+
+	.automaRoundSummary .automaRoundSummaryImg, .automaRoundSummaryImg img {
+		width: 21vw!important;
+	}
+
+	.automaRoundSummary p {
+		margin: 1vw auto 0vw;
+		float: left;
+	}
+
+	#humanItemScoringInput {
+		width: 9vw;
+		font-size: 4.5vw;
+		margin: 0 auto;
+		padding: 1vw 0vw;
+	}
+
+	.automaRoundSummary .automaRoundSummaryImg {
+		border: solid .2vw #000;
+		box-shadow: 0vw 0vw .3vw #6b6b6be8;
+		margin: 4vw auto;
+		float:none;
+		padding: .5vw;
+	}
+
+	#levelContainer {
+		width: 70vw;
+		margin: 14vw auto 6vw;
+		font-size: 4vw;
+		box-shadow: #999 0.1vw 0.1vw 1vw;
+		border-radius: 6vw;
+		padding: 3vw 5vw 2vw;
+		border: .2vw solid #676767;
+	}
+
+	#levelContainer h3 {
+		font-size: 5.5vw;
+		margin-top: 1vw;
+	}
+
+	#levelContainer ul {
+		padding: 0vw 3vw 2vw 4vw;
+		margin: 3vw 0px 0px 0px;
+	}
+
+	#levelContainer ul li {
+		font-size: 4.3vw;
+		margin-bottom: 2.6vw;
+	}
+
+	.layer:not(#startLayer) p {
+		text-align: center;
+		font-size: 5vw;
+		line-height: 6vw;
+	}
+		
+	input[type=range]::-webkit-slider-thumb {
+		height: 12vw;
+		width: 6.5vw;
+		margin-top:-5vw;
+		border-radius: .5vw;
+	}
+
+
+	input[type=range]::-moz-range-thumb {
+		height: 12vw;
+		width: 6.5vw;
+		margin-top:-5vw;
+		border-radius: .5vw;
+	}
+
+	input[type=range]::-ms-thumb {
+		height: 12vw;
+		width: 6.5vw;
+		margin-top:-5vw;
+		border-radius: .5vw;
+	}
+	.wingspanAction {
+		float: left;
+		width: 76vw;
+		margin-top: 31vw;
+	}
+
+	.wingspan-card {
+		width: 75.9vw;
+	}
+
+	.wingspan-card-container {
+		width: 76vw;
+		height: 20.6vw;
+		margin-bottom: 4vw;
+		margin-top: 2vw;
+	}
+
+	.extrawingspanAction {
+		width: 79.1vw;
+		margin: 2vw auto 0vw;
+	}
+
+	.wingspan-card-instructions {
+		margin-bottom: 5vw;
+	}
+
+	.confirmationBox a {
+		margin: 0vw 3.3vw 0px!important;
+		padding: 2.8vw 5vw!important;
+		font-size: 5vw!important;
+		width: 22vw!important;
+		float: left!important;
+	}
+
+	.confirmationBox:not(.wingspanBox) a {
+		width: 14vw!important;
+	}
+
+	.confirmationBox.wingspanBox {
+		top: 5%;
+		width: 90vw;
+		margin-left: -45vw;
+		padding: 0px 6vw 6vw;
+	}
+
+	.confirmationBox p {
+		margin-bottom: 6vw!important;
+		margin-top: 5vw;
+	}
+
+	.confirmationBox.chosenRoundGoals p {
+		margin-bottom: 1vw!important;
+		margin-top: 3vw;
+	}
+
+	.confirmationBox.faceUpBirds .buttons {
+		width: 78vw;
+	}
+
+	.confirmationBox.faceUpBirds a {
+		margin: 1vw 2vw 1vw;
+		padding: 3vw 6vw 4vw;
+		font-size: 5vw;
+		width: 22vw;
+		float: left;
+	}
+
+	.confirmationBox.endOfRoundScoring p {
+		margin-top:0vw;
+	}
+
+	#faceupBirdPoints {
+		width: 74%;
+		padding: 2vw 0vw 2vw 0vw;
+	}
+
+	#roundMarkerTable2 {
+		display:none;
+	}
+
+	#roundMarkerTable3 {
+		display:table;
+	}
+
+	.scoringHelpImage {
+		width: 6.5vw;
+		margin-left: 1.2vw;
+		margin-bottom: -1vw;
+	}
+
+	#scoringTable h2 {
+		text-align: center;
+		font-size: 6vw;
+		margin-bottom: 0vw;
+	}
+
+	.wsScoringTable {
+		width: 79vw;
+		margin: 5vw auto 8vw;
+	}
+
+	.wsFinalScores th {
+		font-size: 3.8vw;
+		padding: 3vw 0vw;
+		border-width: 0.8vw;
+	}
+
+	.wsFinalScores td {
+		font-size: 4.4vw;
+		border-width: 0.8vw;
+		padding: 3vw 0vw;
+	}
+
+	#finalResults {
+		margin: 11vw auto 0vw;
+	}
+
+	#finalResults h2 {
+		font-size: 6vw;
+	}
+
+	.wsScoringTable .rowTitle {
+		padding: 2vw 2vw 2vw 1vw;
+	}
+
+	.wsScoringTable td {
+		font-size: 4vw;
+		border-width: 0.8vw;
+	}
+
+	.wsScoringTable th {
+		font-size: 3.8vw;
+		padding: 2vw 3vw;
+		border-width: 0.8vw;
+	}
+
+	.wsScoringTable input, .wsScoringTable input:focus {
+		padding: 3vw 1vw;
+		margin: .1vw 0vw;
+		font-size: 4vw;
+	}
+
+	#finalResults .buttons[btns="2"] {
+		width: 42vw!important;
+		margin-top:3vw;
+	}
+	
+	#finalResults .buttons[btns="2"] .btn {
+		position: relative!important;
+		margin: 2vw 0vw!important;
+	}
+
+	.wsFinalScores {
+		margin: 7vw auto 7vw;
+	}
+
+	.wsScoringTable #humanColumn {
+		width: 14vw!important;
+	}
+
+	#scoringTable h2, #finalResults h2 {
+		margin-bottom: 0vw;
+	}
+
+	.automaCubes {
+		margin-left: 2vw;
+	}
+
+	#gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+		position: relative;
+		width: 72vw!important;
+		margin-top: 3vw!important;
+	}
+
+	.chosenRoundGoals .roundGoal {
+		width: 32vw;
+		float: left;
+		padding: 2vw;
+		margin: 1vw;
+	}
+
+	.chosenRoundGoals .roundGoal .roundGoalDetails {
+		border: 1px solid #BBB;
+		padding: 1vw 1vw 2vw;
+		margin-top: 1vw;
+		position: relative;
+	}
+
+	.chosenRoundGoals .roundGoal img.roundBonusImage {
+		width: 17vw;
+		margin: 0vw 0vw 0vw 0vw;
+		display: block;
+	}
+
+	.chosenRoundGoals .roundGoal img.cubeValueImage {
+		width: 7vw;
+		margin-top: 0vw;
+		position: absolute;
+		top: 8vw;
+		right: 4vw;
+	}
+
+	.chosenRoundGoals h2 {
+		font-size: 7vw;
+		margin-bottom: 2vw;
+		margin-top: 4vw;
+	}
+
+	.confirmationBox.chosenRoundGoals .helpImage {
+		left: 69vw!important;
+		width: 7vw!important;
+		top: 5.9vw;
+	}
+
+	.chosenRoundGoals .roundGoal p {
+		margin: 0vw 0vw 0vw 0vw;
+		font-size: 5vw;
+	}
+
+	.rndInfoAnimation .animationBox {
+		transition: all 500ms linear!important;
+		opacity: 0;
+		width: 7.5vw;
+		height: 6vw;
+		top: -2.1vw;
+		right: -6.5vw;
+		padding-top: 2vw;
+		font-size: 5vw;
+	}
+
+	.rnd-Score.rndInfoAnimation .animationBox {
+		top: -2vw;
+		right: -5.9vw;
+	}
+
+	.confirmationBox.endOfRoundScoring .buttons[btns="1"] {
+		margin: 1vw auto 0vw!important;
+	}
+
+	.roundMarkerTable td.inactive {
+		opacity:1;
+		-webkit-transition: 500ms;
+		-moz-transition: 500ms;
+		-ms-transition: 500ms;
+		-o-transition: 500ms;
+		transition: 500ms;
+	}
+
+}
