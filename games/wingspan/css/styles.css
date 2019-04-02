@@ -1370,7 +1370,7 @@ table#roundMarkerTable2 {
 	}
 
 	.roundMarkerTable td.inactive {
-		opacity:1;
+		opacity:0.1;
 		-webkit-transition: 500ms;
 		-moz-transition: 500ms;
 		-ms-transition: 500ms;
