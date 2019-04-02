@@ -1,0 +1,171 @@
+#removedCardsContainer {
+    position: relative;
+    margin: 0 auto;
+    width: 640px;
+    height: 420px;
+    display: none;
+    padding: 0px 30px 30px 30px;
+}
+
+.removedCardsContainer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.individualRemovedCard {
+    position: relative;
+    float: left;
+    margin: 20px 40px 20px 0px;
+}
+
+.individualRemovedCard:nth-child(3n) {
+	margin-right:0px;
+}
+
+.individualRemovedCard img:first-child {
+    width: 183px;
+    height: 255px;
+    box-shadow: 1px 1px 4px #AAA;
+}
+
+.addRemovedCard {
+    position: absolute;
+    top: -9px;
+    right: -13px;
+    width: 55px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.hex {
+    float: left;
+    position: relative;
+    margin: 17px;
+    cursor: hand;
+    cursor: pointer;
+    width: 118px;
+    height: 95px;
+    background-size: cover;
+}
+
+#hexDeciderBox > p {
+	text-align: center;
+}
+
+#hexDeciderLayer .hexDeciderContent .hex p {
+    position: absolute;
+    top: -33%;
+    font-size: 50px;
+    color: gold;
+    text-shadow: 2px 2px #777;
+    text-align: center;
+    width: 100%;
+}
+
+.hex.green {
+	background-image:url('../../../img/gameHex.png');
+}
+
+.hex.inactive {
+	display:none;
+}
+
+#hexDeciderLayer .hexDeciderContent .hex.yellow p {
+	color:red;
+	font-weight: bold;
+}
+
+#hexDeciderLayer .buttons {
+	height: 50px;
+}
+
+#hexDeciderLayer .buttons .btn {
+	float:left;
+}
+
+.flip-card {
+    height: 420px!important;
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+    .hex {
+        margin: 2vw;
+        width: 17vw;
+        height: 13.8vw;
+    }
+
+    .hex p {
+        font-size: 7vw!important;
+        text-shadow: .2vw .2vw #777;
+    }
+
+    .addRemovedCard {
+        top: -1vw;
+        right: -1vw;
+        width: 7vw;
+    }
+
+    .individualRemovedCard {
+        margin: 3vw 3vw 2vw 1vw;
+    }
+
+    .flip-card {
+        height: 60.8vw!important;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+	.individualRemovedCard img:first-child {
+        width: 27vw;
+        height: 38vw;
+        box-shadow: 0.1vw 0.1vw 1vw #AAA;
+    }
+
+    .individualRemovedCard {
+        margin: 1vw 4vw 4vw 0vw;
+    }
+
+    .individualRemovedCard:nth-child(3) {
+        margin-right:0vw;
+    }
+
+    .addRemovedCard {
+        top: -2vw;
+        right: -2vw;
+        width: 10vw;
+    }
+
+    #hexDeciderLayer .buttons {
+        height: 12vw;
+        margin-top: 9vw;
+    }
+
+    #hexDeciderLayer .buttons[btns="2"] {
+        width: 74.2vw;
+    }
+
+    .hexDeciderContent {
+        margin: 0 auto;
+        width: 78vw;
+    }
+
+    .hex {
+        margin: 2vw!important;
+        width: 21.8vw!important;
+        height: 17.5vw!important;
+    }
+
+    .hex p {
+        font-size: 8vw!important;
+    }
+
+    #hexDeciderLayer .hexDeciderContent .hex p {
+        top: -23%;
+    }
+
+    .flip-card {
+        height: 78.3vw!important;
+    }
+}

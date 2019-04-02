@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-size: 44px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#container {
+	margin:0 auto;
+	position: relative;
+}
+
+.frame {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	box-sizing: border-box;
+}
+
+.automaList {
+    margin: 0 auto 21px;
+    padding: 0;
+    text-align: center;
+    font-size: 33px;
+}
+
+.automaList li {
+	list-style:none;
+    margin-bottom: 6px;
+}
+
+.automaList li a {
+    text-decoration: none;
+    color: #0099ff;
+    margin-left: 6px;
+}
+
+
+#resetOverlay {
+	opacity: 0.5;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: none;
+	z-index:1;
+}
+
+.question {
+    width: 25px;
+    margin-left: 10px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/* Tooltip container */
+.tooltip {
+	position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-family: Arial;
+    text-align: left;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 195px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    border: 2px dotted #000;
+    text-align: left;
+    padding: 7px 11px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    right: -19%;
+    font-style: italic;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+
+@media screen and (max-width: 599px) {
+    .automaList {
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+
+    h2 {
+        font-size: 10vw;
+        margin-bottom: 2vw;
+    }
+
+    .question {
+        width: 5vw;
+        margin-left: 0vw;
+    }
+
+    .tooltip {
+        font-size: 3.2vw;
+    }
+
+    .tooltip .tooltiptext {
+        width: 40vw;
+        padding: 2vw 2vw 2vw 2vw;
+        border-radius: 3vw;
+        top: 2vw;
+        right: -19%;
+        text-align: center;
+    }
+
+    .automaList li {
+        list-style: none;
+        margin-bottom: 1vw;
+    }
+}

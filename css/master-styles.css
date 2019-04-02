@@ -1,0 +1,1357 @@
+*:not(input) {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+	-moz-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.noScroll {
+	position: fixed;
+	overflow-y:scroll;position: relative;
+}
+
+  body {
+	width:100%;
+	overflow-y:scroll;
+    overflow-x: hidden;
+    color: #333;
+  }
+
+html, body {
+    height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+h1, h2 {
+	font-family: 'Prompt', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    line-height: 47px;
+    font-size: 41px;
+    margin: 0 0 0 0;
+    padding: 9px 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 7px;
+}
+
+p, li {
+	font-family: 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.fullScreenOverlay .cancel {
+	position: absolute;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#menu {
+	display:none;
+    font-family: Arial!important;
+}
+
+#menuIcon {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    cursor: hand;
+    cursor: pointer;
+    width: 60px;
+    z-index: 4;
+}
+
+#menuIcon.active {
+	-webkit-animation:spin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation:spin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	-moz-animation-fill-mode: forwards;
+	animation:spin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	animation-fill-mode: forwards;
+}
+
+#menuIcon.inactive {
+	-webkit-animation:bspin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation:bspin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	-moz-animation-fill-mode: forwards;
+	animation:bspin 400ms cubic-bezier(0.42,0,0.58,1) 1;
+	animation-fill-mode: forwards;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(405deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(405deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(405deg); transform:rotate(405deg); } }
+
+@-moz-keyframes bspin { 100% { -moz-transform: rotate(-540deg); } }
+@-webkit-keyframes bspin { 100% { -webkit-transform: rotate(-540deg); } }
+@keyframes bspin { 100% { -webkit-transform: rotate(-540deg); transform:rotate(-540deg); } }
+
+
+.menuContainer {
+    width: 350px;
+    left: 50%;
+    margin-left: -175px;
+    top: 5%;
+    position: fixed;
+    z-index: 9;
+    color: #FFF;
+}
+
+.menuContainer .menuItem {
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 3px 0px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.menuContainer .menuItem p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+	display: inline-block;
+	font-family: 'Prompt', sans-serif;
+}
+
+.menuContainer .menuItem p:after {
+    content: '';
+    display: block;
+    margin: 0px 0px 0px 0px;
+    height: 5px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  
+  .menuContainer .menuItem:hover p:after {
+	width: 100%;
+	background: #FFF;
+  }
+
+#startLayer p, #startLayer li {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 11px;
+}
+
+#summaryTitleContainer {
+    height: 36px;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+    margin: 0 auto 43px;
+    width: 360px;
+}
+
+.startSummary {
+    margin-bottom: 45px;
+}
+
+.startSummaryTrigger {
+    cursor: hand;
+    cursor: pointer;
+    float: left;
+    margin: 0px 18px;
+    width: 130px;
+	font-size: 29px;
+}
+
+.startSummaryTrigger:hover {
+	text-decoration:underline;
+}
+
+.activeLink {
+    text-decoration: underline;
+}
+
+#gameplaySummary {
+	display:none;
+}
+
+.btn {
+    display: block;
+    margin: 0 18px;
+    padding: 11px 27px;
+    width: 120px;
+    font-size: 22px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Times New Roman;
+    text-decoration: none;
+    text-align: center;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.btn:active {
+	/* position:relative;
+	top:1px; */
+}
+
+.redBtn {
+	-moz-box-shadow:inset 2px 2px 14px -1px #bf3e13;
+	-webkit-box-shadow:inset 2px 2px 14px -1px #bf3e13;
+	box-shadow:inset 2px 2px 14px -1px #bf3e13;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #cf2d00), color-stop(1, #991b02));
+	background:-moz-linear-gradient(top, #cf2d00 5%, #991b02 100%);
+	background:-webkit-linear-gradient(top, #cf2d00 5%, #991b02 100%);
+	background:-o-linear-gradient(top, #cf2d00 5%, #991b02 100%);
+	background:-ms-linear-gradient(top, #cf2d00 5%, #991b02 100%);
+	background:linear-gradient(to bottom, #cf2d00 5%, #991b02 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf2d00', endColorstr='#991b02',GradientType=0);
+	background-color:#cf2d00;
+	border:1px solid #bf2506;
+	text-shadow:3px 2px 1px #854629;
+}
+
+.redBtn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #991b02), color-stop(1, #cf2d00));
+	background:-moz-linear-gradient(top, #991b02 5%, #cf2d00 100%);
+	background:-webkit-linear-gradient(top, #991b02 5%, #cf2d00 100%);
+	background:-o-linear-gradient(top, #991b02 5%, #cf2d00 100%);
+	background:-ms-linear-gradient(top, #991b02 5%, #cf2d00 100%);
+	background:linear-gradient(to bottom, #991b02 5%, #cf2d00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#991b02', endColorstr='#cf2d00',GradientType=0);
+	background-color:#991b02;
+}
+
+.blueBtn {
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	border:1px solid #057fd0;
+	text-shadow:0px -1px 0px #5b6178;
+}
+
+.blueBtn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
+}
+
+.greenBtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+	background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+	background-color:#77d42a;
+	border:1px solid #268a16;
+	text-shadow:0px 1px 0px #000000;
+}
+
+.greenBtn:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+	background:-moz-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-webkit-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-o-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-ms-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a',GradientType=0);
+	background-color:#5cb811;
+}
+
+
+.greyBtn {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	border:1px solid #566963;
+	color:#ffffff;
+    text-shadow:0px -1px 0px #2b665e;
+    cursor:auto;
+}
+
+#startLayer {
+    margin: 55px auto 0px;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+#gameLayer .buttons {
+    width: 200px;
+    margin: 40px auto 0px;
+}
+
+#gameLayer .buttons .btn {
+    margin-top: 19px;
+}
+
+#startLayer .btn {
+    float: left;
+    margin: 0px 18px;
+    width: 104px;
+}
+
+.buttons:after, .gameActionInfo:after {
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.buttons[btns="1"] {
+    width: 185px;
+}
+
+.buttons[btns="2"] {
+    width: 428px;
+}
+
+.buttons[btns="3"] {
+    width: 500px;
+}
+
+.buttons[btns="3"] .btn {
+    /* width: 424px; */
+}
+
+.confirmationBox .buttons[btns="2"] {
+    width: 358px;
+}
+
+#start, #cardLevels {
+	display:block;
+}
+
+.gameActionInfo {
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+.gameActionInfo.extraInfo-4 {
+    float: none;
+	width: 100%;
+	padding-top: 0px;
+}
+
+.roundMarkerTable {
+    font-size: 26px;
+	text-align: center;
+	display: table;
+    margin: 0 auto;
+}
+
+.roundMarkerTable tbody tr td:first-child {
+	padding-right:10px;
+}
+
+.layer:not(#startLayer) {
+    width: 650px;
+    margin: 35px auto 0;
+    padding-left: 15px;
+  }
+
+.layer:not(#startLayer) p {
+    text-align: center;
+    font-size: 22px;
+}
+
+#cardArea {
+    padding: 7px 20px 20px 20px;
+    width: 340px;
+    box-sizing: border-box;
+    float: left;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.cardPic {
+	position:relative;
+    margin: 0 auto;
+    box-shadow: 0px 0px 6px #999;
+    background-color: #FFF;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.actionCard, .flip-card {
+    width: 300px;
+}
+
+.flip-card {
+    /* height: 435px; */
+	display:none;
+	background-color: transparent;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin: 0 auto;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	/* height: 100%; */
+	text-align: center;
+	overflow: visible !important;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+    box-shadow: 0px 0px 10px #AAA;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    z-index: 0;
+	position: absolute;
+	width: 100%;
+	/* height: 100%; */
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+/* Style the back side */
+.flip-card-back {
+    transform: rotateY(180deg) translate3d(0, 0, 1px);
+    -webkit-transform: rotateY(180deg) translate3d(0, 0, 1px);
+    -moz-transform: rotateY(180deg) translate3d(0, 0, 1px);
+}
+
+.removeCard, .helpImage {
+	display:block;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.removeCard {
+	cursor: hand;
+    cursor: pointer;
+    left: 0;
+}
+
+.helpImage {
+    right: 0;
+}
+
+.notransition {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+  }
+
+  .helpInfoTrigger {
+    cursor: hand;
+    cursor: pointer;
+    font-family: Arial;
+    background-color: #555;
+    color: #FFF;
+    margin: 0 0 2px 0;
+    padding: 15px 10px;
+  }
+
+  .helpInfoTrigger span {
+	padding-left: 10px;
+  }
+  
+.fullScreenOverlay .cancel {
+    right: 6px;
+    top: 3px;
+    width: 59px;
+}
+
+.fullScreenOverlay {
+    width: 850px;
+    height: 570px;
+    top: 2%;
+    left: 50%;
+    margin-left: -425px;
+    position: absolute;
+    z-index: 9;
+    display: none;
+    background-color: #FFF;
+    border: double 4px #000;
+    box-sizing: border-box;
+}
+
+.fullScreenOverlay p, .fullScreenOverlay li {
+    font-family: 'Arial';
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.helpInfo {
+	padding: 20px 0px 20px 30px;
+}
+
+.helpInfo p {
+	margin-top:0px;
+}
+
+.fullScreenOverlay h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.helpInfo li {
+	margin-bottom: 10px;
+}
+
+#helpTextContainer, #historyTextContainer {
+    height: 450px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.helpTrigger {
+	cursor:hand;
+	cursor: pointer;
+	position:relative;
+}
+
+.helpTrigger span {
+	font-size: 40px;
+	position: absolute;
+	top: -13px;
+	padding-left: 10px;
+}
+
+.helpInfo {
+	display: none;
+}
+
+.fullScreenOverlay > .helpInfo  {
+	padding-left: 20px;
+}
+
+.layer {
+	display:none;
+}
+
+.layer:after {
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#startLayer {
+    display: block;
+    width: 800px;
+    margin: 30px auto 0px;
+}
+  
+#resetOverlay, #resetOverlay2 {
+    opacity: 0.9;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 3;
+    display: none;
+}
+
+.confirmationBox {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -230px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0px 30px 40px;
+    z-index: 4;
+    text-align: center;
+    width: 460px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.confirmationBox p {
+    margin-bottom: 30px;
+}
+
+.confirmationBox a {
+    margin: 10px 17px 0px;
+    padding: 13px 36px;
+    font-size: 23px;
+    width: 70px;
+    float: left;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    display: inline-block;
+    font-size: 17px;
+    font-family: Arial;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index:2;
+    cursor:hand;
+    cursor:pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 287px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border: 2px solid #000;
+    text-align: left;
+    padding: 7px 11px 7px;
+    border-radius: 6px;
+    position: absolute;
+    top: 25px;
+    right: 7px;
+    box-shadow: 2px 3px 6px #AAA;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext ul {
+    margin: 0 0 0 0;
+    padding: 20px 0 10px;
+}
+
+.tooltiptext li {
+    margin-bottom: 15px;
+    cursor: hand;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+}
+
+.tooltiptext p, .tooltiptext li {
+    font-size: 21px;
+}
+
+.tooltiptext li:hover {
+    text-decoration:underline;
+}
+
+.hidden {
+    display:none;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.strikeThrough {
+	text-decoration: line-through;
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
+	color:#ff1010;
+}
+
+.green {
+	color: #02d502;
+}
+
+.blue {
+    color: #0093ff;
+}
+
+.grey {
+    color: #b1b1b1;
+}
+
+.moveJoiner {
+    color:#000
+}
+
+.lastRound {
+    font-size: 30px!important;
+    color: red;
+    font-weight: bold;
+}
+
+.icon {
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+.largeIcon {
+    height: 30px;
+    margin-bottom: -6px;
+}
+
+.fullWidth {
+    width:95%;
+}
+
+#gameLayer > #cardArea > p.imageDisclaimer, #routeLayer > #mapImage > p.imageDisclaimer {
+    text-align: center;
+    font-family: Arial;
+    padding-top: 26px;
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 17px;
+}
+
+#roundMarkerTable3 {
+    display:none;
+}
+
+#startLayer #disclaimer {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 32px;
+	text-align: center;
+	color: #888;
+}
+
+.clearDiv {
+    clear:both;
+}
+
+/* @media screen and (min-width: 850px) and (max-width: 949px) { */
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+ h1 {
+    line-height: 5vw;
+    font-size: 4.2vw;
+    padding: 1.3vw 0 0 0;
+ }
+
+ .menuContainer {
+    width: 56vw;
+    left: 50%;
+    margin-left: -28vw;
+    top: 5%;
+}
+
+ .menuContainer .menuItem {
+    font-size: 6vw;
+    width: 55vw;
+    padding: 1vw 0vw;
+}
+
+ #container, #startLayer {
+    width: 91%;
+}
+
+#startLayer {
+    margin: 3vw auto 0vw;
+}
+
+#summaryTitleContainer {
+    height: 5vw;
+    margin: 0 auto 3vw;
+    width: 50vw;
+}
+
+.startSummary {
+    margin-bottom: 4.5vw;
+}
+
+ .startSummaryTrigger {
+    margin: 0vw 4vw;
+    width: 13.8vw;
+    font-size: 3.8vw;
+ }
+
+ #startLayer p, #startLayer li {
+    font-size: 2.9vw;
+    line-height: 3.6vw;
+    margin-bottom: 3vw;
+}
+
+#menuIcon {
+    width: 7.5vw;
+    top: 0.3vw;
+}
+
+.btn {
+    margin-top: 11vw;
+    margin: 0px 1vw;
+    padding: 1.4vw 2.9vw;
+    width: 14.5vw;
+    font-size: 2.7vw;
+    -moz-border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    border-radius: 1vw;
+    float: left;
+    border-width: 0vw;
+}
+
+#startLayer .btn {
+    margin: 0vw 1.2vw;
+    width: 14vw;
+}
+
+#gameLayer .buttons .btn {
+    margin-top: 2vw;
+}
+
+.layer:not(#startLayer) {
+    width: 96%;
+    margin: 2vw auto;
+    padding-left: 0vw;
+}
+
+.layer:not(#startLayer) p {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.gameActionInfo {
+    float: none;
+    width: 100%;
+}
+
+.roundMarkerTable {
+    font-size: 3.5vw;
+}
+
+.roundMarkerTable tbody tr td:first-child {
+    padding-right: 1vw;
+}
+
+.buttons {
+    margin: 1vw auto 0vw!important;
+}
+
+.buttons[btns="1"] {
+    width: 24vw!important;
+}
+
+.buttons[btns="2"] {
+    width: 45vw!important;
+}
+
+.buttons[btns="3"] {
+    width: 70.6vw!important;
+}
+
+.buttons[btns="4"] {
+    width: 49.6vw!important;
+    margin-top: 1vw!important;
+}
+
+.buttons[btns="4"] .btn {
+    width: 15vw;
+}
+
+#cardArea {
+    padding: 0px 0vw 0vw 0vw;
+    float: none;
+    margin: 5vw auto 0vw;
+}
+
+#cardArea, .actionCard, .flip-card {
+    width: 43.5vw;
+}
+
+/* .flip-card {
+    height: 63vw;
+} */
+
+.tooltip .tooltiptext {
+    width: 42vw;
+    border: .2vw solid #000;
+    padding: .1vw 2vw .1vw;
+    border-radius: 2vw;
+    top: 2vw;
+    right: .75vw;
+    box-shadow: 0.3vw 0.3vw 1vw #AAA;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+}
+
+.tooltiptext ul {
+    padding: 2vw 1vw 1vw;
+}
+
+.tooltiptext li {
+    margin-bottom: 2.3vw;
+}
+
+.tooltiptext p, .tooltiptext li {
+    font-size: 2.8vw;
+}
+
+.removeCard, .helpImage {
+    width: 8vw;
+}
+
+.fullScreenOverlay {
+    width: 98%;
+    height: 97vh;
+    top: 0;
+    left: 0;
+    margin-left: 0vw;
+    border: double 1vw #000;
+}
+
+.helpInfoTrigger {
+    padding: 2vw 2.5vw;
+    font-size: 2.8vw;
+    margin: 0 0 .3vw 0;
+}
+
+#helpTextContainer, #historyTextContainer {
+    height: 72vh;
+    padding: 2vw 4vw;
+}
+
+.fullScreenOverlay h2 {
+    font-size: 6vw;
+    margin: 1.2vw 0 0 0;
+}
+
+.fullScreenOverlay p, .fullScreenOverlay li {
+    font-size: 2.6vw;
+    line-height: 3.4vw;
+}
+
+.fullScreenOverlay .cancel {
+    right: 1vw;
+    top: 1vw;
+    width: 9vw;
+}
+
+.confirmationBox {
+    margin-left: -31%;
+    border: 0.2vw solid #000;
+    border-radius: 2vw;
+    padding: 1vw 5vw 4vw;
+    width: 62%;
+    font-size: 3.3vw;
+}
+
+.confirmationBox p {
+    margin-bottom: 3vw;
+}
+
+.confirmationBox a {
+    margin: 1vw 3vw 1vw!important;
+    padding: 1.89vw 4vw!important;
+    font-size: 3vw!important;
+    width: 8vw!important;
+}
+
+.confirmationBox .buttons[btns="2"] {
+    width: 44.6vw;
+}
+
+.icon {
+    height: 3vw;
+}
+
+.largeIcon {
+    height: 4vw;
+}
+
+#gameLayer > #cardArea > p.imageDisclaimer, #routeLayer > #mapImage > p.imageDisclaimer {
+    width: 43vw;
+    font-size: 1.8vw;
+    padding-top: 3.8vw;
+    line-height: 2.4vw;
+}
+
+#startLayer #disclaimer {
+    font-size: 2.2vw;
+    line-height: 2.5vw;
+    margin-top: 3vw;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+
+	h1 {
+        line-height: 8vw;
+        font-size: 6.7vw;
+        padding: 5.5vw 0 0 0;
+        text-align: left;
+        width: 80vw;
+	}
+
+	#container, #startLayer {
+        width: 94%;
+    }
+
+    #startLayer {
+        margin: 5vw auto 0vw;
+        padding-bottom: 8vw;
+    }
+
+    .layer:not(#startLayer) p {
+        font-size: 4vw;
+    }
+    
+    #menuIcon {
+        width: 12.5vw;
+        top: 2.8vw;
+        right: 0vw;
+    }
+
+    .menuContainer {
+        width: 70vw;
+        margin-left: -35vw;
+    }
+
+    .menuContainer .menuItem {
+        font-size: 9vw;
+        width: 69vw;
+        padding: 1vw 0vw;
+    }
+
+    .layer:not(#startLayer) {
+        width: 100%;
+        margin: 2vw auto 0;
+        padding-left: 0vw;
+    }
+
+    .gameActionInfo {
+        width: 100%;
+        margin-right: 0vw;
+        padding-top: 0vw;
+        float:none;
+    }
+
+    .roundMarkerTable {
+        font-size: 5vw;
+        margin: 3vw auto 5vw;
+    }
+
+    .buttons[btns="1"] {
+        width: 38vw!important;
+        margin: 4vw auto 0vw!important;
+    }
+
+    .buttons[btns="2"] {
+        width: 74vw;
+    }
+
+    #gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+        position:relative;
+        width: 78vw!important;
+        margin-top: 0vw!important;
+    }
+
+    #gameLayer .buttons[btns="1"], #gameLayer .buttons[btns="2"] {
+        height: 11vw;
+    }
+
+    #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+        height: 24vw;
+    }
+
+	#gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+        position: relative;
+        width: 78vw!important;
+        margin-top: 3vw!important;
+    }
+
+    #gameLayer .buttons[btns="2"] .btn, #gameLayer .buttons[btns="3"] .btn, #gameLayer .buttons[btns="4"] .btn {
+        position:absolute;
+    }
+
+    #gameLayer .buttons[btns="2"] .btn:first-child, #gameLayer .buttons[btns="3"] .btn:first-child, #gameLayer .buttons[btns="4"] .btn:first-child {
+        left:0px;
+        top:0px;
+    }
+
+    #gameLayer .buttons[btns="2"] .btn:nth-child(2), #gameLayer .buttons[btns="3"] .btn:nth-child(2), #gameLayer .buttons[btns="4"] .btn:nth-child(2) {
+        right:0px;
+        top:0px;
+    }
+
+    #gameLayer .buttons[btns="3"] .btn:nth-child(3) {
+        left:50%;
+        bottom:0px;
+        width: 31vw;
+        margin-left:-15.5vw;
+    }
+
+    #gameLayer .buttons[btns="4"] .btn:nth-child(3) {
+        bottom:0px;
+        left:0px
+    }
+
+    #gameLayer .buttons[btns="4"] .btn:nth-child(4) {
+        bottom:0px;
+        right:0px
+    }
+
+	.btn {
+        margin-top: 0vw!important;
+        margin: 0px 1.6vw;
+        padding: 2.7vw 1.3vw;
+        width: 31vw;
+        font-size: 4.3vw;
+        -moz-border-radius: 1vw;
+        -webkit-border-radius: 1vw;
+        border-radius: 2vw;
+        float: left;
+        border-width: 0vw;
+    }
+
+    #cardArea, .actionCard, .flip-card {
+        width: 56vw;
+        margin: 0 auto;
+    }
+
+    #cardArea {
+        padding: 0vw;
+        float: none;
+        margin-top: 7vw;
+    }
+    
+    .cardPic {
+        box-shadow: 0vw 0vw 2vw #777;
+    }
+    
+	.removeCard, .helpImage {
+        width: 11vw;
+    }
+
+    #summaryTitleContainer {
+        height: 8vw;
+        margin: 0 auto 0vw;
+        width: 86vw;
+    }
+
+    .startSummaryTrigger {
+        margin: 0vw 6vw;
+        width: 26vw;
+        font-size: 5.5vw;
+    }
+
+    .startSummary {
+        margin-bottom: 8vw;
+        margin-top: 6vw;
+    }
+    
+    #startLayer .buttons .btn {
+        float: left;
+        margin: 2vw 2vw 4vw;
+        width: 30vw;
+    }
+
+    #startLayer ul, #startLayer ol {
+        margin: 0vw 0vw 0vw 0vw;
+        padding: 0vw 0vw 0vw 5vw;
+    }
+
+    #startLayer p, #startLayer li {
+        font-size: 4.5vw;
+        line-height: 5.5vw;
+    }
+
+    #startLayer p {
+        margin-top: 3vw;
+        margin-bottom: 1.5vw;
+    }
+
+    #startLayer li {
+        margin-top: 2vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .fullScreenOverlay {
+        width: 100%;
+        height: 92vh;
+        top: 0%;
+        left: 0%;
+        margin: 0 0 0 0;
+    }
+
+    #helpTextContainer, #historyTextContainer {
+        height: 74vh;
+        padding: 4vw;
+    }
+
+    .fullScreenOverlay h2 {
+        text-align: left;
+        font-size: 7.5vw;
+        margin: 3vw 0 0 5vw;
+        padding: 0 0 0 0;
+    }
+
+    .fullScreenOverlay p, .fullScreenOverlay li {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .fullScreenOverlay .cancel {
+        right: 3vw;
+        top: 2vw;
+        width: 12vw;
+    }
+
+    .helpInfoTrigger {
+        padding: 4vw 1vw 4vw 3vw;
+        font-size: 5vw;
+    }
+
+    .helpInfo {
+        padding: 2vw 0px 2vw 4vw;
+    }
+
+    .confirmationBox {
+        margin-left: -43vw;
+        border: 0.1vw solid #000;
+        border-radius: 2vw;
+        padding: 0px 10vw 6vw;
+        width: 81.5vw;
+        font-size: 5vw;
+    }
+
+    .confirmationBox a {
+        margin: 0vw 2.3vw 0px;
+        padding: 2.8vw 10vw;
+        font-size: 5vw;
+        width: 7vw;
+        float: left;
+    }
+
+    .tooltip .tooltiptext {
+        top: 6vw;
+        right: 1vw;
+        width: 54.1vw;
+    }
+
+    .tooltiptext ul {
+        padding: 2vw 2vw 1vw;
+    }
+
+    .tooltiptext li {
+        margin-bottom: 3vw;
+    }
+
+    .tooltiptext p, .tooltiptext li {
+        font-size: 4.5vw!important;
+    }
+
+    .buttons[btns="1"] {
+        width: 39vw;
+    }
+
+    .hideMobile {
+        display:none;
+    }
+
+    .lastRound {
+        font-size: 5vw!important;
+    }
+
+    .tierCards td {
+        padding: 4vw 1vw 3vw;
+    }
+
+    input[type=range] {
+        margin: 8vw auto 10vw!important;
+    }
+
+    .icon {
+        height: 4vw;
+    }
+
+    .largeIcon {
+        height: 6vw;
+    }
+
+    #gameLayer > #cardArea > p.imageDisclaimer, #routeLayer > #mapImage > p.imageDisclaimer {
+        width: 52vw;
+        font-size: 2.7vw;
+        line-height: 3.3vw;
+        padding-top: 5vw;
+    }
+
+    #startLayer #disclaimer {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+        margin-top: 3vw;
+    }
+}
