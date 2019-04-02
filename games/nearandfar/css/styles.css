@@ -1,0 +1,69 @@
+
+.gameSection {
+    background-color: #c0ceeb;
+    opacity: 0.8;
+    position: absolute;
+    width: 197px;
+    height: 126px;
+    left: 55px;
+    z-index: 1;
+    box-shadow: 0 0 25px 10px #c0ceeb;
+}
+
+#gameSectionadventureActive {
+	top: 65px;
+}
+
+#gameSectiontownActive {
+	top: 230px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+	.gameSection {
+		width: 35.3vw;
+		height: 17.7vw;
+		left: 4vw;
+	}
+
+	#gameSectionadventureActive {
+		top: 8.6vw;
+	}
+	
+	#gameSectiontownActive {
+		top: 33vw;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+
+	.layer:not(#startLayer) p {
+		text-align: center;
+		font-size: 5vw;
+	}
+
+	.gameSection {
+		width: 48.3vw;
+		height: 26.7vw;
+		left: 10vw;
+	}
+
+	#gameSectionadventureActive {
+		top: 13.6vw;
+	}
+	
+	#gameSectiontownActive {
+		top: 50.6vw;
+	}
+
+	#cardArea, .actionCard, .flip-card {
+		width: 66vw;
+	}
+
+	.tooltip .tooltiptext {
+		width: 64.1vw;
+	}
+
+}
