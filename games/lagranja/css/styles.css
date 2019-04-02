@@ -1,0 +1,92 @@
+.gameSection {
+	background-color: #ffffcd;
+    opacity: 0.8;
+    position: absolute;
+    width: 298px;
+    left: 1px;
+    z-index: 1;
+}
+
+.gameSection1 {
+	top:1px;
+	height: 142px;
+}
+
+.gameSection2 {
+	top: 151px;
+	height: 81px;
+}
+
+.gameSection3 {
+	top: 241px;
+	height: 214px;
+}
+
+.removeCard, .helpImage {
+	right: -20px;
+	top: -20px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+	.gameSection {
+		width: 43.3vw;
+		left: .1vw;
+	}
+	
+	.gameSection1 {
+		top: .1vw;
+		height: 20.7vw;
+	}
+	
+	.gameSection2 {
+		top: 21.9vw;
+		height: 11.8vw;
+	}
+	
+	.gameSection3 {
+		top: 34.9vw;
+		height: 31.3vw;
+	}
+
+	.removeCard, .helpImage {
+		right: -3vw;
+		top: -3vw;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+
+
+	.layer:not(#startLayer) p {
+		text-align: center;
+		font-size: 5vw;
+	}
+
+	.gameSection {
+		width: 55.6vw;
+		left: .1vw;
+	}
+	
+	.gameSection1 {
+		top: .3vw;
+		height: 26.4vw;
+	}
+	
+	.gameSection2 {
+		top: 28.3vw;
+		height: 15.2vw;
+	}
+	
+	.gameSection3 {
+		top: 45vw;
+		height: 41.2vw;
+	}
+
+	.removeCard, .helpImage {
+		right: -5vw;
+		top: -5vw;
+	}
+
+}

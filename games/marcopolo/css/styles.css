@@ -1,0 +1,109 @@
+
+#mapImage, .routeImg {
+    width: 300px;
+}
+
+#mapImage {
+    padding: 0px 20px 20px 20px;
+    width: 340px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+#mapOverlay {
+    position: absolute;
+    top: 61.6px;
+    left: 39px;
+    width: 262px;
+}
+
+#mapOverlay div {
+    width: 87px;
+    height: 56.9px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.iOS #mapOverlay div {
+    height: 57px!important;
+}
+
+.routeImg {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #AAA;
+}
+
+.tradingPost {
+    background-color: rgba(144, 85, 0, 0.4);
+}
+
+#map img {
+    border-radius: 9px;
+}
+
+.setupDifferences {
+	color:red;
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+    #mapImage {
+        width: 52vw;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .routeImg {
+        width: 45vw;
+    }
+
+    #mapOverlay {
+        top: 9.35vw;
+        left: 6vw;
+        width: 40.5vw;
+    }
+
+    #mapOverlay div {
+        width: 13.4vw;
+        height: 8.5vw;
+    }
+
+    .iOS #mapOverlay div {
+        height: 8.55vw!important;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+	#mapImage {
+        padding: 0px 1vw 1vw 1vw;
+        width: 54vw;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #mapOverlay {
+        top: 10.95vw;
+        left: 4.5vw;
+        width: 46vw;
+    }
+
+    #mapOverlay div {
+        width: 15.3vw;
+        height: 9.9vw;
+    }
+
+    .iOS #mapOverlay div {
+        height: 9.97vw!important;
+    }
+
+    #mapImage, .routeImg {
+        width: 52.5vw;
+    }
+
+}
