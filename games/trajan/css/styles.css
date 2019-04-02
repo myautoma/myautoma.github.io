@@ -1,0 +1,672 @@
+#tierSelectionLayer .btn {
+	float:none;
+	margin:0 auto;
+}
+
+#tierSelectionLayer {
+	display:none;
+	width: 401px;
+    margin: 0 auto 30px;
+    font-size: 22px;
+}
+
+#difficultyExplanation {
+    font-size: 20px;
+    width: 310px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.slider {
+    width: 62%;
+    margin: 0 auto;
+    display: block;
+}
+
+.difficultyLevelText {
+	display:none;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 38px auto 50px;
+    width: 54%;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	/* margin-top: -14px; */
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+	background: #3071a9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background: #367ebd;
+}
+
+#levelContainer {
+	width: 340px;
+	text-align: left;
+	font-size: 20px;
+    margin: 0 auto 50px;
+    box-shadow: #999 1px 1px 5px;
+    border-radius: 21px;
+    padding: 10px 10px 0px;
+    display: block;
+    border: 2px solid #676767;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+#levelContainer h3 {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 29px;
+}
+
+#levelContainer ul {
+	padding: 0px 10px 15px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+#levelContainer ul li {
+	margin-bottom:9px;
+	list-style:none;
+}
+
+#automaSetup > p {
+	text-align: center;
+}
+
+.cardPic {
+    overflow: hidden!important;
+    height: 107px!important;
+}
+
+.trajanAction {
+    margin-top: 120px;    
+}
+
+.trajan-card-container {
+	position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 81px;
+    overflow: hidden;
+}
+
+.trajan-card {
+	width: 300px;
+	position: absolute;
+}
+
+.trajan-card-instructions p, .trajan-card-instructions ul, .trajan-card-instructions li {
+	font-size: 20px!important;
+	text-align:center!important;
+}
+
+.trajan-card-buttons {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.trajan-card-buttons {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.trajan-card-buttons .btn {
+	margin: 10px 0px;
+}
+
+.trajan-card.trajan {
+	top: -104px;
+}
+
+.trajan-card.construction {
+	top: -182px;
+}
+
+.trajan-card.shipping {
+	top: -260.8px;
+}
+
+.trajan-card.military {
+	top: -338.6px;
+}
+
+.extraCardBox {
+	position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -420px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0px 30px 40px;
+    z-index: 4;
+    text-align: center;
+    width: 840px;
+    font-size: 24px;
+	box-sizing: border-box;
+	display:none;
+}
+
+.extraTrajanAction {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.extraTrajanAction > .trajan-card-container > .trajan-card {
+	left: 0px;
+}
+
+.trajan-icon-container {
+    padding: 10px 30px 0px 30px;
+    width: 469px;
+    margin: 0px auto 20px;
+}
+
+.trajan-icon {
+    width: 90px;
+	margin: 10px;
+	border: 3px solid #000;
+}
+
+.trajan-icon:hover {
+	box-shadow: 3px 3px 3px #666;
+	cursor:hand;
+	cursor: pointer;
+}
+
+.extraCardBox h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.extraCardBox .cancel {
+	position: absolute;
+    right: 6px;
+    top: 3px;
+	width: 59px;
+	cursor:hand;
+	cursor: pointer;
+}
+
+.extraTrajanAction > .trajan-card-buttons {
+	display:none;
+	margin:0 auto;
+}
+
+.extraTrajanAction > .trajan-card-buttons > .btn {
+	float:left!important;
+	margin: 0px 13px!important;
+}
+
+.extraTrajanAction > .trajan-card-buttons[btns="1"] {
+	width: 210px;
+}
+
+.extraTrajanAction > .trajan-card-buttons[btns="2"] {
+	width: 410px;
+}
+
+#randomTrajanMove {
+    float: none;
+    margin: 11px auto 20px;
+}
+
+.extraTrajanAction .helpImage {
+    width: 40px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+	#levelContainer {
+		width: 48vw;
+		margin: 7vw auto 4vw;
+		font-size: 4vw;
+		border-radius: 3vw;
+		padding: 2vw;
+		border: .3vw solid #676767;
+	}
+
+	#levelContainer h3 {
+		font-size: 4vw;
+	}
+
+	#levelContainer ul {
+		padding: 0vw 1vw 1vw 2vw;
+		margin: 2vw 0px 0px 0px;
+	}
+
+	#levelContainer ul li {
+		font-size: 2.9vw;
+		margin-bottom: 1.6vw;
+    }
+    
+    .cardPic {
+        height: 15.5vw!important;
+	}
+	
+	#cardArea {
+		margin-top: 0vw!important;
+	}
+
+	.flip-card {
+		margin-top: 3vw;
+		float:left;
+	}
+
+	.trajanAction {
+		margin-top: 18vw;
+		float: left;
+		width: 43.5vw;
+		float:left;
+	}
+
+	.trajan-card-container {
+		height: 11.67vw;
+		margin-bottom: 2vw;		
+	}
+
+	.trajan-card {
+		width: 43.5vw;
+	}
+
+	.trajan-card.trajan {
+		top: -15.1vw;
+	}
+	
+	.trajan-card.construction {
+		top: -26.4vw;
+	}
+	
+	.trajan-card.shipping {
+		top: -37.8vw;
+	}
+	
+	.trajan-card.military {
+		top: -49.1vw;
+	}
+
+	.trajan-card-instructions p, .trajan-card-instructions ul, .trajan-card-instructions li {
+		font-size: 2.8vw!important;
+		margin: 0 0 0 0;
+	}
+
+	.trajan-card-buttons {
+		margin-top:1vw;
+		width: 19.6vw;
+	}
+
+	.trajan-icon {
+		width: 13vw;
+		margin: 1vw 1.3vw;
+		border: .3vw solid #000;
+	}
+
+	.extraTrajanAction {
+		width: 44.5vw;
+		margin: 2vw auto 0vw;
+	}
+
+	.extraCardBox > .extraTrajanButtons {
+		width: 21.3vw;
+		margin-top: 3vw;
+	}
+
+	.extraCardBox .cancel {
+		right: .5vw;
+		top: .5vw;
+		width: 7vw;
+	}
+
+	.extraCardBox {
+		margin-left: -46vw;
+		border: 1px solid #000;
+		border-radius: 10px;
+		padding: 0px 30px 40px;
+		width: 92vw;
+		font-size: 24px;
+	}
+
+	.extraCardBox h2 {
+		font-size: 5vw;
+		margin: 1.2vw 0 0 0;
+	}
+
+	.extraTrajanAction > .trajan-card-buttons {
+		margin: 2vw auto 0vw;
+	}
+
+	.extraTrajanAction > .trajan-card-buttons[btns="1"] {
+		width: 22.8vw;
+	}
+
+	.extraTrajanAction > .trajan-card-buttons[btns="2"] {
+		width: 46.8vw;
+	}
+
+	.extraTrajanAction > .trajan-card-buttons > .btn {
+		float: left!important;
+		margin: 0vw 1vw!important;
+	}
+
+	.trajan-card-container {
+		width: 43.6vw;
+	}
+
+	.extraTrajanAction .helpImage {
+		width: 6vw;
+	}
+
+	.trajan-icon-container {
+		margin-top: 0vw;
+		padding: 1vw 3vw 0vw 3vw;
+		width: 67vw;
+		margin: 0vw auto 1vw;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+
+	input[type=range] {
+		width: 72%;
+	}
+	
+	#levelContainer {
+		width: 70vw;
+		margin: 2vw auto 6vw;
+		font-size: 4vw;
+		box-shadow: #999 0.1vw 0.1vw 1vw;
+		border-radius: 6vw;
+		padding: 2vw;
+		border: .2vw solid #676767;
+	}
+
+	#levelContainer h3 {
+		font-size: 6vw;
+		margin-top: 1vw;
+	}
+
+	#levelContainer ul {
+		padding: 0vw 3vw 2vw 4vw;
+		margin: 3vw 0px 0px 0px;
+	}
+
+	#levelContainer ul li {
+		font-size: 4.3vw;
+		margin-bottom: 2.6vw;
+	}
+
+	.layer:not(#startLayer) p {
+		text-align: center;
+		font-size: 5vw;
+		line-height: 6vw;
+	}
+
+	
+input[type=range]::-webkit-slider-thumb {
+	height: 12vw;
+	width: 6.5vw;
+	margin-top:-5vw;
+	border-radius: .5vw;
+}
+
+
+input[type=range]::-moz-range-thumb {
+	height: 12vw;
+	width: 6.5vw;
+	margin-top:-5vw;
+	border-radius: .5vw;
+}
+
+
+input[type=range]::-ms-thumb {
+	height: 12vw;
+	width: 6.5vw;
+	margin-top:-5vw;
+	border-radius: .5vw;
+}
+
+#cardArea, .actionCard, .flip-card {
+    width: 76vw;
+}
+
+.cardPic {
+    height: 27.1vw!important;
+}
+
+.flip-card {
+	float:left;
+}
+
+.trajanAction {
+    float: left;
+    width: 76vw;
+    margin-top: 31vw;
+}
+
+.trajan-card {
+    width: 75.9vw;
+}
+
+.trajan-card-container {
+    width: 76vw;
+    height: 20.6vw;
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+}
+
+.extraTrajanAction {
+    width: 79.1vw;
+    margin: 2vw auto 0vw;
+}
+
+.trajan-card-instructions {
+    margin-bottom: 5vw;
+}
+
+.trajanAction .trajan-card.trajan {
+	top: -26.3vw;
+}
+
+.trajanAction .trajan-card.construction {
+    top: -46.1vw;
+}
+
+.trajanAction .trajan-card.shipping {
+    top: -65.9vw;
+}
+
+.trajanAction .trajan-card.military {
+    top: -85.65vw;
+}
+
+.extraTrajanAction .trajan-card.trajan {
+    top: -20.35vw;
+}
+
+.extraTrajanAction .trajan-card.construction {
+    top: -35.75vw;
+}
+
+.extraTrajanAction .trajan-card.shipping {
+    top: -51.05vw;
+}
+
+.extraTrajanAction .trajan-card.military {
+    top: -66.35vw;
+}
+
+.trajan-card-instructions p, .trajan-card-instructions ul, .trajan-card-instructions li {
+    font-size: 4.3vw!important;
+	line-height: 5vw!important;
+    margin: 0 0 0 0;
+}
+
+.extraCardBox {
+    margin-left: -46vw;
+	width: 92vw;
+	padding: 0vw 1vw 8vw;
+	border: .2vw solid #000;
+	border-radius: 3vw;
+}
+
+.trajan-icon {
+    width: 14vw;
+    margin: 1vw 1.5vw;
+    border: .5vw solid #000;
+}
+
+.trajan-card-buttons {
+    width: 34vw;
+    margin: 0 auto;
+}
+
+.trajan-icon-container {
+    padding: 1vw 4vw 2vw 4vw;
+    width: 77vw;
+    margin: 2vw auto 2vw;
+}
+
+.extraCardBox .cancel {
+    right: 1vw;
+    top: 1vw;
+    width: 11vw;
+}
+
+.extraCardBox > .extraTrajanButtons {
+	width: 38vw;
+	margin-top: 5vw;
+}
+
+.removeCard, .helpImage {
+    width: 11vw!important;
+}
+
+.extraCardBox h2 {
+	text-align: left;
+    font-size: 6.5vw;
+    margin: 2vw 0 0 5vw;
+    padding: 0 0 0 0;
+}
+
+.extraTrajanAction .trajan-card-container {
+	width: 59vw;
+	height: 16.1vw;
+}
+
+.extraTrajanAction .trajan-card {
+	width: 58.9vw;
+}
+
+.extraTrajanAction .helpImage {
+    width: 9vw!important;
+}
+
+.extraTrajanAction > .trajan-card-buttons[btns="1"] {
+    width: 38vw;
+}
+
+.extraTrajanAction > .trajan-card-buttons[btns="2"] {
+    width: 77vw;
+}
+
+.extraTrajanAction > .trajan-card-buttons > .btn {
+    margin: 0vw 1.9vw!important;
+}
+
+}
