@@ -1998,6 +1998,12 @@ table#roundMarkerTable2 {
 		font-size: 4vw;
 	}
 
+	#gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+		position: relative;
+		width: 72vw!important;
+		margin-top: 3vw!important;
+	}
+
 	#finalResults .buttons[btns="2"] {
 		width: 42vw!important;
 		margin-top:3vw;
@@ -2005,7 +2011,11 @@ table#roundMarkerTable2 {
 	
 	#finalResults .buttons[btns="2"] .btn {
 		position: relative!important;
-		margin: 2vw 0vw!important;
+		margin: 2vw!important;
+	}
+
+	#finalResults .buttons[btns="2"] {
+		width: 76vw!important;
 	}
 
 	.wsFinalScores {
@@ -2022,12 +2032,6 @@ table#roundMarkerTable2 {
 
 	.automaCubes {
 		margin-left: 2vw;
-	}
-
-	#gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
-		position: relative;
-		width: 72vw!important;
-		margin-top: 3vw!important;
 	}
 
 	.chosenRoundGoals .roundGoal {
