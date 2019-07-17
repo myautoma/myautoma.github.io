@@ -1,3 +1,9 @@
+.flip-card-front, .flip-card-back {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
 .gameSection {
 	background-color: #ffffcd;
     opacity: 0.8;
