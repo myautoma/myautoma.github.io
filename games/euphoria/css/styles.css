@@ -31,13 +31,13 @@
 }
 
 @-webkit-keyframes startToMainAnimation {
-    from{left:-281px}
-    to{left:0px}
+    0% {left:-281px}
+    100% {left:0px}
 }
 
 @keyframes startToMainAnimation {
-    from{left:-281px}
-    to{left:0px}
+    0% {left:-281px}
+    100% {left:0px}
 }
 
 .slide-card.startToMain {
@@ -46,13 +46,13 @@
 }
 
 @-webkit-keyframes startToMainAnimation {
-    from{left:-281px}
-    to{left:0px}
+    0% {left:-281px}
+    100% {left:0px}
 }
 
 @keyframes startToMainAnimation {
-    from{left:-281px}
-    to{left:0px}
+    0% {left:-281px}
+    100% {left:0px}
 }
 
 .slide-card.mainToSupport {
@@ -61,13 +61,13 @@
 }
 
 @-webkit-keyframes mainToSupportAnimation {
-    from{left:0px}
-    to{left:274px}
+    0% {left:0px}
+    100% {left:274px}
 }
 
 @keyframes mainToSupportAnimation {
-    from{left:0px}
-    to{left:274px}
+    0% {left:0px}
+    100% {left:274px}
 }
 
 .slide-card.supportToExit {
@@ -76,13 +76,13 @@
 }
 
 @-webkit-keyframes supportToExitAnimation {
-    from{left:274px}
-    to{left:565px}
+    0% {left:274px}
+    100% {left:565px}
 }
 
 @keyframes supportToExitAnimation {
-    from{left:274px}
-    to{left:565px}
+    0% {left:274px}
+    100% {left:565px}
 }
 
 .slide-card .supportColumn, .slide-card .actionColumn, .slide-card .actionColumn, .slide-card .tooltip {
@@ -423,33 +423,33 @@ input[type=range]:focus::-ms-fill-upper {
     }
     
     @-webkit-keyframes startToMainAnimation {
-        from{left:-40vw}
-        to{left:0vw}
+        0% {left:-40vw}
+        100% {left:0vw}
     }
 
     @keyframes startToMainAnimation {
-        from{left:-40vw}
-        to{left:0vw}
+        0% {left:-40vw}
+        100% {left:0vw}
     }
 
     @-webkit-keyframes mainToSupportAnimation {
-        from{left:0vw}
-        to{left:40vw}
+        0% {left:0vw}
+        100% {left:40vw}
     }
 
     @keyframes mainToSupportAnimation {
-        from{left:0vw}
-        to{left:40vw}
+        0% {left:0vw}
+        100% {left:40vw}
     }
 
     @-webkit-keyframes supportToExitAnimation {
-        from{left:40vw}
-        to{left:80vw}
+        0% {left:40vw}
+        100% {left:80vw}
     }
 
     @keyframes supportToExitAnimation {
-        from{left:40vw}
-        to{left:80vw}
+        0% {left:40vw}
+        100% {left:80vw}
     }
 
     .cardID {
@@ -607,33 +607,33 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     @-webkit-keyframes startToMainAnimation {
-        from{left:-63.1vw}
-        to{left:0vw}
+        0% {left:-63.1vw}
+        100% {left:0vw}
     }
 
     @keyframes startToMainAnimation {
-        from{left:-63.1vw}
-        to{left:0vw}
+        0% {left:-63.1vw}
+        100% {left:0vw}
     }
 
     @-webkit-keyframes mainToSupportAnimation {
-        from{left:0vw}
-        to{left:63.1vw}
+        0% {left:0vw}
+        100% {left:63.1vw}
     }
 
     @keyframes mainToSupportAnimation {
-        from{left:0vw}
-        to{left:63.1vw}
+        0% {left:0vw}
+        100% {left:63.1vw}
     }
 
     @-webkit-keyframes supportToExitAnimation {
-        from{left:63.1vw}
-        to{left:126.2vw}
+        0% {left:63.1vw}
+        100% {left:126.2vw}
     }
 
     @keyframes supportToExitAnimation {
-        from{left:63.1vw}
-        to{left:126.2vw}
+        0% {left:63.1vw}
+        100% {left:126.2vw}
     }
 
 }
