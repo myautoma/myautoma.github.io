@@ -1,0 +1,506 @@
+.choosePlayColor {
+    margin: 30px auto 20px;
+    width: 400px;
+    height: 44px;
+}
+
+.playerColorTitle, .sidColorTitle {
+    float:left;
+    margin: 4px 0px 0px 0px;
+}
+
+.colorChoicesContainer {
+    position: relative;
+    width: 260px;
+    height: 40px;
+    float: right;
+    margin-left: 10px;
+}
+
+.colorChoicesContainer .colorToken {
+    width: 45px;
+    margin: 0px 10px;
+    float: left;
+}
+
+.colorChoicesContainer .colorToken.unchosen {
+    opacity:.3;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.colorChoicesContainer .colorToken.chosen {
+    opacity:1;
+}
+
+#firstPlayer-container {
+    margin: 30px auto 30px;
+    display: block;
+    width: 322px;
+}
+
+#firstPlayer-container p {
+    margin: 5px 20px 0px 20px;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+#firstPlayer {
+    font-size: 20px;
+    display: block;
+    width: 144px;
+    padding: 6px 6px 6px 26px;
+    margin-right: 28px;
+    float: right;
+}
+
+#evenStartContainer {
+    width: 400px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    box-shadow: #999 1px 1px 5px;
+    border-radius: 21px;
+    padding: 10px 40px 0px;
+    display: block;
+    border: 2px solid #676767;
+}
+
+#evenStartContainer h3 {
+    text-align: center;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 27px;
+}
+
+#evenStartContainer ul {
+	padding: 0px 10px 15px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+#evenStartContainer ul li {
+	margin-bottom:9px;
+	list-style:none;
+}
+
+#evenStart-container {
+    margin: 10px auto 20px;
+    display: block;
+    width: 120px;
+}
+
+#evenStart-container p {
+    margin: 0px 0px 0px 10px;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.evenStartCheckbox {
+	width: 28px;
+    height: 28px;
+    margin: 0px;
+	position: relative;
+	float:left;
+}
+
+#evenStartCheckboxInput {
+	display:none;
+}
+
+.evenStartCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .evenStartCheckbox label:after {
+	opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+
+/**
+ * Create the checkbox state for the tick
+ */
+.evenStartCheckbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#dicePhaseLayer {
+    width: 710px!important;
+}
+
+#dicePhaseContainer {
+    width: 720px;
+    margin: 0px auto 0px;
+}
+
+.rollDiceBtn {
+    display: block;
+    float: left;
+}
+
+.turnOrder {
+    margin: 0 auto 10px;
+    width: 410px;
+    height: 44px;
+}
+
+.turnOrder .turnOrderTitle {
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.turnOrderContainer {
+    position: relative;
+    width: 220px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.trackContainerParent {
+    width: 527px;
+    height: 250px;
+    margin: 0 auto 70px;
+}
+
+.trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
+    font-size: 20px!important;
+    text-decoration:underline;
+    font-weight:bold;
+    margin: 0;
+}
+
+.trackContainer .track {
+    margin-bottom: 2px;
+    position: absolute;
+}
+
+.trackContainer .track img, .playerToken {
+    width: 30px;
+    transition: left 1.2s ease-in-out, bottom 1.2s ease-in-out, width .1s ease-in-out, margin .1s ease-in-out;
+}
+
+.turnOrderContainer .orderToken {
+    position:absolute;
+    width: 35px;
+    margin: 0px 10px;
+    transition: left 1.5s ease-in-out;
+}
+
+.turnOrder1 {
+    left: 0px;
+}
+
+.turnOrder2 {
+    left: 50px;
+}
+
+.turnOrder3 {
+    left: 100px;
+}
+
+.turnOrder4 {
+    left: 150px;
+}
+
+.hoverTrackInfo {
+    position: absolute;
+    font-size: 17px!important;
+    transition: opacity .5s ease-in-out;
+}
+
+.hoverTrackInfo.inactiveTrackInfo {
+    opacity:0;
+}
+
+.hoverTrackInfo.activeTrackInfo {
+    opacity:1;
+}
+
+p.increaseTrack {
+    left: 0px;
+}
+
+p.decreaseTrack {
+    right: 0px;
+}
+
+.multipleSteps {
+    display:none;
+}
+
+.column1 {
+    left:0px;
+}
+
+.column2 {
+    left:35px;
+}
+
+.column3 {
+    left:70px;
+}
+
+.column4 {
+    left:105px;
+}
+
+.column5 {
+    left:140px;
+}
+
+.column6 {
+    left:175px;
+}
+
+.column7 {
+    left:210px;
+}
+
+.column8 {
+    left:245px;
+}
+
+.column9 {
+    left:280px;
+}
+
+.column10 {
+    left:315px;
+}
+
+.column11 {
+    left:350px;
+}
+
+.column12 {
+    left:385px;
+}
+
+.column13 {
+    left:420px;
+}
+
+.column14 {
+    left:455px;
+}
+
+.column15 {
+    left:490px;
+}
+
+.baseRow {
+    bottom: 7px;
+    z-index: 1;
+}
+
+.row1 {
+    bottom:12px;
+    z-index: 2;
+}
+
+.row2 {
+    bottom:20px;
+    z-index: 3;
+}
+
+.row3 {
+    bottom:28px;
+    z-index: 4;
+}
+
+.row4 {
+    bottom:36px;
+    z-index: 5;
+}
+
+
+.trackContainer .track.middleStep {
+    background-color: #949494;
+}
+
+.trackLineContainer {
+    width: 530px;
+    height: 110px;
+    float: left;
+    margin:10px 5px 10px 0px;
+    position: relative;
+}
+
+.moveTrackMessage {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.diceBoxContainer {
+    width: 625px;
+    margin: 32px auto 0;
+}
+
+.diceBox {
+    float: left;
+    width: 50px;
+    height: 86px;
+    border-radius: 10px;
+    position: relative;
+    margin: 5px 17px 5px;
+    padding: 0px 10px;
+}
+
+.diceBox .diceImg {
+    width: 50px;
+    display: block;
+    position: absolute;
+    top:0;
+    opacity:1;
+    transition: all 2s ease-in-out;
+    z-index:0;
+}
+
+.diceBox .diceImg.duplicateDice {
+    z-index:1;
+}
+
+.diceBox .diceAmount {
+    margin: 5px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 26px!important;
+    position: absolute;
+    bottom: 0px;
+    width: 52px;
+}
+
+.diceBox.rolledDice.activeDice {
+    cursor:hand;
+    cursor:pointer;
+}
+
+.diceBox.noDice, .diceImg.noDice {
+    opacity: .3;
+}
+
+.median {
+    position: absolute;
+    width: 33px;
+    top: -45px;
+}
+
+.median.left {
+    left: -33px;
+}
+
+.median.middle {
+    left: 20px;
+}
+
+.median.right {
+    left: 70px;
+}
+
+.diceRoll {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.diceBox .diceImg.takeDie {
+    top: -60px;
+    opacity:0;
+}
+
+.chosenDiceImg {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.clickableMarker {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.clickableMarker:hover {
+    width: 35px;
+    margin-left: -3px;
+}
+
+#currentInstructions {
+    transition: all 1s ease-in-out;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.highlight {
+    background-color: #FFFF00;
+}
+
+.highlightInactive {
+    background-color: #FFF;
+}
+
+.increaseTrack, .increaseColor {
+    color: #14da14!important
+}
+
+.decreaseTrack, .decreaseColor {
+    color: red!important;
+}
+
+.noChangeTrack {
+    color: #0576ff!important;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+
+}
+
+@media screen and (max-width: 599px) {
+
+
+}
