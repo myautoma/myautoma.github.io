@@ -229,6 +229,7 @@
 .hoverTrackInfo {
     position: absolute;
     font-size: 17px!important;
+    font-weight:bold;
     transition: opacity .5s ease-in-out;
 }
 
