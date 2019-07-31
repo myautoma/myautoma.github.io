@@ -524,7 +524,7 @@ a {
     left: 50%;
     margin-left: -425px;
     position: absolute;
-    z-index: 9;
+    z-index: 11;
     display: none;
     background-color: #FFF;
     border: double 4px #000;
