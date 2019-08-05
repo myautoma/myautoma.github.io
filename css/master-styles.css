@@ -749,6 +749,7 @@ a {
     font-size: 30px!important;
     color: red;
     font-weight: bold;
+    font-family: 'Prompt', sans-serif;
 }
 
 .icon {
@@ -1079,6 +1080,10 @@ a {
     margin-top: 3vw;
 }
 
+.lastRound {
+    font-size: 4vw!important;
+}
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1139,12 +1144,12 @@ a {
         margin: 3vw auto 5vw;
     }
 
-    .buttons[btns="1"] {
+    .buttons[btns="0"], .buttons[btns="1"] {
         width: 38vw!important;
         margin: 4vw auto 0vw!important;
     }
 
-    .buttons[btns="2"] {
+    .confirmationBox .buttons[btns="2"], .buttons[btns="2"] {
         width: 74vw;
     }
 
@@ -1337,6 +1342,10 @@ a {
         font-size: 5vw;
         width: 7vw;
         float: left;
+    }
+
+    .confirmationBox p {
+        margin-bottom: 5vw;
     }
 
     .tooltip .tooltiptext {
