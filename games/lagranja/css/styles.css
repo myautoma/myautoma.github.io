@@ -18,12 +18,12 @@
 	height: 142px;
 }
 
-.gameSection2 {
+.gameSection2, .gameSection3 {
 	top: 151px;
 	height: 81px;
 }
 
-.gameSection3 {
+.gameSection4 {
 	top: 241px;
 	height: 214px;
 }
@@ -61,12 +61,12 @@
 		height: 20.7vw;
 	}
 	
-	.gameSection2 {
+	.gameSection2, .gameSection3 {
 		top: 21.9vw;
 		height: 11.8vw;
 	}
 	
-	.gameSection3 {
+	.gameSection4 {
 		top: 34.9vw;
 		height: 31.3vw;
 	}
@@ -100,12 +100,12 @@
 		height: 26.4vw;
 	}
 	
-	.gameSection2 {
+	.gameSection2, .gameSection3 {
 		top: 28.3vw;
 		height: 15.2vw;
 	}
 	
-	.gameSection3 {
+	.gameSection4 {
 		top: 45vw;
 		height: 41.2vw;
 	}
