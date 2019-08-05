@@ -33,6 +33,22 @@
 	top: -20px;
 }
 
+.helpColor {
+    padding-right: 22px;
+}
+
+.easyColor.helpColor {
+    color: #29a00c;
+}
+
+.standardColor.helpColor {
+    color: #e27e01
+}
+
+.hardColor.helpColor {
+	color: #f00;
+}
+
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
 	.gameSection {
@@ -58,6 +74,10 @@
 	.removeCard, .helpImage {
 		right: -3vw;
 		top: -3vw;
+	}
+
+	.helpColor {
+		padding-right: 3vw;
 	}
 
 }
@@ -93,6 +113,10 @@
 	.removeCard, .helpImage {
 		right: -5vw;
 		top: -5vw;
+	}
+
+	.helpColor {
+		padding-right: 5vw;
 	}
 
 }
