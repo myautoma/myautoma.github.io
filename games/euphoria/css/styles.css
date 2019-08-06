@@ -767,7 +767,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #humanPlayerContainer {
-        width: 53vw;
+        width: 56vw;
     }
 
     #humanPlayers {
@@ -782,11 +782,11 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #humanFactionContainer, #automaPlayerContainer {
-        width: 84vw;
+        width: 86vw;
     }
 
     .activeInactiveHumanFaction, .automaFaction {
-        width: 36vw;
+        width: 38vw;
         margin: 1.5vw;
     }
 
