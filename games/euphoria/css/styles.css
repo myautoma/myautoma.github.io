@@ -767,7 +767,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #humanPlayerContainer {
-        width: 56vw;
+        width: 61vw;
     }
 
     #humanPlayers {
@@ -791,7 +791,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .humanFactionStatus, .automaFactionStatus {
-        font-size: 4.5vw;
+        font-size: 4.5vw!important;
         margin: 1vw 0;
     }
 
