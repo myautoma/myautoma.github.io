@@ -371,6 +371,76 @@ input[type=range]:focus::-ms-fill-upper {
     width: 60px;
 }
 
+#humanPlayerContainer {
+    margin: 0 auto;
+    width: 337px;
+}
+
+#humanPlayers {
+    float: left;
+    margin-top: 24px;
+}
+
+#humanPlayersSelect {
+    margin: 20px 50px 0px 0px;
+    font-size: 20px;
+    display: block;
+    width: 130px;
+    padding: 5px 10px;
+    float: right;
+}
+
+#humanFactionContainer, #automaPlayerContainer {
+    width: 440px;
+    margin: 0 auto;
+}
+
+.activeInactiveHumanFaction, .automaFaction {
+    width: 200px;
+    margin:10px;
+}
+
+#humanActiveFactionContainer, #blackAutomaContainer {
+    float:left;
+}
+
+#humanInactiveFactionContainer, #whiteAutomaContainer {
+    float:right;
+}
+
+.humanFactionStatus, .automaFactionStatus {
+    width:100%;
+    text-align:center;
+    margin: 5px 0 5px;
+}
+
+.humanFactionList, .automaFactionList {
+    margin: 12px auto 5px;
+    font-size: 20px;
+    display: block;
+    width: 180px;
+    padding: 5px 10px;
+}
+
+#factionSelectionButtons[btns="2"] {
+    width: 368px;
+    margin: 40px auto 0;
+}
+
+#factionSelectionButtons .btn {
+    float: left;
+    margin: 0px 12px;
+    width: 104px;
+}
+
+.errorMessage {
+    color:red;
+    font-weight:bold;
+    display:none;
+    font-family: 'Prompt', sans-serif;
+    width:100%;
+    text-align:center;
+}
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -485,6 +555,55 @@ input[type=range]:focus::-ms-fill-upper {
 
     .tooltip .tooltiptext {
         width: 38vw;
+    }
+
+    #factionSelectionButtons[btns="2"] {
+        width: 45vw!important;
+        margin: 4vw auto 0;
+    }
+
+    #factionSelectionButtons .btn {
+        margin: 0vw 1.2vw;
+        width: 14vw;
+    }
+
+    #humanPlayerContainer {
+        width: 36vw;
+    }
+
+    #humanPlayersSelect {
+        margin: 2.5vw 2vw 0vw 0vw;
+        font-size: 2.5vw;
+        width: 13vw;
+        padding: .5vw 2vw;
+    }
+
+    #humanPlayers {
+        margin-top: 3vw;
+    }
+    
+    #humanFactionContainer, #automaPlayerContainer {
+        width: 54vw;
+    }
+
+    .activeInactiveHumanFaction, .automaFaction {
+        width: 24vw;
+        margin: 1.5vw;
+    }
+
+    .humanFactionStatus, .automaFactionStatus {
+        margin: 1vw 0;
+    }
+
+    .humanFactionList, .automaFactionList {
+        margin: 2vw auto 1vw;
+        font-size: 2.4vw;
+        width: 21vw;
+        padding: 1vw 2vw;
+    }
+
+    h2.factionSelectionCategory {
+        font-size: 3.5vw;
     }
 
 }
@@ -634,6 +753,57 @@ input[type=range]:focus::-ms-fill-upper {
     @keyframes supportToExitAnimation {
         0% {left:63.1vw}
         100% {left:126.2vw}
+    }
+
+    #factionSelectionButtons[btns="2"] {
+        width: 74vw;
+        margin: 7vw auto 0;
+    }
+
+    #factionSelectionButtons .btn {
+        float: left;
+        margin: 2vw 2vw 4vw;
+        width: 30vw;
+    }
+
+    #humanPlayerContainer {
+        width: 53vw;
+    }
+
+    #humanPlayers {
+        margin-top: 3vw;
+    }
+
+    #humanPlayersSelect {
+        margin: 2.5vw 2vw 0vw 0vw;
+        font-size: 3.5vw;
+        width: 18vw;
+        padding: .9vw 2vw;
+    }
+
+    #humanFactionContainer, #automaPlayerContainer {
+        width: 84vw;
+    }
+
+    .activeInactiveHumanFaction, .automaFaction {
+        width: 36vw;
+        margin: 1.5vw;
+    }
+
+    .humanFactionStatus, .automaFactionStatus {
+        font-size: 4.5vw;
+        margin: 1vw 0;
+    }
+
+    .humanFactionList, .automaFactionList {
+        margin: 2vw auto 1vw;
+        font-size: 3.9vw;
+        width: 35vw;
+        padding: 1vw 2vw;
+    }
+
+    h2.factionSelectionCategory {
+        font-size: 5.5vw;
     }
 
 }
