@@ -13,6 +13,8 @@ preload([
 	'img/breezeBar.png',
 	'img/camping.png',
 	'img/commodityArea.png',
+	'img/commodityAreaBlackAutoma.png',
+	'img/commodityAreaWhiteAutoma.png',
 	'img/constructMarkets.png',
 	'img/factionAutoma.png',
 	'img/factionEuphorian.png',
