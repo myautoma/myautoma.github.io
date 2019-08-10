@@ -1,7 +1,39 @@
+.layer:not(#startLayer) p {
+    font-size: 19px!important;
+}
+
+.confirmationBox.alertEl p {
+    font-size: 20px!important;
+}
+
+#actionPhaseLayer.layer {
+    margin: 15px auto 0!important;
+}
+
+.buttons[btns="1"] {
+    width: 215px;
+}
+
+.confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] {
+    width: 200px;
+}
+
+.confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] .btn {
+    width: 92px;
+}
+
+.actionButtons {
+    margin:0 auto;
+}
+
+.confirmationBox.firstPlayerAlert .buttons[btns="1"] {
+    width: 180px;
+}
+
 .choosePlayColor {
-    margin: 30px auto 20px;
-    width: 400px;
-    height: 44px;
+    margin: 20px auto 0px;
+    width: 346px;
+    height: 31px;
 }
 
 .playerColorTitle, .sidColorTitle {
@@ -11,14 +43,14 @@
 
 .colorChoicesContainer {
     position: relative;
-    width: 260px;
+    width: 230px;
     height: 40px;
     float: right;
     margin-left: 10px;
 }
 
 .colorChoicesContainer .colorToken {
-    width: 45px;
+    width: 35px;
     margin: 0px 10px;
     float: left;
 }
@@ -36,7 +68,7 @@
 #firstPlayer-container {
     margin: 30px auto 30px;
     display: block;
-    width: 322px;
+    width: 262px;
 }
 
 #firstPlayer-container p {
@@ -47,10 +79,10 @@
 }
 
 #firstPlayer {
-    font-size: 20px;
+    font-size: 17px;
     display: block;
-    width: 144px;
-    padding: 6px 6px 6px 26px;
+    width: 125px;
+    padding: 3px 6px 3px 16px;
     margin-right: 28px;
     float: right;
 }
@@ -67,11 +99,19 @@
     border: 2px solid #676767;
 }
 
-#evenStartContainer h3 {
+#evenStartContainer h3, .confirmationBox.alertEl.roundStartSummaryContainer h3 {
     text-align: center;
-    margin: 8px 0 0 0;
     padding: 0 0 0 0;
-    font-size: 27px;
+}
+
+#evenStartContainer h3 {
+    font-size: 24px;
+    margin: 8px 0 10px 0;
+}
+
+.confirmationBox.alertEl.roundStartSummaryContainer h3 {
+    font-size: 30px;
+    margin: 30px 0 10px 0;
 }
 
 #evenStartContainer ul {
@@ -85,7 +125,7 @@
 }
 
 #evenStart-container {
-    margin: 10px auto 20px;
+    margin: 20px auto 30px;
     display: block;
     width: 120px;
 }
@@ -99,11 +139,11 @@
 }
 
 .evenStartCheckbox {
-	width: 28px;
+    width: 28px;
     height: 28px;
-    margin: 0px;
-	position: relative;
-	float:left;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+    float: left;
 }
 
 #evenStartCheckboxInput {
@@ -162,14 +202,15 @@
 }
 
 .turnOrder {
-    margin: 0 auto 10px;
-    width: 410px;
+    margin: 0 auto 0px;
+    width: 420px;
     height: 44px;
 }
 
 .turnOrder .turnOrderTitle {
     float: left;
     margin: 0px 0px 0px 0px;
+    font-size: 19px!important;
 }
 
 .turnOrderContainer {
@@ -177,19 +218,40 @@
     width: 220px;
     height: 40px;
     float: left;
-    margin-left: 10px;
+    margin-left: 18px;
+}
+
+.turnOrderContainer .turnTick {
+    position: absolute;
+    top: -5px;
+    width: 30px;
+}
+
+.turnOrderContainer .turnTick.tickNum1 {
+    left: 2px;
+}
+
+.turnOrderContainer .turnTick.tickNum2 {
+    left: 52px;
+}
+
+.turnOrderContainer .turnTick.tickNum3 {
+    left: 102px;
+}
+
+.turnOrderContainer .turnTick.tickNum4 {
+    left: 152px;
 }
 
 .trackContainerParent {
     width: 527px;
     height: 250px;
-    margin: 0 auto 70px;
+    margin: 0 auto 10px;
 }
 
 .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
-    font-size: 20px!important;
-    text-decoration:underline;
-    font-weight:bold;
+    font-size: 17px!important;
+    text-decoration: underline;
     margin: 0;
 }
 
@@ -200,13 +262,13 @@
 
 .trackContainer .track img, .playerToken {
     width: 30px;
-    transition: left 1.2s ease-in-out, bottom 1.2s ease-in-out, width .1s ease-in-out, margin .1s ease-in-out;
+    transition: left 1.2s ease-in-out, bottom 1.2s ease-in-out;
 }
 
 .turnOrderContainer .orderToken {
-    position:absolute;
-    width: 35px;
-    margin: 0px 10px;
+    position: absolute;
+    width: 30px;
+    margin: 0px 0px;
     transition: left 1.5s ease-in-out;
 }
 
@@ -229,12 +291,13 @@
 .hoverTrackInfo {
     position: absolute;
     font-size: 17px!important;
+    margin: 0;
     font-weight:bold;
     transition: opacity .5s ease-in-out;
 }
 
 .hoverTrackInfo.inactiveTrackInfo {
-    opacity:0;
+    opacity: 0;
 }
 
 .hoverTrackInfo.activeTrackInfo {
@@ -345,9 +408,9 @@ p.decreaseTrack {
 
 .trackLineContainer {
     width: 530px;
-    height: 110px;
+    height: 100px;
     float: left;
-    margin:10px 5px 10px 0px;
+    margin: 3px 5px 10px 0px;
     position: relative;
 }
 
@@ -358,60 +421,63 @@ p.decreaseTrack {
 }
 
 .diceBoxContainer {
-    width: 625px;
-    margin: 32px auto 0;
+    width: 505px;
+    margin: 0px auto;
 }
 
-.diceBox {
+#dicePhaseContainer .diceBox {
     float: left;
-    width: 50px;
-    height: 86px;
+    width: 40px;
+    height: 69px;
     border-radius: 10px;
     position: relative;
-    margin: 5px 17px 5px;
+    margin: 5px 12px 5px;
     padding: 0px 10px;
 }
 
-.diceBox .diceImg {
-    width: 50px;
+#dicePhaseContainer .diceBox .diceImg, #dicePhaseContainer .diceBox .selectedDice {
+    width: 40px;
     display: block;
     position: absolute;
-    top:0;
-    opacity:1;
+    top: 0;
+    opacity: 1;
     transition: all 2s ease-in-out;
-    z-index:0;
 }
 
-.diceBox .diceImg.duplicateDice {
-    z-index:1;
+#dicePhaseContainer .diceBox .diceImg {
+    z-index: 0;
 }
 
-.diceBox .diceAmount {
-    margin: 5px 0px 0px 0px;
+#dicePhaseContainer .diceBox .selectedDice {
+    z-index: 1;
+}
+
+#dicePhaseContainer .diceBox .diceAmount {
+    margin: 0px 0px 0px 0px;
     font-weight: bold;
-    font-size: 26px!important;
+    font-size: 23px!important;
     position: absolute;
     bottom: 0px;
-    width: 52px;
+    width: 40px;
 }
 
-.diceBox.rolledDice.activeDice {
+#dicePhaseContainer .diceBox.rolledDice.activeDice {
     cursor:hand;
     cursor:pointer;
 }
 
-.diceBox.noDice, .diceImg.noDice {
+#dicePhaseContainer .diceBox.noDice, #dicePhaseContainer .diceImg.noDice {
     opacity: .3;
 }
 
 .median {
     position: absolute;
-    width: 33px;
-    top: -45px;
+    width: 23px;
+    top: -30px;
 }
 
 .median.left {
-    left: -33px;
+    left: -23px;
 }
 
 .median.middle {
@@ -419,7 +485,7 @@ p.decreaseTrack {
 }
 
 .median.right {
-    left: 70px;
+    left: 61px;
 }
 
 .diceRoll {
@@ -429,28 +495,32 @@ p.decreaseTrack {
     perspective: 1000px;
 }
 
-.diceBox .diceImg.takeDie {
+#dicePhaseContainer .diceBox .diceImg.takeDie {
     top: -60px;
     opacity:0;
 }
 
 .chosenDiceImg {
-    width: 80px;
+    width: 65px;
     margin: 0 auto;
 }
 
-.clickableMarker {
-    cursor: hand;
-    cursor: pointer;
-}
-
-.clickableMarker:hover {
-    width: 35px;
-    margin-left: -3px;
+.chosenMarker {
+    width: 38px;
+    margin-left: -4px;
 }
 
 #currentInstructions {
     transition: all 1s ease-in-out;
+    width: 410px;
+    padding: 11px;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+#currentInstructions p {
+    font-size:19px!important;
+    margin:0;
 }
 
 .bold {
@@ -495,6 +565,137 @@ p.decreaseTrack {
     }
   }
 
+  #markerToMoveContainer {
+    width: 370px;
+    margin: 0px auto 0px;
+  }
+
+  #arrowsContainer {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .markerMoveArrow {
+    width: 90px;
+    margin: 8px 30px 0px;
+    cursor: hand;
+    cursor: pointer;
+    float: left;
+  }
+
+  #markerToMoveButtons[btns="2"] {
+    width: 310px;
+    margin: 0 auto;
+  }
+
+  #markerToMoveButtons[btns="3"] {
+    width: 470px;
+    margin: 0 auto;
+  }
+
+  
+
+  #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
+    float: left;
+    width: 77px;
+    margin: 6px 11px 0px;
+  }
+
+  .leftOverDice {
+    width: 138px;
+    margin: 0 auto;
+    }
+
+#actionPhaseLayer .leftOverDiceContainer .leftOverDiceTitle {
+    font-size: 24px!important;
+    margin: 0!important;
+}
+
+.actionPhaseInfo {
+    width:500px;
+    margin:0 auto;
+}
+
+.layer:not(#startLayer) p {
+    font-size: 19px!important;
+    margin: 0 0 0 0;
+}
+
+.leftOverDiceContainer {
+    margin: 0px auto 0;
+    width: 210px;
+    float: right;
+}
+
+#actionPhaseLayer .roundInfo {
+    width: 190px;
+    float:left;
+  }
+
+  #actionPhaseLayer .roundInfo p {
+    font-size: 24px!important;
+    margin: 7px 0px;
+  }
+
+#actionPhaseLayer .diceBox {
+    float: left;
+    width: 29px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin: 11px 8px 5px;
+    padding: 0px 0px;
+}
+
+#actionPhaseLayer .diceBox .diceImg {
+    width: 30px;
+    display: block;
+}
+
+.actionButtons {
+    margin: 21px 0px;
+}
+
+.actionButtons .btn {
+    margin:0 auto;
+}
+
+#actionDetails {
+    transition: opacity .5s ease-in-out;
+}
+
+.hideActions {
+    opacity:0;
+}
+
+.showActions {
+    opacity:1;
+}
+
+.actionDetailContainer {
+    float: left;
+    margin: 4% 2% 0% 2%;
+    height: 150px;
+    padding: 0px 20px;
+}
+
+#takeGyrodone {
+    width:37%;
+}
+
+#activateGyrodone {
+    width: 42%;
+}  
+
+.actionDetailContainer img {
+    height: 90px;
+    display: block;
+    margin: 10px auto 0px;
+}
+
+#mainAction {
+    width:90%;
+}
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
