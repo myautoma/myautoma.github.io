@@ -653,14 +653,14 @@ p.decreaseTrack {
 }
 
 .actionButtons {
-    margin: 21px 0px;
+    margin: 15px 0px 21px;
 }
 
 .actionButtons .btn {
     margin:0 auto;
 }
 
-#actionDetails {
+#actionParentContainer {
     transition: opacity .5s ease-in-out;
 }
 
@@ -672,29 +672,80 @@ p.decreaseTrack {
     opacity:1;
 }
 
+#allPriorityActionInfoContainer {
+    position: relative;
+    border: 1px solid #000;
+    height: 310px;
+    border-top: none;
+}
+
 .actionDetailContainer {
-    float: left;
-    margin: 4% 2% 0% 2%;
-    height: 150px;
-    padding: 0px 20px;
+    width: 94%;
+    padding: 20px;
+    position: absolute;
+    display: none;
 }
-
-#takeGyrodone {
-    width:37%;
-}
-
-#activateGyrodone {
-    width: 42%;
-}  
 
 .actionDetailContainer img {
-    height: 90px;
+    width: 280px;
     display: block;
-    margin: 10px auto 0px;
+    margin: 0px auto 14px;
 }
 
-#mainAction {
-    width:90%;
+#priorityParentContainer{
+
+}
+
+.priorityContainer {
+    float: left;
+    width: 214.65px;
+    height: 65px;
+    border: 1px solid #000;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.chosenPriority {
+    border-bottom: none;
+}
+
+.priorityTitle {
+    padding: 10px 0px 10px 0px;
+}
+
+#priorityInstructions {
+    margin: 12px 0px 19px!important;
+}
+
+.priorityText {
+    float: left;
+    width: 300px;
+}
+
+.actionDetailContainer .priorityText p {
+    text-align: left!important;
+    margin: 0 0 19px 0!important;
+}
+
+.priorityImage {
+    float:right;
+}
+
+#devDiceRolls {
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    padding: 10px 20px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+#devDiceRolls p {
+    margin: 5px 0;
 }
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
