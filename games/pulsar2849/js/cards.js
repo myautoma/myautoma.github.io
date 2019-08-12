@@ -120,11 +120,13 @@ var actionDesc = {
         actionBreakdown: [
             {
                 diceTrigger: [1],
-                fullDesc: 'SID takes the first available technology from left to right, highest to lowest.'
+                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                image: 'takeTechnology.jpg'
             },
             {
                 diceTrigger: [2, 3, 4, 5, 6],
-                fullDesc: 'Count available techs from left to right, highest to lowest by <span class="bold"><span class="techNum"></span> spaces</span>.<br />SID claims this technology.'
+                fullDesc: '<p>Count available technologies from left to right, highest to lowest by <span class="bold"><span class="techNum"></span> spaces</span>. SID claims this technology.</p><p>Do not count any technologies which already have you\'ve claimed, but skip over these instead.</p>',
+                image: 'takeTechnology.jpg'
             }
         ]
     },
@@ -134,15 +136,18 @@ var actionDesc = {
         actionBreakdown: [
             {
                 diceTrigger: [1, 2],
-                fullDesc: 'SID travels to next system and place token on blue planet.'
+                fullDesc: '<p>SID travels to next system and place token on blue planet.</p>',
+                image: 'flyNextPlanet.jpg'
             },
             {
                 diceTrigger: [3, 4],
-                fullDesc: 'SID travels two systems away and if possible claim a pulsar > planet.'
+                fullDesc: '<p>SID travels two systems away and if possible claim a pulsar > planet.</p>',
+                image: 'flyTwoSystemsClaimPlanet.jpg'
             },
             {
                 diceTrigger: [5, 6],
-                fullDesc: 'SID travels through two systems and claim a pulsar after.<br />If all lane pulsars are claimed, then claim a free pulsar.'
+                fullDesc: '<p>SID travels through two systems and claim a pulsar after.</p><p>If SID can\'t reach a pulsar, then it claims one of the isolated pulsars.</p>',
+                image: 'flyTwoSystemsClaimPulsar.jpg'
             },
         ]
     },
@@ -153,25 +158,30 @@ var actionDesc = {
             [
                 {
                     diceTrigger: [1, 2],
-                    fullDesc: 'SID takes the left transmitter.'
+                    fullDesc: 'SID takes the left transmitter.',
+                    image: '3-transmitters-left.jpg'
                 },
                 {
                     diceTrigger: [3, 4],
-                    fullDesc: 'SID takes the middle transmitter.'
+                    fullDesc: 'SID takes the middle transmitter.',
+                    image: '3-transmitters-middle.jpg'
                 },
                 {
                     diceTrigger: [5, 6],
-                    fullDesc: 'SID takes the right transmitter.'
+                    fullDesc: 'SID takes the right transmitter.',
+                    image: '3-transmitters-right.jpg'
                 }
             ], 
             [
                 {
                     diceTrigger: [1, 2, 3],
-                    fullDesc: 'SID takes the left transmitter.'
+                    fullDesc: 'SID takes the left transmitter.',
+                    image: '2-transmitters-left.jpg'
                 },
                 {
                     diceTrigger: [4, 5, 6],
-                    fullDesc: 'SID takes the right transmitter.'
+                    fullDesc: 'SID takes the right transmitter.',
+                    image: '2-transmitters-right.jpg'
                 }
             ], 
             [
