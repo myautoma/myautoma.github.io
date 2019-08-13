@@ -136,17 +136,17 @@ var actionDesc = {
         actionBreakdown: [
             {
                 diceTrigger: [1, 2],
-                fullDesc: '<p>SID travels to next system and place token on blue planet.</p>',
+                fullDesc: '<p>SID travels to the next system and places a token on blue planet, ignoring the planetary system exploration bonus.</p>',
                 image: 'flyNextPlanet.jpg'
             },
             {
                 diceTrigger: [3, 4],
-                fullDesc: '<p>SID travels two systems away and either claims the next pulsar (if within reach), or claims the blue planet of the second system.</p>',
+                fullDesc: '<p>SID travels to the next system and afterwards either to another system (ignoring the planetary system exploration bonus) or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p>',
                 image: 'flyTwoSystemsClaimPlanet.jpg'
             },
             {
                 diceTrigger: [5, 6],
-                fullDesc: '<p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, then it claims one of the isolated pulsars.</p>',
+                fullDesc: '<p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system (ignoring the planetary system exploration bonus) and claims one of the isolated pulsars (if possible).</p>',
                 image: 'flyTwoSystemsClaimPulsar.jpg'
             },
         ]
