@@ -605,7 +605,7 @@ p.decreaseTrack {
   }
 
   .leftOverDice {
-    width: 138px;
+    width: 189px;
     margin: 0 auto;
     }
 
@@ -625,7 +625,7 @@ p.decreaseTrack {
 }
 
 .leftOverDiceContainer {
-    margin: 0px auto 0;
+    margin: 5px auto 0;
     width: 210px;
     float: right;
 }
@@ -637,21 +637,21 @@ p.decreaseTrack {
 
   #actionPhaseLayer .roundInfo p {
     font-size: 24px!important;
-    margin: 7px 0px;
+    margin: 1px 0px;
   }
 
 #actionPhaseLayer .diceBox {
     float: left;
-    width: 29px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     position: relative;
-    margin: 11px 8px 5px;
+    margin: 6px 11px 5px;
     padding: 0px 0px;
 }
 
 #actionPhaseLayer .diceBox .diceImg {
-    width: 30px;
+    width: 40px;
     display: block;
 }
 
@@ -736,15 +736,20 @@ p.decreaseTrack {
 
 #devDiceRolls {
     position: absolute;
-    width: 80px;
-    height: 64px;
-    padding: 10px 20px;
+    width: 90px;
+    height: 74px;
+    padding: 15px 25px;
     margin: 10px 0px 0px 10px;
     border: 1px solid #000;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     transition: all 1s ease-in-out;
+}
+
+.gameOver {
+    color: red;
+    font-size: 40px!important;
 }
 
 #devDiceRolls p {
