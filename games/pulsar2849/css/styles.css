@@ -583,21 +583,24 @@ p.decreaseTrack {
     float: left;
   }
 
+  #markerToMoveButtons[btns="1"] {
+    width: 167px;
+    margin: 0 auto;
+  }
+
   #markerToMoveButtons[btns="2"] {
-    width: 310px;
+    width: 333px;
     margin: 0 auto;
   }
 
   #markerToMoveButtons[btns="3"] {
-    width: 470px;
+    width: 510px;
     margin: 0 auto;
   }
 
-  
-
   #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
     float: left;
-    width: 77px;
+    width: 87px;
     margin: 6px 11px 0px;
   }
 
