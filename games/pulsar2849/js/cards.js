@@ -141,12 +141,12 @@ var actionDesc = {
             },
             {
                 diceTrigger: [3, 4],
-                fullDesc: '<p>SID travels two systems away and if possible claim a pulsar > planet.</p>',
+                fullDesc: '<p>SID travels two systems away and either claims the next pulsar (if within reach), or claims the blue planet of the second system.</p>',
                 image: 'flyTwoSystemsClaimPlanet.jpg'
             },
             {
                 diceTrigger: [5, 6],
-                fullDesc: '<p>SID travels through two systems and claim a pulsar after.</p><p>If SID can\'t reach a pulsar, then it claims one of the isolated pulsars.</p>',
+                fullDesc: '<p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, then it claims one of the isolated pulsars.</p>',
                 image: 'flyTwoSystemsClaimPulsar.jpg'
             },
         ]
