@@ -2,7 +2,7 @@ var startContent = [
     {
         name: 'Setup',
         id: 'setup',
-        content: '<p>Setup the game for a 2 Player game. SIDs research ship will be placed on the opposite side of the human player.</p><p>This digital version handles all dice rolling and marker placement/movement on the initiative and engineering tracks, so if you want you can leave all of those components in the box.</p><p>All you need is two silver dice to set to the dice you select, as well as the red die for if you take any bonus actions.</p>'
+        content: '<p>Setup the game for a 2 Player game. SIDs research ship will be placed on the opposite side of the human player.</p><p>This digital version handles all dice rolling and marker placement/movement on the initiative and engineering tracks, so if you want you can leave all of those components in the box.</p><p>All you need is two silver dice to set to the dice you select, as well as the red die for any bonus actions.</p>'
     },
     {
         name: 'Gameplay',
@@ -19,7 +19,7 @@ var helpContent = [
         name: 'Setup',
         id: 'setup',
         classes: ['setup'],
-        content: '<p>Setup the game for a 2 Player game. SIDs research ship will be placed on the opposite side of the human player.</p><p>This digital version handles all dice rolling and marker placement/movement on the initiative and engineering tracks, so if you want you can leave all of those components in the box.</p><p>All you need is two silver dice to set to the dice you select, as well as the red die for if you take any bonus actions.</p>'
+        content: '<p>Setup the game for a 2 Player game. SIDs research ship will be placed on the opposite side of the human player.</p><p>This digital version handles all dice rolling and marker placement/movement on the initiative and engineering tracks, so if you want you can leave all of those components in the box.</p><p>All you need is two silver dice to set to the dice you select, as well as the red die for any bonus actions.</p>'
     },
     {
         name: 'Gameplay',
