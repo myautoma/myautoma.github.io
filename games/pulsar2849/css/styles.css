@@ -1,17 +1,87 @@
 .layer:not(#startLayer) p {
-    font-size: 19px!important;
+    font-size: 19px;
+    margin: 0 0 0 0;
 }
 
 .confirmationBox.alertEl p {
     font-size: 20px!important;
 }
 
-#actionPhaseLayer.layer {
+/* #actionPhaseLayer.layer {
     margin: 15px auto 0!important;
-}
+} */
 
 .buttons[btns="1"] {
     width: 215px;
+}
+
+#goalsTechParentContainer {
+    margin: 30px 0px;
+}
+
+.techBoardContainer, .hqContainer {
+    position:relative;
+}
+
+.techBoardContainer.techGoal img {
+    width: 270px;
+}
+
+.hqContainer.techGoal img {
+    width: 280px;
+    margin-left: 36px;
+}
+
+.endGameGoalContainer.techGoal {
+    margin-bottom: 28px;
+}
+
+.goalsTechTitle {
+    font-size: 23px!important;
+}
+
+#randomizeGoalsTechsLayer .buttons .btn {
+    float:left!important;
+}
+
+.techGoal {
+    float:left;
+}
+
+.endGameGoalContainer.techGoal img {
+    margin: 0 0 0 28px;
+}
+
+.techTier {
+    position: absolute;
+    right: 136px;
+}
+
+.techBoardContainer .techTier p, .hqContainer .hqBoardNum p {
+    font-size: 44px!important;
+    font-family: 'Prompt', sans-serif;
+}
+
+.techTier.tier1 {
+    bottom: 50px;
+}
+
+.techTier.tier2 {
+    bottom: 156px;
+}
+
+.techTier.tier3 {
+    bottom: 282px;
+}
+
+.hqBoardNum {
+    position: absolute;
+    top: 31px;
+    left: 114px;
+}
+
+.endGameGoalContainer img {
+    width: 80px;
 }
 
 .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] {
@@ -609,54 +679,75 @@ p.decreaseTrack {
     margin: 0 auto;
     }
 
-#actionPhaseLayer .leftOverDiceContainer .leftOverDiceTitle {
+/* #actionPhaseLayer .leftOverDiceContainer .leftOverDiceTitle {
     font-size: 24px!important;
     margin: 0!important;
+} */
+
+#actionPhaseContainer {
+    width: 420px;
+    margin-left: 40px;
+    float: left;
 }
 
 .actionPhaseInfo {
-    width:500px;
-    margin:0 auto;
-}
-
-.layer:not(#startLayer) p {
-    font-size: 19px!important;
-    margin: 0 0 0 0;
+    width: 500px;
 }
 
 .leftOverDiceContainer {
     margin: 5px auto 0;
     width: 210px;
-    float: right;
 }
 
 #actionPhaseLayer .roundInfo {
     width: 190px;
-    float:left;
+    float: left;
   }
 
   #actionPhaseLayer .roundInfo p {
     font-size: 24px!important;
-    margin: 1px 0px;
+    margin: 1px 0px 6px;
   }
 
-#actionPhaseLayer .diceBox {
+  .playersDiceContainer .playersDice {
+    margin-left: 40px;
+  }
+
+  .playersDiceContainer .playersDice .diceBox {
     float: left;
     width: 40px;
     height: 40px;
     border-radius: 10px;
     position: relative;
-    margin: 6px 11px 5px;
+    margin: 6px 7px 5px;
+    padding: 0px 0px;
+}
+  
+.leftOverDiceContainer .leftOverDice .diceBox {
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    position: relative;
+    margin: 6px 5px 5px;
     padding: 0px 0px;
 }
 
+.leftOverDiceTitle {
+    margin-top:15px!important;
+}
+
 #actionPhaseLayer .diceBox .diceImg {
-    width: 40px;
+    width: 45px;
     display: block;
 }
 
+.tooltip .tooltiptext {
+    width: 338px!important;
+}
+
 .actionButtons {
-    margin: 15px 0px 21px;
+    margin: 25px 0px 21px;
 }
 
 .actionButtons .btn {
@@ -665,6 +756,30 @@ p.decreaseTrack {
 
 #actionParentContainer {
     transition: opacity .5s ease-in-out;
+    width: 315px;
+    height: 440px;
+    margin: 11px auto 0;
+    padding: 20px;
+    background-image: url(../img/stars/stars1.jpg);
+    border-radius: 34px;
+    box-shadow: 5px 5px 3px #BBB;
+    border: 7px double #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#backgroundStarImage.portrait {
+    position: absolute;
+    top: -230px;
+    left: -10px;
+    width: 499px;
+}
+
+#backgroundStarImage.landscape {
+    position: absolute;
+    top: -230px;
+    left: -10px;
+    width: 499px;
 }
 
 .hideActions {
@@ -676,23 +791,71 @@ p.decreaseTrack {
 }
 
 #allPriorityActionInfoContainer {
-    position: relative;
-    border: 1px solid #000;
     height: 310px;
+    width: 490px;
+    margin: 0 auto;
     border-top: none;
 }
 
 .actionDetailContainer {
-    width: 94%;
-    padding: 20px;
-    position: absolute;
-    display: none;
+    padding: 0px;
+    margin: 0 auto;
+    position:relative;
 }
 
-.actionDetailContainer img {
-    width: 280px;
+.actionDetailContainer .takePulsarImg, .actionDetailContainer .activatePulsarImg {
+    width: 180px;
     display: block;
-    margin: 0px auto 14px;
+}
+
+.actionDetailContainer .takePulsarImg {
+    margin: 0px auto 57px;
+}
+
+.actionDetailContainer .activatePulsarImg {
+    margin: 0px auto 57px;
+}
+
+.flyShipPlanetandPlanetOrPulsarImg {
+    width: 263px;
+    display: block;
+    margin: -6px auto;
+}
+
+.flyShipPlanetImg {
+    width: 153px;
+    display: block;
+    margin: 70px auto 0px;
+}
+
+.flyShipPlanetandPlanetPlanetPulsarImg {
+    width: 313px;
+    display: block;
+    margin: 72px auto 0px;
+}
+
+.technology1Img, .technology2Img, .technology3Img, .technology4Img, .technology5Img, .technology6Img  {
+    width: 240px;
+    display: block;
+    margin-left: 44px;
+}
+
+.transmitterActionImg {
+    float: left;
+    width: 139px;
+    margin: 19px 9px 5px;
+}
+
+.mainPriorityActionImg {
+    width: 350px;
+}
+
+.priorityDivider {
+    position: absolute;
+    bottom: -44px;
+    left: 44%;
+    width: 36px!important;
+    margin: 0 0 0 0!important;
 }
 
 #priorityParentContainer{
@@ -717,12 +880,13 @@ p.decreaseTrack {
 }
 
 #priorityInstructions {
-    margin: 12px 0px 19px!important;
+    width: 310px;
+    margin: 0 auto!important;
 }
 
 .priorityText {
     float: left;
-    width: 300px;
+    width: 330px;
 }
 
 .actionDetailContainer .priorityText p {
@@ -732,6 +896,10 @@ p.decreaseTrack {
 
 .priorityImage {
     float:right;
+}
+
+#chosenRouteText {
+    display:none;
 }
 
 #devDiceRolls {
