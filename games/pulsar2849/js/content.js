@@ -74,13 +74,13 @@ var helpContent = [
                 name: 'Take Transmitter',
                 id: 'takeTransmitter',
                 classes: ['takeTransmitter'],
-                content: '<img class="quarterWidth" src="img/help/3-transmitters-example.png"><p>The number below the transmitter signifies how many transmitters are present, with left / middle / right signifying which transmitter out of the set that SID takes.</p><p>In the above example, if there are 3 transmitters currently present, then SID will take the middle one.</p><img class="halfWidth" src="img/help/3-transmitters-middle.jpg">'
+                content: '<p>When SID claims a transmitter, simply take it from among the available transmitters and set it aside to signify it\'s not available for the human player to acquire.</p><p>The number below the transmitter shows that if there is that many transmitters present, SID will take the left / middle / right transmitter from the available collection.</p><img class="quarterWidth" src="img/help/3-transmitters-example.png"><p>In the above example, if there are 3 transmitters currently present, then SID will take the middle one.</p><img class="halfWidth" src="img/help/3-transmitters-middle.jpg"><p>If there is only 1 transmitter currently present, then SID claims that one.</p>'
             },
             {
                 name: 'Take Technology',
                 id: 'takeTechnology',
                 classes: ['takeTechnology'],
-                content: '<img class="halfWidth" src="img/actions/technology6.png"><p>Starting from the topmost + leftmost technology available in the current round, SID counts the specified amount of spaces left to right, highest to lowest.</p><p>Do not count any technologies which you / SID have already claimed, but skip over these instead.</p><p>If you reach the end of the currently available technologies, start counting again from the first available space again.</p><p>If there is only 1 transmitter currently present, then SID takes this.</p>'
+                content: '<img class="halfWidth" src="img/actions/technology6.png"><p>Starting from the topmost + leftmost technology available in the current round, SID counts the specified amount of spaces left to right, highest to lowest.</p><p>Do not count any technologies which you / SID have already claimed, but skip over these instead.</p><p>If you reach the end of the currently available technologies, start counting again from the first available space again.</p>'
             }
         ]
     },
