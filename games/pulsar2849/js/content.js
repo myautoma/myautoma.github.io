@@ -80,7 +80,7 @@ var helpContent = [
                 name: 'Take Technology',
                 id: 'takeTechnology',
                 classes: ['takeTechnology'],
-                content: '<img class="halfWidth" src="img/actions/technology6.png"><p>Starting from the topmost + leftmost technology available in the current round, SID counts the specified amount of spaces left to right, highest to lowest.</p><p>Do not count any technologies which you / SID have already claimed, but skip over these instead.</p><p>If you reach the end of the currently available technologies, start counting again from the first available space again.</p>'
+                content: '<img class="halfWidth" src="img/actions/technology6.png"><p>Starting from the topmost + leftmost technology available in the current round, SID counts the specified amount of spaces left to right, highest to lowest.</p><p>Do not count any technologies which you / SID have already claimed, but skip over these instead.</p><p>If you reach the end of the currently available technologies, start counting again from the first available space again.</p><p>If there is only 1 transmitter currently present, then SID takes this.</p>'
             }
         ]
     },
