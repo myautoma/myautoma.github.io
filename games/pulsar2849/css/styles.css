@@ -1,10 +1,10 @@
 .layer:not(#startLayer) p {
-    font-size: 19px;
+    font-size: 22px;
     margin: 0 0 0 0;
 }
 
 .confirmationBox.alertEl p {
-    font-size: 20px!important;
+    font-size: 22px!important;
 }
 
 /* #actionPhaseLayer.layer {
@@ -102,8 +102,8 @@
 
 .choosePlayColor {
     margin: 20px auto 0px;
-    width: 346px;
-    height: 31px;
+    width: 396px;
+    height: 38px;
 }
 
 .playerColorTitle, .sidColorTitle {
@@ -113,14 +113,15 @@
 
 .colorChoicesContainer {
     position: relative;
-    width: 230px;
+    width: 260px;
     height: 40px;
     float: right;
     margin-left: 10px;
+    margin-top: -3px;
 }
 
 .colorChoicesContainer .colorToken {
-    width: 35px;
+    width: 42px;
     margin: 0px 10px;
     float: left;
 }
@@ -138,7 +139,7 @@
 #firstPlayer-container {
     margin: 30px auto 30px;
     display: block;
-    width: 262px;
+    width: 292px;
 }
 
 #firstPlayer-container p {
@@ -149,12 +150,13 @@
 }
 
 #firstPlayer {
-    font-size: 17px;
+    font-size: 20px;
     display: block;
-    width: 125px;
+    width: 135px;
     padding: 3px 6px 3px 16px;
     margin-right: 28px;
     float: right;
+    margin-top: -3px;
 }
 
 #evenStartContainer {
@@ -280,21 +282,22 @@
 .turnOrder .turnOrderTitle {
     float: left;
     margin: 0px 0px 0px 0px;
-    font-size: 19px!important;
+    font-size: 22px!important;
 }
 
 .turnOrderContainer {
     position: relative;
     width: 220px;
-    height: 40px;
+    height: 34px;
     float: left;
     margin-left: 18px;
+    margin-top: -2px;
 }
 
 .turnOrderContainer .turnTick {
     position: absolute;
     top: -5px;
-    width: 30px;
+    width: 37px;
 }
 
 .turnOrderContainer .turnTick.tickNum1 {
@@ -314,13 +317,13 @@
 }
 
 .trackContainerParent {
-    width: 527px;
-    height: 250px;
-    margin: 0 auto 10px;
+    width: 567px;
+    height: 244px;
+    margin: 0 auto 50px;
 }
 
 .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
-    font-size: 17px!important;
+    font-size: 22px!important;
     text-decoration: underline;
     margin: 0;
 }
@@ -331,13 +334,13 @@
 }
 
 .trackContainer .track img, .playerToken {
-    width: 30px;
+    width: 35px;
     transition: left 1.2s ease-in-out, bottom 1.2s ease-in-out;
 }
 
 .turnOrderContainer .orderToken {
     position: absolute;
-    width: 30px;
+    width: 38px;
     margin: 0px 0px;
     transition: left 1.5s ease-in-out;
 }
@@ -391,59 +394,59 @@ p.decreaseTrack {
 }
 
 .column2 {
-    left:35px;
+    left:38px;
 }
 
 .column3 {
-    left:70px;
+    left:76px;
 }
 
 .column4 {
-    left:105px;
+    left:114px;
 }
 
 .column5 {
-    left:140px;
+    left:152px;
 }
 
 .column6 {
-    left:175px;
+    left:190px;
 }
 
 .column7 {
-    left:210px;
+    left:228px;
 }
 
 .column8 {
-    left:245px;
+    left:266px;
 }
 
 .column9 {
-    left:280px;
+    left:304px;
 }
 
 .column10 {
-    left:315px;
+    left:342px;
 }
 
 .column11 {
-    left:350px;
+    left:380px;
 }
 
 .column12 {
-    left:385px;
+    left:418px;
 }
 
 .column13 {
-    left:420px;
+    left:456px;
 }
 
 .column14 {
-    left:455px;
+    left:494px;
 }
 
 .column15 {
-    left:490px;
+    left:532px;
 }
 
 .baseRow {
@@ -477,8 +480,8 @@ p.decreaseTrack {
 }
 
 .trackLineContainer {
-    width: 530px;
-    height: 100px;
+    width: 574px;
+    height: 114px;
     float: left;
     margin: 3px 5px 10px 0px;
     position: relative;
@@ -491,14 +494,14 @@ p.decreaseTrack {
 }
 
 .diceBoxContainer {
-    width: 505px;
+    width: 565px;
     margin: 0px auto;
 }
 
 #dicePhaseContainer .diceBox {
     float: left;
-    width: 40px;
-    height: 69px;
+    width: 50px;
+    height: 94px;
     border-radius: 10px;
     position: relative;
     margin: 5px 12px 5px;
@@ -506,7 +509,7 @@ p.decreaseTrack {
 }
 
 #dicePhaseContainer .diceBox .diceImg, #dicePhaseContainer .diceBox .selectedDice {
-    width: 40px;
+    width: 50px;
     display: block;
     position: absolute;
     top: 0;
@@ -524,11 +527,21 @@ p.decreaseTrack {
 
 #dicePhaseContainer .diceBox .diceAmount {
     margin: 0px 0px 0px 0px;
-    font-weight: bold;
-    font-size: 23px!important;
+    font-size: 31px!important;
     position: absolute;
     bottom: 0px;
-    width: 40px;
+    width: 47px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+#dicePhaseContainer .diceBox .diceAmount .diceAmountX {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+#dicePhaseContainer .diceBox .diceAmount .diceAmountNum {
+    font-weight: bold;
 }
 
 #dicePhaseContainer .diceBox.rolledDice.activeDice {
@@ -542,20 +555,20 @@ p.decreaseTrack {
 
 .median {
     position: absolute;
-    width: 23px;
-    top: -30px;
+    width: 34px;
+    top: -41px;
 }
 
 .median.left {
-    left: -23px;
+    left: -29px;
 }
 
 .median.middle {
-    left: 20px;
+    left: 18px;
 }
 
 .median.right {
-    left: 61px;
+    left: 65px;
 }
 
 .diceRoll {
@@ -576,20 +589,20 @@ p.decreaseTrack {
 }
 
 .chosenMarker {
-    width: 38px;
+    width: 43px;
     margin-left: -4px;
 }
 
 #currentInstructions {
     transition: all 1s ease-in-out;
-    width: 410px;
+    width: 550px;
     padding: 11px;
     margin: 10px auto;
     border-radius: 40px;
 }
 
 #currentInstructions p {
-    font-size:19px!important;
+    font-size: 22px!important;
     margin:0;
 }
 
@@ -654,12 +667,12 @@ p.decreaseTrack {
   }
 
   #markerToMoveButtons[btns="1"] {
-    width: 167px;
+    width: 170px;
     margin: 0 auto;
   }
 
   #markerToMoveButtons[btns="2"] {
-    width: 333px;
+    width: 343px;
     margin: 0 auto;
   }
 
@@ -670,7 +683,7 @@ p.decreaseTrack {
 
   #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
     float: left;
-    width: 87px;
+    width: 92px;
     margin: 6px 11px 0px;
   }
 
@@ -696,7 +709,7 @@ p.decreaseTrack {
 
 .leftOverDiceContainer, .playersDiceContainer {
     margin: 5px auto 0;
-    width: 210px;
+    width: 190px;
 }
 
 #actionPhaseLayer .roundInfo {
@@ -710,8 +723,8 @@ p.decreaseTrack {
   }
 
   .playersDiceContainer .playersDice {
-    margin-left: 40px;
-  }
+    margin-left: 32px;
+}
 
   .playersDiceContainer .playersDice .diceBox {
     float: left;
@@ -719,7 +732,7 @@ p.decreaseTrack {
     height: 40px;
     border-radius: 10px;
     position: relative;
-    margin: 6px 7px 5px;
+    margin: 6px 11px 5px;
     padding: 0px 0px;
 }
   
@@ -729,7 +742,7 @@ p.decreaseTrack {
     height: 45px;
     border-radius: 10px;
     position: relative;
-    margin: 6px 5px 5px;
+    margin: 6px 9px 5px;
     padding: 0px 0px;
 }
 
@@ -746,12 +759,18 @@ p.decreaseTrack {
     width: 338px!important;
 }
 
+.tooltiptext p, .tooltiptext li {
+    font-size: 25px;
+}
+
 .actionButtons {
-    margin: 25px 0px 21px;
+    margin: 25px auto 21px;
+    width: 180px;
 }
 
 .actionButtons .btn {
-    margin:0 auto;
+    margin: 0 auto;
+    width: 112px;
 }
 
 #actionParentContainer {
@@ -763,7 +782,7 @@ p.decreaseTrack {
     background-image: url(../img/stars/stars1.jpg);
     border-radius: 34px;
     box-shadow: 5px 5px 3px #BBB;
-    border: 7px double #fff;
+    border: 3px double #fff;
     position: relative;
     overflow: hidden;
 }
@@ -880,7 +899,7 @@ p.decreaseTrack {
 }
 
 #priorityInstructions {
-    width: 310px;
+    width: 360px;
     margin: 0 auto!important;
 }
 
@@ -922,6 +941,22 @@ p.decreaseTrack {
 #devDiceRolls p {
     margin: 5px 0;
 }
+
+.confirmationBox.alertEl.roundStartSummaryContainer {
+    top: 9%;
+    margin-left: -305px;
+    width: 610px;
+}
+
+.confirmationBox.alertEl.confirmMarkerSelection {
+    margin-left: -280px;
+    width: 560px;
+}
+
+.confirmationBox.alertEl.confirmMarkerSelection p {
+    margin-bottom: 15px;
+}
+
 
 @media screen and (max-width: 949px) {
 /* @media screen and (min-width: 600px) and (max-width: 949px) { */
@@ -1007,7 +1042,7 @@ p.decreaseTrack {
     #firstPlayer-container {
         margin: 4vw auto 4vw;
         display: block;
-        width: 42vw;
+        width: 40vw;
     }
 
     #firstPlayer {
@@ -1015,6 +1050,10 @@ p.decreaseTrack {
         width: 19vw;
         padding: .5vw 1vw .5vw 3vw;
         margin-right: 2vw;
+    }
+
+    #firstPlayer-container p {
+        line-height: 3vw;
     }
 
     #evenStartContainer {
@@ -1110,8 +1149,8 @@ p.decreaseTrack {
 
     .trackContainerParent {
         width: 76vw;
-        height: 42vw;
-        margin: 3vw auto 2vw;
+        height: 40vw;
+        margin: 0vw auto 2vw;
     }
 
     .trackLineContainer {
@@ -1227,7 +1266,7 @@ p.decreaseTrack {
 
     #dicePhaseContainer .diceBox {
         width: 6vw;
-        height: 11vw;
+        height: 12vw;
         margin: 0vw 3vw 0vw;
         padding: 0vw 0vw;
     }
@@ -1237,6 +1276,11 @@ p.decreaseTrack {
         font-size: 4vw!important;
         bottom: 0vw;
         width: 6vw;
+    }
+
+    #dicePhaseContainer .diceBox .diceAmount .diceAmountX {
+        font-size: 3vw;
+        margin-right: .2vw;
     }
 
     .median {
@@ -1399,6 +1443,10 @@ p.decreaseTrack {
         width: 44vw!important;
     }
 
+    .tooltiptext p, .tooltiptext li {
+        font-size: 3.2vw;
+    }
+
     .priorityDivider {
         bottom: 2.5vw;
         left: 44%;
@@ -1454,6 +1502,16 @@ p.decreaseTrack {
         font-size: 6vw!important;
     }
 
+    .confirmationBox.alertEl.confirmMarkerSelection {
+        margin-left: -40vw;
+        width: 80vw;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer {
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1492,6 +1550,7 @@ p.decreaseTrack {
         width: 39vw;
         height: 7vw;
         margin-left: 2vw;
+        margin-top: 0.6vw;
     }
 
     .colorChoicesContainer .colorToken {
@@ -1515,6 +1574,7 @@ p.decreaseTrack {
         width: 28vw;
         padding: .5vw 1vw .5vw 3vw;
         margin-right: 2vw;
+        margin-top: -1.5vw;
     }
 
     #evenStartContainer {
@@ -1574,7 +1634,10 @@ p.decreaseTrack {
         font-size: 4.7vw!important;
         margin: 0vw 0vw 1vw;
     }
-
+    .roundInfo .firstTurnParagraph, .roundInfo .medianBonusParagraph, .roundInfo .leftOverDiceTitle, .roundInfo .leftOverDiceTitle {
+        width: 39vw;
+    }
+    
     .leftOverDiceContainer, .playersDiceContainer {
         margin: 0vw auto 0vw;
         width: 38vw;
@@ -1682,7 +1745,7 @@ p.decreaseTrack {
 
     #dicePhaseContainer .diceBox {
         width: 10vw;
-        height: 16vw;
+        height: 17.5vw;
         margin: 0vw 2vw 0vw 2vw;
         padding: 0vw 0vw;
     }
@@ -1696,6 +1759,11 @@ p.decreaseTrack {
         font-size: 5vw!important;
         bottom: 0vw;
         width: 10vw;
+    }
+
+    #dicePhaseContainer .diceBox .diceAmount .diceAmountX {
+        font-size: 4vw;
+        margin-right: .2vw;
     }
 
     #currentInstructions {
