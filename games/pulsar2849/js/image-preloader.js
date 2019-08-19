@@ -18,6 +18,7 @@ preload([
 	'img/token/green.png',
 	'img/token/red.png',
 	'img/token/yellow.png',
+	'img/token/black.png',
 	'img/dice/1.png',
 	'img/dice/1inv.png',
 	'img/dice/2.png',
