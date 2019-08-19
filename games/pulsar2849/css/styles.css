@@ -694,7 +694,7 @@ p.decreaseTrack {
     width: 500px;
 }
 
-.leftOverDiceContainer {
+.leftOverDiceContainer, .playersDiceContainer {
     margin: 5px auto 0;
     width: 210px;
 }
@@ -904,12 +904,11 @@ p.decreaseTrack {
 
 #devDiceRolls {
     position: absolute;
-    width: 90px;
-    height: 74px;
-    padding: 15px 25px;
-    margin: 10px 0px 0px 10px;
-    border: 1px solid #000;
-    border-radius: 50px;
+    /* width: 98px; */
+    /* height: 28px; */
+    padding: 0px 8px;
+    margin: 5px 0px 0px 5px;
+    /* border: 1px solid #000; */
     font-size: 20px;
     text-align: center;
     transition: all 1s ease-in-out;
@@ -924,12 +923,1033 @@ p.decreaseTrack {
     margin: 5px 0;
 }
 
-@media screen and (min-width: 600px) and (max-width: 949px) {
+@media screen and (max-width: 949px) {
+/* @media screen and (min-width: 600px) and (max-width: 949px) { */
 
+    .layer:not(#startLayer) p {
+        font-size: 3vw;
+    }
+
+    .goalsTechTitle {
+        font-size: 2.6vw!important;
+    }
+
+    .techBoardContainer.techGoal img {
+        width: 37vw;
+    }
+
+    #goalsTechParentContainer {
+        margin: 5vw auto;
+        width: 80vw;
+    }
+
+    .techTier {
+        right: 18vw;
+    }
+
+    .techTier.tier3 {
+        bottom: 40vw;
+    }
+
+    .techTier.tier2 {
+        bottom: 23vw;
+    }
+
+    .techTier.tier1 {
+        bottom: 8vw;
+    }
+
+    .endGameGoalContainer.techGoal {
+        margin-bottom: 6vw;
+        margin-left: -2vw;
+    }
+
+    .endGameGoalContainer.techGoal img {
+        margin: 0 0 0 1vw;
+    }
+    
+    .endGameGoalContainer img {
+        width: 13vw;
+    }
+
+    .hqContainer.techGoal img {
+        width: 34vw;
+        margin-left: 3vw;
+    }
+
+    .hqBoardNum {
+        top: 3vw;
+        left: 12.5vw;
+    }
+
+    .techBoardContainer .techTier p, .hqContainer .hqBoardNum p {
+        font-size: 6vw!important;
+    }
+
+    .choosePlayColor {
+        margin: 3vw auto 1vw;
+        width: 47vw;
+        height: 4vw;
+    }
+
+    .colorChoicesContainer {
+        width: 28vw;
+        height: 4vw;
+        margin-left: 2vw;
+    }
+
+    .colorChoicesContainer .colorToken {
+        width: 5vw;
+        margin: 0vw 1vw;
+        float: left;
+    }
+
+    #firstPlayer-container {
+        margin: 4vw auto 4vw;
+        display: block;
+        width: 42vw;
+    }
+
+    #firstPlayer {
+        font-size: 2.5vw;
+        width: 19vw;
+        padding: .5vw 1vw .5vw 3vw;
+        margin-right: 2vw;
+    }
+
+    #evenStartContainer {
+        width: 43vw;
+        margin: 0 auto 4vw;
+        box-shadow: #999 1px 1px 5px;
+        border-radius: 5vw;
+        padding: 2vw 5vw 0vw;
+        border: .3vw solid #676767;
+    }
+
+    #evenStartContainer h3 {
+        font-size: 3vw;
+        margin: 1vw 0 2vw 0;
+    }
+
+    .evenStartCheckbox label {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .evenStartCheckbox {
+        width: 4vw;
+        height: 4vw;
+        margin: 0vw 2vw 0vw 0vw;
+    }
+
+    .evenStartCheckbox label:after {
+        width: 2.3vw;
+        height: 1vw;
+        top: .7vw;
+        left: .7vw;
+    }
+
+    #evenStart-container {
+        margin: 2vw auto 3vw;
+        width: 17vw;
+    }
+
+    #evenStart-container p {
+        line-height: 4vw;
+    }
+
+    .confirmationBox.alertEl p {
+        font-size: 3vw!important;
+    }
+
+    #dicePhaseContainer {
+        width: 76vw;
+        margin: 0vw auto 0vw;
+    }
+
+    .turnOrder {
+        margin: 4vw 0vw 0vw 12vw;
+        width: 60vw;
+        height: 6vw;
+    }
+
+    .turnOrder .turnOrderTitle {
+        font-size: 3vw!important;
+    }
+
+    .turnOrderContainer .orderToken {
+        width: 5vw;
+        margin: 0vw 0vw;
+    }
+
+    .turnOrderContainer {
+        width: 28vw;
+        height: 5vw;
+        margin-left: 2vw;
+    }
+
+    .turnOrder1 {
+        left: 0vw;
+    }
+
+    .turnOrder2 {
+        left: 7vw;
+    }
+
+    .turnOrder3 {
+        left: 14vw;
+    }
+
+    .turnOrder4 {
+        left: 21vw;
+    }
+
+    .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
+        font-size: 3vw!important;
+    }
+
+    .trackContainerParent {
+        width: 76vw;
+        height: 42vw;
+        margin: 3vw auto 2vw;
+    }
+
+    .trackLineContainer {
+        width: 76vw;
+        height: 16vw;
+        float: left;
+        margin: 3px 5px 10px 0px;
+        position: relative;
+    }
+
+    .trackContainer .track img, .playerToken {
+        width: 4.5vw;
+    }
+
+    .chosenMarker {
+        width: 5.6vw!important;
+        margin-left: -.5vw;
+    }
+
+    .column1 {
+        left:0vw;
+    }
+
+    .column2 {
+        left:5vw;
+    }
+
+    .column3 {
+        left:10vw;
+    }
+
+    .column4 {
+        left:15vw;
+    }
+
+    .column5 {
+        left:20vw;
+    }
+
+    .column6 {
+        left:25vw;
+    }
+
+    .column7 {
+        left:30vw;
+    }
+
+    .column8 {
+        left:35vw;
+    }
+
+    .column9 {
+        left:40vw;
+    }
+
+    .column10 {
+        left:45vw;
+    }
+
+    .column11 {
+        left:50vw;
+    }
+
+    .column12 {
+        left:55vw;
+    }
+
+    .column13 {
+        left:60vw;
+    }
+
+    .column14 {
+        left:65vw;
+    }
+
+    .column15 {
+        left:70vw;
+    }
+
+    .baseRow {
+        bottom: 1vw;
+        z-index: 1;
+    }
+
+    .row1 {
+        bottom: 1.5vw;
+    }
+
+    .row2 {
+        bottom: 2.6vw;
+    }
+
+    .row3 {
+        bottom: 3.7vw;
+    }
+
+    .row4 {
+        bottom:4.8vw;
+    }
+
+    #dicePhaseLayer {
+        width: 85vw!important;
+    }
+
+    .diceBoxContainer {
+        width: 73vw;
+        margin: 0vw auto;
+    }
+
+    #dicePhaseContainer .diceBox .diceImg, #dicePhaseContainer .diceBox .selectedDice {
+        width: 6vw;
+    }
+
+    #dicePhaseContainer .diceBox {
+        width: 6vw;
+        height: 11vw;
+        margin: 0vw 3vw 0vw;
+        padding: 0vw 0vw;
+    }
+
+    #dicePhaseContainer .diceBox .diceAmount {
+        margin: 0vw 0vw 0vw 0vw;
+        font-size: 4vw!important;
+        bottom: 0vw;
+        width: 6vw;
+    }
+
+    .median {
+        width: 5vw;
+        top: -6vw;
+    }
+
+    .median.left {
+        left: -5.4vw;
+    }
+
+    .median.middle {
+        left: 0.6vw;
+    }
+
+    .median.right {
+        left: 6.6vw;
+    }
+
+    .turnOrderContainer .turnTick {
+        top: -0.3vw;
+        width: 4vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum1 {
+        left: 0.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum2 {
+        left: 7.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum3 {
+        left: 14.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum4 {
+        left: 21.6vw;
+    }
+
+    #markerToMoveButtons[btns="1"] {
+        width: 22vw;
+        margin: 0 auto;
+    }
+
+    #markerToMoveButtons[btns="2"] {
+        width: 44vw;
+        margin: 0 auto;
+    }
+
+    #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
+        width: 12vw;
+        margin: 0vw 2vw 0vw;
+        padding: 1.4vw 2.9vw;
+        font-size: 2.7vw;
+        border-radius: 1vw;
+    }
+
+    #currentInstructions {
+        width: 64vw;
+        padding: 2vw;
+        margin: 1vw auto;
+    }
+
+    #currentInstructions p {
+        font-size: 3vw!important;
+    }
+
+    #actionPhaseLayer .roundInfo {
+        width: 65vw;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .confirmationBox.alertEl.confirmMarkerSelection a {
+        width: 10vw!important;
+        margin: 1vw 2vw 1vw!important;
+    }
+
+    .confirmationBox.alertEl.confirmMarkerSelection .buttons[btns="2"] {
+        width: 44vw!important;
+    }
+
+    #actionPhaseLayer .roundInfo p {
+        font-size: 4vw!important;
+        margin: 0vw 0vw 1vw;
+    }
+
+    .leftOverDiceTitle {
+        margin-top: 0vw!important;
+    }
+
+    .firstTurnParagraph, .playersDiceContainer {
+        float:left;
+    }
+
+    .medianBonusParagraph, .leftOverDiceContainer {
+        float:right;
+    }
+
+    .leftOverDiceContainer, .playersDiceContainer {
+        margin: 0vw auto 0vw;
+        width: 28vw;
+    }
+
+    .playersDiceContainer .playersDice .diceBox, .leftOverDiceContainer .leftOverDice .diceBox {
+        width: 6vw;
+        height: 6vw;
+        margin: 0vw 1.1vw 0vw;
+        padding: 0vw 0vw;
+    }
+
+    .playersDiceContainer .playersDice {
+        margin: 0 auto;
+        width: 16.7vw;
+        height: 6vw;
+    }
+
+    #actionPhaseLayer .diceBox .diceImg {
+        width: 5.8vw;
+    }
+
+    .leftOverDiceContainer .leftOverDice {
+        width: 25vw;
+        margin: 1vw auto 0vw;
+    }
+
+    .actionButtons {
+        margin: 3vw auto 3vw;
+        width: 23vw;
+    }
+
+    .actionButtons .btn {
+        margin: 0 auto;
+        font-size: 3vw;
+        width: 16.5vw;
+    }
+
+    #priorityInstructions {
+        width: 52vw;
+    }
+
+    #actionPhaseContainer {
+        width: 72vw;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #actionParentContainer {
+        width: 42vw;
+        height: 66vw;
+        margin: 2vw auto 0;
+        padding: 2vw;
+        border-radius: 4vw;
+        box-shadow: 1vw 1vw 1vw #BBB;
+        border: .5vw double #fff;
+    }
+
+    .tooltip .tooltiptext {
+        width: 44vw!important;
+    }
+
+    .priorityDivider {
+        bottom: 2.5vw;
+        left: 44%;
+        width: 6vw!important;
+        margin: 0 0 0 0!important;
+    }
+
+    .actionDetailContainer {
+        height: 24vw;
+    }
+
+    .actionDetailContainer .takePulsarImg, .actionDetailContainer .activatePulsarImg {
+        width: 26vw;
+    }
+
+    #backgroundStarImage.portrait {
+        top: -18vw;
+        left: -6vw;
+        width: 67vw;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer h3 {
+        font-size: 4vw;
+        margin: 2vw 0 1vw 0;
+    }
+
+    .flyShipPlanetImg {
+        width: 24vw;
+        margin: 0vw auto 0vw;
+    }
+
+    .flyShipPlanetandPlanetOrPulsarImg {
+        width: 37vw;
+        margin: -2vw auto 0vw;
+    }
+
+    .flyShipPlanetandPlanetPlanetPulsarImg {
+        width: 40vw;
+        margin: 0vw auto 0px;
+    }
+
+    .transmitterActionImg {
+        width: 18.7vw;
+        margin: 0vw 0vw 0vw 1.8vw;
+    }
+
+    .technology1Img, .technology2Img, .technology3Img, .technology4Img, .technology5Img, .technology6Img {
+        width: 31vw;
+        margin-left: 7vw;
+    }
+
+    .gameOver {
+        font-size: 6vw!important;
+    }
 
 }
 
 @media screen and (max-width: 599px) {
 
+    .layer:not(#startLayer) p {
+        font-size: 5vw;
+    }
+
+    .actionButtons {
+        margin: 3vw auto 3vw;
+        width: 26vw;
+    }
+
+    .actionButtons .btn {
+        font-size: 3.5vw;
+        width: 22.5vw;
+        padding: 2.1vw 1.3vw;
+    }
+
+    .confirmationBox.alertEl p {
+        font-size: 4.5vw!important;
+    }
+
+    .goalsTechTitle {
+        font-size: 3.9vw!important;
+    }
+
+    #randomizeGoalsTechsLayer .buttons .btn {
+        float: left!important;
+        font-size: 4.8vw;
+        width: 28vw;
+        margin: 0vw 2.6vw;
+    }
+
+    .colorChoicesContainer {
+        width: 39vw;
+        height: 7vw;
+        margin-left: 2vw;
+    }
+
+    .colorChoicesContainer .colorToken {
+        width: 7vw;
+        margin: 0vw 1vw;
+    }
+
+    .choosePlayColor {
+        margin: 5vw auto 1vw;
+        width: 72vw;
+        height: 6vw;
+    }
+
+    #firstPlayer-container {
+        margin: 6vw auto 7vw;
+        width: 62vw;
+    }
+
+    #firstPlayer {
+        font-size: 4vw;
+        width: 28vw;
+        padding: .5vw 1vw .5vw 3vw;
+        margin-right: 2vw;
+    }
+
+    #evenStartContainer {
+        width: 73vw;
+        margin: 0 auto 6vw;
+        box-shadow: #999 1px 1px 5px;
+        border-radius: 5vw;
+        padding: 2vw 5vw 0vw;
+        border: .3vw solid #676767;
+    }
+
+    #evenStartContainer h3 {
+        font-size: 5vw;
+        margin: 1vw 0 2vw 0;
+    }
+
+    #evenStart-container {
+        margin: 5vw auto 5vw;
+        width: 27vw;
+    }
+
+    .evenStartCheckbox {
+        width: 8vw;
+        height: 8vw;
+        margin: 0vw 4vw 0vw 0vw;
+    }
+
+    .confirmationBox a {
+        margin: 0vw 2.3vw 0px;
+        padding: 2.8vw 10vw;
+        font-size: 5vw;
+        width: 12vw;
+        float: left;
+    }
+
+    .evenStartCheckbox label {
+        width: 7vw;
+        height: 7vw;
+        border: .5vw solid #ddd;
+    }
+
+    .evenStartCheckbox label:after {
+        width: 4.7vw;
+        height: 2vw;
+        top: 1.2vw;
+        left: .7vw;
+        border: .8vw solid #333;
+        border-top: none;
+        border-right: none;
+    }
+
+    #evenStart-container p {
+        line-height: 8vw;
+    }
+
+    #actionPhaseLayer .roundInfo p {
+        font-size: 4.7vw!important;
+        margin: 0vw 0vw 1vw;
+    }
+
+    .leftOverDiceContainer, .playersDiceContainer {
+        margin: 0vw auto 0vw;
+        width: 38vw;
+    }
+
+    .playersDiceContainer .playersDice {
+        margin: 0 auto;
+        width: 20.7vw;
+        height: 8vw;
+    }
+
+    .leftOverDiceContainer .leftOverDice {
+        width: 31vw;
+        margin: 1vw auto 0vw;
+    }
+
+    .playersDiceContainer .playersDice .diceBox, .leftOverDiceContainer .leftOverDice .diceBox {
+        width: 8vw;
+        height: 8vw;
+        margin: 0vw 1.1vw 0vw;
+        padding: 0vw 0vw;
+    }
+
+    #actionPhaseLayer .diceBox .diceImg {
+        width: 7.8vw;
+    }
+
+    .actionButtons {
+        margin: 4vw auto 3vw;
+        width: 34vw;
+    }
+
+    .actionButtons .btn {
+        font-size: 4.5vw;
+        width: 31.5vw;
+        padding: 2.6vw 1.3vw;
+    }
+
+    #priorityInstructions {
+        width: 82vw;
+    }
+
+    #actionPhaseContainer {
+        width: 89vw;
+        margin: 4vw auto 0vw;
+        float: none;
+    }
+
+    #actionParentContainer {
+        width: 55vw;
+        height: 85vw;
+        margin: 4vw auto 0;
+        padding: 2vw;
+        border-radius: 4vw;
+        box-shadow: 1vw 1vw 1vw #BBB;
+        border: .5vw double #fff;
+    }
+
+    #backgroundStarImage.portrait {
+        top: -18vw;
+        left: -6vw;
+        width: 88vw;
+    }
+
+    .actionDetailContainer {
+        height: 27vw;
+        margin-top: 2vw;
+    }
+
+    .actionDetailContainer .takePulsarImg, .actionDetailContainer .activatePulsarImg {
+        width: 34vw;
+    }
+
+    .priorityDivider {
+        bottom: 1.5vw;
+        left: 45%;
+        width: 7vw!important;
+        margin: 0 0 0 0!important;
+    }
+
+    .tooltip .tooltiptext {
+        width: 57vw!important;
+    }
+
+    .confirmationBox.alertEl.confirmMarkerSelection .buttons[btns="2"] {
+        width: 64vw!important;
+    }
+
+    .confirmationBox.alertEl.confirmMarkerSelection a {
+        width: 18vw!important;
+        margin: 1vw 2vw 1vw!important;
+        padding: 2.8vw 5vw;
+    }
+
+    #actionPhaseLayer .roundInfo {
+        width: 83vw;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .diceBoxContainer {
+        width: 85vw;
+        margin: 0vw auto;
+    }
+
+    #dicePhaseContainer .diceBox {
+        width: 10vw;
+        height: 16vw;
+        margin: 0vw 2vw 0vw 2vw;
+        padding: 0vw 0vw;
+    }
+
+    #dicePhaseContainer .diceBox .diceImg, #dicePhaseContainer .diceBox .selectedDice {
+        width: 10vw;
+    }
+
+    #dicePhaseContainer .diceBox .diceAmount {
+        margin: 0vw 0vw 0vw 0vw;
+        font-size: 5vw!important;
+        bottom: 0vw;
+        width: 10vw;
+    }
+
+    #currentInstructions {
+        width: 81vw;
+        padding: 2vw;
+        margin: 3vw auto 2vw;
+    }
+
+    #currentInstructions p {
+        font-size: 4.5vw!important;
+    }
+
+    #dicePhaseContainer {
+        width: 84vw;
+        margin: 0vw auto 0vw;
+    }
+
+    .turnOrder {
+        margin: 6vw auto 0vw;
+        width: 76vw;
+        height: 6vw;
+    }
+
+    .turnOrder .turnOrderTitle {
+        font-size: 4.5vw!important;
+    }
+
+    .turnOrderContainer {
+        width: 36vw;
+        height: 5vw;
+        margin-left: 2vw;
+    }
+
+    .turnOrderContainer .orderToken {
+        width: 6.5vw;
+        margin: 0vw 0vw;
+    }
+
+    .turnOrder1 {
+        left: 0vw;
+    }
+
+    .turnOrder2 {
+        left: 9vw;
+    }
+
+    .turnOrder3 {
+        left: 18vw;
+    }
+
+    .turnOrder4 {
+        left: 27vw;
+    }
+
+    .trackContainerParent {
+        width: 76vw;
+        height: 53vw;
+        margin: 1vw auto 2vw;
+    }
+
+    .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
+        font-size: 4.5vw!important;
+    }
+
+    .trackLineContainer {
+        width: 85vw;
+        height: 20vw;
+        margin: 2vw 0vw 1vw -6vw;
+    }
+
+    .trackContainer .track img, .playerToken {
+        width: 6vw;
+    }
+
+    .chosenMarker {
+        width: 7.6vw!important;
+        margin-left: -.83vw;
+    }
+
+    .column1 {
+        left:0vw;
+    }
+
+    .column2 {
+        left:6vw;
+    }
+
+    .column3 {
+        left:12vw;
+    }
+
+    .column4 {
+        left:18vw;
+    }
+
+    .column5 {
+        left:24vw;
+    }
+
+    .column6 {
+        left:30vw;
+    }
+
+    .column7 {
+        left:36vw;
+    }
+
+    .column8 {
+        left:42vw;
+    }
+
+    .column9 {
+        left:48vw;
+    }
+
+    .column10 {
+        left:54vw;
+    }
+
+    .column11 {
+        left:60vw;
+    }
+
+    .column12 {
+        left:66vw;
+    }
+
+    .column13 {
+        left:72vw;
+    }
+
+    .column14 {
+        left:78vw;
+    }
+
+    .column15 {
+        left:84vw;
+    }
+
+    .baseRow {
+        bottom: 1vw;
+        z-index: 1;
+    }
+
+    .row1 {
+        bottom: 2vw;
+    }
+
+    .row2 {
+        bottom: 3.6vw;
+    }
+
+    .row3 {
+        bottom: 5.2vw;
+    }
+
+    .row4 {
+        bottom:6.8vw;
+    }
+
+    #markerToMoveButtons[btns="1"] {
+        width: 38vw;
+        margin: 0 auto;
+    }
+
+    #markerToMoveButtons[btns="2"] {
+        width: 77vw;
+        margin: 3vw auto 0vw;
+    }
+
+    #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
+        width: 24vw;
+        margin: 0vw 2vw 0vw;
+        padding: 2.7vw 4.9vw;
+        font-size: 5vw;
+        border-radius: 2.1vw;
+    }
+
+    .median {
+        width: 6vw;
+        top: -7vw;
+    }
+
+    .median.left {
+        left: -5vw;
+    }
+
+    .median.middle {
+        left: 2.3vw;
+    }
+
+    .median.right {
+        left: 9vw;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] .btn {
+        width: 20vw;
+        padding: 2.8vw 7vw;
+    }
+
+    .turnOrderContainer .turnTick {
+        top: -0.7vw;
+        width: 6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum1 {
+        left: 0.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum2 {
+        left: 9.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum3 {
+        left: 18.6vw;
+    }
+
+    .turnOrderContainer .turnTick.tickNum4 {
+        left: 27.6vw;
+    }
+
+    .flyShipPlanetImg {
+        width: 31vw;
+        margin: 0vw auto 0vw;
+    }
+
+    .flyShipPlanetandPlanetOrPulsarImg {
+        width: 45vw;
+        margin: -2vw auto 0vw;
+    }
+
+    .flyShipPlanetandPlanetPlanetPulsarImg {
+        width: 40vw;
+        margin: 0vw auto 0px;
+    }
+
+    .transmitterActionImg {
+        width: 25.7vw;
+        margin: 0vw 0vw 0vw 1.8vw;
+    }
+
+    .technology1Img, .technology2Img, .technology3Img, .technology4Img, .technology5Img, .technology6Img {
+        width: 43vw;
+        margin-left: 8vw;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer h3 {
+        font-size: 5vw;
+        margin: 5vw 0 1vw 0;
+    }
+
+    .gameOver {
+        color: red;
+        font-size: 7.5vw!important;
+    }
 
 }
