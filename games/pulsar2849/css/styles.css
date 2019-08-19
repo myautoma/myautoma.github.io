@@ -1520,6 +1520,14 @@ p.decreaseTrack {
         width: 16.5vw;
     }
 
+    .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] {
+        width: 28vw!important;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] .btn {
+        width: 14vw!important;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -2027,6 +2035,14 @@ p.decreaseTrack {
     .gameOver {
         color: red;
         font-size: 7.5vw!important;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] {
+        width: 39vw!important;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] .btn {
+        width: 20vw!important;
     }
 
 }
