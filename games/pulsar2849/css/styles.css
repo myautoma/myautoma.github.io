@@ -933,7 +933,7 @@ p.decreaseTrack {
     transition: all 1s ease-in-out;
 }
 
-.gameOver {
+#currentInstructions .gameOver {
     color: red;
     font-size: 40px!important;
 }
@@ -1502,7 +1502,7 @@ p.decreaseTrack {
         margin-left: 7vw;
     }
 
-    .gameOver {
+    #currentInstructions .gameOver {
         font-size: 6vw!important;
     }
 
@@ -1581,7 +1581,7 @@ p.decreaseTrack {
     }
 
     #firstPlayer-container {
-        margin: 6vw auto 7vw;
+        margin: 9vw auto 7vw;
         width: 62vw;
     }
 
@@ -1846,7 +1846,7 @@ p.decreaseTrack {
     }
 
     .trackLineContainer {
-        width: 85vw;
+        width: 91vw;
         height: 20vw;
         margin: 2vw 0vw 1vw -6vw;
     }
@@ -2032,8 +2032,7 @@ p.decreaseTrack {
         margin: 5vw 0 1vw 0;
     }
 
-    .gameOver {
-        color: red;
+    #currentInstructions .gameOver {
         font-size: 7.5vw!important;
     }
 
@@ -2043,6 +2042,10 @@ p.decreaseTrack {
 
     .confirmationBox.alertEl.roundStartSummaryContainer .buttons[btns="1"] .btn {
         width: 20vw!important;
+    }
+
+    #dicePhaseButton {
+        width: 31.5vw;
     }
 
 }
