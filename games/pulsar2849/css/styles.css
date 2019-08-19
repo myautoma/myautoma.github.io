@@ -1365,8 +1365,8 @@ p.decreaseTrack {
     }
 
     #actionPhaseLayer .roundInfo p {
-        font-size: 4vw!important;
-        margin: 0vw 0vw 1vw;
+        font-size: 3.2vw!important;
+        margin: 0vw 0vw .5vw;
     }
 
     .leftOverDiceTitle {
@@ -1384,6 +1384,10 @@ p.decreaseTrack {
     .leftOverDiceContainer, .playersDiceContainer {
         margin: 0vw auto 0vw;
         width: 28vw;
+    }
+
+    .roundInfo .firstTurnParagraph, .roundInfo .medianBonusParagraph {
+        width: 28.5vw;
     }
 
     .playersDiceContainer .playersDice .diceBox, .leftOverDiceContainer .leftOverDice .diceBox {
@@ -1409,7 +1413,7 @@ p.decreaseTrack {
     }
 
     .actionButtons {
-        margin: 3vw auto 3vw;
+        margin: 2vw auto 2vw;
         width: 23vw;
     }
 
@@ -1431,7 +1435,7 @@ p.decreaseTrack {
 
     #actionParentContainer {
         width: 42vw;
-        height: 66vw;
+        height: 61vw;
         margin: 2vw auto 0;
         padding: 2vw;
         border-radius: 4vw;
@@ -1455,11 +1459,11 @@ p.decreaseTrack {
     }
 
     .actionDetailContainer {
-        height: 24vw;
+        height: 22vw;
     }
 
     .actionDetailContainer .takePulsarImg, .actionDetailContainer .activatePulsarImg {
-        width: 26vw;
+        width: 23vw;
     }
 
     #backgroundStarImage.portrait {
@@ -1638,7 +1642,8 @@ p.decreaseTrack {
         font-size: 4.7vw!important;
         margin: 0vw 0vw 1vw;
     }
-    .roundInfo .firstTurnParagraph, .roundInfo .medianBonusParagraph, .roundInfo .leftOverDiceTitle, .roundInfo .leftOverDiceTitle {
+    
+    .roundInfo .firstTurnParagraph, .roundInfo .medianBonusParagraph {
         width: 39vw;
     }
     
