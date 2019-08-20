@@ -319,7 +319,7 @@
 .trackContainerParent {
     width: 567px;
     height: 244px;
-    margin: 0 auto 50px;
+    margin: 10px auto 50px;
 }
 
 .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
@@ -779,7 +779,6 @@ p.decreaseTrack {
     height: 440px;
     margin: 11px auto 0;
     padding: 20px;
-    background-image: url(../img/stars/stars1.jpg);
     border-radius: 34px;
     box-shadow: 5px 5px 3px #BBB;
     border: 3px double #fff;
@@ -957,6 +956,10 @@ p.decreaseTrack {
     margin-bottom: 15px;
 }
 
+.helpToken {
+    width: 28px;
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 949px) {
 /* @media screen and (min-width: 600px) and (max-width: 949px) { */
@@ -1150,7 +1153,7 @@ p.decreaseTrack {
     .trackContainerParent {
         width: 76vw;
         height: 40vw;
-        margin: 0vw auto 2vw;
+        margin: 2vw auto 2vw;
     }
 
     .trackLineContainer {
@@ -1528,6 +1531,11 @@ p.decreaseTrack {
         width: 14vw!important;
     }
 
+    .helpToken {
+        width: 4vw;
+        margin-right: 1vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1838,7 +1846,7 @@ p.decreaseTrack {
     .trackContainerParent {
         width: 76vw;
         height: 53vw;
-        margin: 1vw auto 2vw;
+        margin: 3vw auto 2vw;
     }
 
     .trackContainerParent > .trackContainer > .trackLineContainer > .trackHeading {
@@ -2046,6 +2054,11 @@ p.decreaseTrack {
 
     #dicePhaseButton {
         width: 31.5vw;
+    }
+
+    .helpToken {
+        width: 5vw;
+        margin-right: 2vw;
     }
 
 }
