@@ -7,11 +7,9 @@ var startContent = [
     {
         name: 'Gameplay',
         id: 'gameplay',
-        content: '<p>Gameplay instructions here.</p>'
+        content: '<p><span class="bold underline">Dice Phase</span> - When it\'s your turn, click one of the available dice to see the effect it will have on your marker position. Alternate between markers with the "Marker" button, and the click "Confirm" to finalize your selection.</p><p>SID is programmed to automatically choose a dice and a marker to move.</p><p><span class="bold underline">Action Phase</span> - SID doesn\'t use the silver dice it chose in the previous phase. Instead three actions will be displayed in priority order (from top to bottom). SID will action <span class="bold underline">ONLY THE FIRST ONE</span> that it is able to, and once resolved, it\'ll either take its next turn or start the next round.</p>'
     }
-
     // Add any more starting information in the same syntax
-    
 ]
 
 var helpContent = [
@@ -25,7 +23,7 @@ var helpContent = [
         name: 'Gameplay',
         id: 'gameplay',
         classes: ['gameplay'],
-        content: '<p>Gameplay instructions here.</p>'
+        content: '<p><span class="bold underline">Dice Phase</span> - When it\'s your turn, click one of the available dice to see the effect it will have on your marker position. Alternate between markers with the "Marker" button, and the click "Confirm" to finalize your selection.</p><p>SID is programmed to automatically choose a dice and a marker to move.</p><p><span class="bold underline">Action Phase</span> - SID doesn\'t use the silver dice it chose in the previous phase. Instead three actions will be displayed in priority order (from top to bottom). SID will action <span class="bold underline">ONLY THE FIRST ONE</span> that it is able to, and once resolved, it\'ll either take its next turn or start the next round.</p>'
     },
     {
         name: 'Automa Actions',
@@ -36,7 +34,7 @@ var helpContent = [
                 name: 'Take Gyrodone',
                 id: 'takeGyrodone',
                 classes: ['takeGyrodone'],
-                content: '<img class="quarterWidth" src="img/actions/takeGyrodone.png"><p>If SID has an empty Pulsar Ring, it takes a Gyrodyne and places it inside its Pulsar Ring.</p><p>In taking a Gyrodyne, SID will choose the highest value Gyrodyne that the human player has NOT activated and that SID has not already earned the Gyrodyne Bonus for. If the human player has all three types of Gyrodynes activated, then SID will take the highest value Gyrodyne for which it has not already earned the Gyrodyne Bonus.</p>'
+                content: '<img class="quarterWidth" src="img/actions/takeGyrodone.png"><p>If SID has an empty Pulsar Ring, it takes a Gyrodyne and places it inside its Pulsar Ring.</p><p>In taking a Gyrodyne, SID will choose the highest value Gyrodyne that the human player has NOT activated and that SID has not already earned the Gyrodyne Bonus for.</p><p>If the human player has all three types of Gyrodynes activated, then SID will take the highest value Gyrodyne for which it has not already earned the Gyrodyne Bonus.</p>'
             },
             {
                 name: 'Activate Gyrodone',
