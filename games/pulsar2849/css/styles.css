@@ -1541,7 +1541,7 @@ p.decreaseTrack {
 @media screen and (max-width: 599px) {
 
     .layer:not(#startLayer) p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .actionButtons {
@@ -1655,7 +1655,7 @@ p.decreaseTrack {
     }
 
     #actionPhaseLayer .roundInfo p {
-        font-size: 4.7vw!important;
+        font-size: 4.3vw!important;
         margin: 0vw 0vw 1vw;
     }
     
@@ -1691,14 +1691,14 @@ p.decreaseTrack {
     }
 
     .actionButtons {
-        margin: 4vw auto 3vw;
-        width: 34vw;
+        margin: 2vw auto 0vw;
+        width: 28vw;
     }
 
     .actionButtons .btn {
-        font-size: 4.5vw;
-        width: 31.5vw;
-        padding: 2.6vw 1.3vw;
+        font-size: 4vw;
+        width: 25.5vw;
+        padding: 2vw 1.3vw;
     }
 
     #priorityInstructions {
@@ -1707,13 +1707,13 @@ p.decreaseTrack {
 
     #actionPhaseContainer {
         width: 89vw;
-        margin: 4vw auto 0vw;
+        margin: 2vw auto 0vw;
         float: none;
     }
 
     #actionParentContainer {
         width: 55vw;
-        height: 85vw;
+        height: 75vw;
         margin: 4vw auto 0;
         padding: 2vw;
         border-radius: 4vw;
@@ -1728,12 +1728,12 @@ p.decreaseTrack {
     }
 
     .actionDetailContainer {
-        height: 27vw;
+        height: 24vw;
         margin-top: 2vw;
     }
 
     .actionDetailContainer .takePulsarImg, .actionDetailContainer .activatePulsarImg {
-        width: 34vw;
+        width: 27vw;
     }
 
     .priorityDivider {
@@ -1798,7 +1798,8 @@ p.decreaseTrack {
     }
 
     #currentInstructions p {
-        font-size: 4.5vw!important;
+        font-size: 4vw!important;
+        line-height: 4vw;
     }
 
     #dicePhaseContainer {
@@ -1951,20 +1952,20 @@ p.decreaseTrack {
     }
 
     #markerToMoveButtons[btns="1"] {
-        width: 38vw;
+        width: 33vw;
         margin: 0 auto;
     }
 
     #markerToMoveButtons[btns="2"] {
-        width: 77vw;
+        width: 67vw;
         margin: 3vw auto 0vw;
     }
 
     #cancelMarkerToMove.btn, #nextMarkerToMove.btn, #confirmMarkerToMove.btn {
         width: 24vw;
         margin: 0vw 2vw 0vw;
-        padding: 2.7vw 4.9vw;
-        font-size: 5vw;
+        padding: 2.7vw 1.9vw;
+        font-size: 4.2vw;
         border-radius: 2.1vw;
     }
 
@@ -2060,6 +2061,13 @@ p.decreaseTrack {
     .helpToken {
         width: 5vw;
         margin-right: 2vw;
+    }
+
+    .confirmationBox.alertEl.confirmMarkerSelection {
+        margin-left: -45vw;
+        width: 90vw;
+        padding: 0vw 8vw 5vw;
+        top: 9%;
     }
 
 }
