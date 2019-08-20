@@ -2013,28 +2013,28 @@ p.decreaseTrack {
     }
 
     .flyShipPlanetImg {
-        width: 31vw;
+        width: 26vw;
         margin: 0vw auto 0vw;
     }
 
     .flyShipPlanetandPlanetOrPulsarImg {
-        width: 45vw;
+        width: 39vw;
         margin: -2vw auto 0vw;
     }
 
     .flyShipPlanetandPlanetPlanetPulsarImg {
-        width: 52vw;
+        width: 48vw;
         margin: 0vw auto 0px;
     }
 
     .transmitterActionImg {
-        width: 25.7vw;
-        margin: 0vw 0vw 0vw 1.8vw;
+        width: 23.7vw;
+        margin: 0vw 0vw 0vw 3vw;
     }
 
     .technology1Img, .technology2Img, .technology3Img, .technology4Img, .technology5Img, .technology6Img {
-        width: 43vw;
-        margin-left: 8vw;
+        width: 34vw;
+        margin-left: 12.6vw;
     }
 
     .confirmationBox.alertEl.roundStartSummaryContainer h3 {
