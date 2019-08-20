@@ -1628,7 +1628,7 @@ p.decreaseTrack {
 
     .confirmationBox a {
         margin: 0vw 2.3vw 0px;
-        padding: 2.8vw 10vw;
+        padding: 2.8vw 7vw;
         font-size: 5vw;
         width: 12vw;
         float: left;
@@ -1758,7 +1758,7 @@ p.decreaseTrack {
     }
 
     #actionPhaseLayer .roundInfo {
-        width: 83vw;
+        width: 88vw;
         margin: 0 auto;
         float: none;
     }
