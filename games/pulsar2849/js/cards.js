@@ -120,32 +120,32 @@ var actionDesc = {
         actionBreakdown: [
             {
                 diceTrigger: [1],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x1',
                 image: 'technology1'
             },
             {
                 diceTrigger: [2],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x2',
                 image: 'technology2'
             },
             {
                 diceTrigger: [3],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x3',
                 image: 'technology3'
             },
             {
                 diceTrigger: [4],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x4',
                 image: 'technology4'
             },
             {
                 diceTrigger: [5],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x5',
                 image: 'technology5'
             },
             {
                 diceTrigger: [6],
-                fullDesc: '<p>SID takes the first available technology from left to right, highest to lowest.</p><p>Do not count any technologies which you have already claimed, but skip over these instead.</p>',
+                fullDesc: 'Technology x6',
                 image: 'technology6'
             },
 
@@ -157,17 +157,17 @@ var actionDesc = {
         actionBreakdown: [
             {
                 diceTrigger: [1, 2],
-                fullDesc: '<p>SID travels to the next system and places a token on blue planet.</p>',
+                fullDesc: 'Ship -> Planet',
                 image: 'flyShipPlanet'
             },
             {
                 diceTrigger: [3, 4],
-                fullDesc: '<p>SID travels to the next system and afterwards either to another system or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p>',
+                fullDesc: 'Ship -> Planet -> Pulsar / Planet',
                 image: 'flyShipPlanetandPlanetOrPulsar'
             },
             {
                 diceTrigger: [5, 6],
-                fullDesc: '<p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system and claims one of the isolated pulsars (if possible).</p>',
+                fullDesc: 'Ship -> Planet -> Planet -> Pulsar',
                 image: 'flyShipPlanetandPlanetPlanetPulsar'
             },
         ]
@@ -179,36 +179,36 @@ var actionDesc = {
             [
                 {
                     diceTrigger: [1, 2],
-                    fullDesc: 'SID takes the left transmitter.',
+                    fullDesc: '3 Transmitters - Remove Left',
                     image: '3-transmitters-left'
                 },
                 {
                     diceTrigger: [3, 4],
-                    fullDesc: 'SID takes the middle transmitter.',
+                    fullDesc: '3 Transmitters - Remove Middle',
                     image: '3-transmitters-middle'
                 },
                 {
                     diceTrigger: [5, 6],
-                    fullDesc: 'SID takes the right transmitter.',
+                    fullDesc: '3 Transmitters - Remove Right',
                     image: '3-transmitters-right'
                 }
             ], 
             [
                 {
                     diceTrigger: [1, 2, 3],
-                    fullDesc: 'SID takes the left transmitter.',
+                    fullDesc: '2 Transmitters - Remove Left',
                     image: '2-transmitters-left'
                 },
                 {
                     diceTrigger: [4, 5, 6],
-                    fullDesc: 'SID takes the right transmitter.',
+                    fullDesc: '2 Transmitters - Remove Right',
                     image: '2-transmitters-right'
                 }
             ], 
             [
                 {
                     diceTrigger: [1, 2, 3, 4, 5, 6],
-                    fullDesc: 'SID takes the last remaining transmitter.'
+                    fullDesc: '1 Transmitter - Remove'
                 }
             ]
         ]
