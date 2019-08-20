@@ -557,6 +557,7 @@ p.decreaseTrack {
     position: absolute;
     width: 34px;
     top: -41px;
+    z-index: 2;
 }
 
 .median.left {
@@ -959,6 +960,18 @@ p.decreaseTrack {
 .helpToken {
     width: 28px;
     margin-right: 10px;
+}
+
+#tiedRoutesContainer {
+    height:100px;
+    margin-bottom:-25px;
+}
+
+#tiedRoutesSelect {
+    width: 190px;
+    font-size: 18px;
+    padding: 7px;
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 949px) {
@@ -1536,6 +1549,18 @@ p.decreaseTrack {
         margin-right: 1vw;
     }
 
+    #tiedRoutesContainer {
+        height: 12vw;
+        margin-bottom: -2vw;
+    }
+
+    #tiedRoutesSelect {
+        width: 27vw;
+        font-size: 2.5vw;
+        padding: 1vw;
+        margin-bottom: 2vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1764,7 +1789,7 @@ p.decreaseTrack {
     }
 
     .diceBoxContainer {
-        width: 85vw;
+        width: 86vw;
         margin: 0vw auto;
     }
 
@@ -1795,6 +1820,7 @@ p.decreaseTrack {
         width: 81vw;
         padding: 2vw;
         margin: 3vw auto 2vw;
+        border-radius: 4vw;
     }
 
     #currentInstructions p {
@@ -2077,6 +2103,29 @@ p.decreaseTrack {
 
     .confirmationBox.alertEl.firstPlayerAlert .buttons[btns="1"] {
         width: 30vw!important;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer {
+        margin-left: -45vw;
+        width: 90vw;
+        top: 4%;
+    }
+
+    .confirmationBox.alertEl.roundStartSummaryContainer p {
+        font-size: 3.5vw!important;
+        margin-bottom: 4vw;
+    }
+
+    #tiedRoutesContainer {
+        height: 16vw;
+        margin-bottom: 0vw;
+    }
+
+    #tiedRoutesSelect {
+        width: 40vw;
+        font-size: 4vw;
+        padding: 1vw;
+        margin-bottom: 3vw;
     }
 
 }
