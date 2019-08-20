@@ -85,7 +85,7 @@ a {
     cursor: hand;
     cursor: pointer;
     width: 60px;
-    z-index: 4;
+    z-index: 9;
 }
 
 #menuIcon.active {
