@@ -52,19 +52,26 @@ var helpContent = [
                         name: 'Ship -> Planet',
                         id: 'flyShipPlanet',
                         classes: ['flyShipPlanet'],
-                        content: '<img class="quarterWidth" src="img/actions/flyShipPlanet.png"><p>SID travels to the next system and places a token on blue planet.</p><img class="halfWidth" src="img/help/flyNextPlanet.jpg">'
+                        content: '<img class="quarterWidth" src="img/actions/flyShipPlanet.png"><p>SID travels to the next system and places a token on blue planet.</p><p>If there are multiple routes that meet this criteria, <a class="helpLink helpLink-flyShipTieBreaker" href="#">click here to access the tie breaker function</a>.</p><img class="halfWidth" src="img/help/flyNextPlanet.jpg">'
                     },
                     {
                         name: 'Ship -> Planet -> Pulsar / Planet',
                         id: 'flyShipPlanetandPlanetOrPulsar',
                         classes: ['flyShipPlanetandPlanetOrPulsar'],
-                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetOrPulsar.png"><p>SID travels to the next system and afterwards either to another system or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPlanet.jpg">'
+                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetOrPulsar.png"><p>SID travels to the next system and afterwards either to another system or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p><p>If there are multiple routes that meet this criteria, <a class="helpLink helpLink-flyShipTieBreaker" href="#">click here to access the tie breaker function</a>.</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPlanet.jpg">'
                     },
                     {
                         name: 'Ship -> Planet -> Planet -> Pulsar',
                         id: 'flyShipPlanetandPlanetPlanetPulsar',
                         classes: ['flyShipPlanetandPlanetPlanetPulsar'],
-                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetPlanetPulsar.png"><p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system and claims one of the isolated pulsars (if possible).</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPulsar.jpg">'
+                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetPlanetPulsar.png"><p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system and claims one of the isolated pulsars (if possible).</p><p>If there are multiple routes that meet this criteria, <a class="helpLink helpLink-flyShipTieBreaker" href="#">click here to access the tie breaker function</a>.</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPulsar.jpg">'
+                    },
+                    {
+                        name: 'Fly Ship Tie Breaker',
+                        id: 'flyShipTieBreaker',
+                        classes: ['flyShipTieBreaker'],
+                        content: '<p>If there\'s a tie for routes, input the number below to choose one.</p><div id="tiedRoutesContainer"><select id="tiedRoutesSelect" name="tiedRoutesList" class="tiedRoutes"><option value="" disabled selected>Number of Routes</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><p id="chosenRouteText" class="bold italic">SID takes the <span class="chosenRoute underline"></span> route.</p></div>'
+
                     }
                 ]
             },
