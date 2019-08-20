@@ -52,19 +52,19 @@ var helpContent = [
                         name: 'Ship -> Planet',
                         id: 'flyShipPlanet',
                         classes: ['flyShipPlanet'],
-                        content: '<img class="quarterWidth" src="img/actions/flyShipPlanet.png"><p>SID travels to the next system and places a token on blue planet.</p>'
+                        content: '<img class="quarterWidth" src="img/actions/flyShipPlanet.png"><p>SID travels to the next system and places a token on blue planet.</p><img class="halfWidth" src="img/help/flyNextPlanet.jpg">'
                     },
                     {
                         name: 'Ship -> Planet -> Pulsar / Planet',
                         id: 'flyShipPlanetandPlanetOrPulsar',
                         classes: ['flyShipPlanetandPlanetOrPulsar'],
-                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetOrPulsar.png"><p>SID travels to the next system and afterwards either to another system or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p>'
+                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetOrPulsar.png"><p>SID travels to the next system and afterwards either to another system or a pulsar.</p><p>Whether a pulsar or a system is navigated to depends on distance. If there is a tie, occupy the pulsar.</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPlanet.jpg">'
                     },
                     {
                         name: 'Ship -> Planet -> Planet -> Pulsar',
                         id: 'flyShipPlanetandPlanetPlanetPulsar',
                         classes: ['flyShipPlanetandPlanetPlanetPulsar'],
-                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetPlanetPulsar.png"><p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system and claims one of the isolated pulsars (if possible).</p>'
+                        content: '<img class="halfWidth" src="img/actions/flyShipPlanetandPlanetPlanetPulsar.png"><p>SID travels through two systems and claims a pulsar after.</p><p>If SID can\'t reach a pulsar, it stays on the second system and claims one of the isolated pulsars (if possible).</p><img class="halfWidth" src="img/help/flyTwoSystemsClaimPulsar.jpg">'
                     }
                 ]
             },
@@ -72,7 +72,7 @@ var helpContent = [
                 name: 'Take Transmitter',
                 id: 'takeTransmitter',
                 classes: ['takeTransmitter'],
-                content: '<p>When SID claims a transmitter, simply take it from among the available transmitters and set it aside to signify it\'s not available for the human player to acquire.</p><p>The number below the transmitter shows that if there is that many transmitters present, SID will take the left / middle / right transmitter from the available collection.</p><img class="quarterWidth" src="img/help/3-transmitters-example.png"><p>In the above example, if there are 3 transmitters currently present, then SID will take the middle one.</p><img class="halfWidth" src="img/help/3-transmitters-middle.jpg"><p>If there is only 1 transmitter currently present, then SID claims that one.</p>'
+                content: '<p>When SID claims a transmitter, simply take it from among the available transmitters and set it aside to signify it\'s not available for the human player to acquire.</p><p>The number below the transmitter shows that if there is that many transmitters present, SID will take the left / middle / right transmitter from the available collection.</p><p>If there is only 1 transmitter currently present, then SID claims that one.</p><img class="quarterWidth" src="img/help/3-transmitters-example.png"><p>In the above example, if there are 3 transmitters currently present, then SID will take the middle one.</p><img class="halfWidth" src="img/help/3-transmitters-middle.jpg">'
             },
             {
                 name: 'Take Technology',
