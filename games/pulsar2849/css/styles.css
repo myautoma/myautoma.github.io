@@ -1820,6 +1820,7 @@ p.decreaseTrack {
         width: 36vw;
         height: 5vw;
         margin-left: 2vw;
+        margin-top: .5vw;
     }
 
     .turnOrderContainer .orderToken {
