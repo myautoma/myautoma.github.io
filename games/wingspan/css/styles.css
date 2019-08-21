@@ -1543,8 +1543,13 @@ table#roundMarkerTable2 {
 		float: none;
 	}
 
-	#roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
+	#roundBonusImgContainer .roundBonusImgs {
 		width: 16vw;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs img {
+		width: 15.5vw;
+		margin: .2vw;
 	}
 
 	#roundBonusImgContainer .roundBonusImgs {
