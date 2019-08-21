@@ -1530,6 +1530,7 @@ table#roundMarkerTable2 {
 	#roundBonusLayer {
 		margin: 4vw auto 2vw!important;
 		width: 100%!important;
+		height: 165vw;
 	}
 
 	#roundBonusCardContainer {
