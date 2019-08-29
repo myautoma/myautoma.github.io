@@ -1245,6 +1245,11 @@ input[type=range]:focus::-ms-fill-upper {
         margin: 0 auto;
     }
 
+    .ongoingAbility {
+        width: 44vw;
+        margin: 0 auto;
+    }
+
     .ongoingAbilityPopup img {
         border: 1vw solid #000;
         box-shadow: 1vw 1vw 1vw #BBB;
@@ -1253,9 +1258,14 @@ input[type=range]:focus::-ms-fill-upper {
         width: 35vw;
     }
 
+    .ongoingAbility p {
+        margin: 2vw 0vw 0vw 0vw;
+    }
+
     #cardArea {
         width: 84vw;
         padding-top: 0vw;
+        margin: 2.5vw auto 0vw;
     }
 
     .slide-card-container {
@@ -1497,26 +1507,31 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media screen and (max-width: 599px) {
 
+    .confirmationBox {
+        font-size: 4vw;
+        line-height: 4.2vw;
+    }
+
     .fullScreenOverlay h2 {
         margin: 3vw 0 6vw 5vw;
     }
 
     .tooltip {
-        top: 1.6vw;
-        right: -29.9vw;
+        top: 2.3vw;
+        right: -26.9vw;
     }
 
     .tooltiptext p, .tooltiptext li {
-        font-size: 5.5vw!important;
+        font-size: 4.5vw!important;
     }
 
     .tooltip .tooltiptext {
-        width: 82vw;
+        width: 73vw;
         padding: 3.5vw 3vw;
     }
 
     .helpImage {
-        width: 9vw;
+        width: 8vw;
         right: 0vw;
         top: 0vw;
     }
@@ -1869,6 +1884,7 @@ input[type=range]:focus::-ms-fill-upper {
     .gameActionInfo {
         width: 85vw;
         margin: 0 auto;
+        height: 36vw;
     }
 
     .gameActionInfo #table-container {
@@ -1912,54 +1928,54 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #cardArea {
-        width: 90vw;
+        width: 82vw;
         padding-top: 0vw;
         margin-top: 3.5vw;
     }
 
     .slide-card-container {
-        width: 90vw;
-        height: 94vw;
+        width: 82vw;
+        height: 85vw;
         padding: 2vw 0vw;
     }
 
     .slide-card {
-        width: 60vw;
+        width: 54vw;
+    }
+
+    .slideCardContent {
+        width: 54vw;
+        height: 85vw;
     }
 
     @-webkit-keyframes startToMainAnimation {
-        0% {left:-63vw}
+        0% {left:-57vw}
         100% {left:-3vw}
     }
 
     @keyframes startToMainAnimation {
-        0% {left:-63vw}
+        0% {left:-57vw}
         100% {left:-3vw}
     }
 
     @-webkit-keyframes mainToSupportAnimation {
         0% {left:-3vw}
-        100% {left:57vw}
+        100% {left:51vw}
     }
 
     @keyframes mainToSupportAnimation {
         0% {left:-3vw}
-        100% {left:57vw}
+        100% {left:51vw}
     }
 
     @-webkit-keyframes supportToExitAnimation {
-        0% {left:57vw}
-        100% {left:117vw}
+        0% {left:51vw}
+        100% {left:105vw}
     }
 
     @keyframes supportToExitAnimation {
-        0% {left:57vw}
-        100% {left:117vw}
-    }
-
-    .slideCardContent {
-        width: 60vw;
-        height: 94vw;
+        0% {left:51vw}
+        100% {left:105vw}
     }
 
     .confirmationBox.ongoingAbilityPopup {
@@ -1969,44 +1985,44 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .passingIcon {
-        width: 7vw;
-        top: 3.95vw;
-        left: 21.985vw;
+        width: 6.8vw;
+        top: 3.1vw;
+        left: 19.6vw;
     }
 
     .passingRoundBooster {
         position: absolute;
-        width: 3vw;
-        top: 14vw;
+        width: 2.7vw;
+        top: 12.9vw;
     }
 
     .roundBooster1 {
-        left: 20vw;
+        left: 18.5vw;
     }
 
     .roundBooster2 {
-        left: 24vw;
+        left: 21.8vw;
     }
 
     .roundBooster3 {
-        left: 27.5vw;
+        left: 24.8vw;
     }
 
     .supportColumn {
-        width: 18vw;
-        left: 1vw;
-        top: 7vw;
+        width: 14vw;
+        left: 2vw;
+        top: 6.2vw;
     }
 
     .supportColumn img {
-        width: 10vw;
-        margin: 0vw auto 4vw;
+        width: 8.5vw;
+        margin: 0vw auto 4.4vw;
     }
 
     .actionColumn {
-        left: 31vw;
-        top: 26vw;
-        width: 19vw;
+        left: 27vw;
+        top: 22vw;
+        width: 18vw;
     }
 
     .actionColumn .buildMineAction {
@@ -2026,7 +2042,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .actionColumn .advanceRandomResearchAreaAction {
-        width: 13vw;
+        width: 11vw;
     }
 
     .actionColumn .powerQICAction {
@@ -2034,11 +2050,11 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #passInstructions {
-        width: 45vw;
-        height: 45vw;
-        left: 29vw;
+        width: 39.5vw;
+        height: 43vw;
+        left: 26vw;
         top: 4vw;
-        padding: 11vw 1vw 3vw;
+        padding: 5vw 1vw 3vw;
         border-radius: 4vw;
     }
 
@@ -2060,35 +2076,35 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .vpImage {
-        width: 12vw;
-        bottom: 15.7vw;
-        right: 4vw;
+        width: 11vw;
+        bottom: 14.2vw;
+        right: 2vw;
     }
 
     .supportColumnActivator {
         width: 8.3vw;
         right: 0vw;
-        top: 11vw;
+        top: 10vw;
     }
 
     .supportColumnActivator img {
         width: 8vw;
-        margin-bottom: 8.9vw;
+        margin-bottom: 7.3vw;
     }
 
     .cardNumImage {
-        top: 85.1vw;
-        left: 23.19vw;
-        width: 4.8vw;
+        top: 76.4vw;
+        left: 20.8vw;
+        width: 4.5vw;
     }
 
     #endRoundGoalVPSection .endOfRoundGoalSummaryImage {
-        margin-right: 3vw;
+        margin-right: 1vw;
         width: 31vw;
     }
 
     #endRoundGoalVPSection .endOfRoundGoalSummaryImage .goalImage {
-        width: 30vw;
+        width: 26vw;
     }
 
     .endRoundGoalCircle {
