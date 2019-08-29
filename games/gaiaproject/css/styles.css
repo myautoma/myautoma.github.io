@@ -1507,7 +1507,8 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tooltip .tooltiptext {
-        width: 81vw;
+        width: 82vw;
+        padding: 3.5vw 3vw;
     }
 
     .helpImage {
@@ -1884,6 +1885,10 @@ input[type=range]:focus::-ms-fill-upper {
         margin-top: 1vw;
     }
 
+    .ongoingAbility p {
+        margin: 1vw 0vw 0vw 0vw;
+    }
+
     .ongoingAbility {
         width: 84vw;
         margin: 0 auto;
@@ -1904,6 +1909,7 @@ input[type=range]:focus::-ms-fill-upper {
     #cardArea {
         width: 90vw;
         padding-top: 0vw;
+        margin-top: 3.5vw;
     }
 
     .slide-card-container {
