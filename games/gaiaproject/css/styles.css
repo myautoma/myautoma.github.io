@@ -877,6 +877,10 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
+    h1 {
+        font-size: 5.2vw;
+    }
+
     .tooltip {
         top: 1.4vw;
         right: -21.3vw;
@@ -897,7 +901,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 4vw;
         margin-bottom: 3vw;
     }
 
