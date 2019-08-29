@@ -1720,7 +1720,6 @@ input[type=range]:focus::-ms-fill-upper {
         width: 88vw;
         padding: 0px 6vw 6vw;
         top: 3%;
-        font-size: 4.5vw!important;
     }
 
     .confirmationBox.automaPiecesSetup a {
