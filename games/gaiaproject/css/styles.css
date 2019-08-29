@@ -952,7 +952,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #endOfGameGoalsContainer {
         width: 22vw;
-        margin: -8vw auto 2vw;
+        margin: -2vw auto 2vw;
         float: none;
     }
 
@@ -1898,7 +1898,8 @@ input[type=range]:focus::-ms-fill-upper {
         border: 1vw solid #000;
         box-shadow: 1vw 1vw 1vw #BBB;
         border-radius: 2vw;
-        margin-bottom: 3vw;
+        display:block;
+        margin: 2vw auto 6vw;
         width: 64vw;
     }
 
