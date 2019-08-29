@@ -1647,7 +1647,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #automaFactionInfoContainer {
         width: 91vw;
-        height: 62vw;
+        height: 64vw;
         margin-bottom: 3vw;
     }
 
@@ -1689,6 +1689,10 @@ input[type=range]:focus::-ms-fill-upper {
 
     #automaFactionSetup {
         padding: 0vw 4vw;
+    }
+
+    #automaFactionSetup p {
+        font-size: 3.5vw;
     }
 
     .confirmationBox.automaPiecesSetup {
