@@ -1,0 +1,2175 @@
+.tooltiptext p, .tooltiptext li {
+    font-size: 25px;
+}
+
+.tooltip {
+    top: 4px;
+    right: -136px;
+}
+
+.tooltip .tooltiptext {
+    width: 389px;
+}
+
+#cardArea {
+	width: 410px;
+	padding-top: 0px;
+}
+
+.slide-card-container {
+    position: relative;
+    overflow: hidden;
+    width: 414px;
+    height: 402px;
+    padding: 10px 0px;
+}
+
+.slide-card {
+	position: relative;
+	border-radius: 20px;
+	/* overflow: hidden; */
+	/* box-shadow: 2px 2px 8px #AAA; */
+    width: 270px;
+	top:0;
+	position:absolute;
+}
+
+.slide-card.startToMain {
+	-webkit-animation: startToMainAnimation 1s ease-in-out forwards;
+    animation: startToMainAnimation 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes startToMainAnimation {
+    0% {left:-266px}
+    100% {left:0px}
+}
+
+@keyframes startToMainAnimation {
+    0% {left:-266px}
+    100% {left:0px}
+}
+
+.slide-card.startToMain {
+	-webkit-animation: startToMainAnimation 1s ease-in-out forwards;
+    animation: startToMainAnimation 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes startToMainAnimation {
+    0% {left:-266px}
+    100% {left:4px}
+}
+
+@keyframes startToMainAnimation {
+    0% {left:-266px}
+    100% {left:4px}
+}
+
+.slide-card.mainToSupport {
+	-webkit-animation: mainToSupportAnimation 1s ease-in-out forwards;
+    animation: mainToSupportAnimation 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes mainToSupportAnimation {
+    0% {left:4px}
+    100% {left:270px}
+}
+
+@keyframes mainToSupportAnimation {
+    0% {left:4px}
+    100% {left:270px}
+}
+
+.slide-card.supportToExit {
+	-webkit-animation: supportToExitAnimation 1s ease-in-out forwards;
+    animation: supportToExitAnimation 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes supportToExitAnimation {
+    0% {left:270px}
+    100% {left:530px}
+}
+
+@keyframes supportToExitAnimation {
+    0% {left:270px}
+    100% {left:530px}
+}
+
+.slide-card .tooltip {
+	opacity: 0;
+	-webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.slide-card .supportColumn, .slide-card .actionColumn, .slide-card .passingRoundBooster, .slide-card .supportColumnActivator {
+	opacity: 1;
+	-webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.slide-card.mainToSupport .supportColumnActivator, .slide-card.startToMain .passingRoundBooster, .slide-card.startToMain .supportColumn, .slide-card.mainToSupport .actionColumn, .slide-card.supportToExit .actionColumn, .slide-card.supportToExit .supportColumn {
+    opacity: 0.3;
+}
+
+.slide-card .tooltip.showHelp {
+    opacity: 1;
+}
+
+.gameActionInfo {
+    width: 220px;
+}
+
+.supportCardPos {
+	left: 190px;
+}
+
+.helpImage {
+    width: 45px;
+    right: 4px;
+    top: 1px;
+}
+
+.slideCardContent {
+    width: 270px;
+    height: 421px;
+    background-image: url('../img/blank-card.jpg');
+    background-size: cover; 
+    background-repeat:  no-repeat;
+    background-position: top left;
+}
+
+.passingIcon {
+    position: absolute;
+    width: 30.8px;
+    top: 18.3px;
+    left: 98.5px;
+}
+
+.passingRoundBooster {
+    position: absolute;
+    width: 13.5px;
+    top: 63px;
+}
+
+.roundBooster1 {
+    left: 90.7px;
+}
+
+.roundBooster2 {
+    left: 106.7px;
+}
+
+.roundBooster3 {
+    left: 122.7px;
+}
+
+.cardColumn {
+    position: absolute;
+}
+
+.supportColumn {
+    width: 74px;
+    left: 8px;
+    top: 32px;
+}
+
+.supportColumn img {
+    width: 47px;
+    display: block;
+    margin: 0px auto 17px;
+}
+
+.actionColumn {
+    margin-right: 0px;
+    left: 138px;
+    top: 120px;
+    width: 80px;
+}
+
+.actionColumn img {
+    display:block;
+    margin: 0 auto;
+}
+
+.actionColumn .advanceHighestResearchAreaAction {
+    width: 64px;
+}
+
+.actionColumn .advanceRandomResearchAreaAction {
+    width: 54px;
+}
+
+.actionColumn .buildMineAction {
+    width: 61px;
+}
+
+.actionColumn .factionActionAction {
+    width: 59px;
+}
+
+.actionColumn .powerQICAction {
+    width: 64px;
+}
+
+.actionColumn .upgradeAction {
+    width: 71px;
+}
+
+.supportColumnActivator {
+    width: 80px;
+    position: absolute;
+    right: -32px;
+    top: 57px;
+}
+
+.supportColumnActivator img {
+    width: 46px;
+    float: left;
+    margin-bottom: 32px;
+}
+
+.cardNumImage {
+    position: absolute;
+    top: 375px;
+    left: 103px;
+    width: 22px;
+}
+
+.vpImage {
+    width: 59px;
+    position: absolute;
+    bottom: 68px;
+    right: 15px;
+}
+
+#tierSelectionLayer .btn {
+	float:none;
+	margin:0 auto;
+}
+
+#tierSelectionLayer {
+	display:none;
+	width: 401px;
+    margin: 0 auto 30px;
+    font-size: 22px;
+}
+
+#difficultyExplanation {
+    font-size: 20px;
+    width: 310px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.slider {
+    width: 62%;
+    margin: 0 auto;
+    display: block;
+}
+
+.difficultyLevelText {
+	display:none;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 38px auto 50px;
+    width: 54%;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	/* margin-top: -14px; */
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 50px;
+	width: 25px;
+	margin-top:-20px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+	background: #3071a9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+	background: #367ebd;
+}
+
+#levelContainer {
+    width: 410px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto 40px;
+    box-shadow: #999 1px 1px 5px;
+    border-radius: 21px;
+    padding: 10px 30px 0px;
+    display: block;
+    border: 2px solid #676767;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+#levelContainer h3 {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 29px;
+}
+
+#levelContainer ul {
+	padding: 0px 10px 15px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+#levelContainer ul li {
+	margin-bottom:9px;
+	list-style:none;
+}
+
+#difficultyLevelButtons[btns="1"], #initialMineButtons[btns="1"] {
+    width: 213px;
+    margin: 40px auto 0;
+}
+
+#factionSelectionButtons[btns="2"], #factionSelectionButtons[btns="2"] {
+    width: 368px;
+    margin: 2px auto 0;
+}
+
+#factionSelectionButtons .btn {
+    float: left;
+    margin: 0px 12px;
+    width: 104px;
+}
+
+.confirmationBox.roundBoosterSelection {
+    top: 9%;
+    margin-left: -320px;
+    width: 640px;
+}
+
+.confirmationBox.automaRoundCleanup {
+    top: 6%;
+    margin-left: -350px;
+    text-align: left;
+    width: 750px;
+}
+
+.confirmationBox.automaRoundCleanup a {
+    width: 80px;
+}
+
+#roundGameGoalsLayer .buttons .btn, #boosterTilesLayer .buttons .btn, #technologyTilesLayer .buttons .btn, #factionSelectionLayer .buttons .btn, #difficultySelectionLayer .buttons .btn, #initialMinePlacementLayer .buttons .btn {
+    float:left;
+}
+
+#endOfRoundGoalsContainer {
+    position: relative;
+    height: 230px;
+    width: 385px;
+    float: left;
+    margin: 0px 40px 40px 36px;
+}
+
+#endOfRoundGoalsContainer img {
+    width: 108px;
+    position:absolute;
+}
+
+.endOfRoundGoal1 {
+    top: 107px;
+    left: -5px;
+    transform: rotate(-75deg);
+}
+
+.endOfRoundGoal2 {
+    top: 40px;
+    left: 33px;
+    transform: rotate(-45deg);
+}
+
+.endOfRoundGoal3 {
+    top: 0px;
+    left: 100px;
+    transform: rotate(-15deg);
+}
+
+.endOfRoundGoal4 {
+    top: 0px;
+    right: 100px;
+    transform: rotate(15deg);
+}
+
+.endOfRoundGoal5 {
+    top: 40px;
+    right: 33px;
+    transform: rotate(45deg);
+}
+
+.endOfRoundGoal6 {
+    top: 107px;
+    right: -5px;
+    transform: rotate(75deg);
+}
+
+#endOfGameGoalsContainer {
+    width: 133px;
+    margin: 0 auto 40px;
+    float: left;
+}
+
+#endOfGameGoalsContainer img {
+    float: left;
+    margin: 10px 10px 10px;
+    width: 127px;
+}
+
+#boosterTilesContainer {
+    margin: 30px auto 40px;
+    width: 540px;
+}
+
+#boosterTilesContainer img {
+    float: left;
+    margin: 0px 14px;
+    width: 80px;
+}
+
+#researchBoardContainer {
+    position: relative;
+    height: 430px;
+}
+
+.researchBoard {
+    width: 648px;
+    top: 60px;
+    position: absolute;
+    opacity: .4;
+}
+
+.researchFedToken {
+    position: absolute;
+    width: 75px;
+    top: 10px;
+    left: 20px;
+}
+
+#advTechnologyTilesContainer {
+    height: 90px;
+    width: 650px;
+    position: absolute;
+    top: 113px;
+    z-index: 2;
+}
+
+#advTechnologyTilesContainer img {
+    width: 89px;
+    margin: 0px 0px 0px 19px;
+    float: left;
+}
+
+#technologyTilesContainer {
+    height: 90px;
+    width: 650px;
+    position: absolute;
+    top: 221px;
+    z-index: 2;
+}
+
+#technologyTilesContainer img {
+    width: 108px;
+    margin: 0px 0px 14px 0px;
+    float: left;
+}
+
+#technologyTilesContainer img.normalTech7 {
+    margin-left: 43px;
+}
+
+#technologyTilesContainer img.lastThreeTechs {
+    margin: 0px 0px 0px 106px;
+}
+
+.technologyTilesTitle {
+    position:relative;
+}
+
+.endOfRoundGoalSummaryImage {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+
+#endRoundPassBoosterSection img {
+    float: left;
+    margin-right: 30px;
+    width: 86px;
+}
+
+#endRoundGoalVPSection .endOfRoundGoalSummaryImage {
+    float: left;
+    margin-right: 30px;
+    width: 130px;
+}
+
+#endRoundGoalVPSection .endOfRoundGoalSummaryImage .goalImage {
+    width: 131px;
+}
+
+.endRoundGoalCircle {
+    position: absolute;
+    top: 6px;
+    width: 34px;
+}
+
+.rounds1-3 {
+    left: 21px;
+}
+
+.rounds4-6 {
+    left: 76px;
+}
+
+#automaFactionInfoContainer {
+    width: 650px;
+    height: 420px;
+    margin: 0 auto;
+}
+
+.automaFactionSection {
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+#automaFactionSelectorContainer {
+    width: 370px;
+}
+
+#automaFactionSetup {
+    display: none;
+    padding: 0px 20px;
+}
+
+#automaFactionImageContainer {
+    width: 230px;
+    display: none;
+}
+
+#automaFactionImageContainer img, .helpFactionImg {
+    width: 220px;
+    border: 9px solid #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px #787878;
+}
+
+#automaFactionImageContainer img {
+    margin-top: 27px;
+}
+
+.helpFactionImg {
+    display:block;
+    margin:0 auto;
+}
+
+#automaActiveSelect {
+    margin: 12px auto 5px;
+    font-size: 20px;
+    display: block;
+    width: 180px;
+    padding: 5px 10px;
+}
+
+#passInstructions {
+    display:none;
+    position: absolute;
+    color: red;
+    width: 204px;
+    height: 198px;
+    left: 145px;
+    top: 14px;
+    background-color: #0000009c;
+    padding: 48px 4px 20px;
+    border-radius: 20px;
+}
+
+#passInstructions p {
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    line-height: 28px;
+    text-shadow: 2px 2px #000;
+}
+
+.rnd-VPs {
+    position: relative;
+}
+
+.rnd-VPs .animationBox {
+	transition: all 500ms linear!important;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    top: -5px;
+    right: -45px;
+    border-radius: 14px;
+	padding-top: 8px;
+	font-weight:bold;
+    color: #16b939;
+    font-size: 23px;
+    text-align: left;
+    font-family: 'Helvetica', sans-serif;
+    -webkit-transition: 800ms;
+	-moz-transition: 800ms;
+	-ms-transition: 800ms;
+	-o-transition: 800ms;
+	transition: 800ms;
+}
+
+.rnd-VPs.activeAnimation .animationBox {
+	opacity:1;
+}
+
+.mineFactionSentence {
+    display:none;
+}
+
+.directionalSupportImage {
+    display: block;
+    margin: 0 auto 30px;
+    width: 100px;
+}
+
+.ongoingAbility {
+    display:none;
+    width: 140px;
+    margin-left: 48px;
+}
+
+.ongoingAbility p {
+    text-decoration: underline;
+}
+
+.ongoingAbilityPopup img {
+    border: 6px solid #000;
+    box-shadow: 5px 5px 5px #BBB;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.confirmationBox.ongoingAbilityPopup {
+    top: 6%;
+    margin-left: -375px;
+    width: 750px;
+}
+
+.confirmationBox.automaPiecesSetup {
+    top: 10%;
+    margin-left: -350px;
+    width: 700px;
+}
+
+.helpMainActionImg {
+    float: right;
+    margin: 18px 20px 20px 40px;
+    width: 110px;
+}
+
+.automaRangeHelpImg {
+    float: left;
+    width: 90px;
+    margin-right: 30px;
+}
+
+.directionHelpImg {
+    float: left;
+    width: 45px;
+    margin-right: 20px;
+}
+
+.numberedHelpImg {
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.buildMineExampleTiebreaker {
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.buildMineExampleDirectionTiebreaker {
+    float: left;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.endScoringTable {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.endScoringTable td {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.endScoringTable th {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+
+.endScoringTable .endScoringTable-cly1 {
+    text-align:left;
+    vertical-align:middle
+}
+
+.endScoringTable .endScoringTable-1wig {
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top
+}
+
+.endScoringTable .endScoringTable-yla0 {
+    font-weight:bold;
+    text-align:left;
+    vertical-align:middle
+}
+
+.endScoringTable .endScoringTable-0lax {
+    text-align:left;
+    vertical-align:top
+}
+
+.buttons[btns="3"] {
+    width: 430px!important;
+}
+
+#boosterTilesLayer .buttons .btn:first-child,
+#technologyTilesLayer .buttons .btn:first-child,
+#factionSelectionLayer .buttons .btn:first-child {
+    float: none!important;
+    margin: 0 auto 20px;
+}
+
+.helpArrow {
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.helpTick {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.helpCross {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.helpTickColor {
+    color: #00d400;
+}
+
+.helpCrossColor {
+    color:red;
+}
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+    .tooltip {
+        top: 1.4vw;
+        right: -21.3vw;
+    }
+
+    .tooltiptext p, .tooltiptext li {
+        font-size: 3vw;
+    }
+
+    .tooltip .tooltiptext {
+        width: 49vw;
+    }
+
+    .helpImage {
+        width: 7vw;
+        right: 0vw;
+        top: 0vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .buttons[btns="3"] {
+        width: 45vw!important;
+    }
+
+    #boosterTilesLayer .buttons .btn:first-child, #technologyTilesLayer .buttons .btn:first-child, #factionSelectionLayer .buttons .btn:first-child {
+        margin: 0 auto 1.7vw;
+    }
+
+    #endOfRoundGoalsContainer {
+        height: 40vw;
+        width: 70vw;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #endOfRoundGoalsContainer img {
+        width: 20vw;
+    }
+
+    .endOfRoundGoal1 {
+        top: 19.4vw;
+        left: -1.5vw;
+    }
+
+    .endOfRoundGoal2 {
+        top: 7vw;
+        left: 5.6vw;
+    }
+
+    .endOfRoundGoal3 {
+        top: 0vw;
+        left: 17.9vw;
+    }
+
+    .endOfRoundGoal4 {
+        top: 0vw;
+        right: 17.9vw;
+    }
+
+    .endOfRoundGoal5 {
+        top: 7vw;
+        right: 5.6vw;
+    }
+
+    .endOfRoundGoal6 {
+        top: 19.4vw;
+        right: -1.5vw;
+    }
+
+    #endOfGameGoalsContainer {
+        width: 22vw;
+        margin: -8vw auto 2vw;
+        float: none;
+    }
+
+    #endOfGameGoalsContainer img {
+        float: left;
+        margin: 1vw 1vw 1vw;
+        width: 20vw;
+    }
+
+    #boosterTilesContainer {
+        margin: 2vw auto 3vw;
+        width: 84vw;
+    }
+
+    #boosterTilesContainer {
+        margin: 2vw auto 3vw;
+        width: 80vw;
+    }
+
+    #boosterTilesContainer img {
+        margin: 0vw 2vw;
+        width: 12vw;
+    }
+
+    #researchBoardContainer {
+        height: 55vw;
+    }
+
+    .researchBoard {
+        width: 85vw;
+        top: 8vw;
+    }
+    #advTechnologyTilesContainer {
+        height: 10vw;
+        width: 85vw;
+        top: 15vw;
+    }
+
+    #advTechnologyTilesContainer img {
+        width: 12vw;
+        margin: 0vw 0vw 0vw 2.05vw;
+    }
+
+    #technologyTilesContainer {
+        height: 11vw;
+        width: 85vw;
+        top: 29vw;
+    }
+
+    #technologyTilesContainer img {
+        width: 14.16vw;
+        margin: 0vw 0vw 2vw 0vw;
+    }
+
+    .researchFedToken {
+        width: 11vw;
+        top: 0vw;
+        left: 2vw;
+    }
+
+    #technologyTilesContainer img.normalTech7 {
+        margin-left: 6vw;
+    }
+
+    #technologyTilesContainer img.lastThreeTechs {
+        margin: 0vw 0vw 0vw 13.7vw;
+    }
+
+    #automaFactionInfoContainer {
+        width: 82vw;
+        height: 55vw;
+    }
+
+    #automaFactionSelectorContainer {
+        width: 45vw;
+    }
+
+    #automaActiveFactionContainer {
+        width: 45vw;
+    }
+
+    .automaFactionSection {
+        margin: 0vw 1vw 1vw 1vw;
+    }
+
+    #automaActiveSelect {
+        font-size: 2.53vw;
+        padding: .5vw 2vw;
+        width: 25vw;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #automaFactionImageContainer {
+        width: 32vw;
+    }
+
+    #automaFactionImageContainer img, .helpFactionImg {
+        margin-top: 3vw;
+        width: 30vw;
+        border: 1vw solid #000;
+        border-radius: 3vw;
+        box-shadow: 1vw 1vw 1vw #787878;
+    }
+
+    .confirmationBox.automaPiecesSetup {
+        margin-left: -44vw;
+        width: 88vw;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        margin: 3vw auto 2vw;
+        height: 12vw;
+        width: 74%;
+    }
+
+    input[type=range]:focus {
+        outline: none;
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2vw;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        background: #3071a9;
+        border-radius: .5vw;
+        border: .05vw solid #010101;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+        -webkit-appearance: none;
+        /* margin-top: -14px; */
+    }
+
+    input[type=range]:focus::-webkit-slider-runnable-track {
+        background: #367ebd;
+    }
+
+    input[type=range]::-moz-range-track {
+        width: 100%;
+        height: 8.4px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        background: #3071a9;
+        border-radius: .5vw;
+        border: .05vw solid #010101;
+    }
+
+    input[type=range]::-moz-range-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    input[type=range]::-ms-track {
+        width: 100%;
+        height: 8.4px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        border-width: 16px 0;
+        color: transparent;
+    }
+
+    input[type=range]::-ms-fill-lower {
+        background: #2a6495;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+    }
+
+    input[type=range]::-ms-fill-upper {
+        background: #3071a9;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+    }
+
+    input[type=range]::-ms-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    input[type=range]:focus::-ms-fill-lower {
+        background: #3071a9;
+    }
+
+    input[type=range]:focus::-ms-fill-upper {
+        background: #367ebd;
+    }
+
+    #levelContainer {
+        width: 62vw;
+        font-size: 2vw;
+        margin: 0 auto 6vw;
+        box-shadow: #999 0.2vw 0.2vw 1vw;
+        border-radius: 3vw;
+        padding: 2vw 4vw 2vw;
+        border: .4vw solid #676767;
+    }
+
+    #levelContainer h3 {
+        font-size: 4.6vw;
+    }
+
+    .directionalSupportImage {
+        margin: 0 auto 4vw;
+        width: 15vw;
+    }
+
+    .confirmationBox.roundBoosterSelection {
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    .confirmationBox.roundBoosterSelection img {
+        width: 46vw;
+    }
+
+    .gameActionInfo {
+        width: 86vw;
+    }
+
+    .rnd-VPs .animationBox {
+        width: 4vw;
+        height: 4vw;
+        top: -.65vw;
+        right: -4.5vw;
+        padding-top: 1vw;
+        font-size: 3.3vw;
+    }
+
+    #gameLayer .gameActionInfo .buttons[btns="3"] {
+        width: 67vw!important;
+    }
+
+    .gameActionInfo {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    .gameActionInfo #table-container {
+        height: 9vw;
+        width: 48vw;
+        margin: 0 auto;
+    }
+
+    #roundMarkerTable1 {
+        float: left;
+    }
+
+    #roundMarkerTable2 {
+        float: right;
+    }
+
+    #gameLayer .buttons .btn {
+        margin-top: 1vw;
+    }
+
+    .ongoingAbility {
+        width: 44vw;
+        margin: 0 auto;
+    }
+
+    .ongoingAbilityPopup img {
+        border: 1vw solid #000;
+        box-shadow: 1vw 1vw 1vw #BBB;
+        border-radius: 2vw;
+        margin-bottom: 2vw;
+        width: 35vw;
+    }
+
+    #cardArea {
+        width: 84vw;
+        padding-top: 0vw;
+    }
+
+    .slide-card-container {
+        width: 84vw;
+        height: 62vw;
+        padding: 2vw 0vw;
+    }
+
+    .slide-card {
+        width: 42vw;
+    }
+
+    @-webkit-keyframes startToMainAnimation {
+        0% {left:-42vw}
+        100% {left:0vw}
+    }
+
+    @keyframes startToMainAnimation {
+        0% {left:-42vw}
+        100% {left:0vw}
+    }
+
+    @-webkit-keyframes mainToSupportAnimation {
+        0% {left:0vw}
+        100% {left:42vw}
+    }
+
+    @keyframes mainToSupportAnimation {
+        0% {left:0vw}
+        100% {left:42vw}
+    }
+
+    @-webkit-keyframes supportToExitAnimation {
+        0% {left:42vw}
+        100% {left:84vw}
+    }
+
+    @keyframes supportToExitAnimation {
+        0% {left:42vw}
+        100% {left:84vw}
+    }
+
+    .slideCardContent {
+        width: 42vw;
+        height: 66vw;
+    }
+
+    .confirmationBox.ongoingAbilityPopup {
+        top: 6%;
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    .passingIcon {
+        width: 5vw;
+        top: 2.5vw;
+        left: 15.5vw;
+    }
+
+    .passingRoundBooster {
+        position: absolute;
+        width: 2vw;
+        top: 10vw;
+    }
+
+    .roundBooster1 {
+        left: 14vw;
+    }
+
+    .roundBooster2 {
+        left: 16.8vw;
+    }
+
+    .roundBooster3 {
+        left: 19.2vw;
+    }
+
+    .supportColumn {
+        width: 12vw;
+        left: 1vw;
+        top: 5vw;
+    }
+
+    .supportColumn img {
+        width: 7vw;
+        margin: 0vw auto 3vw;
+    }
+
+    .actionColumn {
+        left: 21vw;
+        top: 18vw;
+        width: 15vw;
+    }
+
+    .actionColumn .buildMineAction {
+        width: 9vw;
+    }
+
+    .actionColumn .upgradeAction {
+        width: 11vw;
+    }
+
+    .actionColumn .advanceHighestResearchAreaAction {
+        width: 10vw;
+    }
+
+    .actionColumn .factionActionAction {
+        width: 10vw;
+    }
+
+    .actionColumn .advanceRandomResearchAreaAction {
+        width: 9vw;
+    }
+
+    .actionColumn .powerQICAction {
+        width: 11vw;
+    }
+
+    #passInstructions {
+        width: 31vw;
+        height: 33vw;
+        left: 22vw;
+        top: 3vw;
+        padding: 2vw 1vw 3vw;
+        border-radius: 4vw;
+    }
+
+    #passInstructions p {
+        line-height: 4.5vw;
+        font-size: 3.5vw!important;
+    }
+
+    .confirmationBox.automaRoundCleanup {
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    #endRoundPassBoosterSection img {
+        margin-right: 3vw;
+        width: 11vw;
+    }
+
+    .vpImage {
+        width: 8vw;
+        bottom: 11vw;
+        right: 2vw;
+    }
+
+    .supportColumnActivator {
+        width: 6vw;
+        right: 0vw;
+        top: 9vw;
+    }
+
+    .supportColumnActivator img {
+        width: 6vw;
+        margin-bottom: 5.7vw;
+    }
+
+    .cardNumImage {
+        top: 59.1vw;
+        left: 16.1vw;
+        width: 3.5vw;
+    }
+
+    #endRoundGoalVPSection .endOfRoundGoalSummaryImage {
+        margin-right: 3vw;
+        width: 20vw;
+    }
+
+    #endRoundGoalVPSection .endOfRoundGoalSummaryImage .goalImage {
+        width: 20vw;
+    }
+
+    .endRoundGoalCircle {
+        position: absolute;
+        top: 1vw;
+        width: 5.2vw;
+    }
+
+    .rounds1-3 {
+        left: 3vw;
+    }
+
+    .rounds4-6 {
+        left: 11.6vw;
+    }
+
+    .confirmationBox.automaRoundCleanup a {
+        width: 10vw!important;
+    }
+
+    .helpMainActionImg {
+        margin: 1vw 1vw 1vw 5vw;
+        width: 16vw;
+    }
+
+    .automaRangeHelpImg {
+        width: 15vw;
+        margin-right: 3vw;
+    }
+
+    .endScoringTable {
+        width: 72vw;
+    }
+
+    .endScoringTable th {
+        font-size: 2vw;
+        padding: 2vw 2vw;
+    }
+
+    .endScoringTable td {
+        font-size: 2vw;
+        padding: 2vw 2vw;
+    }
+
+    .directionHelpImg {
+        width: 10vw;
+        margin-right: 3vw;
+    }
+
+    .numberedHelpImg {
+        width: 10vw;
+        margin-right: 3vw;
+        margin-bottom: 0vw;
+    }
+
+    .buildMineExampleTiebreaker {
+        width: 12vw;
+        margin-right: 3vw;
+    }
+
+    .buildMineExampleDirectionTiebreaker {
+        width: 10vw;
+        margin-right: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .fullScreenOverlay h2 {
+        margin: 3vw 0 6vw 5vw;
+    }
+
+    .tooltip {
+        top: 1.6vw;
+        right: -29.9vw;
+    }
+
+    .tooltiptext p, .tooltiptext li {
+        font-size: 5.5vw!important;
+    }
+
+    .tooltip .tooltiptext {
+        width: 81vw;
+    }
+
+    .helpImage {
+        width: 9vw;
+        right: 0vw;
+        top: 0vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+        line-height: 6vw;
+    }
+
+    .buttons[btns="3"] {
+        width: 74vw!important;
+    }
+
+    #boosterTilesLayer .buttons .btn:first-child, #technologyTilesLayer .buttons .btn:first-child, #factionSelectionLayer .buttons .btn:first-child {
+        margin: 0 auto 1.7vw;
+    }
+
+    #endOfRoundGoalsContainer {
+        height: 46vw;
+        width: 79vw;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #endOfRoundGoalsContainer img {
+        width: 23vw;
+    }
+
+    .endOfRoundGoal1 {
+        top: 22.2vw;
+        left: -2.5vw;
+    }
+
+    .endOfRoundGoal2 {
+        top: 8vw;
+        left: 5.6vw;
+    }
+
+    .endOfRoundGoal3 {
+        top: 0vw;
+        left: 19.8vw;
+    }
+
+    .endOfRoundGoal4 {
+        top: 0vw;
+        right: 19.8vw;
+    }
+
+    .endOfRoundGoal5 {
+        top: 8vw;
+        right: 5.6vw;
+    }
+
+    .endOfRoundGoal6 {
+        top: 22.2vw;
+        right: -2.5vw;
+    }
+
+    #endOfGameGoalsContainer {
+        width: 31vw;
+        margin: -8vw auto 4vw;
+        float: none;
+    }
+
+    #endOfGameGoalsContainer img {
+        float: left;
+        margin: 1vw 1vw 1vw;
+        width: 29vw;
+    }
+
+    #boosterTilesContainer {
+        margin: 2vw auto 3vw;
+        width: 84vw;
+    }
+
+    #boosterTilesContainer {
+        margin: 5vw auto 6vw;
+        width: 90vw;
+    }
+
+    #boosterTilesContainer img {
+        margin: 0vw 1vw;
+        width: 16vw;
+    }
+
+    #researchBoardContainer {
+        height: 58vw;
+        margin-bottom: 6vw;
+    }
+
+    .researchBoard {
+        width: 93vw;
+        top: 8vw;
+        left: -1vw;
+    }
+
+    #advTechnologyTilesContainer {
+        height: 11vw;
+        width: 91vw;
+        top: 15vw;
+    }
+
+    #advTechnologyTilesContainer img {
+        width: 13.1vw;
+        margin: 0vw 0vw 0vw 2.05vw;
+    }
+
+    #technologyTilesContainer {
+        height: 11vw;
+        width: 92vw;
+        top: 31.5vw;
+    }
+
+    #technologyTilesContainer img {
+        width: 15.3vw;
+        margin: 0vw 0vw 2vw 0vw;
+    }
+
+    .researchFedToken {
+        width: 12vw;
+        top: -1vw;
+        left: 1.4vw;
+    }
+
+    #technologyTilesContainer img.normalTech7 {
+        margin-left: 6vw;
+    }
+
+    #technologyTilesContainer img.lastThreeTechs {
+        margin: 0vw 0vw 0vw 14.7vw;
+    }
+
+    #automaFactionInfoContainer {
+        width: 91vw;
+        height: 59vw;
+        margin-bottom: 3vw;
+    }
+
+    #automaFactionSelectorContainer {
+        width: 51vw;
+    }
+
+    #automaActiveFactionContainer {
+        width: 51vw;
+    }
+
+    .automaFactionSection {
+        margin: 0vw 1vw 1vw 1vw;
+    }
+
+    #automaActiveSelect {
+        font-size: 3.73vw;
+        padding: 1.5vw 2vw;
+        width: 38vw;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #automaFactionImageContainer {
+        width: 36vw;
+    }
+
+    #automaFactionImageContainer img, .helpFactionImg {
+        margin-top: 3vw;
+        width: 33vw;
+        border: 1vw solid #000;
+        border-radius: 3vw;
+        box-shadow: 1vw 1vw 1vw #787878;
+    }
+
+     .helpFactionImg {
+        width: 61vw;
+    }
+
+    #automaFactionSetup {
+        padding: 0vw 4vw;
+    }
+
+    .confirmationBox.automaPiecesSetup {
+        margin-left: -44vw;
+        width: 88vw;
+        padding: 0px 6vw 6vw;
+        top: 3%;
+        font-size: 4.5vw!important;
+    }
+
+    .confirmationBox.automaPiecesSetup a {
+        width: 10vw;
+    }
+
+    input[type=range] {
+        -webkit-appearance: none;
+        margin: 4vw auto 4vw!important;
+        height: 12vw;
+        width: 74%;
+    }
+
+    input[type=range]:focus {
+        outline: none;
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2vw;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        background: #3071a9;
+        border-radius: .5vw;
+        border: .05vw solid #010101;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+        -webkit-appearance: none;
+        /* margin-top: -14px; */
+    }
+
+    input[type=range]:focus::-webkit-slider-runnable-track {
+        background: #367ebd;
+    }
+
+    input[type=range]::-moz-range-track {
+        width: 100%;
+        height: 8.4px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        background: #3071a9;
+        border-radius: .5vw;
+        border: .05vw solid #010101;
+    }
+
+    input[type=range]::-moz-range-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    input[type=range]::-ms-track {
+        width: 100%;
+        height: 8.4px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        border-width: 16px 0;
+        color: transparent;
+    }
+
+    input[type=range]::-ms-fill-lower {
+        background: #2a6495;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+    }
+
+    input[type=range]::-ms-fill-upper {
+        background: #3071a9;
+        border: 0.2px solid #010101;
+        border-radius: 2.6px;
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+    }
+
+    input[type=range]::-ms-thumb {
+        box-shadow: .2vw .2vw .2vw #000000, 0px 0px .2vw #0d0d0d;
+        border: .2vw solid #000000;
+        height: 10vw;
+        width: 5vw;
+        margin-top:-4.5vw;
+        border-radius: .4vw;
+        background: #ffffff;
+        cursor: pointer;
+    }
+
+    input[type=range]:focus::-ms-fill-lower {
+        background: #3071a9;
+    }
+
+    input[type=range]:focus::-ms-fill-upper {
+        background: #367ebd;
+    }
+
+    #levelContainer {
+        width: 73vw;
+        font-size: 3vw;
+        margin: 0 auto 8vw;
+        box-shadow: #999 0.2vw 0.2vw 1vw;
+        border-radius: 3vw;
+        padding: 2vw 4vw 2vw;
+        border: .4vw solid #676767;
+    }
+
+    #levelContainer h3 {
+        font-size: 5.6vw;
+    }
+
+    .directionalSupportImage {
+        margin: 0 auto 4vw;
+        width: 19vw;
+    }
+
+    .confirmationBox.roundBoosterSelection {
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    .confirmationBox.roundBoosterSelection a {
+        width: 13vw;
+    }
+
+    .confirmationBox.roundBoosterSelection img {
+        width: 66vw;
+    }
+
+    .gameActionInfo {
+        width: 86vw;
+    }
+
+    .rnd-VPs .animationBox {
+        width: 4vw;
+        height: 4vw;
+        top: -.65vw;
+        right: -4.5vw;
+        padding-top: 1vw;
+        font-size: 4.8vw;
+    }
+
+    #gameLayer .gameActionInfo .buttons[btns="3"] {
+        width: 77vw!important;
+    }
+
+    .gameActionInfo {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    .gameActionInfo #table-container {
+        height: 17vw;
+        width: 74vw;
+        margin: 0 auto;
+    }
+
+    #roundMarkerTable1 {
+        float: left;
+    }
+
+    #roundMarkerTable2 {
+        float: right;
+    }
+
+    #gameLayer .buttons .btn {
+        margin-top: 1vw;
+    }
+
+    .ongoingAbility {
+        width: 44vw;
+        margin: 0 auto;
+    }
+
+    .ongoingAbilityPopup img {
+        border: 1vw solid #000;
+        box-shadow: 1vw 1vw 1vw #BBB;
+        border-radius: 2vw;
+        margin-bottom: 3vw;
+        width: 64vw;
+    }
+
+    .ongoingAbilityPopup.confirmationBox a {
+        width: 12vw;
+    }
+
+    #cardArea {
+        width: 90vw;
+        padding-top: 0vw;
+    }
+
+    .slide-card-container {
+        width: 90vw;
+        height: 94vw;
+        padding: 2vw 0vw;
+    }
+
+    .slide-card {
+        width: 60vw;
+    }
+
+    @-webkit-keyframes startToMainAnimation {
+        0% {left:-63vw}
+        100% {left:-3vw}
+    }
+
+    @keyframes startToMainAnimation {
+        0% {left:-63vw}
+        100% {left:-3vw}
+    }
+
+    @-webkit-keyframes mainToSupportAnimation {
+        0% {left:-3vw}
+        100% {left:57vw}
+    }
+
+    @keyframes mainToSupportAnimation {
+        0% {left:-3vw}
+        100% {left:57vw}
+    }
+
+    @-webkit-keyframes supportToExitAnimation {
+        0% {left:57vw}
+        100% {left:117vw}
+    }
+
+    @keyframes supportToExitAnimation {
+        0% {left:57vw}
+        100% {left:117vw}
+    }
+
+    .slideCardContent {
+        width: 60vw;
+        height: 94vw;
+    }
+
+    .confirmationBox.ongoingAbilityPopup {
+        top: 6%;
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    .passingIcon {
+        width: 7vw;
+        top: 3.95vw;
+        left: 21.985vw;
+    }
+
+    .passingRoundBooster {
+        position: absolute;
+        width: 3vw;
+        top: 14vw;
+    }
+
+    .roundBooster1 {
+        left: 20vw;
+    }
+
+    .roundBooster2 {
+        left: 24vw;
+    }
+
+    .roundBooster3 {
+        left: 27.5vw;
+    }
+
+    .supportColumn {
+        width: 18vw;
+        left: 1vw;
+        top: 7vw;
+    }
+
+    .supportColumn img {
+        width: 10vw;
+        margin: 0vw auto 4vw;
+    }
+
+    .actionColumn {
+        left: 31vw;
+        top: 26vw;
+        width: 19vw;
+    }
+
+    .actionColumn .buildMineAction {
+        width: 14vw;
+    }
+
+    .actionColumn .upgradeAction {
+        width: 17vw;
+    }
+
+    .actionColumn .advanceHighestResearchAreaAction {
+        width: 15vw;
+    }
+
+    .actionColumn .factionActionAction {
+        width: 15vw;
+    }
+
+    .actionColumn .advanceRandomResearchAreaAction {
+        width: 13vw;
+    }
+
+    .actionColumn .powerQICAction {
+        width: 16vw;
+    }
+
+    #passInstructions {
+        width: 45vw;
+        height: 45vw;
+        left: 29vw;
+        top: 4vw;
+        padding: 11vw 1vw 3vw;
+        border-radius: 4vw;
+    }
+
+    #passInstructions p {
+        line-height: 6.5vw;
+        font-size: 4.5vw!important;
+    }
+
+    .confirmationBox.automaRoundCleanup {
+        margin-left: -45vw;
+        width: 90vw;
+        padding: 0px 4vw 6vw;
+        top: 3%;
+    }
+
+    #endRoundPassBoosterSection img {
+        margin-right: 5vw;
+        width: 17vw;
+    }
+
+    .vpImage {
+        width: 12vw;
+        bottom: 15.7vw;
+        right: 4vw;
+    }
+
+    .supportColumnActivator {
+        width: 8.3vw;
+        right: 0vw;
+        top: 11vw;
+    }
+
+    .supportColumnActivator img {
+        width: 8vw;
+        margin-bottom: 8.9vw;
+    }
+
+    .cardNumImage {
+        top: 85.1vw;
+        left: 23.19vw;
+        width: 4.8vw;
+    }
+
+    #endRoundGoalVPSection .endOfRoundGoalSummaryImage {
+        margin-right: 3vw;
+        width: 31vw;
+    }
+
+    #endRoundGoalVPSection .endOfRoundGoalSummaryImage .goalImage {
+        width: 30vw;
+    }
+
+    .endRoundGoalCircle {
+        position: absolute;
+        top: 2vw;
+        width: 6.6vw;
+    }
+
+    .rounds1-3 {
+        left: 3vw;
+    }
+
+    .rounds4-6 {
+        left: 18vw;
+    }
+
+    .confirmationBox.automaRoundCleanup a {
+        width: 17vw!important;
+    }
+
+    .confirmationBox.automaRoundCleanup .buttons[btns="1"] {
+        width: 46vw!important;
+    }
+
+    .helpMainActionImg {
+        margin: 4vw 1vw 1vw 5vw;
+        width: 22vw;
+    }
+
+    .automaRangeHelpImg {
+        width: 21vw;
+        margin-right: 3vw;
+    }
+
+    .endScoringTable {
+        width: 72vw;
+    }
+
+    .endScoringTable th {
+        font-size: 4vw;
+        padding: 2vw 2vw;
+    }
+
+    .endScoringTable td {
+        font-size: 4vw;
+        padding: 2vw 2vw;
+    }
+
+    .directionHelpImg {
+        width: 13vw;
+        margin-right: 3vw;
+    }
+
+    .numberedHelpImg {
+        width: 14vw;
+        margin-right: 3vw;
+        margin-bottom: 0vw;
+    }
+
+    .buildMineExampleTiebreaker {
+        width: 18vw;
+        margin-right: 3vw;
+    }
+
+    .buildMineExampleDirectionTiebreaker {
+        width: 13vw;
+        margin-right: 2vw;
+    }
+
+    #gameLayer > #cardArea > p.imageDisclaimer {
+        width: 86vw!important;
+        font-size: 3.4vw;
+        padding-top: 3vw;
+    }
+
+    .tiebreakerMoveList {
+        padding-left:0vw;
+    }
+
+    .tiebreakerMoveList ul {
+        padding-left:2vw;
+    }
+
+    .helpCross {
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
+    .helpTick {
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
+    .helpArrow {
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+}
