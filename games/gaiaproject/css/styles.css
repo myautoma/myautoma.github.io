@@ -1676,7 +1676,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #automaFactionImageContainer img, .helpFactionImg {
-        margin-top: 3vw;
+        margin-top: 7vw;
         width: 33vw;
         border: 1vw solid #000;
         border-radius: 3vw;
@@ -1868,7 +1868,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     .gameActionInfo #table-container {
         height: 17vw;
-        width: 74vw;
+        width: 81vw;
         margin: 0 auto;
     }
 
@@ -1885,7 +1885,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .ongoingAbility {
-        width: 44vw;
+        width: 84vw;
         margin: 0 auto;
     }
 
