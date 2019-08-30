@@ -1,3 +1,7 @@
+#gameLayer .buttons {
+    margin: 20px auto 0px;
+}
+
 .tooltiptext p, .tooltiptext li {
     font-size: 25px;
 }
@@ -701,7 +705,6 @@ input[type=range]:focus::-ms-fill-upper {
     border-radius: 14px;
 	padding-top: 8px;
 	font-weight:bold;
-    color: #16b939;
     font-size: 23px;
     text-align: left;
     font-family: 'Helvetica', sans-serif;
@@ -710,6 +713,14 @@ input[type=range]:focus::-ms-fill-upper {
 	-ms-transition: 800ms;
 	-o-transition: 800ms;
 	transition: 800ms;
+}
+
+.animationBox.addColor {
+    color: #16b939;
+}
+
+.animationBox.subtractColor {
+    color: red;
 }
 
 .rnd-VPs.activeAnimation .animationBox {
@@ -727,13 +738,15 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .ongoingAbility {
-    width: 140px;
-    margin-left: 48px;
+    display: none;
+    width: 223px;
+    height: 31px;
 }
 
 .ongoingAbility p {
-    display:none;
     text-decoration: underline;
+    margin: 0px 0px 0px 0px;
+    font-size: 24px!important;
 }
 
 .ongoingAbilityPopup img {
@@ -849,7 +862,7 @@ input[type=range]:focus::-ms-fill-upper {
 #technologyTilesLayer .buttons .btn:first-child,
 #factionSelectionLayer .buttons .btn:first-child {
     float: none!important;
-    margin: 0 auto 20px;
+    margin: 0 auto 12px;
 }
 
 .helpArrow {
@@ -875,6 +888,21 @@ input[type=range]:focus::-ms-fill-upper {
 .helpCrossColor {
     color:red;
 }
+
+.confirmationBox.adjustVPs {
+    top: 7%;
+    margin-left: -340px;
+    width: 680px;
+}
+
+#scoreAdjInput {
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    width: 40px;
+    font-size: 26px;
+    text-align: center;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -1217,8 +1245,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     .gameActionInfo {
         width: 85vw;
-        margin: 0 auto;
-        height: 23vw;
+        margin: 0 auto 3vw;
     }
 
     .gameActionInfo #table-container {
@@ -1242,12 +1269,12 @@ input[type=range]:focus::-ms-fill-upper {
     .ongoingAbility {
         width: 44vw;
         margin: 0 auto;
-        height: 3.2vw;
+        height: 4.6vw;
     }
 
     .ongoingAbility p {
         margin: 1.5vw 0vw 0vw 0vw;
-        font-size: 2.5vw!important;
+        font-size: 3.3vw!important;
     }
 
     .ongoingAbilityPopup img {
@@ -1495,6 +1522,35 @@ input[type=range]:focus::-ms-fill-upper {
         font-size: 2.4vw;
     }
 
+    .confirmationBox.ongoingAbilityPopup .buttons[btns="2"] {
+        width: 46vw!important;
+    }
+
+    .confirmationBox.ongoingAbilityPopup .buttons[btns="2"] a {
+        margin: 1vw 2vw 1vw!important;
+        padding: 1.89vw 4vw!important;
+        font-size: 3vw!important;
+        width: 11vw!important;
+    }
+
+    .confirmationBox.adjustVPs .buttons[btns="2"] {
+        width: 54vw!important;
+    }
+
+    .confirmationBox.adjustVPs .buttons a {
+        margin: 1vw 3vw 1vw!important;
+        padding: 1.89vw 4vw!important;
+        font-size: 3vw!important;
+        width: 13vw!important;
+    }
+
+    #scoreAdjInput {
+        padding: 1vw 1vw;
+        margin-bottom: 2vw;
+        width: 6vw;
+        font-size: 3.5vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1557,7 +1613,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #boosterTilesLayer .buttons .btn:first-child, #technologyTilesLayer .buttons .btn:first-child, #factionSelectionLayer .buttons .btn:first-child {
-        margin: 0 auto 1.7vw;
+        margin: 0 auto 2vw;
     }
 
     #endOfRoundGoalsContainer {
@@ -1894,7 +1950,6 @@ input[type=range]:focus::-ms-fill-upper {
     .gameActionInfo {
         width: 85vw;
         margin: 0 auto;
-        height: 36vw;
     }
 
     .gameActionInfo #table-container {
@@ -1922,13 +1977,13 @@ input[type=range]:focus::-ms-fill-upper {
 
     .ongoingAbility {
         width: 84vw;
-        margin: 0 auto 1.5vw;
-        height: 4vw;
+        margin: 0 auto 0.5vw;
+        height: 5vw;
     }
 
     .ongoingAbility p {
         margin: 1vw 0vw 0vw 0vw;
-        font-size: 4vw!important;
+        font-size: 5vw!important;
     }
 
     .ongoingAbilityPopup img {
@@ -2226,6 +2281,32 @@ input[type=range]:focus::-ms-fill-upper {
 
     #helpTextContainer .helpInfo ol {
         padding-left:0vw;
+    }
+
+    .confirmationBox.adjustVPs {
+        top: 3%;
+        margin-left: -45vw;
+        width: 90vw;
+    }
+
+    .confirmationBox.adjustVPs .buttons[btns="2"] {
+        width: 70vw;
+    }
+
+    .confirmationBox.adjustVPs a {
+        margin: 0vw 2.3vw 0px;
+        padding: 2.8vw 7vw;
+        font-size: 4vw;
+        width: 16vw;
+        float: left;
+    }
+
+    #scoreAdjInput {
+        padding: 1vw 1vw;
+        margin-bottom: 4vw;
+        width: 9vw;
+        font-size: 5vw;
+        text-align: center;
     }
 
 }
