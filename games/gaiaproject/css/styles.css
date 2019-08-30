@@ -2293,7 +2293,7 @@ input[type=range]:focus::-ms-fill-upper {
         width: 70vw;
     }
 
-    .confirmationBox.adjustVPs a {
+    .confirmationBox.adjustVPs .buttons a {
         margin: 0vw 2.3vw 0px;
         padding: 2.8vw 7vw;
         font-size: 4vw;
