@@ -764,7 +764,7 @@ var allFactions = [
         actionTrigger: {
             trigger: ['factionAction', 'upgrade', 'buildMine'],
             type: 'alert',
-            info: '<p><span class="bold">If the "Upgrade" action was successful</span> (either from the "Faction" action, "Upgrade" action, or an unsuccessful "Build Mine" action) <span class="bold">and the Automa upgraded to a research lab</span>, then the Automa advances in a random research area according to the support card tiebreaker.</p>',
+            info: '<p><span class="bold">If the Automa successfuly completed an upgrade</span> (either from the "Faction" action, "Upgrade" action, or an unsuccessful "Build Mine" action) <span class="bold">and the Automa upgraded to a research lab</span>, then the Automa advances in a random research area according to the support card tiebreaker.</p>',
         },
     },
     {
@@ -780,7 +780,7 @@ var allFactions = [
             trigger: ['buildMine'],
             type: 'confirm',
             info: '<p>If the "Build Mine" action was successful, did the Automa colonize a new planet type?</p>',
-            success: 'func-gpVPs-2'
+            success: 'func-gpVPs-2+add+true'
         },
     },
     {
@@ -795,8 +795,8 @@ var allFactions = [
         actionTrigger: {
             trigger: ['factionAction', 'upgrade', 'buildMine'],
             type: 'confirm',
-            info: '<p><span class="bold">If the "Upgrade" action was successful</span> (either from the "Faction" action, "Upgrade" action, or an unsuccessful "Build Mine" action), did the Automa <span class="bold">upgrade to a trading station?</span></p>',
-            success: 'func-gpVPs-3'
+            info: '<p><span class="bold">If the Automa successfuly completed an upgrade</span> (either from the "Faction" action, "Upgrade" action, or an unsuccessful "Build Mine" action), did the Automa <span class="bold">upgrade to a trading station?</span></p>',
+            success: 'func-gpVPs-3+add+true'
         },
     },
     {
@@ -843,7 +843,7 @@ var allFactions = [
             trigger: ['powerQIC'],
             type: 'alert',
             info: '<p>When taking a power/Q.I.C. action, the Automa resolves the effect twice using the same support card.</p>',
-            success: 'func-gpVPs-3'
+            success: 'func-gpVPs-3+add+true'
         },
     }
 ]
