@@ -877,6 +877,12 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
+    .confirmationBox {
+        top: 4%!important;
+        margin-left: -45vw!important;
+        width: 90vw!important;
+    }
+
     h1 {
         font-size: 5.2vw;
     }
@@ -1062,11 +1068,6 @@ input[type=range]:focus::-ms-fill-upper {
         box-shadow: 1vw 1vw 1vw #787878;
     }
 
-    .confirmationBox.automaPiecesSetup {
-        margin-left: -44vw;
-        width: 88vw;
-    }
-
     input[type=range] {
         -webkit-appearance: none;
         margin: 3vw auto 2vw;
@@ -1191,11 +1192,6 @@ input[type=range]:focus::-ms-fill-upper {
         width: 15vw;
     }
 
-    .confirmationBox.roundBoosterSelection {
-        margin-left: -45vw;
-        width: 90vw;
-    }
-
     .confirmationBox.roundBoosterSelection img {
         width: 46vw;
     }
@@ -1220,6 +1216,7 @@ input[type=range]:focus::-ms-fill-upper {
     .gameActionInfo {
         width: 85vw;
         margin: 0 auto;
+        height: 23vw;
     }
 
     .gameActionInfo #table-container {
@@ -1259,13 +1256,13 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .ongoingAbility p {
-        margin: 2vw 0vw 0vw 0vw;
+        margin: 1.5vw 0vw 0vw 0vw;
     }
 
     #cardArea {
         width: 84vw;
         padding-top: 0vw;
-        margin: 2.5vw auto 0vw;
+        margin: 1.5vw auto 0vw;
     }
 
     .slide-card-container {
@@ -1311,12 +1308,6 @@ input[type=range]:focus::-ms-fill-upper {
     .slideCardContent {
         width: 42vw;
         height: 66vw;
-    }
-
-    .confirmationBox.ongoingAbilityPopup {
-        top: 6%;
-        margin-left: -45vw;
-        width: 90vw;
     }
 
     .passingIcon {
@@ -1396,11 +1387,6 @@ input[type=range]:focus::-ms-fill-upper {
     #passInstructions p {
         line-height: 4.5vw;
         font-size: 3.5vw!important;
-    }
-
-    .confirmationBox.automaRoundCleanup {
-        margin-left: -45vw;
-        width: 90vw;
     }
 
     #endRoundPassBoosterSection img {
@@ -1501,6 +1487,11 @@ input[type=range]:focus::-ms-fill-upper {
     .buildMineExampleDirectionTiebreaker {
         width: 10vw;
         margin-right: 2vw;
+    }
+
+    #gameLayer > #cardArea > p.imageDisclaimer {
+        width: 82vw;
+        font-size: 2.4vw;
     }
 
 }
