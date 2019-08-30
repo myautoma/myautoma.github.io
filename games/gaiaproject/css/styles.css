@@ -657,8 +657,12 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .helpFactionImg {
-    display:block;
-    margin:0 auto;
+    float: left;
+    margin-right: 40px;
+}
+
+.helpFactionTiebreakers {
+    float: left;
 }
 
 #automaActiveSelect {
@@ -1096,8 +1100,8 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #automaFactionImageContainer img, .helpFactionImg {
-        margin-top: 3vw;
-        width: 30vw;
+        margin-top: 0vw;
+        width: 22vw;
         border: 1vw solid #000;
         border-radius: 3vw;
         box-shadow: 1vw 1vw 1vw #787878;
@@ -1556,6 +1560,10 @@ input[type=range]:focus::-ms-fill-upper {
         font-size: 3.5vw;
     }
 
+    #roundMarkerTable1.gameOver {
+        float: none!important;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1775,8 +1783,11 @@ input[type=range]:focus::-ms-fill-upper {
         box-shadow: 1vw 1vw 1vw #787878;
     }
 
-     .helpFactionImg {
-        width: 61vw;
+    .helpFactionImg {
+        width: 40vw;
+        display: block;
+        margin: 0 auto 4vw;
+        float: none;
     }
 
     #automaFactionSetup {
@@ -2312,6 +2323,10 @@ input[type=range]:focus::-ms-fill-upper {
         width: 9vw;
         font-size: 5vw;
         text-align: center;
+    }
+
+    #roundMarkerTable1.gameOver {
+        float: none!important;
     }
 
 }
