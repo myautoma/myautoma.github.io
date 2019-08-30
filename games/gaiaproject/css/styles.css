@@ -1240,11 +1240,12 @@ input[type=range]:focus::-ms-fill-upper {
     .ongoingAbility {
         width: 44vw;
         margin: 0 auto;
+        height: 3.2vw;
     }
 
-    .ongoingAbility {
-        width: 44vw;
-        margin: 0 auto;
+    .ongoingAbility p {
+        margin: 1.5vw 0vw 0vw 0vw;
+        font-size: 2.5vw!important;
     }
 
     .ongoingAbilityPopup img {
@@ -1255,9 +1256,7 @@ input[type=range]:focus::-ms-fill-upper {
         width: 35vw;
     }
 
-    .ongoingAbility p {
-        margin: 1.5vw 0vw 0vw 0vw;
-    }
+    
 
     #cardArea {
         width: 84vw;
@@ -1921,12 +1920,12 @@ input[type=range]:focus::-ms-fill-upper {
     .ongoingAbility {
         width: 84vw;
         margin: 0 auto 1.5vw;
-        height: 5vw;
+        height: 4vw;
     }
 
     .ongoingAbility p {
         margin: 1vw 0vw 0vw 0vw;
-        font-size: 5vw!important;
+        font-size: 4vw!important;
     }
 
     .ongoingAbilityPopup img {
