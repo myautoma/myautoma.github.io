@@ -28,6 +28,12 @@ var helpContent = [
         content: '<p>You always take the first turn of the game, and the Automa has its place in the turn order just as a human player would.</p><p>The Automa takes its turn by doing the following:</p><ol><li>Draw an Automa decision card (draw two in the first turn of a round).</li><li>Take the action shown on the action card.</li><li>Gain the number of VP shown in the <span class="bold">VP section</span> of the decision card. If the Automa took a faction action, it instead gains the VP shown next to the action on the faction card.</li></ol>'
     },
     {
+        name: 'Placing Your First Structures',
+        id: 'firstStructures',
+        classes: ['firstStructures'],
+        content: '<p>Instead of placing your starting mines according to the diagram, follow these rules:</p><p>Starting with the first player and continuing in clockwise order, place one mine on any one home planet (matching your color) of your choice. Then, starting with the last player and continuing in counterclockwise order, place your second mine on a different home planet.</p><p>Players do not charge power for mines their opponents place during setup. Remember to always take the leftmost mine on your faction board when placing a mine.</p><p>The Xenos place their third mine after all players have placed their second mine. The Ivits place their planetary institute last, after all mines have been placed (including the Xenos&rsquo; third mine).</p><img class="fullWidth" src="img/help/placeFirstStructure.jpg" /><p class="italic">By placing your first mines you reveal spaces on your faction board. This is important for your income.</p>'
+    },
+    {
         name: 'Selection and Tiebreaking',
         id: 'selectionAndTiebreaking',
         content: '',
