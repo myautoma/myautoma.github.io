@@ -117,43 +117,43 @@ var helpContent = [
                 name: 'Firaks',
                 id: 'firaksAction',
                 classes: ['firaksAction'],
-                content: '<img class="helpFactionImg" src="img/factions/firaks.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/firaks.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li>Faction Tiebreaker</li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Geodens',
                 id: 'geodensAction',
                 classes: ['geodensAction'],
-                content: '<img class="helpFactionImg" src="img/factions/geodens.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/geodens.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li><a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Hadsch Hallas',
                 id: 'hadschHallasAction',
                 classes: ['hadschHallasAction'],
-                content: '<img class="helpFactionImg" src="img/factions/hadschHallas.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/hadschHallas.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li>Faction Tiebreaker</li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Itars',
                 id: 'itarsAction',
                 classes: ['itarsAction'],
-                content: '<img class="helpFactionImg" src="img/factions/itars.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/itars.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li><a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Taklons',
                 id: 'taklonsAction',
                 classes: ['taklonsAction'],
-                content: '<img class="helpFactionImg" src="img/factions/taklons.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/taklons.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li>Faction Tiebreaker</li><li><a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a></li><li><a class="helpLink helpLink-automaRange" href="#">Automa Range</a></li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li><li><a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Terrans',
                 id: 'terransAction',
                 classes: ['terransAction'],
-                content: '<img class="helpFactionImg" src="img/factions/terrans.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/terrans.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li>Faction Tiebreaker</li><li><a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a></li><li><a class="helpLink helpLink-automaRange" href="#">Automa Range</a></li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
             {
                 name: 'Xenos',
                 id: 'xenosAction',
                 classes: ['xenosAction'],
-                content: '<img class="helpFactionImg" src="img/factions/xenos.jpg" />'
+                content: '<img class="helpFactionImg" src="img/factions/xenos.jpg" /><div class="helpFactionTiebreakers"><p class="bold underline">Faction Tiebreakers:</p><ol><li>Faction Tiebreaker</li><li><a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a></li><li><a class="helpLink helpLink-automaRange" href="#">Automa Range</a></li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li><li><a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a></li></ol></div><div class="clearDiv"></div>'
             },
         ]
     },
