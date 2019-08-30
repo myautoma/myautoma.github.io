@@ -903,6 +903,11 @@ input[type=range]:focus::-ms-fill-upper {
     text-align: center;
 }
 
+.gameFinishedHeading {
+    color: red;
+    margin: 0px 0px 0px 0px;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
