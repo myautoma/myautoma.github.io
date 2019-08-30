@@ -636,7 +636,7 @@ a {
     margin-bottom: 30px;
 }
 
-.confirmationBox a {
+.confirmationBox a:not(.confirmationBoxLink) {
     margin: 10px 17px 0px;
     padding: 13px 36px;
     font-size: 23px;
@@ -895,7 +895,7 @@ a {
 .btn {
     margin-top: 11vw;
     margin: 0px 1vw;
-    padding: 1.4vw 2.9vw;
+    padding: 1.6vw 2.9vw;
     width: 14.5vw;
     font-size: 2.7vw;
     -moz-border-radius: 1vw;
@@ -1055,7 +1055,7 @@ a {
     margin-bottom: 3vw;
 }
 
-.confirmationBox a {
+.confirmationBox a:not(.confirmationBoxLink) {
     margin: 1vw 3vw 1vw!important;
     padding: 1.89vw 4vw!important;
     font-size: 3vw!important;
@@ -1343,7 +1343,7 @@ a {
         font-size: 5vw;
     }
 
-    .confirmationBox a {
+    .confirmationBox a:not(.confirmationBoxLink) {
         margin: 0vw 2.3vw 0px;
         padding: 2.8vw 10vw;
         font-size: 5vw;
