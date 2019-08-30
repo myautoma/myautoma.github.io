@@ -523,6 +523,7 @@ input[type=range]:focus::-ms-fill-upper {
 #researchBoardContainer {
     position: relative;
     height: 430px;
+    margin-top: -40px;
 }
 
 .researchBoard {
@@ -989,6 +990,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #researchBoardContainer {
         height: 55vw;
+        margin-top: -3vw;
     }
 
     .researchBoard {
@@ -1629,6 +1631,7 @@ input[type=range]:focus::-ms-fill-upper {
     #researchBoardContainer {
         height: 58vw;
         margin-bottom: 6vw;
+        margin-top: 0vw;
     }
 
     .researchBoard {
@@ -2135,16 +2138,17 @@ input[type=range]:focus::-ms-fill-upper {
         left: 15.5vw;
     }
 
-    .confirmationBox.automaRoundCleanup a {
+    .confirmationBox .buttons[btns="1"] {
+        width: 34vw!important;
+    }
+
+    .confirmationBox .buttons[btns="1"] a {
         width: 17vw!important;
         font-size: 4vw;
         margin: 0vw 2.3vw 0px;
         padding: 2.5vw 6vw;
     }
 
-    .confirmationBox.automaRoundCleanup .buttons[btns="1"] {
-        width: 34vw!important;
-    }
 
     .helpMainActionImg {
         margin: 4vw 1vw 1vw 5vw;
@@ -2218,6 +2222,10 @@ input[type=range]:focus::-ms-fill-upper {
     .helpArrow {
         font-weight: bold;
         font-size: 5vw;
+    }
+
+    #helpTextContainer .helpInfo ol {
+        padding-left:0vw;
     }
 
 }
