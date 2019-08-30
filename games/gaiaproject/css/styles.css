@@ -726,12 +726,12 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .ongoingAbility {
-    display:none;
     width: 140px;
     margin-left: 48px;
 }
 
 .ongoingAbility p {
+    display:none;
     text-decoration: underline;
 }
 
@@ -1498,6 +1498,24 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media screen and (max-width: 599px) {
 
+    #gameLayer .buttons[btns="1"] {
+        position: relative;
+        width: 38vw!important;
+        margin-top: 0vw!important;
+    }
+
+    #gameLayer .buttons[btns="2"], #gameLayer .buttons[btns="3"], #gameLayer .buttons[btns="4"] {
+        position: relative;
+        width: 78vw!important;
+        margin-top: 0vw!important;
+    }
+    
+
+    .roundMarkerTable {
+        font-size: 5vw;
+        margin: 1vw auto 0vw;
+    }
+
     .confirmationBox {
         font-size: 4vw;
         line-height: 4.5vw;
@@ -1883,6 +1901,11 @@ input[type=range]:focus::-ms-fill-upper {
         margin: 0 auto;
     }
 
+    .roundMarkerTable {
+        font-size: 5vw;
+        margin: 1vw auto 0vw;
+    }
+
     #roundMarkerTable1 {
         float: left;
     }
@@ -1895,13 +1918,15 @@ input[type=range]:focus::-ms-fill-upper {
         margin-top: 1vw;
     }
 
-    .ongoingAbility p {
-        margin: 1vw 0vw 0vw 0vw;
-    }
-
     .ongoingAbility {
         width: 84vw;
-        margin: 0 auto;
+        margin: 0 auto 1.5vw;
+        height: 5vw;
+    }
+
+    .ongoingAbility p {
+        margin: 1vw 0vw 0vw 0vw;
+        font-size: 5vw!important;
     }
 
     .ongoingAbilityPopup img {
@@ -1914,7 +1939,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .ongoingAbilityPopup.confirmationBox a {
-        width: 12vw;
+        width: 10vw;
     }
 
     #cardArea {
@@ -2016,19 +2041,19 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .actionColumn .buildMineAction {
-        width: 14vw;
+        width: 12vw;
     }
 
     .actionColumn .upgradeAction {
-        width: 17vw;
+        width: 15vw;
     }
 
     .actionColumn .advanceHighestResearchAreaAction {
-        width: 15vw;
+        width: 13vw;
     }
 
     .actionColumn .factionActionAction {
-        width: 15vw;
+        width: 13vw;
     }
 
     .actionColumn .advanceRandomResearchAreaAction {
@@ -2036,13 +2061,13 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .actionColumn .powerQICAction {
-        width: 16vw;
+        width: 14vw;
     }
 
     #passInstructions {
-        width: 39.5vw;
+        width: 41.5vw;
         height: 43vw;
-        left: 26vw;
+        left: 25vw;
         top: 4vw;
         padding: 5vw 1vw 3vw;
         border-radius: 4vw;
