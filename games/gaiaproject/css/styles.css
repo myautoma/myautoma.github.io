@@ -2123,24 +2123,27 @@ input[type=range]:focus::-ms-fill-upper {
 
     .endRoundGoalCircle {
         position: absolute;
-        top: 2vw;
-        width: 6.6vw;
+        top: 1.6vw;
+        width: 6vw;
     }
 
     .rounds1-3 {
-        left: 3vw;
+        left: 4.5vw;
     }
 
     .rounds4-6 {
-        left: 18vw;
+        left: 15.5vw;
     }
 
     .confirmationBox.automaRoundCleanup a {
         width: 17vw!important;
+        font-size: 4vw;
+        margin: 0vw 2.3vw 0px;
+        padding: 2.5vw 6vw;
     }
 
     .confirmationBox.automaRoundCleanup .buttons[btns="1"] {
-        width: 46vw!important;
+        width: 34vw!important;
     }
 
     .helpMainActionImg {
