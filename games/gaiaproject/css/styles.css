@@ -2321,7 +2321,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #helpTextContainer .helpInfo ol {
-        padding-left:0vw;
+        padding-left: 4vw;
     }
 
     .confirmationBox.adjustVPs {
