@@ -129,7 +129,7 @@ var helpContent = [
                 name: 'Hadsch Hallas',
                 id: 'hadschHallasAction',
                 classes: ['hadschHallasAction'],
-                content: '<img class="helpFactionImg" src="img/factions/firaks.jpg" /><p class="bold">Faction Action: <a class="helpLink helpLink-upgrade" href="#">Upgrade</a></p><p>Tiebreakers:</p><ol><li>Closest to any of <span class="bold">your</span> planets.</li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li></ol><p class="italic"><span class="bold">Note: </span>If the Automa cannot <span class="bold">upgrade</span>, it <span class="bold">colonizes</span> with range 3.</p><div class="clearDiv"></div>'
+                content: '<img class="helpFactionImg" src="img/factions/hadschHallas.jpg" /><p class="bold">Faction Action: <a class="helpLink helpLink-upgrade" href="#">Upgrade</a></p><p>Tiebreakers:</p><ol><li>Closest to any of <span class="bold">your</span> planets.</li><li><a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a></li></ol><p class="italic"><span class="bold">Note: </span>If the Automa cannot <span class="bold">upgrade</span>, it <span class="bold">colonizes</span> with range 3.</p><div class="clearDiv"></div>'
             },
             {
                 name: 'Itars',
