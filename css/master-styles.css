@@ -704,7 +704,7 @@ a {
     font-size: 21px;
 }
 
-.tooltiptext li:hover {
+.tooltiptext li.helplink:hover, .tooltiptext a.helplink:hover {
     text-decoration:underline;
 }
 
