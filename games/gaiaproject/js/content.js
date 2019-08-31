@@ -159,8 +159,8 @@ var helpContent = [
     },
     {
         name: 'Final Scoring',
-        id: 'finalScoring',
-        classes: ['finalScoring'],
+        id: 'finalScoringInfo',
+        classes: ['finalScoringInfo'],
         content: '<p>When determining rank for final scoring tiles, remember to take the neutral player into account. The Automa gains VP for research areas in the same way that a human player does.</p><p>The Automa scores VP from the final scoring tiles like a human player, <span class="bold">with the following exception:</span></p><p class="italic">For the final scoring tile "most structures in federations," count the Automa\'s total number of structures and subtract one from that to determine its number of structures in federations.</p>'
     },
     {
