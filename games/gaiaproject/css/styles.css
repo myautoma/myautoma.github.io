@@ -1,3 +1,11 @@
+.helpLink {
+    text-decoration: underline;
+}
+
+/* .tooltip .helpLink:hover {
+    font-weight:bold;
+} */
+
 #gameLayer .buttons {
     margin: 20px auto 0px;
 }
@@ -7,12 +15,12 @@
 }
 
 .tooltip {
-    top: 4px;
-    right: -136px;
+    top: 0px;
+    right: -143px;
 }
 
 .tooltip .tooltiptext {
-    width: 389px;
+    width: 402px;
 }
 
 #cardArea {
@@ -133,7 +141,7 @@
 }
 
 .helpImage {
-    width: 45px;
+    width: 60px;
     right: 4px;
     top: 1px;
 }
@@ -645,8 +653,15 @@ input[type=range]:focus::-ms-fill-upper {
     display: none;
 }
 
-#automaFactionImageContainer img, .helpFactionImg {
+#automaFactionImageContainer img {
     width: 220px;
+    border: 9px solid #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px #787878;
+}
+
+.helpFactionImg {
+    width: 200px;
     border: 9px solid #000;
     border-radius: 20px;
     box-shadow: 5px 5px 3px #787878;
@@ -657,12 +672,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .helpFactionImg {
-    float: left;
-    margin-right: 40px;
+    float: right;
+    margin: 0px 20px 20px 20px;
 }
 
 .helpFactionTiebreakers {
     float: left;
+    width: 460px;
 }
 
 #automaActiveSelect {
@@ -926,8 +942,8 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tooltip {
-        top: 1.4vw;
-        right: -21.3vw;
+        top: 0vw;
+        right: -23vw;
     }
 
     .tooltiptext p, .tooltiptext li {
@@ -939,7 +955,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .helpImage {
-        width: 7vw;
+        width: 10vw;
         right: 0vw;
         top: 0vw;
     }
@@ -1096,10 +1112,18 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #automaFactionImageContainer {
-        width: 32vw;
+        width: 31vw;
     }
 
-    #automaFactionImageContainer img, .helpFactionImg {
+    #automaFactionImageContainer img {
+        margin-top: 4vw;
+        width: 29vw;
+        border: 1vw solid #000;
+        border-radius: 3vw;
+        box-shadow: 1vw 1vw 1vw #787878;
+    }
+
+    .helpFactionImg {
         margin-top: 0vw;
         width: 22vw;
         border: 1vw solid #000;
@@ -1558,6 +1582,7 @@ input[type=range]:focus::-ms-fill-upper {
         margin-bottom: 2vw;
         width: 6vw;
         font-size: 3.5vw;
+        border: .3vw solid #000;
     }
 
     #roundMarkerTable1.gameOver {
@@ -1596,8 +1621,8 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tooltip {
-        top: 2.3vw;
-        right: -26.9vw;
+        top: 0vw;
+        right: -28.9vw;
     }
 
     .tooltiptext p, .tooltiptext li {
@@ -1610,7 +1635,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .helpImage {
-        width: 8vw;
+        width: 12vw;
         right: 0vw;
         top: 0vw;
     }
@@ -2323,6 +2348,7 @@ input[type=range]:focus::-ms-fill-upper {
         width: 9vw;
         font-size: 5vw;
         text-align: center;
+        border: .3vw solid #000;
     }
 
     #roundMarkerTable1.gameOver {
