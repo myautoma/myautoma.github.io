@@ -866,3 +866,28 @@ var supportCategories = [
         class: 'numberedSelection'
     },
 ]
+
+
+
+var tiebreakersCategories = [
+    {
+        mainAction: 'advanceHighestResearchArea',
+        tiebreakers: ['1. Highest Research Area', '2. <a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a>']
+    },
+    {
+        mainAction: 'advanceRandomResearchArea',
+        tiebreakers: ['1. <a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a>']
+    },
+    {
+        mainAction: 'buildMine',
+        tiebreakers: ['1. <a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a>', '2. Fewest Terraforming Steps', '3. Closest to <span class="bold">your</span> Planets', '4. <a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a>']
+    },
+    {
+        mainAction: 'powerQIC',
+        tiebreakers: ['1. <a class="helpLink helpLink-numberedSelection" href="#">Numbered Selection</a>']
+    },
+    {
+        mainAction: 'upgrade',
+        tiebreakers: ['1. Closest to <span class="bold">your</span> Planets', '2. <a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a>']
+    }
+]
