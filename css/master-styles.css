@@ -691,21 +691,21 @@ a {
 
 .tooltiptext li {
     margin-bottom: 15px;
-    list-style: none;
     text-align: center;
 }
 
-.tooltiptext li:not(.bold):not(.underline) {
-    cursor: hand;
-    cursor: pointer;
+.tooltiptext > ul > li {
+    list-style: none;
 }
 
 .tooltiptext p, .tooltiptext li {
     font-size: 21px;
 }
 
-.tooltiptext li.helplink:hover, .tooltiptext a.helplink:hover {
+.tooltiptext li.helpLink:hover, .tooltiptext a.helpLink:hover {
     text-decoration:underline;
+    cursor: hand;
+    cursor: pointer;
 }
 
 .hidden {
