@@ -794,6 +794,12 @@ input[type=range]:focus::-ms-fill-upper {
     width: 110px;
 }
 
+.finalScoringHelpImg {
+    float: right;
+    margin: 2px 20px 20px 40px;
+    width: 110px;
+}
+
 .automaRangeHelpImg {
     float: left;
     width: 90px;
@@ -824,27 +830,35 @@ input[type=range]:focus::-ms-fill-upper {
     margin-right: 20px;
 }
 
+.endScoringTable img {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    padding: 10px;
+}
+
 .endScoringTable {
+    margin-top:25px;
     border-collapse:collapse;
     border-spacing:0;
 }
 
 .endScoringTable td {
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    padding:10px 5px;
-    border-style:solid;
-    border-width:1px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:black;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
 }
 
 .endScoringTable th {
     font-family:Arial, sans-serif;
-    font-size:14px;
+    font-size: 18px;
     font-weight:normal;
-    padding:10px 5px;
+    padding: 10px 15px;
     border-style:solid;
     border-width:1px;
     overflow:hidden;
@@ -853,25 +867,25 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .endScoringTable .endScoringTable-cly1 {
-    text-align:left;
+    text-align:center;
     vertical-align:middle
 }
 
 .endScoringTable .endScoringTable-1wig {
     font-weight:bold;
-    text-align:left;
+    text-align:center;
     vertical-align:top
 }
 
 .endScoringTable .endScoringTable-yla0 {
     font-weight:bold;
-    text-align:left;
+    text-align:center;
     vertical-align:middle
 }
 
 .endScoringTable .endScoringTable-0lax {
-    text-align:left;
-    vertical-align:top
+    text-align:center;
+    vertical-align:middle
 }
 
 .buttons[btns="3"] {
@@ -1510,22 +1524,33 @@ input[type=range]:focus::-ms-fill-upper {
         width: 16vw;
     }
 
+    .finalScoringHelpImg {
+        margin: 1vw 1vw 2vw 4vw;
+        width: 14vw;
+    }
+
     .automaRangeHelpImg {
         width: 15vw;
         margin-right: 3vw;
     }
 
+    .endScoringTable img {
+        width: 22vw;
+        padding: 2vw;
+    }
+
     .endScoringTable {
         width: 72vw;
+        margin-top: 3.5vw;
     }
 
     .endScoringTable th {
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding: 2vw 2vw;
     }
 
     .endScoringTable td {
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding: 2vw 2vw;
     }
 
@@ -2245,10 +2270,14 @@ input[type=range]:focus::-ms-fill-upper {
         padding: 2.5vw 6vw;
     }
 
-
     .helpMainActionImg {
         margin: 4vw 1vw 1vw 5vw;
         width: 22vw;
+    }
+
+    .finalScoringHelpImg {
+        margin: 1vw 1vw 5vw 3vw;
+        width: 23vw;
     }
 
     .automaRangeHelpImg {
@@ -2256,8 +2285,14 @@ input[type=range]:focus::-ms-fill-upper {
         margin-right: 3vw;
     }
 
+    .endScoringTable img {
+        width: 30vw;
+        padding: 1vw;
+    }
+
     .endScoringTable {
         width: 72vw;
+        margin-top: 3.5vw;
     }
 
     .endScoringTable th {
