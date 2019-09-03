@@ -1665,7 +1665,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tooltip .tooltiptext {
-        width: 81vw;
+        width: 80vw;
         padding: 3.5vw 1vw;
         top: 6vw;
         right: -1vw;
