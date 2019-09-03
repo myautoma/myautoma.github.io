@@ -439,10 +439,27 @@ input[type=range]:focus::-ms-fill-upper {
     width: 104px;
 }
 
+.confirmationBox.initialMinePlacementDirection {
+    top: 4%;
+    margin-left: -360px;
+    width: 740px;
+}
+
+.confirmationBox.initialMinePlacementDirection img {
+    width: 150px;
+}
+
 .confirmationBox.roundBoosterSelection {
     top: 9%;
     margin-left: -320px;
     width: 640px;
+}
+
+.confirmationBox.automaRoundCleanup {
+    top: 6%;
+    margin-left: -350px;
+    text-align: left;
+    width: 750px;
 }
 
 .confirmationBox.automaRoundCleanup {
@@ -654,17 +671,11 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #automaFactionImageContainer img {
-    width: 220px;
-    border: 9px solid #000;
-    border-radius: 20px;
-    box-shadow: 5px 5px 3px #787878;
+    width: 230px;
 }
 
 .helpFactionImg {
     width: 200px;
-    border: 9px solid #000;
-    border-radius: 20px;
-    box-shadow: 5px 5px 3px #787878;
 }
 
 #automaFactionImageContainer img {
@@ -894,7 +905,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 #boosterTilesLayer .buttons .btn:first-child,
 #technologyTilesLayer .buttons .btn:first-child,
-#factionSelectionLayer .buttons .btn:first-child {
+#factionSelectionLayer .buttons .btn:first-child, 
+#initialMinePlacementLayer .buttons .btn:first-child {
     float: none!important;
     margin: 0 auto 12px;
 }
@@ -1131,18 +1143,12 @@ input[type=range]:focus::-ms-fill-upper {
 
     #automaFactionImageContainer img {
         margin-top: 4vw;
-        width: 29vw;
-        border: 1vw solid #000;
-        border-radius: 3vw;
-        box-shadow: 1vw 1vw 1vw #787878;
+        width: 31vw;
     }
 
     .helpFactionImg {
         margin-top: 0vw;
         width: 28vw;
-        border: 1vw solid #000;
-        border-radius: 3vw;
-        box-shadow: 1vw 1vw 1vw #787878;
     }
 
     input[type=range] {
@@ -1267,6 +1273,10 @@ input[type=range]:focus::-ms-fill-upper {
     .directionalSupportImage {
         margin: 0 auto 4vw;
         width: 15vw;
+    }
+
+    .confirmationBox.initialMinePlacementDirection img {
+        width: 22vw;
     }
 
     .confirmationBox.roundBoosterSelection img {
@@ -1655,8 +1665,10 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tooltip .tooltiptext {
-        width: 73vw;
-        padding: 3.5vw 3vw;
+        width: 81vw;
+        padding: 3.5vw 1vw;
+        top: 6vw;
+        right: -1vw;
     }
 
     .helpImage {
@@ -1828,9 +1840,6 @@ input[type=range]:focus::-ms-fill-upper {
     #automaFactionImageContainer img, .helpFactionImg {
         margin-top: 7vw;
         width: 33vw;
-        border: 1vw solid #000;
-        border-radius: 3vw;
-        box-shadow: 1vw 1vw 1vw #787878;
     }
 
     .helpFactionImg {
@@ -1981,6 +1990,16 @@ input[type=range]:focus::-ms-fill-upper {
     .directionalSupportImage {
         margin: 0 auto 4vw;
         width: 19vw;
+    }
+
+    .confirmationBox.initialMinePlacementDirection {
+        top: 4%;
+        margin-left: -44vw;
+        width: 88vw;
+    }
+
+    .confirmationBox.initialMinePlacementDirection img {
+        width: 27vw;
     }
 
     .confirmationBox.roundBoosterSelection {
@@ -2356,7 +2375,8 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #helpTextContainer .helpInfo ol {
-        padding-left: 4vw;
+        padding: 0vw 0vw 0vw 4vw;
+        margin: 0vw 0vw 0vw 0vw;
     }
 
     .confirmationBox.adjustVPs {
