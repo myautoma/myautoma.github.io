@@ -880,7 +880,7 @@ var tiebreakersCategories = [
     },
     {
         mainAction: 'buildMine',
-        tiebreakers: ['1. <a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a>', '2. Fewest Terraforming Steps', '3. Closest to <span class="bold">your</span> Planets', '4. <a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a>']
+        tiebreakers: ['1. <a class="helpLink helpLink-finalScoring" href="#">Final Scoring</a>', 'Terraforming', '3. Closest to <span class="bold">your</span> Planets', '4. <a class="helpLink helpLink-directionalSelection" href="#">Directional Selection</a>']
     },
     {
         mainAction: 'powerQIC',
