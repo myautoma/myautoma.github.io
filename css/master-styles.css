@@ -352,7 +352,7 @@ a {
     width: 185px;
 }
 
-.buttons[btns="2"] {
+.buttons[btns="2"], .buttons[btns="4"] {
     width: 428px;
 }
 
@@ -769,6 +769,10 @@ a {
     margin-bottom: -6px;
 }
 
+.helpInfo {
+    padding: 1.5vw 0vw 1.5vw 3vw;
+}
+
 #helpTextContainer .menuIcon {
     height: 30px;
     margin: 0px 6px -7px 10px;
@@ -946,7 +950,7 @@ a {
     width: 24vw!important;
 }
 
-.buttons[btns="2"] {
+.buttons[btns="2"], .buttons[btns="4"] {
     width: 45vw!important;
 }
 
