@@ -473,10 +473,62 @@ input[type=range]:focus::-ms-fill-upper {
     width: 80px;
 }
 
-#roundGameGoalsLayer .buttons .btn, #boosterTilesLayer .buttons .btn, #technologyTilesLayer .buttons .btn, #factionSelectionLayer .buttons .btn, #difficultySelectionLayer .buttons .btn, #initialMinePlacementLayer .buttons .btn {
-    float:left;
+.endRoundImgContainer img {
+    width: 115px;
 }
 
+.endGameImgContainer img {
+    width: 176px;
+}
+
+.endRoundImgContainer {
+    float: left;
+    margin: 7px;
+    position:relative;
+}
+
+.endGameImgContainer {
+    float: left;
+    margin: 20px;
+    position:relative;
+}
+
+#endOfRoundGoalsContainer, #endOfGameGoalsContainer {
+    margin-bottom: 23px;
+}
+
+.orderNum {
+    position: absolute;
+    background-color: #FFF;
+    font-size: 31px!important;
+    color: #0064ff;
+    border: 3px solid #0064ff;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+}
+
+.endRoundImgContainer .orderNum {
+    top: -15px;
+    left: 30px;
+}
+
+.endGameImgContainer .orderNum {
+    top: 30px;
+    left: 0px;
+}
+
+
+#endOfRoundGoalsContainer .endRoundImgContainer.clickable, #endOfGameGoalsContainer .endGameImgContainer.clickable {
+    cursor:hand;
+    cursor:pointer;
+}
+
+/* 
 #endOfRoundGoalsContainer {
     position: relative;
     height: 230px;
@@ -536,7 +588,7 @@ input[type=range]:focus::-ms-fill-upper {
     float: left;
     margin: 10px 10px 10px;
     width: 127px;
-}
+} */
 
 #boosterTilesContainer {
     margin: 30px auto 40px;
@@ -903,6 +955,15 @@ input[type=range]:focus::-ms-fill-upper {
     width: 430px!important;
 }
 
+
+#endOfRoundGoalsLayer .buttons .btn, #endOfGameGoalsLayer .buttons .btn, #boosterTilesLayer .buttons .btn, #technologyTilesLayer .buttons .btn, #factionSelectionLayer .buttons .btn, #difficultySelectionLayer .buttons .btn, #initialMinePlacementLayer .buttons .btn {
+    float: left;
+}
+
+.buttons[btns="4"] .btn {
+    margin-bottom: 15px;
+}
+
 #boosterTilesLayer .buttons .btn:first-child,
 #technologyTilesLayer .buttons .btn:first-child,
 #factionSelectionLayer .buttons .btn:first-child, 
@@ -954,6 +1015,50 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0px 0px 0px 0px;
 }
 
+.terraformTable {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.terraformTable tbody {
+    border: 4px solid #000;
+}
+
+.terraformTable tr {
+    border-bottom: 2px solid #000;
+}
+
+.terraformTable td {
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    /* border-style:solid; */
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.terraformTable .terraformIcon {
+    height: 38px;
+    margin: 0px 2px;
+}
+
+.terraformTable .planetIcon {
+    height: 56px;
+    margin: 0px 1px;
+}
+
+.terraformTable .borderRight {
+    border-right: 4px solid #000;
+}
+
+.mobileTerraformTable {
+    display:none;
+  }
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -1000,56 +1105,52 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #endOfRoundGoalsContainer {
-        height: 40vw;
-        width: 70vw;
+        width: 85vw;
         float: none;
-        margin: 0 auto;
+        margin: 0 auto 2vw;
+    }
+
+    .endRoundImgContainer {
+        margin: 2vw 0vw;
     }
 
     #endOfRoundGoalsContainer img {
-        width: 20vw;
-    }
-
-    .endOfRoundGoal1 {
-        top: 19.4vw;
-        left: -1.5vw;
-    }
-
-    .endOfRoundGoal2 {
-        top: 7vw;
-        left: 5.6vw;
-    }
-
-    .endOfRoundGoal3 {
-        top: 0vw;
-        left: 17.9vw;
-    }
-
-    .endOfRoundGoal4 {
-        top: 0vw;
-        right: 17.9vw;
-    }
-
-    .endOfRoundGoal5 {
-        top: 7vw;
-        right: 5.6vw;
-    }
-
-    .endOfRoundGoal6 {
-        top: 19.4vw;
-        right: -1.5vw;
+        width: 16.9vw;
     }
 
     #endOfGameGoalsContainer {
-        width: 22vw;
+        width: 86vw;
         margin: -2vw auto 2vw;
         float: none;
     }
 
-    #endOfGameGoalsContainer img {
+    .endGameImgContainer {
         float: left;
-        margin: 1vw 1vw 1vw;
-        width: 20vw;
+        margin: 2vw;
+        position: relative;
+    }
+
+    #endOfGameGoalsContainer img {
+        width: 24vw;
+    }
+
+    .orderNum {
+        font-size: 4vw!important;
+        border: .5vw solid #0064ff;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 4vw;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .endRoundImgContainer .orderNum {
+        top: -2vw;
+        left: 5vw;
+    }
+
+    .endGameImgContainer .orderNum {
+        top: 4.6vw;
+        left: 0vw;
     }
 
     #boosterTilesContainer {
@@ -1624,6 +1725,39 @@ input[type=range]:focus::-ms-fill-upper {
         float: none!important;
     }
 
+    .terraformTable {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    .terraformTable tbody {
+        border: .6vw solid #000;
+    }
+
+    .terraformTable tr {
+        border-bottom: .3vw solid #000;
+    }
+
+    .terraformTable td {
+        padding: 1.5vw 0.5vw;
+    }
+
+    .terraformTable .terraformIcon {
+        height: 4vw;
+        margin: 0vw .3vw;
+    }
+
+    .terraformTable .planetIcon {
+        height: 6vw;
+        margin: 0vw .1vw;
+    }
+
+    .terraformTable .borderRight {
+        border-right: 4px solid #000;
+    }
+
+
+
 }
 
 @media screen and (max-width: 599px) {
@@ -1691,57 +1825,65 @@ input[type=range]:focus::-ms-fill-upper {
         margin: 0 auto 2vw;
     }
 
+    #endOfRoundGoalsLayer .buttons[btns="4"], #endOfGameGoalsLayer .buttons[btns="4"] {
+        width: 74vw!important;
+    }
+
+    #endOfRoundGoalsLayer .buttons[btns="4"] .btn, #endOfGameGoalsLayer .buttons[btns="4"] .btn {
+        margin-bottom: 2.5vw!important;
+    }
+
     #endOfRoundGoalsContainer {
-        height: 46vw;
-        width: 79vw;
+        width: 90vw;
         float: none;
-        margin: 0 auto;
+        margin: 0 auto 2vw;
+    }
+
+    .endRoundImgContainer {
+        margin: 1vw 0vw;
+    }
+
+    #endRound-9 {
+        margin-left: 22vw!important;
     }
 
     #endOfRoundGoalsContainer img {
-        width: 23vw;
-    }
-
-    .endOfRoundGoal1 {
-        top: 22.2vw;
-        left: -2.5vw;
-    }
-
-    .endOfRoundGoal2 {
-        top: 8vw;
-        left: 5.6vw;
-    }
-
-    .endOfRoundGoal3 {
-        top: 0vw;
-        left: 19.8vw;
-    }
-
-    .endOfRoundGoal4 {
-        top: 0vw;
-        right: 19.8vw;
-    }
-
-    .endOfRoundGoal5 {
-        top: 8vw;
-        right: 5.6vw;
-    }
-
-    .endOfRoundGoal6 {
-        top: 22.2vw;
-        right: -2.5vw;
+        width: 21.9vw;
     }
 
     #endOfGameGoalsContainer {
-        width: 31vw;
-        margin: -8vw auto 4vw;
+        width: 86vw;
+        margin: -2vw auto 2vw;
         float: none;
     }
 
-    #endOfGameGoalsContainer img {
+    .endGameImgContainer {
         float: left;
-        margin: 1vw 1vw 1vw;
-        width: 29vw;
+        margin: 2vw;
+        position: relative;
+    }
+
+    #endOfGameGoalsContainer img {
+        width: 24vw;
+    }
+
+    .orderNum {
+        font-size: 4vw!important;
+        border: .5vw solid #0064ff;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 4vw;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .endRoundImgContainer .orderNum {
+        top: -1vw;
+        left: 7vw;
+    }
+
+    .endGameImgContainer .orderNum {
+        top: 4.6vw;
+        left: 0vw;
     }
 
     #boosterTilesContainer {
@@ -2408,6 +2550,39 @@ input[type=range]:focus::-ms-fill-upper {
 
     #roundMarkerTable1.gameOver {
         float: none!important;
+    }
+
+    .terraformTable {
+        display:none;
+      }
+
+    .mobileTerraformTable {
+        display:table;
+        border-collapse:collapse;
+        border-spacing:0;
+      }
+      
+      .mobileTerraformTable td {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        padding: 1vw .5vw;
+        border-style: solid;
+        border-width: .6vw;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+      .mobileTerraformTable .terraformIcon {
+        width: 8vw;
+        margin: 0vw .4vw;
+    }
+
+    .mobileTerraformTable .planetIcon {
+        height: 10vw;
+        margin: 0vw 1vw;
     }
 
 }
