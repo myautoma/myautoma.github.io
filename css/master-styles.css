@@ -63,7 +63,7 @@ a {
     width: 800px;
     margin: 0 auto;
     padding-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     position: relative;
 }
 
@@ -400,6 +400,7 @@ a {
     width: 650px;
     margin: 35px auto 0;
     padding-left: 15px;
+    padding-bottom: 60px;
   }
 
 .layer:not(#startLayer) p {
@@ -863,6 +864,7 @@ a {
 
  #container, #startLayer {
     width: 91%;
+    padding-bottom: 4vw;
 }
 
 #startLayer {
@@ -922,6 +924,7 @@ a {
     width: 96%;
     margin: 2vw auto;
     padding-left: 0vw;
+    padding-bottom: 4vw;
 }
 
 .layer:not(#startLayer) p {
@@ -1109,6 +1112,7 @@ a {
 
 	#container, #startLayer {
         width: 94%;
+        padding-bottom: 4vw;
     }
 
     #startLayer {
@@ -1141,6 +1145,7 @@ a {
         width: 100%;
         margin: 2vw auto 0;
         padding-left: 0vw;
+        padding-bottom: 4vw;
     }
 
     .gameActionInfo {
