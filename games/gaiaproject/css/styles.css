@@ -1744,11 +1744,11 @@ input[type=range]:focus::-ms-fill-upper {
 
     .terraformTable .terraformIcon {
         height: 4vw;
-        margin: 0vw .3vw;
+        margin: 0vw .1vw;
     }
 
     .terraformTable .planetIcon {
-        height: 6vw;
+        height: 6.6vw;
         margin: 0vw .1vw;
     }
 
@@ -2576,13 +2576,13 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
       .mobileTerraformTable .terraformIcon {
-        width: 8vw;
-        margin: 0vw .4vw;
+        width: 8.5vw;
+        margin: 0vw .2vw;
     }
 
     .mobileTerraformTable .planetIcon {
-        height: 10vw;
-        margin: 0vw 1vw;
+        height: 11vw;
+        margin: 0vw .5vw;
     }
 
 }
