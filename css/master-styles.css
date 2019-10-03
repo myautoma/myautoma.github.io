@@ -316,6 +316,7 @@ a {
 	color:#ffffff;
     text-shadow:3px 2px 1px #2b665e;
     cursor:auto;
+    border:1px solid #777;
 }
 
 #startLayer {
@@ -733,19 +734,23 @@ a {
     text-align: center;
 }
 
-.red {
+.red, .color-red {
 	color:#ff1010;
 }
 
-.green {
+.green, .color-green {
 	color: #02d502;
 }
 
-.blue {
+.yellow, .color-yellow {
+	color: #e2de13;
+}
+
+.blue, .color-blue {
     color: #0093ff;
 }
 
-.grey {
+.grey, .color-grey {
     color: #b1b1b1;
 }
 
