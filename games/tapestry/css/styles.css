@@ -6459,7 +6459,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #automaCiv img {
-        width: 88vw;
+        width: 74vw;
         border: .5vw solid #746c5f;
         border-radius: 3vw;
     }
@@ -6739,7 +6739,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.conquerActionMove .mainActionArea {
-    width: 50vw;
+    width: 54vw;
     margin: 0 auto;
 }
 
