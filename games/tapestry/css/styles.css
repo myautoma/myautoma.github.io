@@ -6660,7 +6660,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .confirmationBox.chooseSecondCiv #firstCivImgContainer img, #secondCivImgContainer img {
-    width: 68vw;
+    width: 54vw;
     border: .3vw solid #746c5f;
     border-radius: 3vw;
 }
