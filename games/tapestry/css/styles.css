@@ -5090,7 +5090,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #fullAutomaConfigTrackChoiceLayer .favoriteTrackContainer .diceResult, #shadowEmpireAutomatedSystemLayer .favoriteTrackContainer .diceResult {
-        width: 14vw;
+        width: 12vw;
         margin: 1vw auto 0vw;
         display: block;
         opacity: 1;
@@ -5119,7 +5119,7 @@ input[type=range]:focus::-ms-fill-upper {
     #roundMarkerTable3 {
         display: block;
         margin: 0 auto;
-        width: 66vw;
+        width: 72vw;
     }
 
     #roundMarkerTable3 .info.rnd.rnd-crdsLft {
@@ -5207,7 +5207,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tapestryActionContainer.shadowEmpireAutomated .trackContainer {
-        margin: 0vw 2.5vw 0vw;
+        margin: 0vw 1.3vw 0vw;
     }
 
     .tapestryActionContainer .trackContainer {
@@ -6343,7 +6343,7 @@ input[type=range]:focus::-ms-fill-upper {
     .restrictedCivsCheckbox {
         height: 7vw;
         margin: 2vw auto 4vw;
-        width: 53vw;
+        width: 59vw;
     }
 
     .restrictedCivsCheckbox label {
@@ -6414,7 +6414,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #fullAutomaConfigColorChoiceLayer .chooseColorContainer p, #fullAutomaConfigTrackChoiceLayer .favoriteTrackContainer p {
-        font-size: 5vw!important;
+        font-size: 4.4vw!important;
         margin: 0vw 0vw 2vw 0vw;
         text-decoration: underline;
     }
@@ -6430,7 +6430,8 @@ input[type=range]:focus::-ms-fill-upper {
 
     #sameColorError {
         top: 90vw;
-        left: 6vw;
+        left: 10vw;
+        font-size: 3.5vw!important;
     }
     
     #fullAutomaConfigColorChoiceLayer .buttons, #fullAutomaSetupInstructionsLayer .buttons {
@@ -6442,19 +6443,19 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #masterFavTrackContainer {
-        width: 73vw;
-        margin: 3vw 0vw 0vw 8vw;
+        width: 76vw;
+        margin: 3vw 0vw 0vw 5vw;
     }
 
     #fullAutomaConfigTrackChoiceLayer .artificialOpponentInfo {
-        height: 23vw;
-        width: 35vw;
+        height: 20vw;
+        width: 38vw;
     }
     
     #automaCiv {
-        margin: 4vw auto 0px;
-        width: 89vw;
-        height: 58vw;
+        margin: 4vw auto 1vw;
+        width: 76vw;
+        height: 50vw;
     }
 
     #automaCiv img {
@@ -6683,9 +6684,10 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .confirmationBox.chooseSecondCiv .buttons .btn {
-    width: 17vw!important;
+    width: 18vw!important;
     margin: 1vw 2vw 1vw!important;
     padding: 2.8vw 7vw;
+    font-size: 4.3vw;
 }
 
 
@@ -6720,7 +6722,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noAutomaMove .mainActionArea {
-    width: 55.5vw;
+    width: 58.5vw;
     margin: 0vw auto 0vw;
 }
 
@@ -6737,7 +6739,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.conquerActionMove .mainActionArea {
-    width: 47vw;
+    width: 50vw;
     margin: 0 auto;
 }
 
@@ -6767,7 +6769,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.technologyCardActionMove {
-    width: 55vw;
+    width: 61vw;
     margin: 2vw auto 0vw;
 }
 
@@ -6777,7 +6779,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.technologyCardActionMove .actionDescription {
-    width: 46vw;
+    width: 49vw;
     margin: 0vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
 }
@@ -6819,7 +6821,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noBenefitsMove {
-    width: 59vw;
+    width: 67vw;
     margin: 0 auto;
 }
 
@@ -6829,7 +6831,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noBenefitsMove .actionDescription {
-    width: 50vw;
+    width: 56vw;
     margin: 1.5vw 0vw 0vw 2vw;
     padding: 0vw 0vw 0vw 0vw;
 }
