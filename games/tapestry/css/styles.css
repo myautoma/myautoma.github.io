@@ -2572,7 +2572,7 @@ input[type=range]:focus::-ms-fill-upper {
 #incomeLayer #incomeInformation .lastIncomeScreenAction {
     float: left;
     width: 280px;
-    height: 144px;
+    /* height: 144px; */
     margin: 10px;
     padding: 0px 10px;
 }
@@ -4892,7 +4892,7 @@ input[type=range]:focus::-ms-fill-upper {
     #incomeLayer #incomeInformation .lastIncomeScreenAction {
         float: left;
         width: 37vw;
-        height: 28vw;
+        /* height: 28vw; */
         margin: 10px;
         padding: 0vw 1vw;
     }
@@ -6653,7 +6653,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .confirmationBox.chooseSecondCiv .secondCivInstructions {
     margin: 3vw auto 0vw;
-    width: 60vw;
+    width: 84vw;
     font-size: 4vw;
 }
 
@@ -7059,6 +7059,21 @@ input[type=range]:focus::-ms-fill-upper {
     margin-top: 6vw;
 }
 
+#passInstructions .incomeContainer {
+    background-color: #ffffffa8;
+    border: 1vw solid #76787b;
+    border-radius: 4vw;
+    height: 13vw;
+    width: 24vw;
+    margin: 0 auto;
+}
+
+#passInstructions .incomeContainer img {
+    width: 17vw;
+    display: block;
+    margin: 3vw auto 0vw;
+}
+
 .confirmationBox.checkFirstToReachEra {
     margin-left: -42vw!important;
     width: 84vw!important;
@@ -7071,6 +7086,10 @@ input[type=range]:focus::-ms-fill-upper {
 
 .confirmationBox.checkFirstToReachEra .buttons[btns="2"] .btn {
     font-size: 4.3vw;
+}
+
+#incomeLayer {
+    margin: 3vw auto 0!important;
 }
 
 
@@ -7164,6 +7183,7 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 1vw 0vw 0vw 1vw;
     float: left;
     font-size: 8vw;
+    line-height: 8vw;
 }
 
 #incomeLayer #incomeInformation .favoriteTracks.automaFavoriteTrack .favTrackIconImg, #incomeLayer #incomeInformation .favoriteTracks.shadowEmpireFavoriteTrack .favTrackIconImg, #incomeLayer #incomeInformation .newFavoriteTrack.automaFavoriteTrack .favTrackIconImg, #incomeLayer #incomeInformation .newFavoriteTrack.shadowEmpireFavoriteTrack .favTrackIconImg {
@@ -7300,7 +7320,7 @@ input[type=range]:focus::-ms-fill-upper {
 #incomeLayer #incomeInformation .lastIncomeScreenAction {
     float: left;
     width: 39vw;
-    height: 34vw;
+    /* height: 30vw; */
     margin: 0vw 2vw 2vw;
     padding: 0vw 0vw;
 }
@@ -7309,6 +7329,13 @@ input[type=range]:focus::-ms-fill-upper {
     height: 12vw;
     margin: 0 auto 10px;
     display: block;
+}
+
+#incomeLayer #incomeInformation .lastIncomeScreenAction p {
+    margin: 0vw 0vw 0vw 0vw;
+    text-align: center!important;
+    line-height: 4.8vw;
+    font-size: 4vw;
 }
 
 #incomeLayer #incomeInformation .tapestryCardToAutomaSupply:not(.lastIncomeScreenAction) {
