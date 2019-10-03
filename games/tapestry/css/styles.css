@@ -2825,9 +2825,11 @@ input[type=range]:focus::-ms-fill-upper {
     height:0px!important;
 }
 
-.mobileCivDetails {
+.mobileCivDetails, .mobileLandmarkInstruction {
     display:none;
 }
+
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -4963,7 +4965,7 @@ input[type=range]:focus::-ms-fill-upper {
         display:none;
     }
 
-    .mobileCivDetails {
+    .mobileCivDetails, .mobileLandmarkInstruction {
         display:none;
     }
 
@@ -6085,6 +6087,14 @@ input[type=range]:focus::-ms-fill-upper {
         display: block;
     }
 
+    .mobileLandmarkInstruction {
+        display:block;
+    }
+
+    .tabletDesktopLandmarkInstruction {
+        display:none;
+    }
+
     #landmarksLayer {
         width: 90vw!important;
         padding-left: 0px!important;
@@ -6102,7 +6112,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #landmarksLayer #landmarksTitleAndButton #landmarkKey {
-        width: 78vw;
+        width: 81vw;
         margin: 0 auto;
     }
 
@@ -6120,7 +6130,7 @@ input[type=range]:focus::-ms-fill-upper {
         width: 89vw;
         margin: 0 auto;
         position: absolute;
-        top: 47.6vw;
+        top: 55vw;
     }
 
     #mobileLandmarkSelector {
@@ -6129,7 +6139,7 @@ input[type=range]:focus::-ms-fill-upper {
         width: 76vw;
         height: 17vw;
         margin: 2vw auto 0vw;
-        top: 36vw;
+        top: 44vw;
         left: 7vw;
         z-index: 2;
     }
@@ -7294,7 +7304,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 #incomeLayer #incomeInformation .tapestryCardToAutomaSupply:not(.lastIncomeScreenAction) {
     float: none;
-    width: 39vw;
+    width: 54vw;
     height: 37vw;
     margin: 0vw auto 2vw;
     padding: 0vw 0vw;
