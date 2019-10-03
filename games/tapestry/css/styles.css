@@ -7273,6 +7273,11 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0 1vw;
 }
 
+#incomeLayer #incomeInformation[incomescreenboxes="3"] .lastIncomeScreenAction:first-child {
+    float: none;
+    margin: 0 auto 3vw;
+}
+
 #incomeLayer #incomeInformation .lastIncomeScreenAction {
     float: left;
     width: 39vw;
