@@ -6732,7 +6732,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noAutomaMove .mainActionArea {
-    width: 58.5vw;
+    width: 60.5vw;
     margin: 0vw auto 0vw;
 }
 
@@ -6795,7 +6795,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.tapestryCardMove {
-    width: 64vw;
+    width: 71vw;
     margin: 0 auto 0vw;
 }
 
@@ -6831,7 +6831,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noBenefitsMove {
-    width: 67vw;
+    width: 76vw;
     margin: 0 auto;
 }
 
@@ -6841,7 +6841,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noBenefitsMove .actionDescription {
-    width: 56vw;
+    width: 60vw;
     margin: 1.5vw 0vw 0vw 2vw;
     padding: 0vw 0vw 0vw 0vw;
 }
@@ -7069,6 +7069,10 @@ input[type=range]:focus::-ms-fill-upper {
     width: 64vw;
 }
 
+.confirmationBox.checkFirstToReachEra .buttons[btns="2"] .btn {
+    font-size: 4.3vw;
+}
+
 
 #incomeLayer #incomeTitleAndButtons {
     margin: 0vw auto 0vw!important;
@@ -7260,7 +7264,12 @@ input[type=range]:focus::-ms-fill-upper {
 
 #incomeLayer #incomeInformation .vpPointsScoring #totalScore {
     font-size: 5vw;
-    margin: 3vw 0vw 0vw 0vw;
+    margin: 3vw 0vw 3vw 0vw;
+}
+
+#incomeLayer #incomeInformation .vpPointsScoring p {
+    text-align: center!important;
+    margin: 0vw 0vw 3vw 0vw;
 }
 
 #incomeLayer #incomeTitleAndButtons.multipleIncomeActions {
@@ -7322,8 +7331,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv.smallCivContainer, #incomeLayer #incomeInformation .dualCivBonus #incomeAutomaCiv.smallCivContainer {
-    width: 78vw;
-    height: 66vw;
+    width: 88vw;
+    /* height: 66vw; */
 }
 
 #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv.smallCivContainer #incomeAutomaCivImg.smallIncomeImg, #incomeLayer #incomeInformation .dualCivBonus #incomeAutomaCiv.smallCivContainer #incomeAutomaCivImg.smallIncomeImg {
