@@ -259,12 +259,12 @@ var actionInfo = [
     {
         actionName: 'Explore',
         actionClass: 'exploreAction',		
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/explore.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/explore.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Explore Anywhere',
         actionClass: 'exploreAnywhereAction',	
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Conquer',
@@ -279,12 +279,12 @@ var actionInfo = [
     {
         actionName: 'Tapestry Card',
         actionClass: 'tapestryCard',
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a tapestry card face down next to its mat.</p></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div>'
     },
     {
         actionName: 'Conquer and Tapestry Card',
         actionClass: 'conquerAndTapestryAction',
-        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a tapestry card face down next to its mat.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div></div>'
+        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div></div>'
     },
     {
         actionName: 'Science Dice (No Benefits)',   
