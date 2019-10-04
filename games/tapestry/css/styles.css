@@ -636,7 +636,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tapestryActionContainer {
     width: 480px;
-    height: 490px;
+    height: 520px;
     margin: 0 auto;
 }
 
@@ -1488,60 +1488,47 @@ input[type=range]:focus::-ms-fill-upper {
     float: left!important;
 }
 
-.actionInformationPanel.conquerActionMove .mainActionArea {
-    width: 280px;
+.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
+    width: 243px;
     margin: 0 auto;
 }
 
-.actionInformationPanel.conquerActionMove .actionImage {
-    width: 36px;
-    margin: 10px;
+.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
+    width: 40px;
+    margin: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel.conquerActionMove .actionDescription {
-    margin: 10px 0px 0px 0px;
-    padding: 10px;
+.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+    margin: 10px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel.conquerAnywhereActionMove {
-    width: 280px;
-    margin: 0 auto;
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+    width: 310px;
+    margin: 26px 0px 0px 85px;
 }
 
-.actionInformationPanel.conquerAnywhereActionMove .actionImage {
-    width: 56px;
-    margin: 10px;
-}
-
-.actionInformationPanel.conquerAnywhereActionMove .actionDescription {
-    margin: 23px 0px 0px 0px;
-    padding: 10px;
-}
-
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers {
-    width: 260px;
-    margin: 0px auto 0px;
-}
-
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
     float: left;
+    margin: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
     display: block;
-    margin: 10px auto;
-    width: 130px;
+    margin: 0px 0px 0px 0px;
+    width: 170px;
 }
 
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
-    float: right;
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+    float: left;
+    margin: 40px 0px 0px 11px;
 }
 
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
     display: block;
-    margin: 45px auto 0px;
     width: 100px;
 }
+
 
 .actionInformationPanel.technologyCardActionMove {
     width: 329px;
@@ -1572,7 +1559,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.tapestryCardMove .actionDescription {
-    width: 290px;
+    width: 209px;
     margin: 10px 0px 0px 10px;
     padding: 10px;
 }
@@ -1601,7 +1588,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers {
     width: 418px;
-    margin: 0 auto;
+    margin: 16px auto 0px;
 }
 
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker {
@@ -1611,12 +1598,12 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
     display: block;
-    margin: 10px auto 0px;
+    margin: 0px 0px 0px 0px;
     width: 160px;
 }
 
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider {
-    margin: 60px 0px 0px 5px;
+    margin: 47px 0px 0px 5px;
     float: left;
 }
 
@@ -1737,44 +1724,66 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove {
-    width: 350px;
-    margin: 0 auto;
+    width: 478px;
+    margin: 10px auto 0px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-1 {
-    width: 380px;
-    height: 62px;
-    margin: 0 auto 10px;
+    width: 300px;
+    height: 58px;
+    margin: 0px auto 10px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-1 .actionImage {
     width: 40px;
-    margin-right: 6px;
-    margin-top: 6px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-1 .actionDescription {
-    width: 295px;
+    width: 250px;
     margin: 0px 0px 0px 0px;
-    padding: 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
-    width: 266px;
+    width: 261px;
     height: 60px;
-    margin: 0 auto;
+    margin: 10px auto 0px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
     width: 40px;
-    margin-right: 0px;
-    margin-top: 2px;
+    margin: 0px 0px 0px 0px;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
     width: 190px;
-    margin: 13px 0px 0px 5px;
-    padding: 0px 10px 10px 10px;
+    margin: 12px 0px 0px 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers {
+    width: 278px;
+    margin: 11px 0px 0px 89px;
+}
+
+.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+    float: left;
+}
+
+.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+    width: 164px;
+}
+
+.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+    float: left;
+    margin: 50px 0px 0px 20px;
+}
+
+.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+    float: left;
+    width: 80px;
 }
 
 .actionInformationPanel.noBenefitsMove {
@@ -2543,7 +2552,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 #incomeLayer #incomeInformation .vpPointsScoring p {
     text-align: center!important;
-    margin: 0px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
 }
 
 #incomeLayer #incomeInformation .vpPointsScoring #totalScore .totalIncomeValue {
@@ -4206,11 +4215,6 @@ input[type=range]:focus::-ms-fill-upper {
         border-radius: 4vw;
     }
 
-
-
-
-
-
     input[type=range] {
         -webkit-appearance: none;
         margin: 6vw auto 7vw;
@@ -5269,7 +5273,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tapestryActionContainer.shadowEmpireAutomated .trackContainer {
-        margin: 0vw 1.3vw 0vw;
+        margin: 0vw 2vw 3vw;
     }
 
     .tapestryActionContainer .trackContainer {
@@ -6667,7 +6671,7 @@ input[type=range]:focus::-ms-fill-upper {
     margin-top: 0px;
     margin: 0vw 0vw 2vw 0vw;
     font-size: 5vw;
-    line-height: 5.6vw;
+    line-height: 5.1vw;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel {
@@ -6760,6 +6764,11 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 4.3vw;
 }
 
+#incomeLayer #incomeInformation .humanAdvanceTracks img {
+    display: block;
+    margin: 5vw auto 0vw;
+    width: 36vw;
+}
 
 .favoriteTracks {
     width: 79vw;
@@ -6774,10 +6783,15 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 .tapestryActionContainer {
-    width: 84vw;
+    width: 90vw;
     height: 102vw;
     margin: 0 auto;
 }
+
+.tapestryActionContainer.shadowEmpireAutomated {
+    height: 84vw;
+}
+
 
 .actionInformationPanel, .nonActionInformationPanel {
     margin-top: 1vw;
@@ -6855,7 +6869,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.tapestryCardMove {
-    width: 71vw;
+    width: 64vw;
     margin: 0 auto 0vw;
 }
 
