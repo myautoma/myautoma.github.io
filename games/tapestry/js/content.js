@@ -99,7 +99,7 @@ var helpContent = [
         name: 'Income Turn',
         id: 'incomeTurn',
         classes: ['incomeTurn'],
-        content: '<p>The Automa gains what&rsquo;s listed on the income chart on its mat, top to bottom, left column first.</p><p>If the Automa takes an action during an income turn that requires tiebreaking, draw and use the top card of the progress deck in turn 1 (reshuffle afterwards) and the latest tiebreaker card in income turns 2-5.</p><img class="incomeTurnHelpIcon" src="img/help/advanceOnFavoriteTracks.png" /><p>If a bot&rsquo;s token has reached the end of its favorite track or if there&rsquo;s a further advanced token there, then its favorite track becomes the track that would be chosen by or . Move its &ldquo;favorite&rdquo; outpost there (it could be the same track or the favorite of the other bot).</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/advanceTrackTokens.png" /><p>Advance track tokens of both bots using the most recent decision card pair. The Automa gains the benefits (if any). This means that the Automa will do an advance and gain income during a single turn. It also means that the most recent card pair is sometimes used twice.</p><div class="clearDiv"></div> <img class="incomeTurnHelpIcon" src="img/help/civBonus.png" /> <p>The Automa gains the income turn bonus (if any) from its civilization card.</p><div class="clearDiv"></div> <img class="incomeTurnHelpIcon" src="img/help/vpPointsScoring.png" /> <p>The Automa gains VP for each landmark on its mat and for each controlled territory.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/technology.png" /><p>The Automa gains VP for each space advanced on each of the indicated tracks.</p><div class="clearDiv"></div><p>For each of the VP icons, multiply the number of advancements/landmarks/territories by the leftmost multiplier not covered by a tapestry card.</p><p>Note that contrary to human players, the Automa gains VP before playing a tapestry card and it almost exclusively gains VP during income turns.</p><p>If the Automa is the first to start a new era, it gains the VP shown.</p><p>Example: During income turn 3, the multipliers are x2, x1, and x1, respectively. This means that the Automa gains 2 VP per territory it controls, 2 VP per landmark on its mat, 1 VP for each advance on the military and science tracks, and 1 VP for each advance on the exploration and technology tracks. If it was the first to start a new era, it also gains 3 VP.</p><img class="incomeTurnHelpIcon" src="img/help/addTwoExtraCards.png" /><p>Add the 2 topmost cards from the progress-deck to the decision deck discard pile.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/tapestryCardToAutomaMat.png" /><p>Place a card from the tapestry deck (not from the Automa&rsquo;s tapestry cards) face down on the leftmost empty tapestry space on the Automa&rsquo;s income mat.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/shuffleAutomaDeck.png" /><p>Shuffle all the decision deck cards from the most recent era (including any gained this income turn) to form a new face-down decision deck.</p>'
+        content: '<p>The Automa gains what&rsquo;s listed on the income chart on its mat, top to bottom, left column first.</p><p>If the Automa takes an action during an income turn that requires tiebreaking, draw and use the top card of the progress deck in turn 1 (reshuffle afterwards) and the latest tiebreaker card in income turns 2-5.</p><img class="incomeTurnHelpIcon" src="img/help/advanceOnFavoriteTracks.png" /><p>If a bot&rsquo;s token has reached the end of its favorite track or if there&rsquo;s a further advanced token there, then its favorite track becomes the track that would be chosen by or . Move its &ldquo;favorite&rdquo; outpost there (it could be the same track or the favorite of the other bot).</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/advanceTrackTokens.png" /><p>Advance track tokens of both bots using the most recent decision card pair. The Automa gains the benefits (if any). This means that the Automa will do an advance and gain income during a single turn. It also means that the most recent card pair is sometimes used twice.</p><div class="clearDiv"></div> <img class="incomeTurnHelpIcon" src="img/help/civBonus.png" /> <p>The Automa gains the income turn bonus (if any) from its civilization card.</p><div class="clearDiv"></div> <img class="incomeTurnHelpIcon" src="img/help/vpPointsScoring.png" /> <p>The Automa gains VP for each landmark on its mat and for each controlled territory.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/technology.png" /><p>The Automa gains VP for each space advanced on each of the indicated tracks.</p><div class="clearDiv"></div><p>For each of the VP icons, multiply the number of advancements/landmarks/territories by the leftmost multiplier not covered by a tapestry card.</p><p>Note that contrary to human players, the Automa gains VP before playing a tapestry card and it almost exclusively gains VP during income turns.</p><p>If the Automa is the first to start a new era, it gains the VP shown.</p><p>Example: During income turn 3, the multipliers are x2, x1, and x1, respectively. This means that the Automa gains 2 VP per territory it controls, 2 VP per landmark on its mat, 1 VP for each advance on the military and science tracks, and 1 VP for each advance on the exploration and technology tracks. If it was the first to start a new era, it also gains 3 VP.</p><img class="incomeTurnHelpIcon" src="img/help/addTwoExtraCards.png" /><p>Add the 2 topmost cards from the progress-deck to the decision deck discard pile.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/tapestryCardToAutomaMat.png" /><p><span class="italic bold">Note: The app makes this step obsolete.</span>Place a card from the tapestry deck (not from the Automa&rsquo;s tapestry cards) face down on the leftmost empty tapestry space on the Automa&rsquo;s income mat.</p><div class="clearDiv"></div><img class="incomeTurnHelpIcon" src="img/help/shuffleAutomaDeck.png" /><p>Shuffle all the decision deck cards from the most recent era (including any gained this income turn) to form a new face-down decision deck.</p>'
     },
     {
         name: 'Game End',
@@ -259,12 +259,12 @@ var actionInfo = [
     {
         actionName: 'Explore',
         actionClass: 'exploreAction',		
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/explore.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/explore.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div></div>'
     },
     {
         actionName: 'Explore Anywhere',
         actionClass: 'exploreAnywhereAction',	
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div></div>'
     },
     {
         actionName: 'Conquer',
@@ -345,11 +345,6 @@ var difficultyLevels = [
                 eras: [2, 3, 4, 5]
             },
             {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen4',
-                eras: [2, 3, 4]
-            },
-            {
                 action: 'addTwoExtraCards',
                 type: 'incomeScreen4',
                 eras: [2, 3, 4]
@@ -384,11 +379,6 @@ var difficultyLevels = [
                 action: 'vpPointsScoring',
                 type: 'incomeScreen3',
                 eras: [2, 3, 4, 5]
-            },
-            {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen4',
-                eras: [2, 3, 4]
             },
             {
                 action: 'tapestryCardToAutomaSupply',
@@ -435,11 +425,6 @@ var difficultyLevels = [
                 action: 'vpPointsScoring',
                 type: 'incomeScreen4',
                 eras: [2, 3, 4, 5]
-            },
-            {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen5',
-                eras: [2, 3, 4]
             },
             {
                 action: 'tapestryCardToAutomaSupply',
@@ -491,11 +476,6 @@ var difficultyLevels = [
                 action: 'vpPointsScoring',
                 type: 'incomeScreen4',
                 eras: [2, 3, 4, 5]
-            },
-            {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen5',
-                eras: [2, 3, 4]
             },
             {
                 action: 'tapestryCardToAutomaSupply',
@@ -552,11 +532,6 @@ var difficultyLevels = [
                 action: 'vpPointsScoring',
                 type: 'incomeScreen5',
                 eras: [2, 3, 4, 5]
-            },
-            {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen6',
-                eras: [2, 3, 4]
             },
             {
                 action: 'tapestryCardToAutomaSupply',
@@ -618,11 +593,6 @@ var difficultyLevels = [
                 action: 'vpPointsScoring',
                 type: 'incomeScreen6',
                 eras: [2, 3, 4, 5]
-            },
-            {
-                action: 'tapestryCardToAutomaMat',
-                type: 'incomeScreen7',
-                eras: [2, 3, 4]
             },
             {
                 action: 'tapestryCardToAutomaSupply',
@@ -824,20 +794,12 @@ var incomeStepActions = [
         content: '<img src="img/income/addSixExtraCards.png" /><p class="italic">Six cards are automatically added from the progress deck to the decision-deck.</p>'
     },
     {
-        actionName: 'Tapestry Card To Automa Mat',
-        actionClass: 'tapestryCardToAutomaMat',
-        functionRequired: 'false',
-        actionRequired: 'false',
-        dynamicContent: 'false',
-        content: '<img src="img/income/tapestryCardToAutomaMat.png" /><p class="bold">Place card from tapestry deck face down on the leftmost free tapestry space.</p>'
-    },
-    {
         actionName: 'Tapestry Card To Automa Supply',
         actionClass: 'tapestryCardToAutomaSupply',
         functionRequired: 'false',
         actionRequired: 'false',
         dynamicContent: 'false',
-        content: '<img src="img/income/tapestryCardToAutomaSupply.png" /><p class="bold">Give the Automa a tapestry card face down next to its mat.</p>'
+        content: '<img src="img/income/tapestryCardToAutomaSupply.png" /><p class="bold">Give the Automa a face down tapestry card.</p>'
     },
     {
         actionName: 'Shuffle Automa Deck',
