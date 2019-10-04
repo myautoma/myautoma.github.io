@@ -1577,25 +1577,68 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 10px;
 }
 
-.actionInformationPanel.exploreActionMove {
-    width: 270px;
+
+.actionInformationPanel.exploreActionMove, .actionInformationPanel.exploreAnywhereActionMove {
+    width: 479px!important;
     margin: 0 auto;
 }
 
-.actionInformationPanel.exploreActionMove {
-    width: 290px!important;
+.actionInformationPanel.exploreActionMove .mainActionArea , .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
+    width: 280px;
+    margin: 0 auto 0px;
 }
 
-.actionInformationPanel.exploreActionMove .actionImage {
+.actionInformationPanel.exploreActionMove .actionImage , .actionInformationPanel.exploreAnywhereActionMove .actionImage {
     width: 52px;
     margin: 10px;
 }
 
-.actionInformationPanel.exploreActionMove .actionDescription {
+.actionInformationPanel.exploreActionMove .actionDescription , .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
     margin: 10px 0px 0px 0px;
     padding: 10px;
 }
 
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers {
+    width: 418px;
+    margin: 0 auto;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+    float: left;
+    margin: 0px 20px;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+    display: block;
+    margin: 10px auto 0px;
+    width: 160px;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider {
+    margin: 60px 0px 0px 5px;
+    float: left;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg {
+    width: 69px;
+    float: left;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg {
+    width: 60px;
+    float: left;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
+    float: left;
+    font-size: 50px!important;
+    margin: 0px 7px 0px 6px;
+    padding: 0px 0px 0px 0px;
+    font-weight:bold;
+}
+
+/* 
 .actionInformationPanel.exploreAnywhereActionMove {
     width: 270px;
     margin: 0 auto;
@@ -1609,13 +1652,9 @@ input[type=range]:focus::-ms-fill-upper {
 .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
     margin: 10px 0px 0px 0px;
     padding: 10px;
-}
+} */
 
-.actionInformationPanel .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
-    display: block;
-    margin: 10px auto 0px;
-    width: 160px;
-}
+
 
 .actionInformationPanel.scienceDiceNoBenefitsActionMove {
     width: 383px;
@@ -2507,11 +2546,6 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0px 0px 15px 0px;
 }
 
-#incomeLayer #incomeInformation .vpPointsScoring #totalScore {
-    font-size: 26px;
-    margin: 11px 0px 0px 0px;
-}
-
 #incomeLayer #incomeInformation .vpPointsScoring #totalScore .totalIncomeValue {
     text-decoration:underline;
 }
@@ -2579,7 +2613,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 #incomeLayer #incomeInformation[incomescreenboxes="3"] .lastIncomeScreenAction:first-child {
     float: none;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
 }
 
 #incomeLayer #incomeInformation .lastIncomeScreenAction img {
@@ -4487,26 +4521,67 @@ input[type=range]:focus::-ms-fill-upper {
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel.exploreActionMove {
-        width: 42vw!important;
+
+    .actionInformationPanel.exploreActionMove, .actionInformationPanel.exploreAnywhereActionMove {
+        width: 69vw!important;
         margin: 0 auto;
     }
-
-    .actionInformationPanel .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+    
+    .actionInformationPanel.exploreActionMove .mainActionArea , .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
+        width: 40vw;
+        margin: 0vw auto 0vw;
+    }
+    
+    .actionInformationPanel.exploreActionMove .actionImage , .actionInformationPanel.exploreAnywhereActionMove .actionImage {
+        width: 8vw;
+        margin: 1vw;
+    }
+    
+    .actionInformationPanel.exploreActionMove .actionDescription , .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
+        margin: 2vw 0vw 0vw 2vw;
+        padding: 0vw;
+    }
+    
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers {
+        width: 55vw;
+        margin: 2vw auto 0vw;
+    }
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+        float: left;
+        margin: 0vw 2vw;
+    }
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
         display: block;
         margin: 1vw auto 0vw;
         width: 25vw;
     }
-
-    .actionInformationPanel.exploreActionMove .actionDescription {
-        margin: 2vw 0vw 0vw 2vw;
-        padding: 0vw;
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider {
+        margin: 8vw 0vw 0vw 2vw;
+        float: left;
     }
-
-    .actionInformationPanel.exploreActionMove .actionImage {
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg {
+        width: 8.9vw;
+        float: left;
+    }
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg {
         width: 8vw;
-        margin: 1vw;
+        float: left;
     }
+    
+    .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
+        float: left;
+        font-size: 7vw!important;
+        margin: 2vw 1vw 0vw 1vw;
+        padding: 0vw 0vw 0vw 0vw;
+        font-weight: bold;
+    }
+
 
     .actionInformationPanel.conquerAndTapestryActionMove {
         width: 57vw;
@@ -4653,21 +4728,6 @@ input[type=range]:focus::-ms-fill-upper {
 
     .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
         margin: 2vw 0vw 0vw 3vw;
-        padding: 0vw 0vw 0vw 0vw;
-    }
-
-    .actionInformationPanel.exploreAnywhereActionMove {
-        width: 40vw;
-        margin: 0 auto;
-    }
-
-    .actionInformationPanel.exploreAnywhereActionMove .actionImage {
-        width: 8vw;
-        margin: 0vw 0vw 0vw 0vw;
-    }
-
-    .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
-        margin: 1.3vw 0vw 0vw 3vw;
         padding: 0vw 0vw 0vw 0vw;
     }
 
@@ -4931,7 +4991,7 @@ input[type=range]:focus::-ms-fill-upper {
         border: .3vw solid #746c5f;
     }
 
-    #incomeLayer .actionInformationPanel.exploreActionMove {
+    /* #incomeLayer .actionInformationPanel.exploreActionMove {
         width: 43vw;
         margin: 2vw auto 0vw;
     }
@@ -4944,7 +5004,7 @@ input[type=range]:focus::-ms-fill-upper {
     .actionInformationPanel .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
         margin: 1vw auto 0vw;
         width: 25vw;
-    }
+    } */
 
     #roundMarkerTable2 {
         display:none;
@@ -6790,7 +6850,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.technologyCardActionMove .actionDescription {
     width: 52vw;
-    margin: 0vw 0vw 0vw 0vw;
+    margin: 1vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
@@ -6846,25 +6906,62 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0vw 0vw 0vw 0vw;
 }
 
-.actionInformationPanel.exploreActionMove {
-    width: 47vw!important;
+.actionInformationPanel.exploreActionMove, .actionInformationPanel.exploreAnywhereActionMove {
+    width: 83vw!important;
     margin: 0 auto;
 }
 
-.actionInformationPanel .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+.actionInformationPanel.exploreActionMove .mainActionArea, .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
+    width: 50vw;
+    margin: 0 auto 2vw;
+}
+
+.actionInformationPanel.exploreActionMove .actionDescription, .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
+    margin: 3vw 0vw 5vw 2vw;
+    padding: 0vw;
+}
+
+.actionInformationPanel.exploreActionMove .actionImage, .actionInformationPanel.exploreAnywhereActionMove .actionImage {
+    width: 10vw;
+    margin: 1vw;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+    float: left;
+    margin: 0vw 2vw;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
     display: block;
     margin: 1vw auto 0vw;
     width: 28vw;
 }
 
-.actionInformationPanel.exploreActionMove .actionDescription {
-    margin: 3vw 0vw 5vw 2vw;
-    padding: 0vw;
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider {
+    float: left;
+    margin: 10vw 0vw 0vw 4vw;
 }
 
-.actionInformationPanel.exploreActionMove .actionImage {
-    width: 10vw;
-    margin: 1vw;
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackImg {
+    width: 11vw;
+    float: left;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider .favTrackIconImg {
+    width: 10.3vw;
+    float: left;
+}
+
+.actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
+    float: left;
+    margin: 0.2vw 1.5vw 0vw 1.5vw;
+    font-size: 9vw!important;
+    font-weight: bold;
 }
 
 .actionInformationPanel.conquerAndTapestryActionMove {
@@ -7008,21 +7105,6 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
     margin: 3.5vw 0vw 0vw 4vw;
-    padding: 0vw 0vw 0vw 0vw;
-}
-
-.actionInformationPanel.exploreAnywhereActionMove {
-    width: 54vw;
-    margin: 0 auto;
-}
-
-.actionInformationPanel.exploreAnywhereActionMove .actionImage {
-    width: 10vw;
-    margin: 0vw 0vw 0vw 0vw;
-}
-
-.actionInformationPanel.exploreAnywhereActionMove .actionDescription {
-    margin: 1.3vw 0vw 0vw 3vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
