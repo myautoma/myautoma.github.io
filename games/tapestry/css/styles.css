@@ -6732,7 +6732,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.noAutomaMove .mainActionArea {
-    width: 60.5vw;
+    width: 63.5vw;
     margin: 0vw auto 0vw;
 }
 
@@ -6779,7 +6779,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.technologyCardActionMove {
-    width: 61vw;
+    width: 66vw;
     margin: 2vw auto 0vw;
 }
 
@@ -6789,7 +6789,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.technologyCardActionMove .actionDescription {
-    width: 49vw;
+    width: 52vw;
     margin: 0vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
 }
