@@ -4422,35 +4422,51 @@ input[type=range]:focus::-ms-fill-upper {
         margin-top: 0vw;
     }
     
-    .actionInformationPanel.conquerActionMove .mainActionArea {
+
+    .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
         width: 38vw;
         margin: 0 auto;
     }
 
-    .actionInformationPanel.conquerActionMove .actionImage {
+    .actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
         width: 5vw;
-        margin: 1vw;
+        margin: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel.conquerActionMove .actionDescription {
-        margin: 2vw 0vw 0vw 2vw;
+    .actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+        margin: 1vw 0vw 0vw 3vw;
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers {
-        width: 41vw;
-        margin: 0vw auto 0vw;
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+        width: 48vw;
+        margin: 3vw 0vw 0vw 12vw;
     }
 
-    .actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
-        margin: 3vw auto 0vw;
-        width: 21vw;
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+        float: left;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+        display: block;
+        margin: 0vw 0vw 0vw 0vw;
+        width: 26vw;
     }
     
-    .actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
-        margin: 9vw auto 0vw;
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+        float: left;
+        margin: 10vw 0vw 0vw 3vw;
+    }
+
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+        display: block;
         width: 15vw;
     }
+
+
+
+
 
     .actionInformationPanel.technologyCardActionMove {
         width: 47vw;
@@ -4718,21 +4734,6 @@ input[type=range]:focus::-ms-fill-upper {
         margin-top: 1vw;
         margin-left: 3.3vw;
         margin-right: 1.2vw;
-    }
-
-    .actionInformationPanel.conquerAnywhereActionMove {
-        width: 52vw;
-        margin: 0 auto;
-    }
-
-    .actionInformationPanel.conquerAnywhereActionMove .actionImage {
-        width: 7vw;
-        margin: 0vw 0vw 0vw 2.7vw;
-    }
-
-    .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
-        margin: 2vw 0vw 0vw 3vw;
-        padding: 0vw 0vw 0vw 0vw;
     }
 
     #cardArea #passInstructions {
@@ -6093,7 +6094,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
     
     .favoriteTracks.shadowEmpireFavoriteTrackContainer {
-        width: 35vw;
+        width: 44vw;
         margin: 0 auto 2vw;
     }
 
@@ -6783,12 +6784,13 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 .tapestryActionContainer {
-    width: 90vw;
+    width: 84vw;
     height: 102vw;
     margin: 0 auto;
 }
 
 .tapestryActionContainer.shadowEmpireAutomated {
+    width: 90vw;
     height: 84vw;
 }
 
@@ -6822,20 +6824,53 @@ input[type=range]:focus::-ms-fill-upper {
     margin-top: 0vw;
 }
 
-.actionInformationPanel.conquerActionMove .mainActionArea {
-    width: 54vw;
+
+
+
+.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
+    width: 46vw;
     margin: 0 auto;
 }
 
-.actionInformationPanel.conquerActionMove .actionImage {
-    width: 8vw;
-    margin: 0vw 1vw 1vw 1vw;
+.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
+    width: 7vw;
+    margin: 0vw 0vw 0vw 0vw;
 }
 
-.actionInformationPanel.conquerActionMove .actionDescription {
-    margin: 3vw 0vw 0vw 3vw;
+.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+    margin: 2vw 0vw 0vw 3vw;
     padding: 0vw 0vw 0vw 0vw;
 }
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+    width: 58vw;
+    margin: 4vw 0vw 0vw 9vw;
+}
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+    float: left;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+    display: block;
+    margin: 0vw 0vw 0vw 0vw;
+    width: 33vw;
+}
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+    float: left;
+    margin: 3vw 0vw 0vw 5vw;
+}
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+    display: block;
+    width: 17vw;
+}
+
+
+
+
 
 .actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers {
     width: 48vw;
@@ -7107,26 +7142,10 @@ input[type=range]:focus::-ms-fill-upper {
     margin-right: 2.2vw;
 }
 
-.actionInformationPanel.conquerAnywhereActionMove {
-    width: 63vw;
-    margin: 0 auto;
-}
-
-.actionInformationPanel.conquerAnywhereActionMove .actionImage {
-    width: 11vw;
-    margin: 0vw 0vw 0vw 2.7vw;
-}
-
-.actionInformationPanel.conquerAnywhereActionMove .actionDescription {
-    margin: 3.5vw 0vw 0vw 4vw;
-    padding: 0vw 0vw 0vw 0vw;
-}
-
 .roundMarkerTable {
     font-size: 4.5vw;
     margin: 3vw auto 0vw;
 }
-
 
 #gameLayer.layer {
     width: 90vw;
