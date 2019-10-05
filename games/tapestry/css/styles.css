@@ -6144,7 +6144,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .confirmationBox.showCurrentAutomaCardsBox a {
         padding: 2.8vw 10vw;
-        font-size: 5vw;
+        font-size: 4.3vw;
         width: 12vw;
         float: none;
         margin: 0 auto;
@@ -6477,15 +6477,15 @@ input[type=number]::-webkit-outer-spin-button {
         width: 44vw;
     }
 
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"], #fullAutomaChooseCivsLayer .buttons[btns="3"] {
+    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] {
         width: 77vw!important;
     }
 
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn, #fullAutomaChooseCivsLayer .buttons[btns="3"] .btn {
+    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn {
         margin: 0 2vw 2vw;
     }
 
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn:last-child, #fullAutomaChooseCivsLayer .buttons[btns="3"] .btn:last-child {
+    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn:last-child {
         float: none;
         margin: 0 auto;
         clear: both;
@@ -6494,7 +6494,16 @@ input[type=number]::-webkit-outer-spin-button {
     #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer p {
         text-align: center!important;
         margin: 2vw 0vw 0vw 0vw;
-        font-size: 5.5vw!important;
+        font-size: 5vw!important;
+    }
+
+    #fullAutomaChooseCivsLayer .buttons[btns="3"] {
+        width: 89vw!important;
+    }
+
+    #fullAutomaChooseCivsLayer .buttons[btns="3"] .btn {
+        width: 24vw;
+        margin: 0 1.5vw 2vw;
     }
 
     #fullAutomaConfigColorChoiceLayer .artificialOpponentInfo {
