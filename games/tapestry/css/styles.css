@@ -6507,15 +6507,14 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #fullAutomaConfigColorChoiceLayer .artificialOpponentInfo {
-        height: 25vw;
-        width: 73vw;
+        height: 21vw;
+        width: 63vw;
         margin: 4vw auto 0vw;
     }
 
     #fullAutomaConfigColorChoiceLayer #shadowEmpireInfo.artificialOpponentInfo {
-        margin-bottom: 10vw;
+        margin-bottom: 7vw;
     }
-
 
     #fullAutomaConfigColorChoiceLayer .chooseColorContainer {
         margin: 0vw 0vw;
@@ -6530,7 +6529,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     #fullAutomaConfigColorChoiceLayer .chooseColorContainer .outpostColor {
         width: 8vw;
-        margin: 1vw 3.2vw;
+        margin: 1vw 2.3vw;
     }
 
     .extraSetupScreen:not(#fullAutomaConfigLayer) .buttons {
