@@ -6529,8 +6529,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #fullAutomaConfigColorChoiceLayer .chooseColorContainer .outpostColor {
-        width: 10vw;
-        margin: 1vw 2vw;
+        width: 8vw;
+        margin: 1vw 3.2vw;
     }
 
     .extraSetupScreen:not(#fullAutomaConfigLayer) .buttons {
