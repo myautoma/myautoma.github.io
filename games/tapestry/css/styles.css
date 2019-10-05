@@ -5136,6 +5136,30 @@ input[type=number]::-webkit-outer-spin-button {
         clear:both;
     }
 
+    #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"], #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"], #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"], .confirmationBox.chooseSecondCiv .buttons {
+        width: 64vw!important;
+    }
+
+    #fullAutomaChooseCivsLayer.layer.extraSetupScreen .buttons[btns="3"], #fullAutomaConfigTrackChoiceLayer.layer.extraSetupScreen .buttons[btns="3"] {
+        width: 89vw!important;
+    }
+
+    #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, .confirmationBox.chooseSecondCiv .buttons .btn {
+        width: 24vw;
+        margin: 0 2.5vw 2vw;
+        padding: 2.7vw 1.3vw;
+        float: left;
+        font-size: 4.3vw;
+    }
+
+    #fullAutomaChooseCivsLayer.layer.extraSetupScreen .buttons[btns="3"] .btn, #fullAutomaConfigTrackChoiceLayer.layer.extraSetupScreen .buttons[btns="3"] .btn {
+        width: 24vw;
+        margin: 0 1.5vw 2vw!important;
+        padding: 2.7vw 1.3vw;
+        float: left;
+        font-size: 4.3vw;
+    }
+
     .extraSetupScreen {
         width: 90vw!important;
         padding-left: 0vw!important;
@@ -6477,33 +6501,10 @@ input[type=number]::-webkit-outer-spin-button {
         width: 44vw;
     }
 
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] {
-        width: 77vw!important;
-    }
-
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn {
-        margin: 0 2vw 2vw;
-    }
-
-    #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn:last-child {
-        float: none;
-        margin: 0 auto;
-        clear: both;
-    }
-
     #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer p {
         text-align: center!important;
         margin: 2vw 0vw 0vw 0vw;
         font-size: 5vw!important;
-    }
-
-    #fullAutomaChooseCivsLayer .buttons[btns="3"] {
-        width: 89vw!important;
-    }
-
-    #fullAutomaChooseCivsLayer .buttons[btns="3"] .btn {
-        width: 24vw;
-        margin: 0 1.5vw 2vw;
     }
 
     #fullAutomaConfigColorChoiceLayer .artificialOpponentInfo {
@@ -6532,22 +6533,10 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 1vw 2.3vw;
     }
 
-    .extraSetupScreen:not(#fullAutomaConfigLayer) .buttons {
-        margin: 6vw auto 0vw;
-    }
-
     #sameColorError {
         top: 90vw;
         left: 10vw;
         font-size: 3.5vw!important;
-    }
-    
-    #fullAutomaConfigColorChoiceLayer .buttons, #fullAutomaSetupInstructionsLayer .buttons {
-        width: 62vw;
-    }
-
-    #fullAutomaConfigColorChoiceLayer .buttons .btn, #fullAutomaSetupInstructionsLayer .buttons .btn {
-        width: 25vw;
     }
 
     #masterFavTrackContainer {
@@ -6810,17 +6799,6 @@ input[type=range]:focus::-ms-fill-upper {
 .confirmationBox.chooseSecondCiv #bothCivContainer .level6CivDetailsContainer {
     float:none;
     margin:0 auto;
-}
-
-.confirmationBox.chooseSecondCiv .buttons {
-    width: 73vw!important;
-}
-
-.confirmationBox.chooseSecondCiv .buttons .btn {
-    width: 18vw!important;
-    margin: 1vw 2vw 1vw!important;
-    padding: 2.8vw 7vw;
-    font-size: 4.3vw;
 }
 
 #incomeLayer #incomeInformation .humanAdvanceTracks img {
