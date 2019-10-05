@@ -5083,7 +5083,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .incomeTurnHelpIcon {
-        width: 10vw;
+        height: 10vw;
         float: left;
         margin-right: 4vw;
         margin-bottom: 4vw;
@@ -7543,7 +7543,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .incomeTurnHelpIcon {
-    width: 12vw;
+    height: 12vw;
     float: right;
     margin-right: 1vw;
     margin-bottom: 0vw;
