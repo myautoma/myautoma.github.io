@@ -409,7 +409,7 @@
 
 input[type=range] {
     -webkit-appearance: none;
-    margin: 38px auto 30px;
+    margin: 38px auto 39px;
     width: 54%;
 }
 
@@ -691,10 +691,10 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tapestryActionContainer .trackContainer .trackIcon {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    top: -12px;
+    left: -14px;
     z-index: 2;
-    width: 46px;
+    width: 68px;
 }
 
 .tapestryActionContainer .trackContainer .trackImg {
@@ -1488,43 +1488,43 @@ input[type=range]:focus::-ms-fill-upper {
     float: left!important;
 }
 
-.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
+.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
     width: 243px;
     margin: 0 auto;
 }
 
-.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
+.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
     width: 40px;
     margin: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
     margin: 10px 0px 0px 20px;
     padding: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers {
     width: 310px;
-    margin: 26px 0px 0px 85px;
+    margin: 26px 0px 0px 95px;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
     float: left;
     margin: 0px 0px 0px 0px;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
     display: block;
     margin: 0px 0px 0px 0px;
-    width: 170px;
+    width: 140px;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
     float: left;
-    margin: 40px 0px 0px 11px;
+    margin: 40px 0px 0px 31px;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
     display: block;
     width: 100px;
 }
@@ -1744,46 +1744,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 250px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
-    width: 261px;
-    height: 60px;
-    margin: 10px auto 0px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
-    width: 40px;
-    margin: 0px 0px 0px 0px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
-    width: 190px;
-    margin: 12px 0px 0px 12px;
-    padding: 0px 0px 0px 0px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers {
-    width: 278px;
-    margin: 11px 0px 0px 89px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
-    float: left;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
-    width: 164px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
-    float: left;
-    margin: 50px 0px 0px 20px;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
-    float: left;
-    width: 80px;
 }
 
 .actionInformationPanel.noBenefitsMove {
@@ -2095,22 +2055,49 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0px 50px 40px!important;
 }
 
+#difficultyLevelLayer #difficultyInstructions  {
+    position: absolute;
+    top: 186px;
+    left: 271px;
+    width: 270px;
+    padding: 10px;
+}
+
+#difficultyLevelLayer #difficultyInstructions img  {
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+#difficultyLevelLayer #difficultyInstructions p  {
+    text-align: center!important;
+    margin: 8px 0px 0px 0px;
+}
+
 #difficultyLevelLayer #automaDifficultyContent {
     position: relative;
-    width: 604px;
-    height: 534px;
+    width: 502px;
+    height: 387px;
     margin: 0 auto;
+    transition: all 800ms ease-in-out;
+    opacity: 1;
+}
+
+#difficultyLevelLayer #automaDifficultyContent.instructionOverlay {
+    opacity: .05;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #automaDifficultyAutomaMat {
-    width: 600px;
+    width: 410px;
+    display: block;
+    margin: 0 auto;
     border: 2px solid #746c5f;
     border-radius: 10px;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel {
     border-radius: 10px;
-    width: 230px;
+    width: 200px;
     padding: 0px 0px 0px;
     margin-bottom: 20px;
     float: left;
@@ -2120,26 +2107,35 @@ input[type=range]:focus::-ms-fill-upper {
     font-family: 'Prompt', sans-serif;
     text-align: center!important;
     margin-top: 0px;
-    margin: 0px 0px 17px 0px;
-    font-size: 28px;
-    line-height: 34px;
+    margin: 0px 0px 11px 0px;
+    font-size: 26px;
+    line-height: 26px;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel .automaLevelHeading.noExtraInfo {
-    margin: 63px 0px 17px 0px;
+    margin: 39px 0px 17px 0px;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel #automaDifficultyExtraInfo {
-    width: 190px;
+    width: 180px;
     display: block;
     margin: 0 auto;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #automaDifficultyLevelCard {
     border-radius: 10px;
-    width: 341px;
-    margin-bottom: 20px;
+    width: 270px;
+    margin-bottom: 25px;
     float: right;
+}
+
+#difficultyLevelLayer #automaDifficultyContent #automaDifficultyLevelCardHelpIcon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 50px;
+    cursor: hand;
+    cursor: pointer;
 }
 
 #difficultyLevelLayer #automaDifficultyContent.cardDisplayMode {
@@ -2161,6 +2157,10 @@ input[type=range]:focus::-ms-fill-upper {
     float: none;
     margin:0 auto 20px;
     display:block
+}
+
+#difficultyLevelLayer.layer.extraSetupScreen .buttons {
+    margin: 26px auto 0px;
 }
 
 .confirmationBox.chooseSecondCiv {
@@ -2479,7 +2479,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .civBonus #incomeAutomaCiv #incomeAutomaCivImg.nonActionCiv, .dualCivBonus #incomeAutomaCiv #incomeAutomaCivImg.nonActionCiv {
-    float: none;
+    float: none!important;
     display: block;
     margin: 0 auto;
 }
@@ -2879,6 +2879,12 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 0px 0px 0px 0px;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -3090,10 +3096,10 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tapestryActionContainer .trackContainer .trackIcon {
-        bottom: 0vw;
-        left: 0vw;
+        top: -1.8vw;
+        left: -2vw;
         z-index: 2;
-        width: 8vw;
+        width: 10.5vw;
     }
 
     .tapestryActionContainer .trackContainer .trackImg {
@@ -4224,7 +4230,7 @@ input[type=range]:focus::-ms-fill-upper {
     input[type=range] {
         -webkit-appearance: none;
         margin: 6vw auto 7vw;
-        width: 78%;
+        width: 68%;
     }
 
     input[type=range]:focus {
@@ -4376,24 +4382,42 @@ input[type=range]:focus::-ms-fill-upper {
         width: 11vw!important;
         margin: 1vw 2vw 1vw!important;
     }
+
+    #difficultyLevelLayer #difficultyInstructions {
+        top: 22vw;
+        left: 19vw;
+        width: 48vw;
+        padding: 2vw;
+    }
+
+    #difficultyLevelLayer #difficultyInstructions img {
+        width: 10vw;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #difficultyLevelLayer #difficultyInstructions p {
+        text-align: center!important;
+        margin: 1vw 0vw 0vw 0vw;
+    }
     
     #difficultyLevelLayer #automaDifficultyContent {
-        width: 89vw;
+        width: 77vw;
         height: 59vw;
         margin: 0 auto 4vw;
     }
 
     #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel {
-        width: 33vw;
+        width: 27vw;
         padding: 0vw 2vw 0vw;
         margin-bottom: 0vw;
         margin-left: 0vw;
     }
 
     #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel .automaLevelHeading {
-        margin: 0vw 0vw 2.5vw 0vw;
-        font-size: 4.3vw;
-        line-height: 5vw;
+        margin: 0vw 0vw 1.5vw 0vw;
+        font-size: 4vw;
+        line-height: 4.3vw;
     }
 
     #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel .automaLevelHeading.noExtraInfo {
@@ -4401,18 +4425,24 @@ input[type=range]:focus::-ms-fill-upper {
     }
     
     #difficultyLevelLayer #automaDifficultyContent #difficultyInformationPanel #automaDifficultyExtraInfo {
-        width: 31vw;
+        width: 27vw;
     }
 
     #difficultyLevelLayer #automaDifficultyContent #automaDifficultyLevelCard {
         border-radius: 2vw;
-        width: 50.5vw;
-        margin-bottom: 0vw;
+        width: 43vw;
+        margin-bottom: 3vw;
         margin-right: 0vw;
     }
 
+    #difficultyLevelLayer #automaDifficultyContent #automaDifficultyLevelCardHelpIcon {
+        top: -1vw;
+        right: -1vw;
+        width: 7vw;
+    }
+
     #difficultyLevelLayer #automaDifficultyContent #automaDifficultyAutomaMat {
-        width: 88vw;
+        width: 63vw;
         border-radius: 2vw;
         margin-top: 2.8vw;
     }
@@ -4429,45 +4459,45 @@ input[type=range]:focus::-ms-fill-upper {
     }
     
 
-    .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
+    .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
         width: 38vw;
         margin: 0 auto;
     }
 
-    .actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
+    .actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
         width: 5vw;
         margin: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+    .actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
         margin: 1vw 0vw 0vw 3vw;
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers {
         width: 48vw;
         margin: 3vw 0vw 0vw 12vw;
     }
 
-    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
         float: left;
         margin: 0vw 0vw 0vw 0vw;
     }
 
-    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
         display: block;
         margin: 0vw 0vw 0vw 0vw;
-        width: 26vw;
+        width: 23vw;
     }
     
-    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
         float: left;
-        margin: 10vw 0vw 0vw 3vw;
+        margin: 8vw 0vw 0vw 4vw;
     }
 
-    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+    .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
         display: block;
-        width: 15vw;
+        width: 14vw;
     }
 
 
@@ -4630,24 +4660,6 @@ input[type=range]:focus::-ms-fill-upper {
     .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-1 .actionDescription {
         width: 48vw;
         margin: 1.3vw 0vw 0vw 1vw;
-        padding: 0vw 0vw 0vw 0vw;
-    }
-
-    .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
-        width: 40vw;
-        height: 10vw;
-        margin: 0 auto;
-    }
-
-    .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
-        width: 6vw;
-        margin-right: 0vw;
-        margin-top: 1vw;
-    }
-
-    .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
-        width: 31vw;
-        margin: 2.5vw 0vw 0vw 2vw;
         padding: 0vw 0vw 0vw 0vw;
     }
 
@@ -5309,9 +5321,9 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .tapestryActionContainer .trackContainer .trackIcon {
-        bottom: 0vw;
-        left: 0vw;
-        width: 11vw;
+        top: -2vw;
+        left: -2vw;
+        width: 12vw;
     }
 
     .tapestryActionContainer .trackContainer .trackImg {
@@ -6672,6 +6684,25 @@ input[type=range]:focus::-ms-fill-upper {
     background: #367ebd;
 }
 
+#difficultyLevelLayer #difficultyInstructions {
+    position: absolute;
+    top: 34vw;
+    left: 15vw;
+    width: 57vw;
+    padding: 2vw;
+}
+
+#difficultyLevelLayer #difficultyInstructions img {
+    width: 11vw;
+    margin: 0 auto;
+    display: block;
+}
+
+#difficultyLevelLayer #difficultyInstructions p {
+    text-align: center!important;
+    margin: 2vw 0vw 0vw 0vw;
+}
+
 #difficultyLevelLayer #automaDifficultyContent {
     position: relative;
     width: 90vw;
@@ -6709,6 +6740,12 @@ input[type=range]:focus::-ms-fill-upper {
     float: right;
     display: block;
     margin: 0vw auto 3vw;
+}
+
+#difficultyLevelLayer #automaDifficultyContent #automaDifficultyLevelCardHelpIcon {
+    top: -2vw;
+    right: -2vw;
+    width: 9vw;
 }
 
 #difficultyLevelLayer #automaDifficultyContent #automaDifficultyAutomaMat {
@@ -6846,43 +6883,43 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 
-.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
+.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
     width: 51vw;
     margin: 0 auto;
 }
 
-.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage {
+.actionInformationPanel.conquerActionMove .actionImage, .actionInformationPanel.conquerAnywhereActionMove .actionImage, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
     width: 7vw;
     margin: 0vw 0vw 0vw 0vw;
 }
 
-.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription {
+.actionInformationPanel.conquerActionMove .actionDescription, .actionInformationPanel.conquerAnywhereActionMove .actionDescription, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
     margin: 2vw 0vw 0vw 3vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers {
     width: 58vw;
-    margin: 4vw 0vw 0vw 9vw;
+    margin: 4vw 0vw 0vw 11vw;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker {
     float: left;
     margin: 0vw 0vw 0vw 0vw;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
     display: block;
     margin: 0vw 0vw 0vw 0vw;
-    width: 33vw;
+    width: 30vw;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
     float: left;
-    margin: 7vw 0vw 0vw 5vw;
+    margin: 10vw 0vw 0vw 5vw;
 }
 
-.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAndTapestryActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
     display: block;
     width: 17vw;
 }
@@ -7034,25 +7071,6 @@ input[type=range]:focus::-ms-fill-upper {
 .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-1 .actionDescription {
     width: 53vw;
     margin: 1.3vw 0vw 0vw 1vw;
-    padding: 0vw 0vw 0vw 0vw;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
-    width: 47vw;
-    height: 11vw;
-    margin: 2vw auto 0vw;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionImage {
-    width: 7vw;
-    margin-right: 0vw;
-    margin-top: 1vw;
-    margin-left: 2vw;
-}
-
-.actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 .actionDescription {
-    width: 38vw;
-    margin: 2.5vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
