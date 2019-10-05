@@ -2872,6 +2872,12 @@ input[type=range]:focus::-ms-fill-upper {
     display:none;
 }
 
+.startingIncomeTurnStatement {
+    font-style: italic;
+    text-align: center!important;
+    margin: 16px 0vw 22px;
+    padding: 0px 0px 0px 0px;
+}
 
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
@@ -5070,6 +5076,13 @@ input[type=range]:focus::-ms-fill-upper {
         margin-right: 4vw;
         margin-bottom: 4vw;
     }
+
+    .startingIncomeTurnStatement {
+        font-style: italic;
+        text-align: center!important;
+        margin: 2vw 0vw 3vw;
+        padding: 0vw 0vw 0vw 0vw;
+    }
     
 
 }
@@ -6828,7 +6841,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
-    width: 46vw;
+    width: 49vw;
     margin: 0 auto;
 }
 
@@ -6860,7 +6873,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator {
     float: left;
-    margin: 3vw 0vw 0vw 5vw;
+    margin: 7vw 0vw 0vw 5vw;
 }
 
 .actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img, .actionInformationPanel.conquerAnywhereActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
@@ -6868,24 +6881,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 17vw;
 }
 
-
-
-
-
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers {
-    width: 48vw;
-    margin: 0vw auto 0vw;
-}
-
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .mapTiebreaker img {
-    margin: 3vw auto 0vw;
-    width: 27vw;
-}
-
-.actionInformationPanel .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator img {
-    margin: 12vw auto 0vw;
-    width: 17vw;
-}
 
 .actionInformationPanel.technologyCardActionMove {
     width: 66vw;
@@ -6961,7 +6956,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.exploreActionMove .mainActionArea, .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
-    width: 50vw;
+    width: 53vw;
     margin: 0 auto 2vw;
 }
 
@@ -7207,10 +7202,9 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 3vw auto 0!important;
 }
 
-
 #incomeLayer #incomeTitleAndButtons {
     margin: 0vw auto 0vw!important;
-    width: 69vw;
+    width: 90vw;
 }
 
 #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons {
@@ -7228,6 +7222,10 @@ input[type=range]:focus::-ms-fill-upper {
 #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons #incomeIcons[icons="1"] {
     width: 15vw;
     margin-left: 2.5vw;
+}
+
+#incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons #incomeIcons[icons="2"] {
+    width: 28vw;
 }
 
 #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons #incomeIcons img {
@@ -7248,7 +7246,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 #incomeLayer #incomeInformation {
     width: 89vw;
-    margin: 5vw auto 0vw;
+    margin: 0vw auto 0vw;
 }
 
 #incomeLayer #incomeInformation .humanAdvanceTracks {
@@ -7257,20 +7255,16 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #incomeLayer #incomeTitleAndButtons .buttons[btns="3"] {
-    width: 68vw!important;
+    width: 89vw!important;
     margin: 2vw auto 0vw!important;
 }
 
 #incomeLayer #incomeTitleAndButtons .buttons[btns="3"] .btn {
     float: left!important;
-    margin: 0vw 2vw 2vw!important;
-    width: 27vw!important;
-}
-
-#incomeLayer #incomeTitleAndButtons .buttons[btns="3"] .btn:last-child {
-    float: none!important;
-    margin: 0 auto!important;
-    clear: both;
+    margin: 0vw 1vw 2vw!important;
+    width: 25vw!important;
+    padding: 2.7vw 1vw;
+    font-size: 4vw;
 }
 
 #incomeInformation .favoriteTrackAssessment .assessFavTrackContainer {
@@ -7398,7 +7392,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #incomeLayer #incomeInformation .vpPointsScoring #totalScore {
-    font-size: 5vw;
+    font-size: 5.5vw;
     margin: 3vw 0vw 3vw 0vw;
 }
 
@@ -7491,7 +7485,7 @@ input[type=range]:focus::-ms-fill-upper {
     display: block;
     text-align: center!important;
     font-size: 4.5vw;
-    margin: 4vw 0vw 4vw;
+    margin: 0vw 0vw 2vw;
     line-height: 6vw;
 }
 
@@ -7543,6 +7537,13 @@ input[type=range]:focus::-ms-fill-upper {
     margin-right: 1vw;
     margin-bottom: 0vw;
     margin: 0vw 5vw 2vw 3vw;
+}
+
+.startingIncomeTurnStatement {
+    font-style: italic;
+    text-align: center!important;
+    margin: 4vw 0vw 5vw;
+    padding: 0vw 0vw 0vw 0vw;
 }
 
 
