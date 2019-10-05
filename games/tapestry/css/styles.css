@@ -5136,7 +5136,7 @@ input[type=number]::-webkit-outer-spin-button {
         clear:both;
     }
 
-    #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"], #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"], #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"], .confirmationBox.chooseSecondCiv .buttons {
+    .confirmationBox.showTapestryCard .buttons[btns="2"], #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"], #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"], #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"], .confirmationBox.chooseSecondCiv .buttons {
         width: 64vw!important;
     }
 
@@ -5144,7 +5144,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 89vw!important;
     }
 
-    #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, .confirmationBox.chooseSecondCiv .buttons .btn {
+    .confirmationBox.showTapestryCard .buttons[btns="2"] .btn, #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, .confirmationBox.chooseSecondCiv .buttons .btn {
         width: 24vw;
         margin: 0 2.5vw 2vw;
         padding: 2.7vw 1.3vw;
@@ -5158,6 +5158,10 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 2.7vw 1.3vw;
         float: left;
         font-size: 4.3vw;
+    }
+
+    .confirmationBox {
+        font-size: 4.5vw;
     }
 
     .extraSetupScreen {
@@ -6182,17 +6186,6 @@ input[type=number]::-webkit-outer-spin-button {
 
     #ageOfDiscoveryTapestry {
         width: 40vw;
-    }
-
-    .confirmationBox.showTapestryCard .buttons[btns="2"] {
-        width: 68vw;
-    }
-
-    .confirmationBox.showTapestryCard .buttons[btns="2"] .btn {
-        margin: 0vw 2vw 0vw;
-        width: 18vw;
-        float: left;
-        padding: 2.8vw 6vw;
     }
 
     .confirmationBox.showTapestryCard .diceImage {
