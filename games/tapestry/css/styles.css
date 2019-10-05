@@ -6894,7 +6894,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.technologyCardActionMove .actionDescription {
     width: 52vw;
-    margin: 1vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 0vw 0vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
@@ -6946,7 +6946,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.noBenefitsMove .actionDescription {
     width: 60vw;
-    margin: 1.5vw 0vw 0vw 2vw;
+    margin: 0.5vw 0vw 0vw 2vw;
     padding: 0vw 0vw 0vw 0vw;
 }
 
@@ -7451,13 +7451,13 @@ input[type=range]:focus::-ms-fill-upper {
     float: none;
     width: 54vw;
     height: 37vw;
-    margin: 0vw auto 2vw;
+    margin: 4vw auto 2vw;
     padding: 0vw 0vw;
 }
 
 #incomeLayer #incomeInformation .tapestryCardToAutomaSupply:not(.lastIncomeScreenAction) img {
     height: 12vw;
-    margin: 0 auto 10px;
+    margin: 0 auto 1vw;
     display: block;
 }
 
@@ -7487,6 +7487,7 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 4.5vw;
     margin: 0vw 0vw 2vw;
     line-height: 6vw;
+    text-decoration:underline!important;
 }
 
 .confirmationBox.showCurrentAutomaCiv {
