@@ -6822,20 +6822,20 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .favoriteTracks {
-    width: 81vw;
+    width: 83vw;
     margin: 0 auto;
 }
 
 .confirmationBox.showCurrentAutomaCardsBox .favoriteTracks.automaShadowEmpireFavoriteTrackContainer .automaFavoriteTrack {
     float: left;
     margin: 1vw auto;
-    width: 38vw;
+    width: 39vw;
 }
 
 .confirmationBox.showCurrentAutomaCardsBox .favoriteTracks.automaShadowEmpireFavoriteTrackContainer .shadowEmpireFavoriteTrack {
     float: right;
     margin: 1vw auto;
-    width: 38vw;
+    width: 39vw;
 }
 
 
