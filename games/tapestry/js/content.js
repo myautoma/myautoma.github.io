@@ -269,12 +269,12 @@ var actionInfo = [
     {
         actionName: 'Conquer',
         actionClass: 'conquerAction',
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Conquer Anywhere',
         actionClass: 'conquerAnywhereAction',
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquerAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div></div>'
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquerAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Tapestry Card',
@@ -284,7 +284,7 @@ var actionInfo = [
     {
         actionName: 'Conquer and Tapestry Card',
         actionClass: 'conquerAndTapestryAction',
-        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div></div>'
+        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Science Dice (No Benefits)',   
@@ -710,7 +710,7 @@ var incomeStepActions = [
         functionRequired: 'false',
         actionRequired: 'false',
         dynamicContent: 'false',
-        content: '<p class="italic">For their first income turn, the human player advances on all 4 tracks once (in whichever order they choose), receiving the benefits.</p><img src="img/difficulty/level1ExtraInfo.jpg" />'
+        content: '<p class="italic">For their first income turn, the human player advances one space on all 4 tracks (in whichever order they choose), receiving the benefits.</p><img src="img/difficulty/level1ExtraInfo.jpg" />'
     },
     {
         actionName: 'Favorite Tracks Advance',
