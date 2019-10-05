@@ -6841,7 +6841,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea {
-    width: 49vw;
+    width: 51vw;
     margin: 0 auto;
 }
 
