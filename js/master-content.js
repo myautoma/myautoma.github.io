@@ -1,1 +1,32 @@
-var _0xc9e9=['sound','exitGame','msg-exitGame-none','New\x20Game','newGame','alert','msg-newGame-start','Moves','moves','history','overlayBox','overlay-history','Help','help','overlay-help','Sound\x20off'];(function(_0x2f9106,_0x5ab9f9){var _0x7d3523=function(_0xfa746e){while(--_0xfa746e){_0x2f9106['push'](_0x2f9106['shift']());}};_0x7d3523(++_0x5ab9f9);}(_0xc9e9,0x1d3));var _0x3f60=function(_0x4de8f1,_0x16e078){_0x4de8f1=_0x4de8f1-0x0;var _0x1d7bb4=_0xc9e9[_0x4de8f1];return _0x1d7bb4;};var menu=[{'name':_0x3f60('0x0'),'id':_0x3f60('0x1'),'classes':[_0x3f60('0x2'),_0x3f60('0x3')]},{'name':_0x3f60('0x4'),'id':_0x3f60('0x5'),'classes':[_0x3f60('0x6'),_0x3f60('0x7'),_0x3f60('0x8')]},{'name':_0x3f60('0x9'),'id':'help','classes':[_0x3f60('0xa'),_0x3f60('0x7'),_0x3f60('0xb')]},{'name':_0x3f60('0xc'),'id':_0x3f60('0xd'),'classes':[_0x3f60('0xd')]},{'name':'Main\x20Menu','id':_0x3f60('0xe'),'classes':[_0x3f60('0x2'),_0x3f60('0xf')]}];
+var menu = [
+    {
+        name: 'New Game',
+        id: 'newGame',
+        classes: ['alert', 'msg-newGame-start']
+    },
+    // {
+    //     name: 'Reset Game',
+    //     id: 'resetGame',
+    //     classes: ['alert', 'hidden', 'msg-resetGame-game']
+    // },
+    {
+        name: 'Move History',
+        id: 'moves',
+        classes: ['history', 'overlayBox', 'overlay-history']
+    },
+    {
+        name: 'Help',
+        id: 'help',
+        classes: ['help', 'overlayBox', 'overlay-help']
+    },
+    {
+        name: 'Sound off',
+        id: 'sound',
+        classes: ['sound']
+    },
+    {
+        name: 'Main Menu',
+        id: 'exitGame',
+        classes: ['alert', 'msg-exitGame-none']
+    }
+];
