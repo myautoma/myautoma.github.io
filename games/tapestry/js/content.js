@@ -623,7 +623,7 @@ var automaMatMultipliers = [
         matLevel: 'Normal',
         eraBonuses: [
             {
-                startEraFirstVPs: 3,
+                startEraFirstVPs: 2,
                 landmarks: 1,
                 controlledTerritories: 1,
                 military: 0,
@@ -664,7 +664,16 @@ var automaMatMultipliers = [
         matLevel: 'Hard',
         eraBonuses: [
             {
-                startEraFirstVPs: 4,
+                startEraFirstVPs: 2,
+                landmarks: 1,
+                controlledTerritories: 1,
+                military: 0,
+                science: 0,
+                technology: 1,
+                exploration: 1
+            },
+            {
+                startEraFirstVPs: 3,
                 landmarks: 2,
                 controlledTerritories: 2,
                 military: 1,
@@ -674,26 +683,17 @@ var automaMatMultipliers = [
             },
             {
                 startEraFirstVPs: 4,
-                landmarks: 3,
-                controlledTerritories: 3,
+                landmarks: 2,
+                controlledTerritories: 2,
                 military: 2,
                 science: 2,
                 technology: 2,
                 exploration: 2
             },
             {
-                startEraFirstVPs: 5,
+                startEraFirstVPs: 0,
                 landmarks: 3,
                 controlledTerritories: 3,
-                military: 2,
-                science: 2,
-                technology: 3,
-                exploration: 3
-            },
-            {
-                startEraFirstVPs: 0,
-                landmarks: 4,
-                controlledTerritories: 4,
                 military: 3,
                 science: 3,
                 technology: 4,
