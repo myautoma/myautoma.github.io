@@ -1,10 +1,3 @@
-#startLayer .btn {
-    float: left;
-    margin: 0px 18px;
-    padding: 11px 21px;
-    width: 150px;
-}
-
 .confirmationBox.showCurrentAutomaCardsBox {
     top: 5%;
     margin-left: -270px;
@@ -34,9 +27,16 @@
 }
 
 #startLayer .buttons[btns="3"] .btn, #startLayer .buttons[btns="4"] .btn {
-    margin: 0px 11px;
-    width: 154px;
-    padding: 11px 14px;
+    float: left;
+    margin: 0px 11px 10px;
+    width: 183px;
+    padding: 11px 1px;
+}
+
+#startLayer .buttons[btns="4"] .btn:last-child {
+    float:none;
+    clear:both;
+    margin: 0px auto;
 }
 
 .extraSetupScreen p, .extraSetupScreen li {
@@ -1488,6 +1488,16 @@ input[type=range]:focus::-ms-fill-upper {
     float: left!important;
 }
 
+.actionInformationPanel.conquerActionMove, .actionInformationPanel.conquerAnywhereActionMove, .actionInformationPanel.conquerAndTapestryActionMove {
+    width: 472px;
+    margin: 10px auto 0px;
+}
+
+.actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
+    width: 243px;
+    margin: 0 auto;
+}
+
 .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
     width: 243px;
     margin: 0 auto;
@@ -2420,7 +2430,7 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 11px 20px;
 }
 
-#incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel p {
+#incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel .actionDescription {
     text-align: center!important;
     font-size: 22px!important;
 }
@@ -2885,7 +2895,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-.confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant {
+.confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant, .confirmationBox.alertEl.actionTypeAlertBox.shadowEmpireStartImportant {
     top: 5%;
     margin-left: -300px;
     width: 600px;
@@ -2924,15 +2934,28 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 3vw;
     }
 
+    #startLayer .buttons[btns="3"], #startLayer .buttons[btns="4"] {
+        width: 80.5vw!important;
+    }
+
     #startLayer .buttons[btns="3"] .btn, #startLayer .buttons[btns="4"] .btn {
-        margin: 0vw 1.3vw;
-        width: 21vw;
+        width: 21.2vw;
         padding: 1.9vw 1.5vw;
         font-size: 3vw;
     }
 
-    #startLayer .buttons[btns="3"], #startLayer .buttons[btns="4"] {
-        width: 80.5vw!important;
+    #startLayer .buttons[btns="3"] .btn {
+        margin: 0vw 1.3vw 0vw;
+    }
+
+    #startLayer .buttons[btns="4"] .btn {
+        margin: 0vw 1.3vw 2vw;
+    }
+
+    #startLayer .buttons[btns="4"] .btn:last-child {
+        float: none;
+        clear: both;
+        margin: 0vw auto;
     }
 
     #quickStartLayer #quickStartOptions {
@@ -4391,7 +4414,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #difficultyLevelLayer #difficultyInstructions {
-        top: 22vw;
+        top: 23vw;
         left: 19vw;
         width: 48vw;
         padding: 2vw;
@@ -4465,6 +4488,10 @@ input[type=number]::-webkit-outer-spin-button {
         margin-top: 0vw;
     }
     
+    .actionInformationPanel.conquerActionMove, .actionInformationPanel.conquerAnywhereActionMove, .actionInformationPanel.conquerAndTapestryActionMove {
+        width: 67vw;
+        margin: 2vw auto 0vw;
+    }
 
     .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
         width: 38vw;
@@ -4836,7 +4863,7 @@ input[type=number]::-webkit-outer-spin-button {
         height: 10vw;
     }
 
-    #incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel p {
+    #incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel .actionDescription {
         font-size: 3.5vw!important;
     }
 
@@ -5103,29 +5130,13 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox {
+    .confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant, .confirmationBox.alertEl.actionTypeAlertBox.shadowEmpireStartImportant {
         top: 5%;
         margin-left: -45vw;
         width: 90vw;
         padding: 0vw 7vw 3vw;
     }
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 599px) {
 
@@ -5144,10 +5155,16 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 2.5vw 1vw;
     }
 
-    #startLayer .buttons[btns="3"] .btn:last-child {
+    #startLayer .buttons[btns="3"] #quickStart {
         float:none;
         margin:0 auto;
         clear:both;
+    }
+
+    #startLayer .buttons[btns="4"] .btn:last-child {
+        float: left;
+        clear: none;
+        margin: 0vw 2vw 2vw;
     }
 
     .confirmationBox.showTapestryCard .buttons[btns="2"], #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"], #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"], #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"], .confirmationBox.chooseSecondCiv .buttons {
@@ -6690,7 +6707,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     #difficultyLevelLayer #difficultyInstructions {
         position: absolute;
-        top: 34vw;
+        top: 36vw;
         left: 15vw;
         width: 57vw;
         padding: 2vw;
@@ -6874,7 +6891,10 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
 
-
+    .actionInformationPanel.conquerActionMove, .actionInformationPanel.conquerAnywhereActionMove, .actionInformationPanel.conquerAndTapestryActionMove {
+        width: 83vw;
+        margin: 2vw auto 0vw;
+    }
 
     .actionInformationPanel.conquerActionMove .mainActionArea, .actionInformationPanel.conquerAnywhereActionMove .mainActionArea, .actionInformationPanel.conquerAndTapestryActionMove .conquerAndTapestryDivider-2 {
         width: 51vw;
@@ -7039,7 +7059,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
         float: left;
-        margin: 0.2vw 1.5vw 0vw 1.5vw;
+        margin: 2.6vw 1.5vw 0vw 1.5vw;
         font-size: 9vw!important;
         font-weight: bold;
     }
@@ -7357,7 +7377,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 4vw auto;
     }
 
-    #incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel p {
+    #incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel .actionDescription {
         text-align: center!important;
         font-size: 4.2vw!important;
         line-height: 5vw!important;
@@ -7564,18 +7584,18 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox {
+    .confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant, .confirmationBox.alertEl.actionTypeAlertBox.shadowEmpireStartImportant {
         top: 5%;
         margin-left: -45vw;
         width: 90vw;
-        padding: 0vw 7vw 3vw;
+        padding: 0vw 4vw 3vw;
     }
 
-    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox .buttons {
+    .confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant .buttons, .confirmationBox.alertEl.actionTypeAlertBox.shadowEmpireStartImportant .buttons {
         width: 31vw!important;
     }
 
-    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox .buttons .btn {
+    .confirmationBox.alertEl.actionTypeAlertBox.gameStartImportant .buttons .btn, .confirmationBox.alertEl.actionTypeAlertBox.shadowEmpireStartImportant .buttons .btn {
         margin: 0vw 2vw 2vw;
         width: 25vw;
         padding: 2.5vw 1vw;
