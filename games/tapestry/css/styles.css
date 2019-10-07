@@ -1630,7 +1630,7 @@ input[type=range]:focus::-ms-fill-upper {
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
     float: left;
     font-size: 50px!important;
-    margin: 0px 7px 0px 6px;
+    margin: 18px 7px 0px 6px;
     padding: 0px 0px 0px 0px;
     font-weight:bold;
 }
