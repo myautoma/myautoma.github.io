@@ -181,7 +181,7 @@
     width: 402px;
 }
 
-.confirmationBox.alertEl.actionTypeAlertBox.confirmationBox {
+.confirmationBox.alertEl.actionTypeAlertBox {
     top: 5%;
     margin-left: -420px;
     width: 840px;
@@ -1630,9 +1630,10 @@ input[type=range]:focus::-ms-fill-upper {
 .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p , .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
     float: left;
     font-size: 50px!important;
-    margin: 18px 7px 0px 6px;
+    margin: 0px 7px 0px 6px;
     padding: 0px 0px 0px 0px;
-    font-weight:bold;
+    font-weight: bold;
+    line-height: 60px;
 }
 
 /* 
@@ -2908,6 +2909,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 #historyTextContainer .tapestryMoveTrack {
     margin-left: 70px;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.automaPointsReminder {
+    top: 5%;
+    margin-left: -225px;
+    width: 450px;
 }
 
 
@@ -4677,6 +4684,7 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 7vw!important;
         margin: 2vw 1vw 0vw 1vw;
         padding: 0vw 0vw 0vw 0vw;
+        line-height: 4.2vw;
         font-weight: bold;
     }
 
@@ -5148,6 +5156,13 @@ input[type=number]::-webkit-outer-spin-button {
     #historyTextContainer .tapestryMoveTrack {
         margin-left: 6vw;
     }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.automaPointsReminder {
+        top: 5%;
+        margin-left: -26vw;
+        width: 52vw;
+    }
+
 }
 
 @media screen and (max-width: 599px) {
@@ -7076,6 +7091,7 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0vw 0vw 0vw 0vw;
         font-size: 9vw!important;
         font-weight: bold;
+        line-height: 10vw;
     }
 
     .actionInformationPanel.conquerAndTapestryActionMove {
@@ -7618,6 +7634,22 @@ input[type=number]::-webkit-outer-spin-button {
 
     #historyTextContainer .tapestryMoveTrack {
         margin-left: 6vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox {
+        top: 5%;
+        margin-left: -38vw;
+        width: 76vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox .buttons[btns="1"] {
+        width: 30vw!important;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox .buttons[btns="1"] .btn {
+        padding: 2.8vw 7vw!important;
+        font-size: 4.3vw!important;
+        width: 11vw!important;
     }
 
 
