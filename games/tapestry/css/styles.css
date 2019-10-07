@@ -1,8 +1,9 @@
-.confirmationBox.showCurrentAutomaCardsBox {
+.confirmationBox.showCurrentAutomaCardsBox, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox {
     top: 5%;
     margin-left: -270px;
     width: 540px;
     padding: 0px 30px 29px;
+    z-index: 11;
 }
 
 #startLayer .buttons[btns="2"] {
@@ -616,21 +617,20 @@ input[type=range]:focus::-ms-fill-upper {
     float: left;
 }
 
-
-.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer {
+.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer {
     width: 440px;
     margin: 10px auto 20px;
 }
 
-.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard {
+.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer .automaCard {
     width: 220px;
 }
 
-.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard.tiebreakerCard {
+.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard.tiebreakerCard, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer .automaCard.tiebreakerCard {
     float:right;
 }
 
-.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard.mainActionCard {
+.confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard.mainActionCard, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer .automaCard.mainActionCard {
     float:left
 }
 
@@ -2902,6 +2902,14 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 0px 60px 40px;
 }
 
+.cardCombination {
+    text-decoration: underline!important;
+}
+
+#historyTextContainer .tapestryMoveTrack {
+    margin-left: 70px;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -3858,8 +3866,8 @@ input[type=number]::-webkit-outer-spin-button {
     .tapestryActionContainer .trackContainer.currentSpace-12 .trackLandmark.landmarkTrackSpace10.exploration-3-launchPadImage {
         left: -17.8vw;
     }
-
-    .confirmationBox.showCurrentAutomaCardsBox {
+    
+    .confirmationBox.showCurrentAutomaCardsBox, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox {
         top: 5%;
         margin-left: -45vw;
         width: 90vw;
@@ -3906,12 +3914,12 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 1vw auto 0vw!important;
     }
 
-    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer {
+    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer {
         width: 80vw;
         margin: 2vw auto 3vw;
     }
 
-    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard {
+    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer .automaCard {
         width: 40vw;
     }
 
@@ -5136,6 +5144,10 @@ input[type=number]::-webkit-outer-spin-button {
         width: 90vw;
         padding: 0vw 7vw 3vw;
     }
+
+    #historyTextContainer .tapestryMoveTrack {
+        margin-left: 6vw;
+    }
 }
 
 @media screen and (max-width: 599px) {
@@ -5173,6 +5185,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     #fullAutomaChooseCivsLayer.layer.extraSetupScreen .buttons[btns="3"], #fullAutomaConfigTrackChoiceLayer.layer.extraSetupScreen .buttons[btns="3"] {
         width: 89vw!important;
+        margin: 6vw auto 0vw;
     }
 
     .confirmationBox.showTapestryCard .buttons[btns="2"] .btn, #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"] .btn, .confirmationBox.chooseSecondCiv .buttons .btn {
@@ -6169,8 +6182,8 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0 auto;
         display: block;
     }
-
-    .confirmationBox.showCurrentAutomaCardsBox {
+    
+    .confirmationBox.showCurrentAutomaCardsBox, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox {
         top: 5%;
         margin-left: -45vw;
         width: 90vw;
@@ -6192,16 +6205,16 @@ input[type=number]::-webkit-outer-spin-button {
         float: left;
     }
 
-    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer {
+    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer {
         width: 80vw;
         margin: 1vw auto 2vw;
     }
 
-    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard {
+    .confirmationBox.showCurrentAutomaCardsBox .viewCardContainer .automaCard, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox .viewCardContainer .automaCard {
         width: 40vw;
     }
 
-    .confirmationBox.showCurrentAutomaCardsBox a {
+    .confirmationBox.showCurrentAutomaCardsBox a, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox a {
         padding: 2.8vw 10vw;
         font-size: 4.3vw;
         width: 12vw;
@@ -6835,7 +6848,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 83vw;
         margin: 0 auto;
     }
-
+    
     .confirmationBox.showCurrentAutomaCardsBox .favoriteTracks.automaShadowEmpireFavoriteTrackContainer .automaFavoriteTrack {
         float: left;
         margin: 1vw auto;
@@ -7600,6 +7613,10 @@ input[type=number]::-webkit-outer-spin-button {
         width: 25vw;
         padding: 2.5vw 1vw;
         font-size: 4.5vw;
+    }
+
+    #historyTextContainer .tapestryMoveTrack {
+        margin-left: 6vw;
     }
 
 
