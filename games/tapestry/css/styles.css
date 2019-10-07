@@ -7072,7 +7072,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .actionInformationPanel.exploreActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p, .actionInformationPanel.exploreAnywhereActionMove .exploreExtraTiebreakers.extraTiebreakers .favTrackDecider p {
         float: left;
-        margin: 0vw 1.5vw 0vw 1.5vw;
+        margin: 2.6vw 1.5vw 0vw 1.5vw;
         font-size: 9vw!important;
         font-weight: bold;
     }
