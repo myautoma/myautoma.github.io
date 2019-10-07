@@ -7528,17 +7528,17 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .confirmationBox.showCurrentAutomaCiv {
-        margin-left: -45vw;
+        margin-left: -40vw;
         border: 0.1vw solid #000;
         border-radius: 2vw;
         padding: 0px 1vw 1vw;
-        width: 90vw;
+        width: 80vw;
         font-size: 5vw;
         top: 5%;
     }
 
     .confirmationBox.showCurrentAutomaCiv img {
-        width: 88vw;
+        width: 77vw;
     }
 
     #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv .nonActionInformationPanel ul, #incomeLayer #incomeInformation .dualCivBonus #incomeAutomaCiv .nonActionInformationPanel ul {
