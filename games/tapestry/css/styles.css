@@ -2813,13 +2813,22 @@ input[type=range]:focus::-ms-fill-upper {
     display:none;
 }
 
+#incomeLayer #automaIncomeSummaryTitle {
+    font-weight:bold;
+    text-decoration: underline;
+    text-align:center!important;
+}
 
-.automaBenefits {
+.automaBenefits, .automaIncomeSummary {
     border-collapse:collapse;
     border-spacing:0;
 }
 
-.automaBenefits th, .automaBenefits td {
+.automaIncomeSummary {
+    margin: 24px auto;
+}
+
+.automaBenefits th, .automaBenefits td, .automaIncomeSummary th, .automaIncomeSummary td {
     font-family:Arial, sans-serif;
     font-size: 18px;
     line-height: 26px;
@@ -2836,11 +2845,15 @@ input[type=range]:focus::-ms-fill-upper {
     padding:10px 15px;
 }
 
-.automaBenefits td {
+.automaIncomeSummary th {
+    padding: 10px 35px;
+}
+
+.automaBenefits td, .automaIncomeSummary td {
     padding:10px 5px;
 }
 
-.automaBenefits th {
+.automaBenefits th, .automaIncomeSummary th {
     font-weight:bold;
 }
 
@@ -5105,15 +5118,23 @@ input[type=number]::-webkit-outer-spin-button {
     .automaBenefitTableIcon {
         height: 5vw;
     }
+    
+    .automaIncomeSummary {
+        margin: 5vw auto;
+    }
 
-    .automaBenefits th, .automaBenefits td {
+    .automaBenefits th, .automaBenefits td, .automaIncomeSummary th, .automaIncomeSummary td {
         font-size: 2.8vw;
         line-height: 3.4vw;
         border-width: .3vw;
     }
 
-    .automaBenefits td {
+    .automaBenefits th, .automaBenefits td {
         padding: 2vw 1vw;
+    }
+
+    .automaIncomeSummary th, .automaIncomeSummary td {
+        padding: 2vw 5vw;
     }
 
     .inlineHelpIcon {
@@ -5196,6 +5217,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .confirmationBox.showTapestryCard .buttons[btns="2"], #fullAutomaConfigColorChoiceLayer.layer.extraSetupScreen .buttons[btns="2"], #fullAutomaSetupInstructionsLayer.layer.extraSetupScreen .buttons[btns="2"], #difficultyLevelLayer.layer.extraSetupScreen .buttons[btns="2"], .confirmationBox.chooseSecondCiv .buttons {
         width: 64vw!important;
+        margin: 4vw auto 0vw;
     }
 
     #fullAutomaChooseCivsLayer.layer.extraSetupScreen .buttons[btns="3"], #fullAutomaConfigTrackChoiceLayer.layer.extraSetupScreen .buttons[btns="3"] {
@@ -5392,6 +5414,7 @@ input[type=number]::-webkit-outer-spin-button {
     .tapestryActionContainer .trackContainer {
         width: 39vw;
         height: 39vw;
+        margin: 0vw 0vw 2vw;
     }
 
     .tapestryActionContainer.shadowEmpireAutomated .trackContainer .shadowEmpirefavTrackIcon img {
@@ -7637,9 +7660,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox {
-        top: 5%;
-        margin-left: -38vw;
-        width: 76vw;
+        top: 3%;
+        margin-left: -45vw;
+        width: 90vw;
     }
 
     .confirmationBox.alertEl.actionTypeAlertBox.confirmationBox .buttons[btns="1"] {
@@ -7652,5 +7675,22 @@ input[type=number]::-webkit-outer-spin-button {
         width: 11vw!important;
     }
 
+    .automaIncomeSummary {
+        margin: 5vw auto;
+    }
+
+    .automaBenefits th, .automaBenefits td, .automaIncomeSummary th, .automaIncomeSummary td {
+        font-size: 4vw;
+        line-height: 4.7vw;
+        border-width: 0.3vw;
+    }
+
+    .automaBenefits th, .automaBenefits td {
+        padding: 2vw 2vw;
+    }
+
+    .automaIncomeSummary th, .automaIncomeSummary td {
+        padding: 2vw 5vw;
+    }
 
 }
