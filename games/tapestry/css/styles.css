@@ -69,8 +69,9 @@
     font-size: 25px!important;
 }
 
-#fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer img {
+#fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer, #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer img {
     width: 215px;
+    height:332px;
 }
 
 .restrictedCivsCheckbox {
@@ -4216,9 +4217,12 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0vw 0vw;
     }
 
-    #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer img {
+    #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer,
+    #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer img {
         width: 39vw;
+        height: 60.1vw;
     }
+    
 
     #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer p {
         text-align: center!important;
@@ -6572,8 +6576,9 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0 auto;
     }
 
-    #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer img {
+    #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer, #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer .civImageContainer img {
         width: 44vw;
+        height: 67.9vw;
     }
 
     #fullAutomaChooseCivsLayer .allCivOptionContainer .civOptionContainer p {
