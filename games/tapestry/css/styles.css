@@ -1540,7 +1540,6 @@ input[type=range]:focus::-ms-fill-upper {
     width: 100px;
 }
 
-
 .actionInformationPanel.technologyCardActionMove {
     width: 329px;
     margin: 0 auto;
@@ -1574,7 +1573,6 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 10px 0px 0px 10px;
     padding: 10px;
 }
-
 
 .actionInformationPanel.exploreActionMove, .actionInformationPanel.exploreAnywhereActionMove {
     width: 479px!important;
@@ -1826,6 +1824,11 @@ input[type=range]:focus::-ms-fill-upper {
 
 .actionInformationPanel.noAutomaMove .mainActionArea p {
     margin: 0px 0px 0px 0px;
+}
+
+.actionInformationPanel.conquerActionMove .militaryExtraTiebreakers.extraTiebreakers .toppleIndicator p{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
 }
 
 #landmarksLayer {
@@ -2897,10 +2900,10 @@ input[type=range]:focus::-ms-fill-upper {
     display:none;
 }
 
-.startingIncomeTurnStatement {
+.extraSetupScreen .startingIncomeTurnStatement {
     font-style: italic;
     text-align: center!important;
-    margin: 16px 0vw 22px;
+    margin: 16px 0px 22px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -5164,7 +5167,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin-bottom: 4vw;
     }
 
-    .startingIncomeTurnStatement {
+    .extraSetupScreen .startingIncomeTurnStatement {
         font-style: italic;
         text-align: center!important;
         margin: 2vw 0vw 3vw;
@@ -7635,7 +7638,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0vw 5vw 2vw 3vw;
     }
 
-    .startingIncomeTurnStatement {
+    .extraSetupScreen .startingIncomeTurnStatement {
         font-style: italic;
         text-align: center!important;
         margin: 4vw 0vw 5vw;
