@@ -1723,8 +1723,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.regressMilitaryTechnologyActionMove .actionImage {
-    width: 100px;
-    margin-top: 33px;
+    width: 72px;
+    margin: 27px 0px 0px 22px;
 }
 
 .actionInformationPanel.regressMilitaryTechnologyActionMove .actionDescription {
@@ -1784,26 +1784,19 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 19px 0px 10px 0px;
 }
 
-.actionInformationPanel.scienceDiceNoBenefitsActionMove .actionImage.diceImage {
-    width: 63px;
-    margin: 19px 0px 10px 0px;
-}
-
 .actionInformationPanel.scienceDiceBenefitsAction .actionImage.diceImage {
     width: 73px;
     margin: 24px 0px 10px 0px;
 }
 
 .actionInformationPanel.regressMilitaryTechnologyActionMove .actionImage.diceImage {
-    width: 70px;
-    margin-top: 33px;
-    margin-left: 30px;
-    margin-right: 0px;
+    width: 72px;
+    margin: 27px 0px 0px 22px;
 }
 
 .actionInformationPanel.advanceTwiceMilitaryTechnologyExplorationActionMove .actionImage.diceImage {
-    width: 90px;
-    margin-top: 29px;
+    width: 63px;
+    margin: 29px 10px 0px 47px;
 }
 
 .actionInformationPanel .actionImage.diceImage.diceAnimation {
