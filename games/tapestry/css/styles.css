@@ -2927,6 +2927,15 @@ input[type=number]::-webkit-outer-spin-button {
     width: 450px;
 }
 
+#historyOverlay #historyTextContainer h2, #historyOverlay #historyTextContainer h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Prompt', sans-serif;
+    text-decoration:underline;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -5182,6 +5191,15 @@ input[type=number]::-webkit-outer-spin-button {
         top: 5%;
         margin-left: -26vw;
         width: 52vw;
+    }
+
+    #historyOverlay #historyTextContainer h2, #historyOverlay #historyTextContainer h3 {
+        font-size: 4vw;
+        margin: 1.2vw 0 0 0;
+        text-align: center;
+        padding: 0 0 0 0;
+        font-family: 'Prompt', sans-serif;
+        text-decoration:underline;
     }
 
 }
@@ -7698,6 +7716,15 @@ input[type=number]::-webkit-outer-spin-button {
         top: 7%;
         margin-left: -45vw;
         width: 90vw;
+    }
+
+    #historyOverlay #historyTextContainer h2, #historyOverlay #historyTextContainer h3 {
+        text-align: left;
+        font-size: 6vw;
+        margin: 3vw 0 0 5vw;
+        padding: 0 0 0 0;
+        font-family: 'Prompt', sans-serif;
+        text-decoration:underline;
     }
 
 }
