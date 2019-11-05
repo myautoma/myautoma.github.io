@@ -4748,7 +4748,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .actionInformationPanel.scienceDiceBenefitsActionMove .btn {
-        margin: 3vw auto 0vw;
+        margin: 3vw auto 0vw!important;
         float: none;
     }
 
@@ -4895,6 +4895,10 @@ input[type=number]::-webkit-outer-spin-button {
 
     #incomeLayer #incomeInformation .tapestryCardToAutomaSupply img {
         height: 10vw;
+    }
+
+    #incomeLayer #incomeInformation .actionInformationPanel.scienceDiceBenefitsActionMove #mainActionArea {
+        margin-top: 3vw;
     }
 
     #incomeLayer #incomeInformation .advanceTrackTokens .tapestryActionContainer .trackContainer p, #incomeLayer #incomeInformation .actionInformationPanel .actionDescription {
