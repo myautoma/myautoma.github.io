@@ -4163,7 +4163,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .tapestryActionContainer .landmarkReminderContainer.vertical {
-        width: 48vw;
+        width: 52vw;
         height: 19vw;
         top: -4.5vw;
         left: 7.8vw;
@@ -4180,7 +4180,7 @@ input[type=number]::-webkit-outer-spin-button {
         line-height: 5vw!important;
         text-align: center!important;
         margin: 0vw 0vw 0vw 0vw;
-        width: 48vw;
+        width: 52vw;
     }
 
     .tapestryActionContainer .landmarkReminderContainer.horizontal.showReminder {
@@ -4849,7 +4849,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons {
-        width: 43vw;
+        width: 45vw;
     }
 
     #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons .incomeLayerTitle {
