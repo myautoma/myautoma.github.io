@@ -4980,7 +4980,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .automaPointsIncome img {
-        width: 8vw;
+        width: 6.5vw;
+        padding-top: 1vw;
+        margin-bottom: -1vw;
     }
 
     .automaPointsIncome td {
