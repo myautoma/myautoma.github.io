@@ -4163,7 +4163,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .tapestryActionContainer .landmarkReminderContainer.vertical {
-        width: 45vw;
+        width: 48vw;
         height: 19vw;
         top: -4.5vw;
         left: 7.8vw;
@@ -4571,10 +4571,6 @@ input[type=number]::-webkit-outer-spin-button {
         width: 14vw;
     }
 
-
-
-
-
     .actionInformationPanel.technologyCardActionMove {
         width: 47vw;
         margin: 2vw auto 0vw;
@@ -4608,7 +4604,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .actionInformationPanel.noAutomaMove .mainActionArea {
-        width: 46vw;
+        width: 49vw;
         margin: 0vw auto 0vw;
     }
 
@@ -4853,7 +4849,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons {
-        width: 38vw;
+        width: 41vw;
     }
 
     #incomeLayer #incomeTitleAndButtons #incomeHeadingAndIcons .incomeLayerTitle {
