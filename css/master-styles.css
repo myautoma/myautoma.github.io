@@ -638,7 +638,7 @@ a {
     margin-bottom: 30px;
 }
 
-.confirmationBox a:not(.confirmationBoxLink) {
+.confirmationBox a:not(.confirmationBoxLink):not(.helpLink)  {
     margin: 10px 17px 0px;
     padding: 13px 36px;
     font-size: 23px;
@@ -1067,7 +1067,7 @@ a {
     margin-bottom: 3vw;
 }
 
-.confirmationBox a:not(.confirmationBoxLink) {
+.confirmationBox a:not(.confirmationBoxLink):not(.helpLink)  {
     margin: 1vw 3vw 1vw!important;
     padding: 1.89vw 4vw!important;
     font-size: 3vw!important;
@@ -1357,7 +1357,7 @@ a {
         font-size: 5vw;
     }
 
-    .confirmationBox a:not(.confirmationBoxLink) {
+    .confirmationBox a:not(.confirmationBoxLink):not(.helpLink)  {
         margin: 0vw 2.3vw 0px;
         padding: 2.8vw 10vw;
         font-size: 5vw;
