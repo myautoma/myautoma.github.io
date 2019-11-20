@@ -495,6 +495,11 @@
         padding-left: 2vw;
     }
 
+    .characterContainer .chosenCardInfo h4 {
+        font-size: 2.4vw;
+        margin-bottom: 0vw;
+    }
+
     .confirmationBox a:not(.confirmationBoxLink):not(.helpLink) {
         margin: 1vw 3vw 1vw!important;
         padding: 1.59vw 4vw!important;
@@ -704,10 +709,10 @@
     .characterLink {
         margin-bottom: 0vw;
         float: left;
-        padding: 2vw 0vw;
-        margin: 0vw 1vw;
+        padding: 1.5vw 0vw;
+        margin: 0vw .5vw;
         border: .4vw solid;
-        font-size: 3.5vw!important;
+        font-size: 3.3vw!important;
         border-radius: 3vw;
     }
 
@@ -777,6 +782,11 @@
     .characterContainer .chosenCardInfo ul, .characterContainer .chosenCardInfo ol {
         padding-left: 2vw;
         margin: 0vw 0vw 3vw 0vw;
+    }
+
+    .characterContainer .chosenCardInfo h4 {
+        font-size: 3.4vw;
+        margin-bottom: 1vw;
     }
 
     #bobaFettCharacterNotes.confirmationBox, #bosskCharacterNotes.confirmationBox, #ig88CharacterNotes.confirmationBox, #ketsuOnyoCharacterNotes.confirmationBox {
