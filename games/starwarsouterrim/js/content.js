@@ -82,5 +82,16 @@ var helpContent = [
         id: 'expertMode',
         classes: ['expertMode'],
         content: '<p>If you are an experienced player, you may find the AI to be too easy. To address this, you can increase the challenge by having the AI player start with some fame. The more fame you start the AI with, the more prestigious your victory!</p><p>You can play the extended game with the AI (by playing to 12 fame). This generally does not make the game any more difficult, but may make the game easier.</p>'
+    },
+    {
+        name: 'Credit',
+        id: 'credit',
+        content: '<p>All <a href="https://boardgamegeek.com/filepage/183058/modified-solo-ai-decks-each-character" target="_blank">Automa mechanics and information</a> credited to BGG user <a href="https://boardgamegeek.com/user/game%20green" target="_blank">game green</a>, and are based off the AI cards from <a href="https://www.fantasyflightgames.com/en/products/star-wars-outer-rim/" target="_blank" rel="noopener">Star War: Outer Rim</a>, published by <a href="https://www.fantasyflightgames.com/en/products/star-wars-outer-rim/" target="_blank" rel="noopener">Fantasy Flight Games</a>.</p><p>This is not an official <a href="https://www.fantasyflightgames.com/en/products/star-wars-outer-rim/" target="_blank" rel="noopener">Fantasy Flight Games</a> product and has no affiliation with <a href="https://www.fantasyflightgames.com/en/products/star-wars-outer-rim/" target="_blank" rel="noopener">Fantasy Flight Games</a>.</p>'
+
+    },
+    {
+        name: 'Contact',
+        id: 'contact',
+        content: '<p>Feel free to <a href="mailto:gavin.mcgruddy@gmail.com?subject=Star%20Wars%20Outer%20Rim%20Automa" rel="noopener">email me</a>, or send a BGG message to <a href="https://boardgamegeek.com/geekmail/compose?touser=Gavmastaphlex"  target="_blank" rel="noopener">Gavmastaphlex</a> with any feedback / suggestions.</p>'
     }
 ]
