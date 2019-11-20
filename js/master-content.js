@@ -19,11 +19,11 @@ var menu = [
         id: 'help',
         classes: ['help', 'overlayBox', 'overlay-help']
     },
-    {
-        name: 'Sound off',
-        id: 'sound',
-        classes: ['sound']
-    },
+    // {
+    //     name: 'Sound off',
+    //     id: 'sound',
+    //     classes: ['sound']
+    // },
     {
         name: 'Main Menu',
         id: 'exitGame',
