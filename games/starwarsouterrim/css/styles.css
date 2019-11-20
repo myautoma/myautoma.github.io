@@ -783,17 +783,18 @@
 
     .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard {
         z-index: 11;
-        width: 98vw;
-        margin-left: -49vw;
-        height: 100vh;
+        width: 94vw;
+        margin-left: -47vw;
         top: 0%;
         text-align: left;
         font-size: 3.8vw;
+        border: double 4px #000;
+        padding-top: 4vw;
     }
 
     .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard h3 {
         text-align: center!important;
-        font-size: 4vw!important;
+        font-size: 5vw!important;
         margin: 0vw 0vw 2vw 0vw;
     }
 
