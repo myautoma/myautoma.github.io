@@ -605,6 +605,23 @@
         margin: 0vw auto 2vw;
     }
 
+    #characterChoiceLayer #aiCharacterContainer[ainum="2"] {
+        width: 88vw;
+        margin: 0 auto;
+    }
+
+    #aiCharacterContainer[ainum="2"] .aiCharacterSelectContainer {
+        float: left;
+        width: 40vw;
+        margin: 0vw 1vw;
+    }
+
+    #aiCharacterContainer[ainum="2"] .aiCharacterSelectContainer {
+        float: left;
+        width: 40vw;
+        margin: 0vw 2vw;
+    }
+
     #aiCharacterContainer[ainum="3"] {
         margin: 0vw auto;
         width: 87vw;
