@@ -1,0 +1,819 @@
+.confirmationBox {
+    font-size: 20px;
+}
+
+.confirmationBox a:not(.confirmationBoxLink):not(.helpLink):not(.helpLink) {
+    margin: 10px 17px 0px;
+    padding: 11px 32px;
+    font-size: 20px;
+    width: 62px;
+    float: left;
+}
+
+.btn {
+    font-size: 21px!important;
+}
+
+.buttons[btns="1"] {
+    width: 170px;
+}
+
+/* #startLayer .btn {
+    font-size: 21px;
+} */
+
+.layer:not(#startLayer) p {
+    font-size: 18px;
+}
+
+#startLayer p, #startLayer li {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#container {
+    width: 1000px;
+}
+
+#gameLayer {
+    width: 970px!important;
+    margin: 15px auto 0!important;
+}
+
+#characterChoiceLayer{
+    margin: 25px auto 0!important;
+}
+
+#chooseHumanCharacter {
+    width: 400px;
+    margin: 0px auto 19px;
+    font-style:italic;
+}
+
+#aiNumContainer {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#aiNum {
+    float: left;
+    margin-top: 24px;
+}
+
+#aiNumSelect {
+    margin: 22px 50px 0px 0px;
+    font-size: 17px;
+    display: block;
+    width: 130px;
+    padding: 5px 10px;
+    float: right;
+}
+
+#humanCharacterContainer, #aiCharacterContainer[ainum="1"] .aiCharacterSelectContainer {
+    width: 280px;
+    margin: 0px auto 22px;
+}
+
+#characterChoiceLayer #aiCharacterContainer[ainum="2"] {
+    width: 436px;
+    margin: 0 auto;
+}
+
+#aiCharacterContainer[ainum="2"] .aiCharacterSelectContainer {
+    float: left;
+    width: 194px;
+    margin: 0px 10px;
+}
+
+#aiCharacterContainer[ainum="3"] .aiCharacterSelectContainer {
+    width: 213px;
+    float: left;
+}
+
+#characterChoiceLayer select {
+    font-size: 16px;
+    padding: 5px 7px;
+    margin: 0 auto;
+    display: block;
+    width: 179px;
+}
+
+#characterChoiceLayer #randomHumanBtn {
+    margin: 17px auto 0px;
+}
+
+#randomAIBtn {
+    width: 139px;
+}
+
+#characterChoiceBtns {
+    width: 617px;
+    margin: 40px auto 0px;
+}
+
+#characterChoiceBtns .btn {
+    float: left;
+    margin: 0 11px;
+}
+
+#cardArea {
+    width: 100%;
+    padding: 0px 20px 20px 20px!important;
+}
+
+.starwars-card-container {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.gameActionInfo {
+    float: none;
+    margin:0px auto;
+}
+
+.characterLink {
+    cursor: hand;
+    cursor: pointer;
+    margin:0px 0px 10px 0px;
+    padding: 10px 0px;
+    border:2px solid;
+    font-size:20px!important;
+    border-radius: 30px;
+}
+
+.characterLink:hover {
+    text-decoration: underline;
+}
+
+.inactiveCharacter {
+    color:red;
+    background-color: #ff000026;
+    border-color:red;
+}
+
+.activeCharacter {
+    color: #1ac51a;
+    background-color: #1ac51a30;
+    border-color: #1ac51a;
+}
+
+#characterLinksAndButtonContainer {
+    float:left;
+}
+
+#characterCardContainer {
+    float: right;
+    width: 680px;
+    position: relative;
+    margin-top: -13px;
+    padding: 15px 20px 0px;
+    border-radius: 30px;
+}
+
+.characterContainer {
+    position: absolute;
+    width: 680px;
+    display:none;
+    border: 1px solid #000;
+    padding: 10px 20px 20px;
+    border-radius: 25px;
+}
+
+.characterTitle {
+    margin: 0px 0px 0px 0px;
+    font-size: 26px!important;
+    font-weight: bold;
+}
+
+.characterNotes {
+    margin: 0px 0px 10px 0px;
+}
+
+#draw.btn {
+    margin: 0px 0px 20px 0px;
+    float: none;
+}
+
+.characterContainer .chosenCardInfo h3, .characterContainer .chosenCardInfo p {
+    font-size: 18px!important;
+    margin: 0px 0px 5px 0px;
+    text-align:left!important;
+}
+
+.characterContainer .chosenCardInfo li {
+    font-size: 18px;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.showInstructions {
+    width: 600px;
+    margin-left: -300px;
+    top: 8%;
+}
+
+#bobaFettCharacterNotes.confirmationBox, #bosskCharacterNotes.confirmationBox, #ig88CharacterNotes.confirmationBox, #ketsuOnyoCharacterNotes.confirmationBox {
+    margin-left: -400px;
+    width: 800px;
+    top: 5%;
+}
+
+#doctorAphraCharacterNotes.confirmationBox, #hanSoloCharacterNotes.confirmationBox, #jynErsoCharacterNotes.confirmationBox, #landoCalrissianCharacterNotes.confirmationBox  {
+    margin-left: -250px;
+    width: 500px;
+    top: 5%;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes li {
+    /* list-style: none; */
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.characterContainer .chosenCardInfo .aiCardNum {
+    text-align: center!important;
+    font-weight: bold;
+    margin: 19px 0px 0px 0px!important;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard {
+    z-index: 11;
+    width: 1000px;
+    margin-left: -500px;
+    top: 2%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard h3 {
+    text-align: center!important;
+    font-size: 30px;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard p {
+    margin-bottom: 0px;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard .helpLink {
+    color:black;
+    cursor: default;
+}
+
+.confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard .buttons[btns="1"] {
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+
+    .startSummary {
+        margin-bottom: 2.5vw;
+    }
+
+    .btn {
+        font-size: 2.3vw!important;
+    }
+
+    #chooseHumanCharacter {
+        width: 52vw;
+        margin: 0vw auto 2vw;
+        font-style: italic;
+    }
+
+    .layer:not(#startLayer) p {
+        font-size: 2.5vw;
+    }
+
+    #container {
+        width: 97vw;
+    }
+
+    #startLayer p, #startLayer li {
+        font-size: 2.7vw;
+        line-height: 3vw;
+    }
+
+    #startLayer ul {
+        padding-left: 3vw;
+    }
+
+    #aiNumContainer {
+        width: 31vw;
+    }
+
+    #aiNumSelect {
+        margin: 2.5vw 2vw 0vw 0vw;
+        font-size: 2.2vw;
+        width: 15vw;
+        padding: .5vw 2vw;
+    }
+
+    #characterChoiceLayer #aiCharacterContainer[ainum="2"] {
+        width: 92vw;
+        margin: 0 auto;
+    }
+
+    #aiCharacterContainer[ainum="2"] .aiCharacterSelectContainer {
+        float: left;
+        width: 41vw;
+        margin: 0vw 2vw;
+    }
+
+    #aiNum {
+        margin-top: 3vw;
+    }
+
+    #characterChoiceLayer #randomHumanBtn {
+        float: none;
+    }
+
+    .btn {
+        font-size: 2.2vw;
+        width: 12.5vw;
+    }
+
+    #characterChoiceBtns {
+        width: 70vw;
+        margin: 5vw auto 0vw;
+    }
+
+    #characterChoiceLayer {
+        width: 75vw!important;
+    }
+
+    #characterChoiceLayer select {
+        font-size: 2vw;
+        padding: 1vw 2vw;
+        margin: 0 auto;
+        display: block;
+        width: 23vw;
+    }
+
+    #humanCharacterContainer, #aiCharacterContainer[ainum="1"] .aiCharacterSelectContainer {
+        width: 28vw;
+        margin: 0vw auto 2vw;
+    }
+
+    #characterChoiceLayer #aiCharacterContainer[ainum="2"] {
+        width: 56vw;
+        margin: 0 auto;
+    }
+
+    #aiCharacterContainer[ainum="2"] .aiCharacterSelectContainer {
+        float: left;
+        width: 26vw;
+        margin: 0px 1vw;
+    }
+
+    #aiCharacterContainer[ainum="3"] .aiCharacterSelectContainer {
+        width: 25vw;
+        float: left;
+    }
+
+    #characterChoiceBtns .btn {
+        float: left;
+        margin: 0 1.8vw;
+    }
+
+    #randomAIBtn {
+        width: 16vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showInstructions {
+        width: 82vw;
+        margin-left: -41vw;
+        top: 6%;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showInstructions h3, .confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes h3 {
+        font-size: 3vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showInstructions p, .confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes p {
+        font-size: 2.5vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes li {
+        /* list-style: none; */
+        margin-bottom: 1vw;
+        text-align: left;
+        font-size: 2.5vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes {
+        margin-left: -45vw;
+        width: 90vw;
+        top: 4%;
+    }
+
+    #characterLinksAndButtonContainer {
+        float: none;
+    }
+
+    #draw.btn {
+        margin: 0vw auto 3vw;
+    }
+
+    #gameLayer {
+        width: 95vw!important;
+        margin: 1vw auto 0!important;
+    }
+
+    .starwars-card-container {
+        width: 100%;
+        padding-top: 0vw;
+    }
+
+    .characterLink {
+        margin-bottom: 0vw;
+        float: left;
+        padding: 1vw 0vw;
+        margin: 0vw 1vw;
+        border: .3vw solid;
+        font-size: 2.5vw!important;
+        border-radius: 3vw;
+    }
+
+    #characterLinksAndButtonContainer {
+        float: none;
+        margin: 0vw auto;
+    }
+
+    #characterLinksAndButtonContainer[characters="1"] {
+        width: 28vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="2"] {
+        width: 49vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="3"] {
+        width: 76vw;
+    }
+
+    #characterLinksAndButtonContainer #characterLinksContainer {
+        display: grid;
+        margin-bottom: 2vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="1"] #characterLinksContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #characterLinksAndButtonContainer[characters="2"] #characterLinksContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #characterLinksAndButtonContainer[characters="3"] #characterLinksContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #characterCardContainer {
+        float: right;
+        width: 91vw;
+        position: relative;
+        padding: 2vw 0vw 0vw;
+        border-radius: 2vw;
+    }
+
+    .characterContainer {
+        position: absolute;
+        width: 87vw;
+        display: none;
+    }
+
+    .characterContainer .chosenCardInfo h3, .characterContainer .chosenCardInfo p {
+        font-size: 2.5vw!important;
+        margin: 0vw 0vw 1vw 0vw;
+        text-align: left!important;
+    }
+
+    .characterContainer .chosenCardInfo li {
+        font-size: 2.5vw;
+    }
+
+    .characterContainer .chosenCardInfo ul, .characterContainer .chosenCardInfo ol {
+        padding-left: 2vw;
+    }
+
+    .confirmationBox a:not(.confirmationBoxLink):not(.helpLink) {
+        margin: 1vw 3vw 1vw!important;
+        padding: 1.59vw 4vw!important;
+        font-size: 2.5vw!important;
+        width: 8vw!important;
+    }
+
+    .buttons[btns="1"] {
+        width: 22vw!important;
+    }
+
+    #bobaFettCharacterNotes.confirmationBox, #bosskCharacterNotes.confirmationBox, #ig88CharacterNotes.confirmationBox, #ketsuOnyoCharacterNotes.confirmationBox {
+        margin-left: -45vw;
+        width: 90vw;
+        top: 5%;
+    }
+
+    #doctorAphraCharacterNotes.confirmationBox, #hanSoloCharacterNotes.confirmationBox, #jynErsoCharacterNotes.confirmationBox, #landoCalrissianCharacterNotes.confirmationBox {
+        margin-left: -32vw;
+        width: 64vw;
+        top: 5%;
+    }
+
+    .characterTitle {
+        margin: 0vw 0vw 0vw 0vw;
+        font-size: 3.3vw!important;
+        font-weight: bold;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard {
+        z-index: 11;
+        width: 98vw;
+        margin-left: -49vw;
+        top: 0%;
+        text-align: left;
+        font-size: 2.5vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard h3 {
+        text-align: center!important;
+        font-size: 3vw!important;
+        margin: 0vw 0vw 1vw 0vw;
+    }
+
+    .confirmationBox ul, .confirmationBox ol {
+        padding-left: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+
+    .layer:not(#startLayer) p {
+        font-size: 3.7vw;
+    }
+
+    .btn {
+        font-size: 3.8vw!important;
+        width: 27vw;
+        padding: 2.7vw 1.5vw;
+    }
+
+    #characterChoiceLayer #randomHumanBtn {
+        margin: 4vw auto 0vw!important;
+        float: none;
+    }
+
+    #characterChoiceLayer select {
+        font-size: 3.5vw;
+        padding: 1vw 2vw;
+        margin: 0 auto;
+        display: block;
+        width: 39vw;
+    }
+
+    #chooseHumanCharacter {
+        width: 72vw;
+        margin: 0vw auto 2vw;
+        font-style: italic;
+    }
+
+    #container {
+        width: 93vw;
+    }
+
+    #startLayer p, #startLayer li {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    #aiNumContainer {
+        width: 44vw;
+    }
+
+    #aiNum {
+        margin-top: 3vw;
+    }
+
+    #aiNumSelect {
+        margin: 2vw 2vw 0vw 0vw;
+        font-size: 3.5vw;
+        width: 21vw;
+        padding: .9vw 2vw;
+    }
+
+    #humanCharacterContainer, #aiCharacterContainer[ainum="1"] .aiCharacterSelectContainer {
+        width: 41vw;
+        margin: 0vw auto 2vw;
+    }
+
+    #aiCharacterContainer[ainum="3"] {
+        margin: 0vw auto;
+        width: 87vw;
+    }
+
+    #aiCharacterContainer[ainum="3"] .aiCharacterSelectContainer {
+        width: 40vw;
+        float: left;
+        margin: 0vw 1.5vw;
+    }
+
+    #aiCharacterContainer[ainum="3"] #aiCharacterThreeContainer {
+        float: none;
+        margin: 0 auto;
+        padding-top: 1vw;
+        clear: both;
+    }
+
+    #characterChoiceBtns {
+        width: 69vw;
+        margin: 6vw auto 0vw;
+    }
+
+    #randomAIBtn {
+        width: 28vw;
+    }
+
+    #characterChoiceBtns .btn {
+        float: left;
+        margin: 0vw 2vw 2vw;
+    }
+
+    #characterChoiceBtns #startGame {
+        float: none;
+        clear: both;
+        margin: 0vw auto;
+        padding-top:2vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showInstructions {
+        width: 90vw;
+        margin-left: -45vw;
+        top: 5%;
+    }
+
+    .buttons[btns="0"], .buttons[btns="1"] {
+        width: 33vw!important;
+        margin: 4vw auto 0vw!important;
+    }
+
+
+    .confirmationBox {
+        font-size: 4.5vw;
+    }
+
+
+    #cardArea {
+        width: 100%;
+        padding: 0vw 0vw 0vw 0vw!important;
+    }
+    
+    #characterLinksAndButtonContainer {
+        float: none;
+    }
+
+    #draw.btn {
+        margin: 0vw auto 3vw;
+    }
+
+    #gameLayer {
+        width: 93vw!important;
+        margin: 1vw auto 0!important;
+    }
+
+    .starwars-card-container {
+        width: 100%;
+        padding-top: 0vw;
+    }
+
+    .characterLink {
+        margin-bottom: 0vw;
+        float: left;
+        padding: 2vw 0vw;
+        margin: 0vw 1vw;
+        border: .4vw solid;
+        font-size: 3.5vw!important;
+        border-radius: 3vw;
+    }
+
+    #characterLinksAndButtonContainer {
+        float: none;
+        margin: 0vw auto;
+    }
+
+    #characterLinksAndButtonContainer[characters="1"] {
+        width: 28vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="2"] {
+        width: 69vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="3"] {
+        width: 93vw;
+    }
+
+    #characterLinksAndButtonContainer #characterLinksContainer {
+        display: grid;
+        margin-bottom: 2vw;
+    }
+
+    #characterLinksAndButtonContainer[characters="1"] #characterLinksContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #characterLinksAndButtonContainer[characters="2"] #characterLinksContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #characterLinksAndButtonContainer[characters="3"] #characterLinksContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #characterCardContainer {
+        float: right;
+        width: 91vw;
+        position: relative;
+        padding: 4vw 0vw 0vw;
+        border-radius: 2vw;
+        margin-top: -3vw;
+    }
+
+    .characterContainer {
+        position: absolute;
+        width: 90vw;
+        display: none;
+        padding: 0vw 0vw 10vw 0vw;
+        border-radius: 0vw;
+        border: none;
+    }
+
+    .characterContainer .chosenCardInfo h3, .characterContainer .chosenCardInfo p {
+        font-size: 3.8vw!important;
+        margin: 0vw 0vw 1vw 0vw;
+        text-align: left!important;
+    }
+
+    .characterContainer .chosenCardInfo li {
+        font-size: 3.8vw;
+        line-height: 5vw;
+    }
+
+    .characterContainer .chosenCardInfo ul, .characterContainer .chosenCardInfo ol {
+        padding-left: 2vw;
+        margin: 0vw 0vw 3vw 0vw;
+    }
+
+    #bobaFettCharacterNotes.confirmationBox, #bosskCharacterNotes.confirmationBox, #ig88CharacterNotes.confirmationBox, #ketsuOnyoCharacterNotes.confirmationBox {
+        margin-left: -47vw;
+        width: 94vw;
+        top: 2%;
+        padding: 0px 5vw 6vw;
+    }
+
+    #doctorAphraCharacterNotes.confirmationBox, #hanSoloCharacterNotes.confirmationBox, #jynErsoCharacterNotes.confirmationBox, #landoCalrissianCharacterNotes.confirmationBox {
+        margin-left: -45vw;
+        width: 90vw;
+        top: 3%;
+    }
+
+    .characterTitle {
+        margin: 0vw 0vw 0vw 0vw;
+        font-size: 4.8vw!important;
+        font-weight: bold;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard {
+        z-index: 11;
+        width: 98vw;
+        margin-left: -49vw;
+        height: 100vh;
+        top: 0%;
+        text-align: left;
+        font-size: 3.8vw;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard h3 {
+        text-align: center!important;
+        font-size: 4vw!important;
+        margin: 0vw 0vw 2vw 0vw;
+    }
+
+    .confirmationBox ul, .confirmationBox ol {
+        padding-left: 2vw;
+        margin: 0vw 0vw 2vw 0vw;
+    }
+
+    .confirmationBox a:not(.confirmationBoxLink):not(.helpLink) {
+        margin: 0vw 2.3vw 0px!important;
+        padding: 2.8vw 9vw!important;
+        font-size: 4.3vw!important;
+        width: 10vw!important;
+        float: left!important;
+    }
+
+    .confirmationBox.alertEl.actionTypeAlertBox.showCharacterNotes li {
+        margin-bottom: 2vw;
+        text-align: left;
+        font-size: 4vw;
+    }
+
+}
