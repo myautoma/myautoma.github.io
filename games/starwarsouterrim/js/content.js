@@ -2,7 +2,7 @@ var startContent = [
     {
         name: 'Setup',
         id: 'setup',
-        content: '<p>Perform the normal steps of setup with the following changes:</p><ul><li>Set up all components for the AI as if they were a player.</li><li>After choosing your character, choose a character to play against. It must be a character that starts the game with databank card #91 or #92.</li><li>You are the first player. You gain 4,000 credits and the AI gains 6,000 credits as normal during step 5.</li><li>Follow the setup instructions on the AI player\'s character card. Then place a goal token on the destination listed on their cargo or job.</li></ul>'
+        content: '<p>Perform the normal steps of setup with the following changes:</p><ul><li>Set up all components for the AI as if they were a player.</li><li>After choosing your character, choose a character to play against. It must be a character that starts the game with databank card #90, #91 or #92.</li><li>You are the first player. You gain 4,000 credits and the AI gains 6,000 credits as normal during step 5.</li><li>Follow the setup instructions on the AI player\'s character card. Then place a goal token on the destination listed on their cargo or job.</li></ul>'
     },
     {
         name: 'Gameplay',
@@ -21,7 +21,7 @@ var helpContent = [
         name: 'Setup',
         id: 'setup',
         classes: ['setup'],
-        content: '<p>Perform the normal steps of setup with the following changes:</p><ul><li>Set up all components for the AI as if they were a player.</li><li>After choosing your character, choose a character to play against. It must be a character that starts the game with databank card #91 or #92.</li><li>You are the first player. You gain 4,000 credits and the AI gains 6,000 credits as normal during step 5.</li><li>Follow the setup instructions on the AI player\'s character card. Then place a goal token on the destination listed on their cargo or job.</li></ul>'
+        content: '<p>Perform the normal steps of setup with the following changes:</p><ul><li>Set up all components for the AI as if they were a player.</li><li>After choosing your character, choose a character to play against. It must be a character that starts the game with databank card #90, #91 or #92.</li><li>You are the first player. You gain 4,000 credits and the AI gains 6,000 credits as normal during step 5.</li><li>Follow the setup instructions on the AI player\'s character card. Then place a goal token on the destination listed on their cargo or job.</li></ul>'
     },
     {
         name: 'Gameplay',
