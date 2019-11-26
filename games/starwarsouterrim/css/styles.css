@@ -146,23 +146,32 @@
     padding: 9px 14px 4px;
     border-radius: 10px;
     margin: 0px 11px;
+    position:relative;
 }
 
-#setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    transform: translate(0%, -50%);
+}
+
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter h3 {
     text-align: center;
     font-size: 23px;
     margin: 0px 0px 11px 0px;
     padding: 0px 0px 0px 0px;
 }
 
-#setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter ul {
     margin: 0px 0px 13px 0px;
     padding: 0px 0px 0px 0px;
     font-size: 20px;
     text-align: center;
 }
 
-#setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter li {
     margin: 0px 0px 12px 0px;
     list-style: none;
 }
@@ -472,20 +481,20 @@
         margin: 0vw 1vw;
     }
 
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter h3 {
         text-align: center;
         font-size: 3vw;
         margin: 0vw 0vw 1vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
     }
 
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter ul {
         margin: 0vw 0vw 0vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
         font-size: 2.7vw;
     }
 
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter li {
         margin: 0vw 0vw 1.5vw 0vw;
     }
 
@@ -872,21 +881,21 @@
         margin: 0 auto!important;
     }
 
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter h3 {
         text-align: center;
         font-size: 4.3vw;
         margin: 0vw 0vw 1vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
     }
     
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter ul {
         margin: 0vw 0vw 0vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
         font-size: 3.8vw;
         text-align: center;
     }
 
-    #setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox .characterSetupBoxCenter li {
         margin: 0vw 0vw 2vw 0vw;
         list-style: none;
     }
