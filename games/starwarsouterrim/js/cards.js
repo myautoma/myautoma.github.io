@@ -4,7 +4,7 @@ var cards = {
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -46,7 +46,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -67,7 +67,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -88,7 +88,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -130,7 +130,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -151,7 +151,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -172,7 +172,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -193,7 +193,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -209,14 +209,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 ' Eliminate the highest class contact on this planet and gain 1 fame.'
             ],
-            special: 'Discard the top card of the Ship and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Ship and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     bossk: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -258,7 +258,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -279,7 +279,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -300,7 +300,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -342,7 +342,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -363,7 +363,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -384,7 +384,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -405,7 +405,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -421,14 +421,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Tech market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Tech market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     doctorAphra: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -468,7 +468,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If patrol in path is empire, ignore reputation and pass through the patrol.',
                 'Gain 2k.'
             ],
@@ -487,7 +487,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -508,7 +508,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -548,7 +548,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -567,7 +567,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -588,7 +588,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If patrol in path is empire, ignore reputation and pass through the patrol.',
                 'Gain 2k.'
             ],
@@ -607,7 +607,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -622,7 +622,7 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     hanSolo: [
@@ -630,7 +630,7 @@ var cards = {
             card: '1',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If any patrol in path, ignore reputation and pass through the patrol(s).',
                 'Gain 2k.'
             ],
@@ -672,7 +672,7 @@ var cards = {
             card: '3',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -692,7 +692,7 @@ var cards = {
             card: '4',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If any patrol in path, ignore reputation and pass through the patrol(s).',
                 'Gain 2k.'
             ],
@@ -713,7 +713,7 @@ var cards = {
             card: '5',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -754,7 +754,7 @@ var cards = {
             card: '7',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If any patrol in path, ignore reputation and pass through the patrol(s).',
                 'Gain 2k.'
             ],
@@ -774,7 +774,7 @@ var cards = {
             card: '8',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -796,7 +796,7 @@ var cards = {
             card: '9',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -816,7 +816,7 @@ var cards = {
             card: '10',
             planning: [
                 '***+2 Movement bonus is active.',
-                'If defeated, recover all damage.',                                
+                '<span class="underline italic">If defeated</span>, recover all damage.',                                
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If any patrol in path, ignore reputation and pass through the patrol(s).',
                 'Gain 2k.'
             ],
@@ -830,14 +830,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     ig88: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -881,7 +881,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -903,7 +903,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -925,7 +925,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -969,7 +969,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -991,7 +991,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1013,7 +1013,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1035,7 +1035,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1052,14 +1052,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Tech market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Tech market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     jynErso: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1102,7 +1102,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If patrol in path is rebel, ignore reputation and pass through the patrol.',
                 'Gain 2k.'
             ],
@@ -1123,7 +1123,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1145,7 +1145,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If patrol in path is rebel, ignore reputation and pass through the patrol.',
                 'Gain 2k.'
             ],
@@ -1187,7 +1187,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1208,7 +1208,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1230,7 +1230,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a> If patrol in path is rebel, ignore reputation and pass through the patrol.',
                 'Gain 2k.'
             ],
@@ -1251,7 +1251,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1267,14 +1267,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Ship and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Ship and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     ketsuOnyo: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1316,7 +1316,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1337,7 +1337,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1358,7 +1358,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1400,7 +1400,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1421,7 +1421,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1442,7 +1442,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1463,7 +1463,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1479,14 +1479,14 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
     landoCalrissian: [
         {
             card: '1',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1527,7 +1527,7 @@ var cards = {
         {
             card: '3',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1548,7 +1548,7 @@ var cards = {
         {
             card: '4',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1570,7 +1570,7 @@ var cards = {
         {
             card: '5',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1610,7 +1610,7 @@ var cards = {
         {
             card: '7',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1630,7 +1630,7 @@ var cards = {
         {
             card: '8',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1652,7 +1652,7 @@ var cards = {
         {
             card: '9',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1672,7 +1672,7 @@ var cards = {
         {
             card: '10',
             planning: [
-                'If defeated, recover all damage.',
+                '<span class="underline italic">If defeated</span>, recover all damage.',
                 '<a class="helpLink helpLink-moving" href="#">Move toward closest goal.</a>',
                 'Gain 2k.'
             ],
@@ -1687,10 +1687,9 @@ var cards = {
                 'If at job destination, <a class="helpLink helpLink-jobsAndCargo" href="#">complete</a> it.',
                 'Spend 8k to gain 1 fame.'
             ],
-            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold red">AI deck is automatically shuffled.</span>'
+            special: 'Discard the top card of the Bounty and Luxury market decks. <span class="bold">AI deck is automatically shuffled.</span>'
         },
     ],
-
 
 }
 
@@ -1751,5 +1750,37 @@ var characterNotes = {
         'Use Lando Calrissian starting card.',
         'Lando Calrissian always moves toward closest goal that allows him to land on a planet.',
         'Lando Calrissian does not take bounties.'
+    ]
+}
+
+
+var characterSetup = {
+    bobaFett: [
+        'Starting ship:<br /><span class="bold">G-1A Starfighter</span>',
+        'bounty'
+    ],
+    bossk: [
+        'Starting ship:<br /><span class="bold">G-1A Starfighter</span>',
+        'bounty'
+    ],
+    doctorAphra: [
+        'Starting ship:<br /><span class="bold">G9 Rigger</span>'
+    ],
+    hanSolo: [
+        'Starting ship:<br /><span class="bold">G9 Rigger</span>'
+    ],
+    ig88: [
+        'Starting ship:<br /><span class="bold">G-1A Starfighter</span>',
+        'bounty'
+    ],
+    jynErso: [
+        'Starting ship:<br /><span class="bold">G9 Rigger</span>'
+    ],
+    ketsuOnyo: [
+        'Starting ship:<br /><span class="bold">G-1A Starfighter</span>',
+        'bounty'
+    ],
+    landoCalrissian: [
+        'Starting ship:<br /><span class="bold">G9 Rigger</span>'
     ]
 }
