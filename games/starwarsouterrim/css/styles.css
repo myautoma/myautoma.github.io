@@ -858,10 +858,10 @@
     #setupInstructionsLayer .characterSetupContainer .characterSetupBox {
         float: left;
         border: .2vw solid #000;
-        width: 38vw;
+        width: 40vw;
         height: 32vw;
         text-align: left;
-        padding: 2vw 2vw 0vw;
+        padding: 2vw 1vw 0vw;
         border-radius: 2vw;
         margin: 0vw 1vw 3vw;
     }
@@ -874,7 +874,7 @@
 
     #setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
         text-align: center;
-        font-size: 4.7vw;
+        font-size: 4.3vw;
         margin: 0vw 0vw 1vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
     }
@@ -882,7 +882,7 @@
     #setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
         margin: 0vw 0vw 0vw 0vw;
         padding: 0vw 0vw 0vw 0vw;
-        font-size: 4vw;
+        font-size: 3.8vw;
         text-align: center;
     }
 
