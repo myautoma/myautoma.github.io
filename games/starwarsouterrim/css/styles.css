@@ -116,6 +116,78 @@
     margin: 0 11px;
 }
 
+#setupInstructionsLayer {
+    width: 900px!important;
+}
+
+
+#setupInstructionsLayer .characterSetupContainer {
+    margin:20px auto;
+}
+
+#setupInstructionsLayer .characterSetupContainer[aiNum="3"] {
+    width: 758px;
+}
+
+#setupInstructionsLayer .characterSetupContainer[aiNum="2"] {
+    width: 510px;
+}
+
+#setupInstructionsLayer .characterSetupContainer[aiNum="1"] {
+    width: 253px;
+}
+
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox {
+    float: left;
+    border: 1px solid #000;
+    width: 200px;
+    height: 159px;
+    text-align: left;
+    padding: 9px 14px 4px;
+    border-radius: 10px;
+    margin: 0px 11px;
+}
+
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+    text-align: center;
+    font-size: 23px;
+    margin: 0px 0px 11px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+    margin: 0px 0px 13px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+    margin: 0px 0px 12px 0px;
+    list-style: none;
+}
+
+#setupInstructionsLayer .characterCardBlurb {
+    text-align: center!important;
+    font-size: 20px!important;
+}
+
+#setupInstructionsLayer .bountyInstructions {
+    text-align: left!important;
+    font-size: 20px!important;
+}
+
+#setupInstructionsBtns {
+    width: 398px;
+    margin: 39px auto 0px;
+}
+
+#setupInstructionsBtns .btn {
+    float: left;
+    margin: 0 11px;
+}
+
+
 #cardArea {
     width: 100%;
     padding: 0px 20px 20px 20px!important;
@@ -376,6 +448,83 @@
 
     #randomAIBtn {
         width: 16vw;
+    }
+
+    #setupInstructionsLayer {
+        width: 93vw!important;
+    }
+
+    #setupInstructionsLayer h2 {
+        text-align: center;
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox {
+        float: left;
+        border: .1vw solid #000;
+        width: 26.5vw;
+        height: 18vw;
+        margin-right: 1vw;
+        text-align: left;
+        padding: 1vw 1vw 2vw;
+        border-radius: 2vw;
+        margin: 0vw 1vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin: 0vw 0vw 1vw 0vw;
+        padding: 0vw 0vw 0vw 0vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+        margin: 0vw 0vw 0vw 0vw;
+        padding: 0vw 0vw 0vw 0vw;
+        font-size: 2.7vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+        margin: 0vw 0vw 1.5vw 0vw;
+    }
+
+    #setupInstructionsLayer .characterCardBlurb {
+        text-align: center!important;
+        font-size: 2.7vw!important;
+        line-height: 3.3vw;
+    }
+
+    #setupInstructionsLayer .bountyInstructions {
+        text-align: left!important;
+        font-size: 2.7vw!important;
+        line-height: 3.3vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer {
+        margin: 3vw auto;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer[aiNum="3"] {
+        width: 93vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer[aiNum="2"] {
+        width: 62vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer[aiNum="1"] {
+        width: 31vw;
+    }
+
+    #setupInstructionsBtns {
+        width: 43vw;
+        margin: 4vw auto 0vw;
+    }    
+
+    #setupInstructionsBtns .btn {
+        float: left;
+        margin: 0 1vw;
     }
 
     .confirmationBox.alertEl.actionTypeAlertBox.showInstructions {
@@ -659,7 +808,7 @@
         margin: 0vw 2vw 2vw;
     }
 
-    #characterChoiceBtns #startGame {
+    #characterChoiceBtns #setupInstructionsBtn {
         float: none;
         clear: both;
         margin: 0vw auto;
@@ -682,6 +831,83 @@
         font-size: 4.5vw;
     }
 
+    #setupInstructionsLayer {
+        width: 90vw!important;
+    }
+
+    #setupInstructionsLayer h2 {
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    #setupInstructionsLayer .characterCardBlurb {
+        text-align: center!important;
+        font-size: 4vw!important;
+    }
+
+    #setupInstructionsLayer .bountyInstructions {
+        text-align: left!important;
+        font-size: 4vw!important;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer {
+        margin: 0vw auto 0vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox {
+        float: left;
+        border: .2vw solid #000;
+        width: 38vw;
+        height: 32vw;
+        text-align: left;
+        padding: 2vw 2vw 0vw;
+        border-radius: 2vw;
+        margin: 0vw 1vw 3vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox:nth-child(3) {
+        float: none!important;
+        clear: both!important;
+        margin: 0 auto!important;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox h3 {
+        text-align: center;
+        font-size: 4.7vw;
+        margin: 0vw 0vw 1vw 0vw;
+        padding: 0vw 0vw 0vw 0vw;
+    }
+    
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox ul {
+        margin: 0vw 0vw 0vw 0vw;
+        padding: 0vw 0vw 0vw 0vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer .characterSetupBox li {
+        margin: 0vw 0vw 2vw 0vw;
+        list-style: none;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer[aiNum="3"], #setupInstructionsLayer .characterSetupContainer[aiNum="2"] {
+        width: 89vw;
+    }
+
+    #setupInstructionsLayer .characterSetupContainer[aiNum="1"] {
+        width: 44vw;
+    }
+
+    #setupInstructionsBtns {
+        width: 68vw;
+        margin: 7vw auto 0vw;
+    }
+
+    #setupInstructionsBtns .btn {
+        float: left;
+        margin: 0 2vw;
+    }
 
     #cardArea {
         width: 100%;
