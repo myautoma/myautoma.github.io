@@ -1626,7 +1626,7 @@ input[type=range]:focus::-ms-fill-upper {
         left: 11.6vw;
     }
 
-    .confirmationBox.automaRoundCleanup a {
+    .confirmationBox.automaRoundCleanup .buttons a.btn {
         width: 10vw!important;
     }
 
