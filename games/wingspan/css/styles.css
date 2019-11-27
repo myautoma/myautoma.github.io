@@ -888,7 +888,7 @@ table#roundMarkerTable2 {
 	}
 
 
-	.btn, .confirmationBox.wingspanBox .btn {
+	.btn, .confirmationBox.wingspanBox .buttons a.btn {
 		margin: 11vw 2vw 0vw;
 		padding: 2.2vw 4.9vw!important;
 		width: 15.5vw!important;
@@ -1413,7 +1413,7 @@ table#roundMarkerTable2 {
 	}
 
 	.confirmationBox.chosenRoundGoals .buttons[btns="1"] {
-		width: 32vw!important;
+		width: 22vw!important;
 	}
 
 	.confirmationBox.chosenRoundGoals .helpImage {
