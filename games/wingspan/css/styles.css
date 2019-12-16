@@ -1,5 +1,5 @@
 #europeanExpansion-container {
-    margin: -20px auto 43px;
+    margin: -20px auto 28px;
     display: block;
     width: 300px;
 }
@@ -57,7 +57,7 @@
  * Create the hover event of the tick
  */
  .europeanExpansionCheckbox label:hover::after {
-    opacity: 0.2;
+    opacity: 0;
 }
 
 /**
@@ -66,6 +66,79 @@
 .europeanExpansionCheckbox input[type=checkbox]:checked + label:after {
     opacity: 1;
 }
+
+
+#europeanExpansionBonus-container {
+    margin: 0px auto 20px;
+    display: block;
+    width: 274px;
+}
+
+#europeanExpansionBonus-container p {
+    margin: 0px 0px 0px 20px;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.europeanExpansionBonusCheckbox {
+	width: 28px;
+    height: 28px;
+    margin: 0px;
+	position: relative;
+	float:left;
+}
+
+#europeanExpansionBonusCheckboxInput {
+	display:none;
+}
+
+.europeanExpansionBonusCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .europeanExpansionBonusCheckbox label:after {
+	opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+ .europeanExpansionBonusCheckbox label:hover::after {
+    opacity: 0;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.europeanExpansionBonusCheckbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+
+
 
 .buttons[btns="2"], .buttons[btns="4"] {
     width: 338px;
@@ -241,7 +314,7 @@
 }
 
 .unchosenBonus {
-	opacity:0.3;
+	opacity:0.25;
 }
 
 #roundBonusImgContainer .roundBonusImgs .roundBonusOrderNum {
@@ -1060,6 +1133,11 @@ table#roundMarkerTable2 {
 		margin-bottom:0vw!important;
 	}
 
+	.europeanExpansionCheckbox {
+		width: 3.5vw;
+		height: 3.5vw;
+	}
+
 	.europeanExpansionCheckbox label {
 		width: 3vw;
 		height: 3vw;
@@ -1088,6 +1166,51 @@ table#roundMarkerTable2 {
 		border-right: none;
 		transform: rotate(-45deg);
 	}
+
+	#europeanExpansionBonus-container {
+		margin: 0vw auto 3vw;
+		display: block;
+		width: 41vw;
+	}
+
+	#europeanExpansionBonus-container p {
+		margin-bottom:0vw!important;
+	}
+
+	.europeanExpansionBonusCheckbox {
+		width: 3.5vw;
+		height: 3.5vw;
+	}
+
+	.europeanExpansionBonusCheckbox label {
+		width: 3vw;
+		height: 3vw;
+		border: .25vw solid #ccc;
+	}
+
+	#europeanExpansionBonus-container p {
+		margin: 0vw 0vw 0vw 2.5vw;
+		font-style: italic;
+		font-size: 3.5vw!important;
+		line-height: 3vw;
+		float: left;
+	}
+
+	.europeanExpansionBonusCheckbox label:after {
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 1.5vw;
+		height: .6vw;
+		background: transparent;
+		top: .7vw;
+		left: .6vw;
+		border: .35vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+
 
 	h1 {
 		font-size: 5.2vw!important;
@@ -1705,7 +1828,7 @@ table#roundMarkerTable2 {
 	}
 	
 	#europeanExpansion-container {
-		margin: -2vw auto 7vw;
+		margin: -2vw auto 5vw;
 		display: block;
 		width: 60vw;
 	}
@@ -1742,6 +1865,46 @@ table#roundMarkerTable2 {
 		border-right: none;
 		transform: rotate(-45deg);
 	}
+
+	#europeanExpansionBonus-container {
+		margin: -2vw auto 5vw;
+		display: block;
+		width: 65vw;
+	}
+
+	.europeanExpansionBonusCheckbox {
+		width: 4.5vw;
+		height: 4.5vw;
+		margin: 1vw 0vw 0vw 0vw;
+	}
+
+	.europeanExpansionBonusCheckbox label {
+		width: 4vw;
+		height: 4vw;
+		border: .35vw solid #ccc;
+	}
+
+	#europeanExpansionBonus-container p {
+		margin: 0vw 0vw 0vw 4vw;
+		font-size: 4.5vw;
+		line-height: 5vw;
+	}
+
+	.europeanExpansionBonusCheckbox label:after {
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 2.2vw;
+		height: 1vw;
+		background: transparent;
+		top: .9vw;
+		left: .8vw;
+		border: .5vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+
 
 	h1 {
 		font-size: 8.7vw!important;
