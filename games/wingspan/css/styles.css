@@ -2466,14 +2466,14 @@ table#roundMarkerTable2 {
 
 	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection {
 		border: 0.4vw solid #000;
-		margin: 0vw 0vw 0vw 4vw;
+		margin: 0vw 0vw 0vw 3vw;
 		padding: 0vw 0vw;
-		border-radius: 5vw;
+		border-radius: 3vw;
 	}
 
 	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection p {
-		margin: 0vw 0vw;
-		padding: 5.5vw 3.5vw 0vw;
+		margin: 0vw 0vw 5vw!important;
+		padding: 4.5vw 3.5vw 0vw;
 		line-height: 0vw;
 		font-size: 4vw;
 	}
