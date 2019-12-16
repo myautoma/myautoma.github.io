@@ -1,6 +1,90 @@
-#tierSelectionLayer .btn, #bonusCardAndScoreSideLayer .btn, #roundBonusLayer .btn {
-	float:none;
-	margin:0 auto;
+#europeanExpansion-container {
+    margin: -20px auto 43px;
+    display: block;
+    width: 300px;
+}
+
+#europeanExpansion-container p {
+    margin: 0px 0px 0px 20px;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.europeanExpansionCheckbox {
+	width: 28px;
+    height: 28px;
+    margin: 0px;
+	position: relative;
+	float:left;
+}
+
+#europeanExpansionCheckboxInput {
+	display:none;
+}
+
+.europeanExpansionCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+/**
+ * Display the tick inside the checkbox
+ */
+ .europeanExpansionCheckbox label:after {
+	opacity: 0;
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 5px;
+    border: 3px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+/**
+ * Create the hover event of the tick
+ */
+ .europeanExpansionCheckbox label:hover::after {
+    opacity: 0.2;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.europeanExpansionCheckbox input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+.buttons[btns="2"], .buttons[btns="4"] {
+    width: 338px;
+}
+
+#startLayer .buttons[btns="2"] {
+	width: 400px;
+}
+
+#tierSelectionLayer .buttons .btn, #bonusCardAndScoreSideLayer .buttons .btn, #roundBonusLayer .buttons .btn {
+	float: left;
+    width: 90px;
+    margin: 0 11px;
+}
+
+#randomizeAutomasBonusCardBtn {
+	margin: 0 auto;
+    float: none;
+
 }
 
 #automasBonusCard {
@@ -8,7 +92,7 @@
 }
 
 #bonusCards {
-	margin: 20px auto 40px;
+    margin: 20px auto 20px;
     font-size: 20px;
     display: block;
     width: 350px;
@@ -16,16 +100,32 @@
 }
 
 #roundBonusLayer {
-    width: 615px!important;
+    width: 705px!important;
+	margin:0 auto;
+}
+
+#roundBonusLayer .roundBonusInstructions {
+    margin:0px 0px 0px 0px;
 }
 
 #roundBonusCardContainer {
-	margin-bottom: 22px;
+    margin-bottom: 0px;
 }
 
 #roundBonusImgContainer {
-	width: 400px;
+    list-style: none;
+    text-align: center;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
 }
+
+#roundBonusImgContainer li {
+    height: auto;
+    padding: 0 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 #roundBonusConfirmed {
     width: 185px;
@@ -98,10 +198,6 @@
 	background-image: url('../img/roundBonus/blueScoring.png')!important;
 }
 
-.chosenPic {
-	opacity:0.3;
-}
-
 .roundVal {
     border: solid 1px #000;
 	margin-left: 10px;
@@ -125,10 +221,10 @@
 }
 
 #roundBonusImgContainer .roundBonusImgs {
-    margin: 5px;
+    margin: 4px;
+    padding: 15px 6px 8px 6px;
     border: 1px solid #7d7d7d96;
     position: relative;
-    float: left;
 }
 
 #roundBonusImgContainer .roundBonusImgs.clickable:not(.chosenPic) {
@@ -141,7 +237,31 @@
 }
 
 #roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
-	width: 87px;
+    width: 75px;
+}
+
+.unchosenBonus {
+	opacity:0.3;
+}
+
+#roundBonusImgContainer .roundBonusImgs .roundBonusOrderNum {
+	top: -10px;
+    left: -10px;
+}
+
+.roundBonusOrderNum {
+	position: absolute;
+    background-color: #FFF;
+    font-size: 21px!important;
+    color: #0064ff;
+    border: 3px solid #0064ff;
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
 }
 
 #roundBonusButtons {
@@ -158,6 +278,10 @@
 
 #roundBonusButtons[btns="3"] {
     width: 475px;
+}
+
+#roundBonusButtons[btns="4"] {
+    width: 625px;
 }
 
 .chosenRoundGoals {
@@ -240,6 +364,45 @@ input[type=range] {
 
 #difficultyLevelRange {
 	width: 54%;
+}
+
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="2"] {
+	width: 330px;
+    margin: 0 auto;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="3"] {
+    width: 490px;
+    margin: 0 auto;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection {
+    float: left;
+    border: 2px solid #000;
+    margin: 0px 10px;
+    padding: 20px 30px;
+    border-radius: 40px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection:not(.chosenPoints):hover {
+    background-color: #12ff0057;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection.chosenPoints {
+    background-color: #12ff00;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsTitle {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #faceupBirdPoints {
@@ -661,7 +824,7 @@ table#roundMarkerTable2 {
 }
 
 .confirmationBox.faceUpBirds .buttons {
-    width: 379px;
+	width: 360px;
 }
 
 .confirmationBox.faceUpBirds a {
@@ -700,7 +863,8 @@ table#roundMarkerTable2 {
 .automaRoundSummary .automaRoundSummaryImg {
 	float:left;
 	border: solid 1px #000;
-    box-shadow: 0px 0px 2px #6b6b6be8;
+	box-shadow: 0px 0px 2px #6b6b6be8;
+	padding: 0px 10px;
 }
 
 .automaRoundSummary .automaRoundSummaryImg img {
@@ -878,9 +1042,52 @@ table#roundMarkerTable2 {
 	float: left;
 }
 
-
+.confirmationBox a:not(.confirmationBoxLink):not(.helpLink) {
+	padding: 13px 21px;
+    width: 100px;
+    float: left;
+}
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
+	
+	#europeanExpansion-container {
+		margin: 0vw auto 4vw;
+		display: block;
+		width: 39vw;
+	}
+
+	#europeanExpansion-container p {
+		margin-bottom:0vw!important;
+	}
+
+	.europeanExpansionCheckbox label {
+		width: 3vw;
+		height: 3vw;
+		border: .25vw solid #ccc;
+	}
+
+	#europeanExpansion-container p {
+		margin: 0vw 0vw 0vw 2.5vw;
+		font-style: italic;
+		font-size: 3.5vw;
+		line-height: 3vw;
+		float: left;
+	}
+
+	.europeanExpansionCheckbox label:after {
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 1.5vw;
+		height: .6vw;
+		background: transparent;
+		top: .7vw;
+		left: .6vw;
+		border: .35vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
 
 	h1 {
 		font-size: 5.2vw!important;
@@ -890,7 +1097,7 @@ table#roundMarkerTable2 {
 
 	.btn, .confirmationBox.wingspanBox .buttons a.btn {
 		margin: 11vw 2vw 0vw;
-		padding: 2.2vw 4.9vw!important;
+		padding: 1.7vw 3.4vw!important;
 		width: 15.5vw!important;
 		font-size: 3.5vw!important;
 		-moz-border-radius: 1vw!important;
@@ -900,8 +1107,20 @@ table#roundMarkerTable2 {
 		border-width: 0vw!important;
 	}
 
+	#tierSelectionLayer .buttons .btn, #bonusCardAndScoreSideLayer .buttons .btn, #roundBonusLayer .buttons .btn {
+		margin: 0 3vw;
+	}
+
+	.buttons[btns="1"] {
+		width: 29vw!important;
+	}
+
+	.layer .buttons[btns="2"], .layer .buttons[btns="4"] {
+		width: 57vw!important;
+	}
+
 	#startLayer > .buttons > .btn {
-		padding: 2.2vw 3.9vw!important;
+		padding: 1.8vw 3.9vw!important;
 		width: 15.5vw!important;
 		font-size: 3vw!important;
 		margin: 0vw 3vw!important;
@@ -948,7 +1167,7 @@ table#roundMarkerTable2 {
 	}
 
 	#bonusCards {
-		margin: 2vw auto 6vw;
+		margin: 2vw auto 3vw;
 		font-size: 3.5vw;
 		width: 45vw;
 		padding: 2vw;
@@ -956,7 +1175,7 @@ table#roundMarkerTable2 {
 
 	#blueGreenScoring {
 		width: 76vw;
-		margin: 2vw auto 8vw;
+		margin: 5vw auto 7vw;
 	}
 
 	.scoringImage {
@@ -972,26 +1191,50 @@ table#roundMarkerTable2 {
 	}
 
 	#roundBonusLayer {
+		width: 88vw!important;
 		margin: 4vw auto 2vw!important;
 	}
 
 	#roundBonusCardContainer {
-		margin-bottom: -3vw;
+		margin-bottom: 3vw;
+		margin-top: 2vw;
+		width: 89vw;
 	}
 
 	#roundBonusImgContainer {
-		width: 54.2vw;
+		width: 89.2vw;
 		margin: 0 auto;
 		float: none;
 	}
 
+	#roundBonusImgContainer .roundBonusImgs .roundBonusOrderNum {
+		top: -1vw;
+		left: -1vw;
+	}
+
+	.roundBonusOrderNum {
+		position: absolute;
+		background-color: #FFF;
+		font-size: 2.8vw!important;
+		color: #0064ff;
+		border: .4vw solid #0064ff;
+		width: 4vw;
+		height: 4vw;
+		border-radius: 3vw;
+		opacity: 1;
+		margin: 0vw 0vw 0vw 0vw;
+		font-weight: bold;
+		font-family: 'Prompt', sans-serif;
+	}
+
 	#roundBonusImgContainer .roundBonusImgs, #roundBonusImgContainer .roundBonusImgs img {
-		width: 11.2vw;
+		width: 10.2vw;
 	}
 
 	#roundBonusImgContainer .roundBonusImgs {
-		margin: 1vw;
+		margin: .5vw;
 		border: .15vw solid #7d7d7d96;
+		padding: 1.5vw;
 	}
 	
 	#roundBonusConfirmed {
@@ -1040,12 +1283,16 @@ table#roundMarkerTable2 {
 	}
 
 	#roundBonusButtons[btns="3"] {
-		width: 76vw!important;
+		width: 69vw!important;
+	}
+
+	#roundBonusButtons[btns="4"] {
+		width: 92vw!important;
 	}
 
 	#roundBonusButtons .btn {
-		width: 11vw!important;
-		margin: 0vw 2vw!important;
+		width: 14vw!important;
+		margin: 0vw 1vw!important;
 	}
 
 	.gameActionInfo {
@@ -1053,7 +1300,7 @@ table#roundMarkerTable2 {
 	}
 
 	.gameActionInfo .buttons[btns="2"] {
-		width: 59vw!important;
+		width: 53vw!important;
 	}
 
 	#table-container {
@@ -1215,8 +1462,28 @@ table#roundMarkerTable2 {
 	}
 
 	.confirmationBox.faceUpBirds .buttons {
-		width: 63vw;
+		width: 57vw;
 		margin: 5vw auto 2vw!important;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="2"] {
+		width: 49vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="3"] {
+		width: 74vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsTitle {
+		margin: 3vw 0vw;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection {
+		border: .3vw solid #000;
+		margin: 0vw 1.5vw;
+		padding: 2vw 4vw;
+		border-radius: 5vw;
 	}
 
 	.confirmationBox.wingspanBox.noEndOfRoundScore .buttons[btns="1"] {
@@ -1267,7 +1534,7 @@ table#roundMarkerTable2 {
 
 	#startLayer .buttons[btns="2"] {
 		width: 60.2vw!important;
-		margin-top: 7vw!important;
+		margin-top: 0vw!important;
 	}
 
 	.buttons[btns="3"] {
@@ -1279,7 +1546,8 @@ table#roundMarkerTable2 {
 	}
 	
 	.confirmationBox.wingspanBox.confirmFaceUpBirds .buttons[btns="1"] {
-		width: 31vw!important;
+		width: 29vw!important;
+		margin-top: 4vw!important;
 	}
 
 	#roundMarkerTable4.finalScore {
@@ -1421,11 +1689,59 @@ table#roundMarkerTable2 {
 		top: 3vw;
 		width: 5vw!important;
 	}
-	
 
 }
 
 @media screen and (max-width: 599px) {
+
+	.buttons[btns="2"], .buttons[btns="4"] {
+		width: 72vw;
+	}
+
+	#tierSelectionLayer .buttons .btn, #bonusCardAndScoreSideLayer .buttons .btn, #roundBonusLayer .buttons .btn {
+		float: left;
+		width: 27vw;
+		margin: 0 3vw;
+	}
+	
+	#europeanExpansion-container {
+		margin: -2vw auto 7vw;
+		display: block;
+		width: 60vw;
+	}
+
+	.europeanExpansionCheckbox {
+		width: 4vw;
+		height: 4vw;
+		margin: 1vw 0vw 0vw 0vw;
+	}
+
+	.europeanExpansionCheckbox label {
+		width: 4vw;
+		height: 4vw;
+		border: .35vw solid #ccc;
+	}
+
+	#europeanExpansion-container p {
+		margin: 0vw 0vw 0vw 4vw;
+		font-size: 4.5vw;
+		line-height: 5vw;
+	}
+
+	.europeanExpansionCheckbox label:after {
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 2.2vw;
+		height: 1vw;
+		background: transparent;
+		top: .9vw;
+		left: .8vw;
+		border: .5vw solid #333;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
 
 	h1 {
 		font-size: 8.7vw!important;
@@ -1447,12 +1763,16 @@ table#roundMarkerTable2 {
 		padding-left: 0vw;
 	}
 
+	#startLayer .buttons[btns="2"] {
+		width: 74vw;
+	}
+
 	#automaSetup > p, #automasBonusCard {
 		font-size: 6vw!important;
 	}
 
 	#bonusCards {
-		margin: 5vw auto 2vw;
+		margin: 5vw auto 5vw;
 		font-size: 5vw;
 		display: block;
 		width: 61vw;
@@ -1538,27 +1858,44 @@ table#roundMarkerTable2 {
 	}
 
 	#roundBonusImgContainer {
-		width: 76vw;
-		margin: 0 auto;
+		width: 89vw;
+		margin: 4vw auto 6vw;
 		float: none;
 	}
 
 	#roundBonusImgContainer .roundBonusImgs {
-		width: 16vw;
+		margin: 0.1vw;
+		border: .25vw solid #7d7d7d96;
+		padding: 3vw 1vw 0vw 1vw;
+		width: 15vw;
 	}
 
 	#roundBonusImgContainer .roundBonusImgs img {
-		width: 15.5vw;
-		margin: .2vw;
-	}
-
-	#roundBonusImgContainer .roundBonusImgs {
-		margin: 1vw;
-		border: .35vw solid #7d7d7d96;
+		width: 14.5vw;
+		margin: 0vw;
 	}
 
 	#roundBonusImgContainer .roundBonusImgs.clickable:not(.chosenPic):hover {
 		box-shadow: 0vw 0vw 0.4vw #888;
+	}
+
+	#roundBonusImgContainer .roundBonusImgs .roundBonusOrderNum {
+		top: 0vw;
+		left: 0vw;
+	}
+
+	#roundBonusButtons[btns="4"] {
+		width: 68vw;
+	}
+
+	.roundBonusOrderNum {
+		font-size: 3vw!important;
+		border: .5vw solid #0064ff;
+		width: 4.5vw;
+		height: 4.5vw;
+		border-radius: 7vw;
+		margin: 0vw 0vw 0vw 0vw;
+		line-height: 4.3vw!important;
 	}
 	
 	#roundBonusConfirmed {
@@ -1582,24 +1919,6 @@ table#roundMarkerTable2 {
 		font-weight:bold;
 	}
 
-	.roundVal {
-		border: solid .1vw #000;
-		height: 19vw;
-		width: 16.1vw;
-		margin: 0 auto;
-		padding: .2vw;
-	}
-
-	.roundBonusHeading, .roundVal {
-		float: none;
-	}
-
-	#roundBonusConfirmed > .bonusRoundContainer > .roundVal > img {
-		height: 17.6vw;
-		margin: 0 auto;
-		padding: .1vw;
-	}
-
 	#roundBonusButtons[btns="1"] {
 		width: 31.5vw;
 	}
@@ -1609,16 +1928,26 @@ table#roundMarkerTable2 {
 	}
 
 	#roundBonusButtons[btns="3"] {
-		width: 85vw!important;
+		width: 68vw!important;
+	}
+
+	#roundBonusButtons[btns="3"] #resetBonus {
+		float: none;
+		margin: 0 auto!important;
+		clear: both;
+	}
+
+	#roundBonusButtons[btns="4"] {
+		width: 68vw;
 	}
 
 	#roundBonusButtons .btn {
-		width: 21vw!important;
-		margin: 0vw 2vw!important;
+		width: 27vw!important;
+		margin: 0vw 2vw 2vw!important;
 	}
 
 	#gameLayer .buttons {
-		margin: 3vw auto 8vw!important;
+		margin: 3vw auto 1vw!important;
 		height: 14vw;
 	}
 
@@ -1671,7 +2000,7 @@ table#roundMarkerTable2 {
 	}
 
 	#roundMarkerTable4 {
-		margin: 2vw auto 5vw!important;
+		margin: 2vw auto 3vw!important;
 	}
 	
 	#cardArea, .actionCard, .flip-card {
@@ -1696,7 +2025,7 @@ table#roundMarkerTable2 {
 	}
 
 	.wingspanRoundBonusHeading {
-		margin: 3vw auto 0vw;
+		margin: 3vw auto 4.5vw;
 		font-size: 5.5vw!important;
 	}
 
@@ -1798,8 +2127,9 @@ table#roundMarkerTable2 {
 	#humanItemScoringInput {
 		width: 9vw;
 		font-size: 4.5vw;
-		margin: 0 auto;
+		margin: 0vw 0vw 0vw 2vw;
 		padding: 1vw 0vw;
+		border-width: .5vw;
 	}
 
 	.automaRoundSummary .automaRoundSummaryImg {
@@ -1904,12 +2234,17 @@ table#roundMarkerTable2 {
 		top: 5%;
 		width: 90vw;
 		margin-left: -45vw;
-		padding: 0px 6vw 6vw;
+		padding: 0px 2vw 6vw;
 	}
 
 	.confirmationBox p {
 		margin-bottom: 6vw!important;
 		margin-top: 5vw;
+	}
+
+	.confirmationBox.wingspanBox.endOfRoundScoring .automaRoundSummary p {
+		margin-bottom: 1vw!important;
+		margin-top: 1vw!important;
 	}
 
 	.confirmationBox.chosenRoundGoals p {
@@ -2037,7 +2372,7 @@ table#roundMarkerTable2 {
 	}
 
 	.automaCubes {
-		margin-left: 2vw;
+		margin-left: 4vw;
 	}
 
 	.chosenRoundGoals .roundGoal {
@@ -2112,6 +2447,35 @@ table#roundMarkerTable2 {
 		-ms-transition: 500ms;
 		-o-transition: 500ms;
 		transition: 500ms;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="2"] {
+		width: 54vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer[birdPointsNum="3"] {
+		width: 81vw;
+		margin: 0 auto 7vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsTitle {
+		margin: 5vw 0vw 0vw 0vw;
+		padding: 0vw 0vw 0vw 0vw;
+		line-height: 0vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection {
+		border: 0.4vw solid #000;
+		margin: 0vw 0vw 0vw 4vw;
+		padding: 0vw 0vw;
+		border-radius: 5vw;
+	}
+
+	.confirmationBox.confirmFaceUpBirds .faceUpBirdBonusPointsContainer .birdPointsSelection p {
+		margin: 0vw 0vw;
+		padding: 5.5vw 3.5vw 0vw;
+		line-height: 0vw;
+		font-size: 4vw;
 	}
 
 }
