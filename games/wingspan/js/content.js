@@ -53,7 +53,7 @@ var helpContent = [
                 name: 'Gain Food',
                 id: 'gainFood',
                 classes: ['gainFood'],
-                content: '<p>If all dice in the birdfeeder show the same face, remove the remaining dice and toss all 5 dice into the top of the birdfeeder to refill it.</p><p>Using the key <img class="largeIcon" src="img/icons/dice-action-example.png" /> in the section for the current round, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder (remember that the Automa does not actually take food from the supply).</p>'
+                content: '<p>Before the Automa takes food, if all dice in the birdfeeder show the same face then reroll all 5 dice and then take the food specified by the Automa card.</p><p>Using the key <img class="largeIcon" src="img/icons/dice-action-example.png" /> in the section for the current round, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder (remember that the Automa does not actually take food from the supply).</p>'
             },
             {
                 name: 'End-of-Round Cube',
