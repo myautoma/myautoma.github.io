@@ -2969,7 +2969,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #startLayer .buttons[btns="3"], #startLayer .buttons[btns="4"] {
-        width: 80.5vw!important;
+        width: 82.5vw!important;
     }
 
     #startLayer .buttons[btns="3"] .btn, #startLayer .buttons[btns="4"] .btn {
@@ -3010,7 +3010,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #quickStartLayer .buttons {
-        width: 40vw!important;
+        width: 41vw!important;
     }
 
     #quickStartLayer .buttons .btn:first-child {
@@ -3096,7 +3096,7 @@ input[type=number]::-webkit-outer-spin-button {
     } */
 
     .gameActionInfo .buttons[btns="4"] {
-        width: 53.6vw!important;
+        width: 54.6vw!important;
         margin-top: 1vw!important;
     }
 
@@ -4104,7 +4104,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .confirmationBox.takeLandmarkConfirmationBox .buttons[btns="2"], .confirmationBox.showTapestryCard .buttons[btns="2"]{
-        width: 46vw!important;
+        width: 47vw!important;
     }
 
     .confirmationBox.takeLandmarkConfirmationBox .buttons[btns="2"] .btn, .confirmationBox.showTapestryCard .buttons[btns="2"] .btn{
@@ -4236,7 +4236,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"], #fullAutomaChooseCivsLayer .buttons[btns="3"] {
-        width: 70vw!important;
+        width: 72vw!important;
     }
 
     #fullAutomaConfigTrackChoiceLayer .buttons[btns="3"] .btn, #fullAutomaChooseCivsLayer .buttons[btns="3"] .btn {
@@ -4442,7 +4442,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .confirmationBox.chooseSecondCiv .buttons {
-        width: 46vw!important;
+        width: 47vw!important;
     }
 
     .confirmationBox.chooseSecondCiv .buttons .btn {
@@ -4872,11 +4872,11 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #incomeLayer #incomeTitleAndButtons .buttons[btns="2"] {
-        width: 46vw!important;
+        width: 47vw!important;
     }
 
     #incomeLayer #incomeTitleAndButtons .buttons[btns="3"] {
-        width: 69vw!important;
+        width: 70vw!important;
     }
 
     #incomeLayer #incomeTitleAndButtons .buttons .btn {
@@ -5255,8 +5255,8 @@ input[type=number]::-webkit-outer-spin-button {
 
     #fullAutomaChooseCivsLayer.layer.extraSetupScreen .buttons[btns="3"] .btn, #fullAutomaConfigTrackChoiceLayer.layer.extraSetupScreen .buttons[btns="3"] .btn {
         width: 24vw;
-        margin: 0 1.5vw 2vw!important;
-        padding: 2.7vw 1.3vw;
+        margin: 0 1vw 2vw!important;
+        padding: 2.7vw 1vw;
         float: left;
         font-size: 4.3vw;
     }
@@ -5318,7 +5318,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #shadowEmpireAutomatedSystemLayer .buttons[btns="3"] {
-        width: 72vw!important;
+        width: 73vw!important;
     }
     
     #shadowEmpireAutomatedSystemLayer .buttons[btns="3"] .btn {
@@ -6532,7 +6532,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #quickStartLayer .buttons {
-        width: 62vw!important;
+        width: 63vw!important;
     }
 
     #quickStartLayer .buttons .btn {
@@ -6946,7 +6946,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .actionInformationPanel.noAutomaMove .mainActionArea {
-        width: 65.5vw;
+        width: 63.5vw;
         margin: 0vw auto 0vw;
     }
 
@@ -7307,6 +7307,8 @@ input[type=number]::-webkit-outer-spin-button {
 
     .confirmationBox.checkFirstToReachEra .buttons[btns="2"] .btn {
         font-size: 4.3vw;
+        width: 12vw;
+        padding: 2.8vw 6.5vw;
     }
 
     #incomeLayer {
@@ -7728,5 +7730,13 @@ input[type=number]::-webkit-outer-spin-button {
         font-family: 'Prompt', sans-serif;
         text-decoration:underline;
     }
+ 
+    .confirmationBox.alertEl.showCurrentAutomaCardsBox .buttons {
+        width: 38vw!important;
+       }
+
+       .confirmationBox.alertEl.showCurrentAutomaCardsBox .buttons .btn {
+        width: 12vw;
+       }
 
 }
