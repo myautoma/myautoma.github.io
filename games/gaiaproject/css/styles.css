@@ -1097,7 +1097,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .buttons[btns="3"] {
-        width: 45vw!important;
+        width: 46vw!important;
     }
 
     #boosterTilesLayer .buttons .btn:first-child, #technologyTilesLayer .buttons .btn:first-child, #factionSelectionLayer .buttons .btn:first-child {
@@ -1692,7 +1692,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .confirmationBox.ongoingAbilityPopup .buttons[btns="2"] {
-        width: 46vw!important;
+        width: 48vw!important;
     }
 
     .confirmationBox.ongoingAbilityPopup .buttons[btns="2"] a {
@@ -1703,7 +1703,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .confirmationBox.adjustVPs .buttons[btns="2"] {
-        width: 54vw!important;
+        width: 56vw!important;
     }
 
     .confirmationBox.adjustVPs .buttons a {
@@ -1755,8 +1755,6 @@ input[type=range]:focus::-ms-fill-upper {
     .terraformTable .borderRight {
         border-right: 4px solid #000;
     }
-
-
 
 }
 
@@ -1818,7 +1816,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     .buttons[btns="3"] {
-        width: 74vw!important;
+        width: 75vw!important;
     }
 
     #boosterTilesLayer .buttons .btn:first-child, #technologyTilesLayer .buttons .btn:first-child, #factionSelectionLayer .buttons .btn:first-child {
@@ -1826,7 +1824,7 @@ input[type=range]:focus::-ms-fill-upper {
     }
 
     #endOfRoundGoalsLayer .buttons[btns="4"], #endOfGameGoalsLayer .buttons[btns="4"] {
-        width: 74vw!important;
+        width: 75vw!important;
     }
 
     #endOfRoundGoalsLayer .buttons[btns="4"] .btn, #endOfGameGoalsLayer .buttons[btns="4"] .btn {
