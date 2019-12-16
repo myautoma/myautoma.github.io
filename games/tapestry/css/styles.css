@@ -5437,6 +5437,12 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0vw 0vw 2vw;
     }
 
+    
+    #incomeLayer #incomeInformation .civBonus .tapestryActionContainer .trackContainer, #incomeLayer #incomeInformation .dualCivBonus .tapestryActionContainer .trackContainer {
+        margin: 0vw auto 2vw!important;
+        float: none!important;
+    }
+
     .tapestryActionContainer.shadowEmpireAutomated .trackContainer .shadowEmpirefavTrackIcon img {
         height: 5vw;
         margin-bottom: -1.2vw;
@@ -6946,7 +6952,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .actionInformationPanel.noAutomaMove .mainActionArea {
-        width: 63.5vw;
+        width: 65.5vw;
         margin: 0vw auto 0vw;
     }
 
@@ -7473,8 +7479,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv .tapestryActionContainer, #incomeLayer #incomeInformation .dualCivBonus #incomeAutomaCiv .tapestryActionContainer {
-        float: right;
-        width: 39vw;
+        float: none!important;
+        width: 89vw!important;
     }
 
     .automaPointsIncome {
