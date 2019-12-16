@@ -1,1 +1,681 @@
-var _0x5521=['Birds\x20must\x20have\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-bowl.png\x22\x20/>\x20or\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/wild-nest.png\x22\x20/>\x20nest\x20symbol.','Birds\x20in\x20Forest','birdsInForest','Birds\x20in\x20Grassland','birdsInGrassland','Birds\x20in\x20Wetland','totalBirds','Eggs\x20in\x20Forest','eggsInForest','Eggs\x20in\x20Grassland','eggsInGrassland','Eggs\x20in\x20Wetland','eggsInWetland','Sets\x20of\x20Three\x20Eggs','setsOfThreeEggs','Bowl\x20Nest\x20Birds\x20with\x20Eggs','bowlNestBirdsEggs','Cavity\x20Nest\x20Birds\x20with\x20Eggs','cavityNestBirdsEggs','Ground\x20Nest\x20Birds\x20with\x20Eggs','groundNestBirdsEggs','Platform\x20Nest\x20Birds\x20with\x20Eggs','platformNestBirdsEggs','Eggs\x20in\x20Bowl\x20Nests','Eggs\x20in\x20Cavity\x20Nests','eggsInCavityNests','eggsInGroundNests','Eggs\x20in\x20Platform\x20Nests','eggsInPlatformNests','gainFood','<p>Using\x20the\x20food\x20key\x20on\x20the\x20card,\x20start\x20from\x20the\x20left-most\x20die\x20face\x20icon\x20and\x20select\x20the\x20first\x20die\x20face\x20available\x20in\x20the\x20birdfeeder.\x20Remove\x20<span\x20class=\x22bold\x22>ALL</span>\x20dice\x20with\x20that\x20face\x20from\x20the\x20birdfeeder.</p>','Gain\x20Food','plus','<p>An\x20egg\x20is\x20added\x20to\x20the\x20Automa\x27s\x20scoring\x20record\x20for\x20each\x20egg\x20icon\x20on\x20the\x20drawn\x20card.</p>','Lay\x201\x20Egg','drawCards','Draw\x20Cards','<p>Discard\x20<span\x20class=\x22bold\x22>ALL</span>\x203\x20face-up\x20cards\x20from\x20the\x20bird\x20tray.\x20The\x20app\x20also\x20records\x20the\x20Automa\x20gaining\x201\x20face-down\x20card.</p>','Lay\x202\x20Eggs','minus','playBird','<p>From\x20the\x203\x20face-up\x20cards\x20on\x20the\x20bird\x20tray,\x20add\x20the\x20highest\x20value\x20to\x20the\x20Automa\x27s\x20score,\x20then\x20discard\x20<span\x20class=\x22bold\x22>ALL</span>\x20that\x20meet\x20the\x20requirement\x20of\x20the\x20Automa\x27s\x20bonus\x20card.</p>','Play\x20a\x20Bird','layEggs','Lay\x203\x20Eggs','anatomist','Birds\x20with\x20body\x20parts\x20in\x20their\x20names','Body\x20parts\x20include\x20beak,\x20belly,\x20bill,\x20breast,\x20cap,\x20chin,\x20collar,\x20crest,\x20eye,\x20face,\x20head,\x20neck,\x20rump,\x20shoulder,\x20tail,\x20throat,\x20wing','birdCounter','Birds\x20with\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/flock.png\x22\x20/>\x20power','Bird\x20Feeder','birdFeeder','Birds\x20that\x20eat\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-seed.png\x22\x20/>','Any\x20bird\x20with\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-seed.png\x22\x20/>\x20symbol.\x20The\x20bird\x20may\x20also\x20eat\x20other\x20kinds\x20of\x20food.','Cartographer','cartographer','Birds\x20with\x20geography\x20terms\x20in\x20their\x20names','Terms\x20include\x20American,\x20Atlantic,\x20Baltimore,\x20California,\x20Canada,\x20Carolina,\x20Chihuahua,\x20Eastern,\x20Inca,\x20Kentucky,\x20Mississippi,\x20Mountain,\x20Northern,\x20Sandhill,\x20Savannah,\x20Western','enclosureBuilder','Birds\x20must\x20have\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-ground.png\x22\x20/>\x20or\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/wild-nest.png\x22\x20/>\x20nest\x20symbol.','Fishery\x20Manager','fisheryManager','Birds\x20that\x20eat\x20<img\x20class=\x22icon\x22\x20src=\x22img/icons/food-fish.png\x22\x20/>','Any\x20bird\x20with\x20a\x20<img\x20class=\x22icon\x22\x20src=\x22img/icons/food-fish.png\x22\x20/>\x20symbol.\x20The\x20bird\x20may\x20also\x20eat\x20other\x20kinds\x20of\x20food.','Food\x20Web\x20Expert','foodWebExpert','Birds\x20that\x20eat\x20only\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-invertebrate.png\x22\x20/>','Any\x20bird\x20that\x20has\x20only\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-invertebrate.png\x22\x20/>\x20and\x20no\x20other\x20food\x20symbols.','Forester','forester','Birds\x20that\x20can\x20only\x20live\x20in\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/habitat-forest.png\x22\x20/>','Historian','historian','Birds\x20named\x20after\x20a\x20person','Any\x20bird\x20with\x20an\x20\x27s\x20in\x20its\x20name.','Large\x20Bird\x20Specialist','largeBirdSpecialist','Birds\x20with\x20wingspans\x20over\x2065cm','Nest\x20Box\x20Builder','nestBoxBuilder','Birds\x20with\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-cavity.png\x22\x20/>\x20nests','Birds\x20must\x20have\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-cavity.png\x22\x20/>\x20or\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/wild-nest.png\x22\x20/>\x20nest\x20symbol.','Omnivore\x20Expert','omnivoreExpert','Birds\x20that\x20eat\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-wild.png\x22\x20/>','Passerine\x20Specialist','passerineSpecialist','Birds\x20with\x20wingspans\x2030cm\x20or\x20less','Photographer','photographer','Birds\x20with\x20colors\x20in\x20their\x20names','Platform\x20Builder','platformBuilder','Birds\x20with\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-platform.png\x22\x20/>\x20nests','Birds\x20must\x20have\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-platform.png\x22\x20/>\x20or\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/wild-nest.png\x22\x20/>\x20nest\x20symbol.','Prairie\x20Manager','prairieManager','rodentologist','Birds\x20that\x20eat\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-rodent.png\x22\x20/>','Any\x20bird\x20with\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-rodent.png\x22\x20/>\x20symbol.\x20The\x20bird\x20may\x20also\x20eat\x20other\x20kinds\x20of\x20food.','viticulturalist','Birds\x20that\x20eat\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-fruit.png\x22\x20/>','Any\x20bird\x20with\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-fruit.png\x22\x20/>\x20symbol.\x20The\x20bird\x20may\x20also\x20eat\x20other\x20kinds\x20of\x20food.','Wetland\x20Scientist','Birds\x20that\x20can\x20only\x20live\x20in\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/habitat-wetland.png\x22\x20/>','Wildlife\x20Gardener','wildlifeGardener','Birds\x20with\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-bowl.png\x22\x20/>\x20nests'];(function(_0x3ad6c5,_0x24f222){var _0x5766c6=function(_0x9d6db7){while(--_0x9d6db7){_0x3ad6c5['push'](_0x3ad6c5['shift']());}};_0x5766c6(++_0x24f222);}(_0x5521,0x1cd));var _0x5b66=function(_0x467f02,_0x29cae7){_0x467f02=_0x467f02-0x0;var _0x40bd41=_0x5521[_0x467f02];return _0x40bd41;};var cards=[{'card':'1','actions':[{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2'),'actionCube':_0x5b66('0x3')}]},{'card':'2','actions':[{'class':'layEggs','instructions':_0x5b66('0x4'),'desc':_0x5b66('0x5'),'value':0x1,'actionCube':'minus'},{'class':_0x5b66('0x6'),'instructions':'<p>Discard\x20<span\x20class=\x22bold\x22>ALL</span>\x203\x20face-up\x20cards\x20from\x20the\x20bird\x20tray.\x20The\x20app\x20also\x20records\x20the\x20Automa\x20gaining\x201\x20face-down\x20card.</p>','desc':_0x5b66('0x7'),'actionCube':'plus'}]},{'card':'3','actions':[{'class':_0x5b66('0x6'),'instructions':_0x5b66('0x8'),'desc':_0x5b66('0x7'),'actionCube':'plus'},{'class':'layEggs','instructions':_0x5b66('0x4'),'desc':_0x5b66('0x9'),'value':0x2,'actionCube':_0x5b66('0xa')},{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd'),'actionCube':_0x5b66('0x3')}]},{'card':'4','actions':[{'class':_0x5b66('0x6'),'instructions':'<p>Discard\x20<span\x20class=\x22bold\x22>ALL</span>\x203\x20face-up\x20cards\x20from\x20the\x20bird\x20tray.\x20The\x20app\x20also\x20records\x20the\x20Automa\x20gaining\x201\x20face-down\x20card.</p>','desc':'Draw\x20Cards','actionCube':'minus'},{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')},{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')},{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd')}]},{'card':'5','actions':[{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':_0x5b66('0x5'),'actionCube':_0x5b66('0x3'),'value':0x1},{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':_0x5b66('0xf'),'actionCube':_0x5b66('0xa'),'value':0x3},{'class':_0x5b66('0x6'),'instructions':_0x5b66('0x8'),'desc':_0x5b66('0x7'),'actionCube':'minus'}]},{'card':'6','actions':[{'class':_0x5b66('0xe'),'instructions':'<p>An\x20egg\x20is\x20added\x20to\x20the\x20Automa\x27s\x20scoring\x20record\x20for\x20each\x20egg\x20icon\x20on\x20the\x20drawn\x20card.</p>','desc':_0x5b66('0x5'),'value':0x1},{'class':'playBird','instructions':_0x5b66('0xc'),'desc':'Play\x20a\x20Bird','actionCube':_0x5b66('0x3')},{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd'),'actionCube':_0x5b66('0x3')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':_0x5b66('0xf'),'actionCube':'plus','value':0x3}]},{'card':'7','actions':[{'class':'playBird','instructions':'<p>From\x20the\x203\x20face-up\x20cards\x20on\x20the\x20bird\x20tray,\x20add\x20the\x20highest\x20value\x20to\x20the\x20Automa\x27s\x20score,\x20then\x20discard\x20<span\x20class=\x22bold\x22>ALL</span>\x20that\x20meet\x20the\x20requirement\x20of\x20the\x20Automa\x27s\x20bonus\x20card.</p>','desc':'Play\x20a\x20Bird'},{'class':_0x5b66('0x6'),'instructions':'<p>Discard\x20<span\x20class=\x22bold\x22>ALL</span>\x203\x20face-up\x20cards\x20from\x20the\x20bird\x20tray.\x20The\x20app\x20also\x20records\x20the\x20Automa\x20gaining\x201\x20face-down\x20card.</p>','desc':_0x5b66('0x7')},{'class':_0x5b66('0x0'),'instructions':'<p>Using\x20the\x20food\x20key\x20on\x20the\x20card,\x20start\x20from\x20the\x20left-most\x20die\x20face\x20icon\x20and\x20select\x20the\x20first\x20die\x20face\x20available\x20in\x20the\x20birdfeeder.\x20Remove\x20<span\x20class=\x22bold\x22>ALL</span>\x20dice\x20with\x20that\x20face\x20from\x20the\x20birdfeeder.</p>','desc':_0x5b66('0x2')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':'Lay\x203\x20Eggs','actionCube':_0x5b66('0x3'),'value':0x3}]},{'card':'8','actions':[{'class':'gainFood','instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':'Lay\x202\x20Eggs','actionCube':_0x5b66('0x3'),'value':0x2},{'class':'drawCards','instructions':_0x5b66('0x8'),'desc':_0x5b66('0x7')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':_0x5b66('0xf'),'actionCube':_0x5b66('0xa'),'value':0x3}]},{'card':'9','actions':[{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')},{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd')},{'class':_0x5b66('0xe'),'instructions':'<p>An\x20egg\x20is\x20added\x20to\x20the\x20Automa\x27s\x20scoring\x20record\x20for\x20each\x20egg\x20icon\x20on\x20the\x20drawn\x20card.</p>','desc':_0x5b66('0x9'),'actionCube':_0x5b66('0x3'),'value':0x2},{'class':_0x5b66('0x6'),'instructions':_0x5b66('0x8'),'desc':_0x5b66('0x7'),'actionCube':_0x5b66('0x3')}]},{'card':'10','actions':[{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd')},{'class':_0x5b66('0xe'),'instructions':_0x5b66('0x4'),'desc':_0x5b66('0x9'),'actionCube':'minus','value':0x2},{'class':_0x5b66('0x6'),'instructions':_0x5b66('0x8'),'desc':_0x5b66('0x7'),'actionCube':_0x5b66('0xa')},{'class':_0x5b66('0x0'),'instructions':_0x5b66('0x1'),'desc':_0x5b66('0x2')}]},{'card':'11','actions':[{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd'),'actionCube':'plus'},{'class':_0x5b66('0xb'),'instructions':_0x5b66('0xc'),'desc':_0x5b66('0xd'),'actionCube':_0x5b66('0x3')},{'class':_0x5b66('0xb'),'instructions':'<p>From\x20the\x203\x20face-up\x20cards\x20on\x20the\x20bird\x20tray,\x20add\x20the\x20highest\x20value\x20to\x20the\x20Automa\x27s\x20score,\x20then\x20discard\x20<span\x20class=\x22bold\x22>ALL</span>\x20that\x20meet\x20the\x20requirement\x20of\x20the\x20Automa\x27s\x20bonus\x20card.</p>','desc':'Play\x20a\x20Bird','actionCube':_0x5b66('0x3')},{'class':_0x5b66('0xb'),'instructions':'<p>From\x20the\x203\x20face-up\x20cards\x20on\x20the\x20bird\x20tray,\x20add\x20the\x20highest\x20value\x20to\x20the\x20Automa\x27s\x20score,\x20then\x20discard\x20<span\x20class=\x22bold\x22>ALL</span>\x20that\x20meet\x20the\x20requirement\x20of\x20the\x20Automa\x27s\x20bonus\x20card.</p>','desc':_0x5b66('0xd'),'actionCube':_0x5b66('0x3')}]}];var bonusCards=[{'card':'Anatomist','class':_0x5b66('0x10'),'desc':_0x5b66('0x11'),'fullDesc':_0x5b66('0x12')},{'card':'Bird\x20Counter','class':_0x5b66('0x13'),'desc':_0x5b66('0x14')},{'card':_0x5b66('0x15'),'class':_0x5b66('0x16'),'desc':_0x5b66('0x17'),'fullDesc':_0x5b66('0x18')},{'card':_0x5b66('0x19'),'class':_0x5b66('0x1a'),'desc':_0x5b66('0x1b'),'fullDesc':_0x5b66('0x1c')},{'card':'Enclosure\x20Builder','class':_0x5b66('0x1d'),'desc':'Birds\x20with\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/nest-ground.png\x22\x20/>\x20nests','fullDesc':_0x5b66('0x1e')},{'card':'Falconer','class':'falconer','desc':'Birds\x20with\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/predator.png\x22\x20/>\x20power'},{'card':_0x5b66('0x1f'),'class':_0x5b66('0x20'),'desc':_0x5b66('0x21'),'fullDesc':_0x5b66('0x22')},{'card':_0x5b66('0x23'),'class':_0x5b66('0x24'),'desc':_0x5b66('0x25'),'fullDesc':_0x5b66('0x26')},{'card':_0x5b66('0x27'),'class':_0x5b66('0x28'),'desc':_0x5b66('0x29')},{'card':_0x5b66('0x2a'),'class':_0x5b66('0x2b'),'desc':_0x5b66('0x2c'),'fullDesc':_0x5b66('0x2d')},{'card':_0x5b66('0x2e'),'class':_0x5b66('0x2f'),'desc':_0x5b66('0x30')},{'card':_0x5b66('0x31'),'class':_0x5b66('0x32'),'desc':_0x5b66('0x33'),'fullDesc':_0x5b66('0x34')},{'card':_0x5b66('0x35'),'class':_0x5b66('0x36'),'desc':_0x5b66('0x37'),'fullDesc':'Any\x20bird\x20that\x20specifically\x20has\x20a\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/food-wild.png\x22\x20/>\x20symbol\x20as\x20part\x20of\x20its\x20food\x20cost.'},{'card':_0x5b66('0x38'),'class':_0x5b66('0x39'),'desc':_0x5b66('0x3a')},{'card':_0x5b66('0x3b'),'class':_0x5b66('0x3c'),'desc':_0x5b66('0x3d'),'fullDesc':'Colors\x20include\x20ash,\x20black,\x20blue,\x20bronze,\x20brown,\x20cerulean,\x20chestnut,\x20ferruginous,\x20gold,\x20gray,\x20green,\x20indigo,\x20lazuli,\x20purple,\x20red,\x20rose,\x20roseate,\x20ruby,\x20ruddy,\x20rufous,\x20snowy,\x20white,\x20yellow'},{'card':_0x5b66('0x3e'),'class':_0x5b66('0x3f'),'desc':_0x5b66('0x40'),'fullDesc':_0x5b66('0x41')},{'card':_0x5b66('0x42'),'class':_0x5b66('0x43'),'desc':'Birds\x20that\x20can\x20only\x20live\x20in\x20<img\x20class=\x22largeIcon\x22\x20src=\x22img/icons/habitat-grassland.png\x22\x20/>'},{'card':'Rodentologist','class':_0x5b66('0x44'),'desc':_0x5b66('0x45'),'fullDesc':_0x5b66('0x46')},{'card':'Viticulturalist','class':_0x5b66('0x47'),'desc':_0x5b66('0x48'),'fullDesc':_0x5b66('0x49')},{'card':_0x5b66('0x4a'),'class':'wetlandScientist','desc':_0x5b66('0x4b')},{'card':_0x5b66('0x4c'),'class':_0x5b66('0x4d'),'desc':_0x5b66('0x4e'),'fullDesc':_0x5b66('0x4f')}];var roundBonusCards=[{'card':'1','name':_0x5b66('0x50'),'class':_0x5b66('0x51'),'values':[0x0,0x1,0x2,0x3],'maxValue':0x5,'tileNum':0x8},{'card':'2','name':_0x5b66('0x52'),'class':_0x5b66('0x53'),'values':[0x0,0x1,0x2,0x3],'maxValue':0x5,'tileNum':0x4},{'card':'3','name':_0x5b66('0x54'),'class':'birdsInWetland','values':[0x0,0x1,0x2,0x3],'maxValue':0x5,'tileNum':0x7},{'card':'4','name':'Total\x20Birds','class':_0x5b66('0x55'),'values':[0x2,0x5,0x8,0xb],'maxValue':0xf,'tileNum':0x2},{'card':'5','name':_0x5b66('0x56'),'class':_0x5b66('0x57'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x8},{'card':'6','name':_0x5b66('0x58'),'class':_0x5b66('0x59'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x4},{'card':'7','name':_0x5b66('0x5a'),'class':_0x5b66('0x5b'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x7},{'card':'8','name':_0x5b66('0x5c'),'class':_0x5b66('0x5d'),'values':[-0x1,0x0,0x1,0x2],'tileNum':0x2},{'card':'9','name':_0x5b66('0x5e'),'class':_0x5b66('0x5f'),'values':[0x0,0x1,0x2,0x3],'tileNum':0x3},{'card':'10','name':_0x5b66('0x60'),'class':_0x5b66('0x61'),'values':[0x0,0x1,0x2,0x3],'tileNum':0x1},{'card':'11','name':_0x5b66('0x62'),'class':_0x5b66('0x63'),'values':[0x0,0x1,0x2,0x3],'tileNum':0x5},{'card':'12','name':_0x5b66('0x64'),'class':_0x5b66('0x65'),'values':[0x0,0x1,0x2,0x3],'tileNum':0x6},{'card':'13','name':_0x5b66('0x66'),'class':'eggsInBowlNests','values':[0x1,0x3,0x5,0x7],'tileNum':0x3},{'card':'14','name':_0x5b66('0x67'),'class':_0x5b66('0x68'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x1},{'card':'15','name':'Eggs\x20in\x20Ground\x20Nests','class':_0x5b66('0x69'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x5},{'card':'16','name':_0x5b66('0x6a'),'class':_0x5b66('0x6b'),'values':[0x1,0x3,0x5,0x7],'tileNum':0x6}];
+var cards = [
+
+	{
+		card: '1',
+		actions: [
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food',
+				actionCube: 'plus'
+			}
+		]
+		
+	},
+	{
+		card: '2',
+		actions: [
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 1 Egg',
+				value: 1,
+				actionCube: 'minus'
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'plus'
+			}
+		]
+	},
+	{
+		card: '3',
+		actions: [
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 2 Eggs',
+				value: 2,
+				actionCube: 'minus'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			}
+		]
+	},
+	{
+		card: '4',
+		actions: [
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'minus'
+			},
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food',
+			},
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food',
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+			}
+		]
+	},
+	{
+		card: '5',
+		actions: [
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 1 Egg',
+				actionCube: 'plus',
+				value: 1,
+			},
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food',
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 3 Eggs',
+				actionCube: 'minus',
+				value: 3,
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'minus'
+			}
+		]
+	},
+	{
+		card: '6',
+		actions: [
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 1 Egg',
+				value: 1,
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 3 Eggs',
+				actionCube: 'plus',
+				value: 3,
+			}
+		]
+	},
+	{
+		card: '7',
+		actions: [
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird'
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards'
+			},
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food',
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 3 Eggs',
+				actionCube: 'plus',
+				value: 3,
+			}
+		]
+	},
+	{
+		card: '8',
+		actions: [
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 2 Eggs',
+				actionCube: 'plus',
+				value: 2,
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 3 Eggs',
+				actionCube: 'minus',
+				value: 3,
+			}
+		]
+	},
+	{
+		card: '9',
+		actions: [
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 2 Eggs',
+				actionCube: 'plus',
+				value: 2,
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'plus'
+			}
+		]
+	},
+	{
+		card: '10',
+		actions: [
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird'
+			},
+			{	
+				class: 'layEggs',
+				instructions: '<p>An egg is added to the Automa\'s scoring record for each egg icon on the drawn card.</p>',
+				desc: 'Lay 2 Eggs',
+				actionCube: 'minus',
+				value: 2,
+			},
+			{	
+				class: 'drawCards',
+				instructions: '<p>Discard <span class="bold">ALL</span> 3 face-up cards from the bird tray. The app also records the Automa gaining 1 face-down card.</p>',
+				desc: 'Draw Cards',
+				actionCube: 'minus'
+			},
+			{	
+				class: 'gainFood',
+				instructions: '<p>Using the food key on the card, start from the left-most die face icon and select the first die face available in the birdfeeder. Remove <span class="bold">ALL</span> dice with that face from the birdfeeder.</p>',
+				desc: 'Gain Food'
+			}
+		]
+	},
+	{
+		card: '11',
+		actions: [
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			},
+			{	
+				class: 'playBird',
+				instructions: '<p>From the 3 face-up cards on the bird tray, add the highest value to the Automa\'s score, then discard <span class="bold">ALL</span> that meet the requirement of the Automa\'s bonus card.</p>',
+				desc: 'Play a Bird',
+				actionCube: 'plus'
+			}
+		]
+	}
+]
+
+var bonusCards = [
+	
+	{
+		card: 'Anatomist',
+		class: 'anatomist',
+		desc: 'Birds with body parts in their names',
+		fullDesc: 'Body parts include beak, belly, bill, breast, cap, chin, collar, crest, eye, face, head, neck, rump, shoulder, tail, throat, wing',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Bird Counter',
+		class: 'birdCounter',
+		desc: 'Birds with a <img class="largeIcon" src="img/icons/flock.png" /> power',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Bird Feeder',
+		class: 'birdFeeder',
+		desc: 'Birds that eat <img class="largeIcon" src="img/icons/food-seed.png" />',
+		fullDesc: 'Any bird with a <img class="largeIcon" src="img/icons/food-seed.png" /> symbol. The bird may also eat other kinds of food.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Cartographer',
+		class: 'cartographer',
+		desc: 'Birds with geography terms in their names',
+		fullDesc: 'Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Kentucky, Mississippi, Mountain, Northern, Sandhill, Savannah, Western',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Enclosure Builder',
+		class: 'enclosureBuilder',
+		desc: 'Birds with <img class="largeIcon" src="img/icons/nest-ground.png" /> nests',
+		fullDesc: 'Birds must have a <img class="largeIcon" src="img/icons/nest-ground.png" /> or <img class="largeIcon" src="img/icons/wild-nest.png" /> nest symbol.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Falconer',
+		class: 'falconer',
+		desc: 'Birds with a <img class="largeIcon" src="img/icons/predator.png" /> power',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Fishery Manager',
+		class: 'fisheryManager',
+		desc: 'Birds that eat <img class="icon" src="img/icons/food-fish.png" />',
+		fullDesc: 'Any bird with a <img class="icon" src="img/icons/food-fish.png" /> symbol. The bird may also eat other kinds of food.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Food Web Expert',
+		class: 'foodWebExpert',
+		desc: 'Birds that eat only <img class="largeIcon" src="img/icons/food-invertebrate.png" />',
+		fullDesc: 'Any bird that has only <img class="largeIcon" src="img/icons/food-invertebrate.png" /> and no other food symbols.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Forester',
+		class: 'forester',
+		desc: 'Birds that can only live in <img class="largeIcon" src="img/icons/habitat-forest.png" />',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Historian',
+		class: 'historian',
+		desc: 'Birds named after a person',
+		fullDesc: 'Any bird with an \'s in its name.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Large Bird Specialist',
+		class: 'largeBirdSpecialist',
+		desc: 'Birds with wingspans over 65cm',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Nest Box Builder',
+		class: 'nestBoxBuilder',
+		desc: 'Birds with <img class="largeIcon" src="img/icons/nest-cavity.png" /> nests',
+		fullDesc: 'Birds must have a <img class="largeIcon" src="img/icons/nest-cavity.png" /> or <img class="largeIcon" src="img/icons/wild-nest.png" /> nest symbol.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Omnivore Expert',
+		class: 'omnivoreExpert',
+		desc: 'Birds that eat <img class="largeIcon" src="img/icons/food-wild.png" />',
+		fullDesc: 'Any bird that specifically has a <img class="largeIcon" src="img/icons/food-wild.png" /> symbol as part of its food cost.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Passerine Specialist',
+		class: 'passerineSpecialist',
+		desc: 'Birds with wingspans 30cm or less',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Photographer',
+		class: 'photographer',
+		desc: 'Birds with colors in their names',
+		fullDesc: 'Colors include ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, white, yellow',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Platform Builder',
+		class: 'platformBuilder',
+		desc: 'Birds with <img class="largeIcon" src="img/icons/nest-platform.png" /> nests',
+		fullDesc: 'Birds must have a <img class="largeIcon" src="img/icons/nest-platform.png" /> or <img class="largeIcon" src="img/icons/wild-nest.png" /> nest symbol.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Prairie Manager',
+		class: 'prairieManager',
+		desc: 'Birds that can only live in <img class="largeIcon" src="img/icons/habitat-grassland.png" />',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Rodentologist',
+		class: 'rodentologist',
+		desc: 'Birds that eat <img class="largeIcon" src="img/icons/food-rodent.png" />',
+		fullDesc: 'Any bird with a <img class="largeIcon" src="img/icons/food-rodent.png" /> symbol. The bird may also eat other kinds of food.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Viticulturalist',
+		class: 'viticulturalist',
+		desc: 'Birds that eat <img class="largeIcon" src="img/icons/food-fruit.png" />',
+		fullDesc: 'Any bird with a <img class="largeIcon" src="img/icons/food-fruit.png" /> symbol. The bird may also eat other kinds of food.',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Wetland Scientist',
+		class: 'wetlandScientist',
+		desc: 'Birds that can only live in <img class="largeIcon" src="img/icons/habitat-wetland.png" />',
+		gameVersion: 'base'
+		
+	},
+	{
+		card: 'Wildlife Gardener',
+		class: 'wildlifeGardener',
+		desc: 'Birds with <img class="largeIcon" src="img/icons/nest-bowl.png" /> nests',
+		fullDesc: 'Birds must have a <img class="largeIcon" src="img/icons/nest-bowl.png" /> or <img class="largeIcon" src="img/icons/wild-nest.png" /> nest symbol.',
+		gameVersion: 'base'
+	},
+	{
+		card: 'Autwitcher',
+		class: 'autwitcher',
+		desc: 'Birds that are worth 3 or 4 points',
+		fullDesc: 'Birds that are worth 3 or 4 points. Automa keeps up to 2 of them (higher value first).',
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: 'Raspb Life Fellow',
+		class: 'raspbLifeFellow',
+		desc: 'Birds that are worth 5, 6 or 7 points',
+		fullDesc: 'Birds that are worth 5, 6 or 7 points. The Automa keeps the highest valued one.',
+		gameVersion: 'europeanExpansion'
+	}
+
+]
+
+var roundBonusCards = [
+	
+	{
+		card: '1',
+		name: 'Birds in Forest',
+		class: 'birdsInForest',
+		values: [0, 1, 2, 3],
+		maxValue: 5,
+		tileNum: 8,
+		gameVersion: 'base'
+	},
+	{
+		card: '2',
+		name: 'Birds in Grassland',
+		class: 'birdsInGrassland',
+		values: [0, 1, 2, 3],
+		maxValue: 5,
+		tileNum: 4,
+		gameVersion: 'base'
+	},
+	{
+		card: '3',
+		name: 'Birds in Wetland',
+		class: 'birdsInWetland',
+		values: [0, 1, 2, 3],
+		maxValue: 5,
+		tileNum: 7,
+		gameVersion: 'base'
+	},
+	{
+		card: '4',
+		name: 'Total Birds',
+		class: 'totalBirds',
+		values: [2, 5, 8, 11],
+		maxValue: 15,
+		tileNum: 2,
+		gameVersion: 'base'
+	},
+	{
+		card: '5',
+		name: 'Eggs in Forest',
+		class: 'eggsInForest',
+		values: [1, 3, 5, 7],
+		tileNum: 8,
+		gameVersion: 'base'
+	},
+	{
+		card: '6',
+		name: 'Eggs in Grassland',
+		class: 'eggsInGrassland',
+		values: [1, 3, 5, 7],
+		tileNum: 4,
+		gameVersion: 'base'
+	},
+	{
+		card: '7',
+		name: 'Eggs in Wetland',
+		class: 'eggsInWetland',
+		values: [1, 3, 5, 7],
+		tileNum: 7,
+		gameVersion: 'base'
+	},
+	{
+		card: '8',
+		name: 'Sets of Three Eggs',
+		class: 'setsOfThreeEggs',
+		values: [-1, 0, 1, 2],
+		tileNum: 2,
+		gameVersion: 'base'
+	},
+	{
+		card: '9',
+		name: 'Bowl Nest Birds with Eggs',
+		class: 'bowlNestBirdsEggs',
+		values: [0, 1, 2, 3],
+		tileNum: 3,
+		gameVersion: 'base'
+	},
+	{
+		card: '10',
+		name: 'Cavity Nest Birds with Eggs',
+		class: 'cavityNestBirdsEggs',
+		values: [0, 1, 2, 3],
+		tileNum: 1,
+		gameVersion: 'base'
+	},
+	{
+		card: '11',
+		name: 'Ground Nest Birds with Eggs',
+		class: 'groundNestBirdsEggs',
+		values: [0, 1, 2, 3],
+		tileNum: 5,
+		gameVersion: 'base'
+	},
+	{
+		card: '12',
+		name: 'Platform Nest Birds with Eggs',
+		class: 'platformNestBirdsEggs',
+		values: [0, 1, 2, 3],
+		tileNum: 6,
+		gameVersion: 'base'
+	},
+	
+	{
+		card: '13',
+		name: 'Eggs in Bowl Nests',
+		class: 'eggsInBowlNests',
+		values: [1, 3, 5, 7],
+		tileNum: 3,
+		gameVersion: 'base'
+	},
+	{
+		card: '14',
+		name: 'Eggs in Cavity Nests',
+		class: 'eggsInCavityNests',
+		values: [1, 3, 5, 7],
+		tileNum: 1,
+		gameVersion: 'base'
+	},
+	{
+		card: '15',
+		name: 'Eggs in Ground Nests',
+		class: 'eggsInGroundNests',
+		values: [1, 3, 5, 7],
+		tileNum: 5,
+		gameVersion: 'base'
+	},
+	{
+		card: '16',
+		name: 'Eggs in Platform Nests',
+		class: 'eggsInPlatformNests',
+		values: [1, 3, 5, 7],
+		tileNum: 6,
+		gameVersion: 'base'
+	},
+	{
+		card: '17',
+		name: 'Birds with Tucked Cards',
+		class: 'birdsWithTuckedCards',
+		values: [-1, -1, 1, 2],
+		tileNum: 9,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '18',
+		name: 'Birds in One Row',
+		class: 'birdsInOneRow',
+		values: [1, 1, 2, 3],
+		tileNum: 10,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '19',
+		name: 'Bird Cards in Hand',
+		class: 'birdCardsInHand',
+		values: [2, 2, 3, 3],
+		tileNum: 11,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '20',
+		name: 'Brown Powers',
+		class: 'brownPowers',
+		values: [0, 2, 4, 5],
+		tileNum: 12,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '21',
+		name: 'Birds with No Eggs',
+		class: 'birdsWithNoEggs',
+		values: [1, 3, 5, 6],
+		tileNum: 13,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '22',
+		name: 'Food Cost of Played Birds',
+		class: 'foodCostOfPlayedBirds',
+		values: [3, 8, 14, 20],
+		tileNum: 9,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '23',
+		name: 'Filled Columns',
+		class: 'filledColumns',
+		values: [-1, -1, 0, 1],
+		tileNum: 10,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '24',
+		name: 'Food in Personal Supply',
+		class: 'foodInPersonalSupply',
+		values: [2, 1, 3, 3],
+		tileNum: 11,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '25',
+		name: 'White and No Powers',
+		class: 'whiteAndNoPowers',
+		values: [-1, 0, 1, 1],
+		tileNum: 12,
+		gameVersion: 'europeanExpansion'
+	},
+	{
+		card: '26',
+		name: 'Birds over 4 points',
+		class: 'birdsOver4Points',
+		values: [-1, 0, 1, 2],
+		tileNum: 13,
+		gameVersion: 'europeanExpansion'
+	}
+
+]
