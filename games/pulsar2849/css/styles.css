@@ -1343,7 +1343,7 @@ p.decreaseTrack {
     }
 
     #markerToMoveButtons[btns="2"] {
-        width: 44vw;
+        width: 46vw;
         margin: 0 auto;
     }
 
@@ -1377,7 +1377,7 @@ p.decreaseTrack {
     }
 
     .confirmationBox.alertEl.confirmMarkerSelection .buttons[btns="2"] {
-        width: 44vw!important;
+        width: 46vw!important;
     }
 
     #actionPhaseLayer .roundInfo p {
@@ -2102,7 +2102,7 @@ p.decreaseTrack {
     }
 
     .confirmationBox.alertEl.firstPlayerAlert .buttons[btns="1"] {
-        width: 30vw!important;
+        width: 25vw!important;
     }
 
     .confirmationBox.alertEl.roundStartSummaryContainer {
@@ -2126,6 +2126,13 @@ p.decreaseTrack {
         font-size: 4vw;
         padding: 1vw;
         margin-bottom: 3vw;
+    }
+
+    .confirmationBox.alertEl.firstPlayerAlert .buttons .btn {
+        margin: 0vw auto 0vw!important;
+        padding: 2.8vw 7vw!important;
+        font-size: 4vw!important;
+        width: 10vw!important;
     }
 
 }
