@@ -835,6 +835,17 @@
         margin: 4vw auto 0vw!important;
     }
 
+    #startLayer .buttons[btns="0"], #startLayer .buttons[btns="1"] {
+        width: 38vw!important;
+        margin: 4vw auto 0vw!important;
+    }
+
+    #startLayer .buttons .btn {
+        float: left;
+        margin: 2vw 2vw 0vw;
+        width: 30vw;
+        font-size: 4.3vw!important;
+    }
 
     .confirmationBox {
         font-size: 4.5vw;
