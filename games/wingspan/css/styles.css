@@ -582,13 +582,13 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 #levelContainer {
-    width: 300px;
+    width: 460px;
     text-align: left;
     font-size: 20px;
     margin: 0 auto 30px;
     box-shadow: #999 1px 1px 5px;
     border-radius: 21px;
-    padding: 10px 40px 0px;
+    padding: 10px 20px 0px;
     display: block;
     border: 2px solid #676767;
     background-color: rgba(0, 255, 0, 0.6);
@@ -1466,12 +1466,16 @@ table#roundMarkerTable2 {
 	}
 
 	#levelContainer {
-		width: 58vw;
+		width: 75vw;
 		margin: 7vw auto 4vw;
 		font-size: 4vw;
 		border-radius: 3vw;
 		padding: 2vw;
 		border: .3vw solid #676767;
+	}
+
+	#tierSelectionLayer > #levelContainer > #expansionOnlyBonusCard {
+		font-size: 2.8vw!important;
 	}
 
 	#levelContainer h3 {
@@ -1965,9 +1969,9 @@ table#roundMarkerTable2 {
 	}
 
 	#automubon-container {
-		margin: 1vw 0vw 4vw 6vw;
+		margin: 5vw 0vw 4vw 14vw;
 		display: block;
-		width: 71vw;
+		width: 57vw;
 	}
 
 	#difficultyLevelRange {
@@ -2304,13 +2308,18 @@ table#roundMarkerTable2 {
 	}
 
 	#levelContainer {
-		width: 70vw;
+		width: 83vw;
 		margin: 14vw auto 6vw;
 		font-size: 4vw;
 		box-shadow: #999 0.1vw 0.1vw 1vw;
 		border-radius: 6vw;
-		padding: 3vw 5vw 2vw;
+		padding: 3vw 3vw 2vw;
 		border: .2vw solid #676767;
+	}
+
+	#tierSelectionLayer > #levelContainer > #expansionOnlyBonusCard {
+		font-size: 4vw!important;
+		line-height: 4.3vw;
 	}
 
 	#levelContainer h3 {
