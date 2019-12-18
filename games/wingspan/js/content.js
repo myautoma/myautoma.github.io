@@ -104,7 +104,7 @@ var helpContent = [
                 name: 'Anatomist',
                 id: 'anatomist',
                 classes: ['anatomistBonus'],
-                content: '<p>Birds with body parts in their names.</p><p>Different versions of these words (such as &ldquo;bellied&rdquo; ) all count.</p><p>Body parts include:</p><p class="bold italic">beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, neck, rump, shoulder, tail, throat, wing</p>'
+                content: '<p>Birds with body parts in their names.</p><p>Different versions of these words (such as &ldquo;bellied&rdquo; ) all count.</p><p>Body parts include:</p><p class="bold italic">back, beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, leg, neck, rump, shoulder, tail, throat, toe, wing</p>'
                 
             },
     
@@ -126,7 +126,7 @@ var helpContent = [
                 name: 'Cartographer',
                 id: 'cartographer',
                 classes: ['cartographerBonus'],
-                content: '<p>Birds with geography terms in their names.</p><p>Terms include:</p><p class="bold italic">American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Kentucky, Mississippi, Mountain, Northern, Sandhill, Savannah, Western</p>'
+                content: '<p>Birds with geography terms in their names.</p><p>Terms include:</p><p class="bold italic">American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Corsican, Eastern, Eurasian, European, Inca, Kentucky, Mississippi, Moor, Mountain, Northern, Sandhill, Savannah, Western</p>'
                 
             },
             {
@@ -203,7 +203,7 @@ var helpContent = [
                 name: 'Photographer',
                 id: 'photographer',
                 classes: ['photographerBonus'],
-                content: '<p>Birds with colors in their names.</p><p>Colors include:</p><p class="bold italic">Ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, white, yellow</p>'
+                content: '<p>Birds with colors in their names.</p><p>Colors include:</p><p class="bold italic">Ash, black, blue, bronze, brown, cerulean, chestnut, coal, ferruginous, gold, grey, gray, green, honey, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, white, yellow</p>'
             },
             {
                 name: 'Platform Builder',
@@ -289,4 +289,3 @@ var helpContent = [
         content: '<p>Feel free to <a href="mailto:gavin.mcgruddy@gmail.com?subject=Wingspan%20Online%20Automa" target="_blank" rel="noopener">email me</a>, or send a BGG message to <a href="https://boardgamegeek.com/geekmail/compose?touser=Gavmastaphlex" target="_blank" rel="noopener">Gavmastaphlex</a> with any feedbacks / suggestions.</p>'
     }
 ]
-
