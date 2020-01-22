@@ -108,6 +108,12 @@ var helpContent = [
         content: '<p>Determine the winner following the instructions in the normal rulebook. The Shadow Empire doesn&rsquo;t participate in determining the winner at the end of the game. Only you or the Automa can win.</p>'
     },
     {
+        name: 'Map',
+        id: 'map',
+        classes: ['map'],
+        content: '<p>To replicate the physical Tapestry map into this digital app, first select either \'Human\' or \'Automa\' and then keep clicking/tapping on a tile to update its state. Keep doing this until the digital board matches the physical boards state. Then click the \'Next\' button to see where the Automa will Explore/Conquer.</p><p class="italic"><span class="bold">Nomads Civ:</span> Use a single human outpost to represent any single buildings on the board (since these are able to be conquered exactly as a single human outpost). If two buildings are on a hex (or an outpost + building) then use the human outpost + toppled Automa outpost to represent this hex, since this will signify a hex that the Automa cannot conquer.</p><p class="italic"><span class="bold">Isolationists Civ:</span> For any hexes that have an outpost and a player cube on it, then use the human outpost + toppled Automa outpost to represent this hex, since this will signify a hex that the Automa cannot conquer.</p>'
+    },
+    {
         name: 'Credit',
         id: 'credit',
         content: '<p>This is not an official <a href="https://stonemaiergames.com/games/tapestry/" target="_blank" rel="noopener">Stonemaier Games</a> product and has no affiliation with <a href="https://stonemaiergames.com/games/tapestry/" target="_blank" rel="noopener">Stonemaier Games</a>. Tapestry was designed by <a href="https://boardgamegeek.com/user/jameystegmaier" target="_blank" rel="noopener">Jamey Stegmaier</a>, with art by <a href="https://www.bosleyart.com/" target="_blank" rel="noopener">Andrew Bosley</a> and sculpts by <a href="http://cultofgame.blogspot.com/" target="_blank" rel="noopener">Rom Brown</a>. All art in this app is from <a href="https://stonemaiergames.com/games/tapestry/" target="_blank" rel="noopener">Tapestry</a>. The Automa for Tapestry was designed by <a href="https://boardgamegeek.com/user/mortenmdk" target="_blank" rel="noopener">Morten Monrad Pedersen</a> with <a href="https://boardgamegeek.com/user/elephantgirl" target="_blank" rel="noopener">Lieve Teugels</a> and <a href="https://boardgamegeek.com/user/njshaw2" target="_blank" rel="noopener">Nick Shaw</a> who represent <a href="http://www.automafactory.com/" target="_blank" rel="noopener">Automa Factory</a>.</p>'
@@ -259,22 +265,22 @@ var actionInfo = [
     {
         actionName: 'Explore',
         actionClass: 'exploreAction',		
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/explore.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
+        actionDesc: '<div class="mainActionArea"><a href="#" id="goToMapBtn" class="btn blueBtn func-showLayer-map func-showMapScreen-explore func-buildMap">Map - Explore</a></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Explore Anywhere',
-        actionClass: 'exploreAnywhereAction',	
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-explore" href="#">Explore</a> action.</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
+        actionClass: 'exploreAnywhereAction',
+        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/exploreAnywhere.png" /><p class="actionDescription"><a class="helpLink helpLink-explore" href="#">Explore Anywhere</a> (no map functionality).</p><div class="clearDiv"></div></div><div class="exploreExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="favTrackDecider"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Conquer',
         actionClass: 'conquerAction',
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
+        actionDesc: '<div class="mainActionArea"><a href="#" id="goToMapBtn" class="btn blueBtn func-showLayer-map func-showMapScreen-conquer func-buildMap">Map - Conquer</a></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Conquer Anywhere',
         actionClass: 'conquerAnywhereAction',
-        actionDesc: '<div class="mainActionArea"><img class="actionImage" src="img/actions/conquerAnywhere.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
+        actionDesc: '<div class="mainActionArea"><a href="#" id="goToMapBtn" class="btn blueBtn func-showLayer-map func-showMapScreen-conquerAnywhere func-buildMap">Map - Conquer</a></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Tapestry Card',
@@ -284,7 +290,7 @@ var actionInfo = [
     {
         actionName: 'Conquer and Tapestry Card',
         actionClass: 'conquerAndTapestryAction',
-        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><img class="actionImage" src="img/actions/conquer.png" /><p class="actionDescription">See <a class="helpLink helpLink-conquer" href="#">Conquer</a> action.</p><div class="clearDiv"></div></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
+        actionDesc: '<div class="mainActionArea"><div class="conquerAndTapestryDivider-1"><img class="actionImage" src="img/actions/tapestryCard.png" /><p class="actionDescription">Give the Automa a face down tapestry card.</p></div><div class="clearDiv"></div><div class="conquerAndTapestryDivider-2"><a href="#" id="goToMapBtn" class="btn blueBtn func-showLayer-map func-showMapScreen-conquer func-buildMap">Map - Conquer</a></div><div class="militaryExtraTiebreakers extraTiebreakers"><div class="mapTiebreaker"></div><div class="toppleIndicator"></div><div class="clearDiv"></div></div>'
     },
     {
         actionName: 'Science Dice (No Benefits)',   
