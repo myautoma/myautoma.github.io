@@ -325,8 +325,8 @@
     color: red;
     font-weight: bold;
     position: absolute;
-    top: 439px;
-    left: 190px;
+    top: 579px;
+    left: 220px;
 }
 
 #masterFavTrackContainer {
@@ -1474,6 +1474,14 @@ input[type=range]:focus::-ms-fill-upper {
     float:none;
 }
 
+.actionInformationPanel .mainActionArea #goToMapBtn.btn {
+    width:145px;
+}
+
+#incomeLayer #incomeInformation .civBonus #incomeAutomaCiv .nonActionInformationPanel #goToMapBtn.btn,  #incomeLayer #incomeInformation .dualCivBonus #incomeAutomaCiv .nonActionInformationPanel #goToMapBtn.btn {
+    margin: 0px auto 20px;
+    width: 145px;
+}
 
 .actionInformationPanel, .nonActionInformationPanel {
     margin-top: 12px;
@@ -1580,7 +1588,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.exploreActionMove .mainActionArea , .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
-    width: 280px;
+    width: 320px;
     margin: 0 auto 0px;
 }
 
@@ -1590,8 +1598,9 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .actionInformationPanel.exploreActionMove .actionDescription , .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
-    margin: 10px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
     padding: 10px;
+    width: 212px;
 }
 
 
@@ -2555,7 +2564,7 @@ input[type=range]:focus::-ms-fill-upper {
     float: none;
     display: block;
     padding: 11px 17px;
-    width: 208px;
+    width: 138px;
 }
 
 #incomeLayer #incomeInformation .vpPointsScoring p {
@@ -2936,6 +2945,315 @@ input[type=number]::-webkit-outer-spin-button {
     text-decoration:underline;
 }
 
+#mapLayer.layer {
+    margin: 24px auto 0!important;
+}
+
+#mapLayer .buttons {
+    margin-top: 16px;
+}
+
+#mapLayer .buttons[mapBtns="3"] {
+    width: 480px!important;
+}
+
+#mapLayer .buttons[mapBtns="2"] {
+    width: 320px!important;
+}
+
+#mapLayer .buttons[mapBtns="1"] {
+    width:215px!important;
+}
+
+#mapLayer .buttons #mapBackToGameBtn {
+    width: 140px;
+}
+
+#mapLayer .buttons .btn {
+    float: left;
+    margin-left: 4px;
+    width: 80px;
+}
+
+#mapLayer #playerTileSelection {
+    width: 467px;
+    height: 77px;
+    margin: 0 auto;
+}
+
+#mapLayer #exploreConquerSummary {
+    width: 519px;
+    height: 52px;
+    margin:0 auto;
+}
+
+#mapLayer #playerTileSelection .playerMapSelection {
+    float: left;
+    border: 2px solid #000;
+    width: 134px;
+    height: 37px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin: 20px 0px 0px 18px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#mapLayer #playerTileSelection #mapSelect-human.playerMapSelection {
+    margin: 20px 0px 0px 0px!important;
+}
+
+#mapLayer #playerTileSelection .playerMapSelection.activePlayerMap {
+    background-color:yellow;
+}
+
+#mapLayer #tileLayout {
+    position:relative;
+    width: 452px;
+    height: 465px;
+    margin: 20px auto 0px;
+}
+
+#mapLayer #tileLayout .tileContainer {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+}
+
+#mapLayer #tileLayout .tileContainer .mapHex {
+    width: 80px;
+    position:absolute;
+    z-index:0;
+    
+}
+
+#mapLayer #tileLayout .tileContainer .colorOverlay {
+    width: 80px;
+    position:absolute;
+    z-index:1;
+}
+
+#mapLayer #tileLayout .tileContainer .mapOutpost {
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    z-index:2;
+}
+
+#mapLayer #tileLayout .tileContainer .chosenHex {
+    width: 80px;
+    position: absolute;
+    z-index: 2;
+}
+
+#mapLayer #tileLayout .tileContainer:not(.startingTile):not(.lockedTile) .mapHex, #mapLayer #tileLayout .tileContainer:not(.startingTile):not(.lockedTile) .colorOverlay, #mapLayer #tileLayout .tileContainer:not(.startingTile):not(.lockedTile) .mapOutpost {
+    cursor:hand;
+    cursor:pointer;
+}
+
+#mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.territoryOutpost1 {
+    left: 30px;
+}
+
+#mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.territoryOutpost1 {
+    left: 18px;
+}
+
+#mapLayer #tileLayout .tileContainer .mapOutpost.cityOutpost2, #mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+    left: 44px;
+}
+
+#mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+    transform: rotate(90deg);
+    top: 25px;
+}
+
+#mapLayer #tileLayout .column1 {
+    left:0px;
+}
+
+#mapLayer #tileLayout .column2 {
+    left:62px;
+}
+
+#mapLayer #tileLayout .column3 {
+    left:124px;
+}
+
+#mapLayer #tileLayout .column4 {
+    left:186px;
+}
+
+#mapLayer #tileLayout .column5 {
+    left:248px;
+}
+
+#mapLayer #tileLayout .column6 {
+    left:310px;
+}
+
+#mapLayer #tileLayout .column7 {
+    left:372px;
+}
+
+#mapLayer #tileLayout .row1 {
+    top: 0px;
+}
+
+#mapLayer #tileLayout .row2 {
+    top: 35px;
+}
+
+#mapLayer #tileLayout .row3 {
+    top: 70px;
+}
+
+#mapLayer #tileLayout .row4 {
+    top: 105px;
+}
+
+#mapLayer #tileLayout .row5 {
+    top: 140px;
+}
+
+#mapLayer #tileLayout .row6 {
+    top: 175px;
+}
+
+#mapLayer #tileLayout .row7 {
+    top: 210px;
+}
+
+#mapLayer #tileLayout .row8 {
+    top: 245px;
+}
+
+#mapLayer #tileLayout .row9 {
+    top: 280px;
+}
+
+#mapLayer #tileLayout .row10 {
+    top: 315px;
+}
+
+#mapLayer #tileLayout .row11 {
+    top: 350px;
+}
+
+#mapLayer #tileLayout .row12 {
+    top: 385px;
+}
+
+.confirmationBox.alertEl.showMapInstructionsBox {
+    top: 5%;
+    width: 540px;
+    margin-left: -270px;
+}
+
+.confirmationBox.alertEl.showMapInstructionsBox {
+    top: 5%;
+    width: 540px;
+    margin-left: -270px;
+}
+
+.showMapInstructionsBox #currentExploreMapMoveSummary {
+    width: 400px;
+    margin: 0 auto 30px;
+}
+
+.showMapInstructionsBox #currentMapMoveSummary {
+    width: 330px;
+    margin: 0 auto 30px;
+}
+
+.showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack {
+    float: right;
+    width: 191px;
+    margin-top: 46px;
+}
+
+.showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackImg {
+    width: 70px;
+    float: left;
+}
+
+.showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack p {
+    font-size: 60px;
+    margin-top: -3px;
+    width: 58px;
+    float: left;
+}
+
+.showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackIconImg {
+    width: 60px;
+    float: left;
+}
+
+.mapExploreTiebreakerImg {
+    float: left;
+    width: 160px;
+}
+
+.mapConquerTiebreakerImg {
+    float: left;
+}
+
+.mapConquerToppleImg {
+    float: right;
+    margin-top: 60px;
+}
+
+.mapLayerTitle {
+    position: relative;
+    display: block;
+    width: 110px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.mapLayerTitle > .helpLink {
+    position: absolute;
+    top: 6px;
+    left: 73px;
+    width: 32px;
+    cursor: hand;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 600px) and (max-width: 949px) {
 
@@ -3016,7 +3334,7 @@ input[type=number]::-webkit-outer-spin-button {
     #quickStartLayer .buttons .btn:first-child {
         margin: 0 auto 1.5vw;
         padding: 1.8vw 2vw;
-        width: 27vw;
+        width: 18vw;
     }
 
     #quickStartLayer .buttons .btn {
@@ -4260,6 +4578,7 @@ input[type=number]::-webkit-outer-spin-button {
         opacity: .3;
         width: 7vw;
         margin: 2.1vw;
+        float: left;
     }
 
     #sameColorError {
@@ -4651,7 +4970,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
     
     .actionInformationPanel.exploreActionMove .mainActionArea , .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
-        width: 40vw;
+        width: 52vw;
         margin: 0vw auto 0vw;
     }
     
@@ -4661,8 +4980,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
     
     .actionInformationPanel.exploreActionMove .actionDescription , .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
-        margin: 2vw 0vw 0vw 2vw;
+        margin: 1vw 0vw 0vw 2vw;
         padding: 0vw;
+        width: 40vw;
     }
     
     
@@ -5204,7 +5524,268 @@ input[type=number]::-webkit-outer-spin-button {
         text-decoration:underline;
     }
 
+    .actionInformationPanel .mainActionArea #goToMapBtn.btn {
+        width: 22vw;
+    }
+
+    .mapLayerTitle {
+        width: 14vw;
+    }
+
+    #mapLayer .buttons {
+        margin: 3vw auto 0vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="3"] {
+        width: 71vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="2"] {
+        width: 48vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="1"] {
+        width: 31vw!important;
+    }
+
+    #mapLayer #exploreConquerSummary {
+        width: 85vw;
+        height: 10vw;
+    }
+
+    #mapLayer .buttons .btn {
+        float: left;
+        margin-left: 2vw;
+        width: 14vw;
+        padding: 1.6vw 2.9vw;
+    }
+
+    #mapLayer #playerTileSelection {
+        width: 67.3vw;
+        height: 10vw;
+        margin: 0 auto;
+    }
+
+    #mapLayer #playerTileSelection .playerMapSelection {
+        width: 20vw;
+        height: 5.5vw;
+        padding-top: 1vw;
+        padding-bottom: 0vw;
+        border-radius: 1.5vw;
+        margin: 2vw 0vw 0vw 2.6vw;
+    }
+
+    #mapLayer #playerTileSelection #mapSelect-human.playerMapSelection {
+        margin: 2vw 0vw 0vw 0vw!important;
+    }
+
+    .mapLayerTitle > .helpLink {
+        top: .5vw;
+        left: 9.5vw;
+        width: 4.5vw;
+    }
+
+    #mapLayer #tileLayout {
+        position: relative;
+        width: 84vw;
+        height: 85vw;
+        margin: 4vw auto 0vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapHex {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .colorOverlay {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .chosenHex {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .column1 {
+        left: 0vw;
+    }
+    
+    #mapLayer #tileLayout .column2 {
+        left: 11.5vw;
+    }
+    
+    #mapLayer #tileLayout .column3 {
+        left: 23vw;
+    }
+    
+    #mapLayer #tileLayout .column4 {
+        left: 34.5vw;
+    }
+    
+    #mapLayer #tileLayout .column5 {
+        left: 46vw;
+    }
+    
+    #mapLayer #tileLayout .column6 {
+        left: 57.5vw;
+    }
+    
+    #mapLayer #tileLayout .column7 {
+        left: 69vw;
+    }
+    
+    #mapLayer #tileLayout .row1 {
+        top: 0vw;
+    }
+    
+    #mapLayer #tileLayout .row2 {
+        top: 6.5vw;
+    }
+    
+    #mapLayer #tileLayout .row3 {
+        top: 13vw;
+    }
+    
+    #mapLayer #tileLayout .row4 {
+        top: 19.5vw;
+    }
+    
+    #mapLayer #tileLayout .row5 {
+        top: 26vw;
+    }
+    
+    #mapLayer #tileLayout .row6 {
+        top: 32.5vw;
+    }
+    
+    #mapLayer #tileLayout .row7 {
+        top: 39vw;
+    }
+    
+    #mapLayer #tileLayout .row8 {
+        top: 45.5vw;
+    }
+    
+    #mapLayer #tileLayout .row9 {
+        top: 52vw;
+    }
+    
+    #mapLayer #tileLayout .row10 {
+        top: 58.5vw;
+    }
+    
+    #mapLayer #tileLayout .row11 {
+        top: 65vw;
+    }
+    
+    #mapLayer #tileLayout .row12 {
+        top: 71.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost {
+        height: 6vw;
+        top: 3vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.territoryOutpost1 {
+        left: 5.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.territoryOutpost1 {
+        left: 2.9vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost.cityOutpost2, #mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+        left: 7.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+        transform: rotate(90deg);
+        top: 4vw;
+    }
+
+    .confirmationBox.alertEl.showMapInstructionsBox {
+        top: 5%;
+        width: 74vw;
+        margin-left: -37vw;
+    }
+
+    .showMapInstructionsBox #currentMapMoveSummary {
+        width: 48vw;
+        margin: 3vw auto 4vw;
+    }
+
+    .showMapInstructionsBox #currentExploreMapMoveSummary {
+        width: 56vw;
+        margin: 0 auto 5vw;
+    }
+
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack {
+        width: 26vw;
+        margin-top: 7vw;
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackImg {
+        width: 9vw;
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack p {
+        font-size: 7vw;
+        margin-top: 0vw;
+        width: 8vw;
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackIconImg {
+        width: 8vw;
+    }
+    
+    .mapExploreTiebreakerImg {
+        width: 24vw;
+    }
+
+
+    .mapConquerTiebreakerImg {
+        width: 27vw;
+    }
+
+    .mapConquerToppleImg {
+        margin-top: 10vw;
+        width: 15vw;
+    }
+
+    #mapLayer .buttons #mapBackToGameBtn {
+        width: 20vw;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 599px) {
 
@@ -6551,7 +7132,7 @@ input[type=number]::-webkit-outer-spin-button {
     #quickStartLayer .buttons .btn:first-child {
         margin: 0 auto 1.5vw;
         padding: 2.5vw 2vw;
-        width: 45vw;
+        width: 29vw;
     }
 
     .confirmationBox.showCurrentDifficultyContainer {
@@ -7090,13 +7671,14 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .actionInformationPanel.exploreActionMove .mainActionArea, .actionInformationPanel.exploreAnywhereActionMove .mainActionArea {
-        width: 53vw;
+        width: 59vw;
         margin: 0 auto 2vw;
     }
 
     .actionInformationPanel.exploreActionMove .actionDescription, .actionInformationPanel.exploreAnywhereActionMove .actionDescription {
-        margin: 3vw 0vw 5vw 2vw;
+        margin: 2vw 0vw 5vw 2vw;
         padding: 0vw;
+        width: 44vw;
     }
 
     .actionInformationPanel.exploreActionMove .actionImage, .actionInformationPanel.exploreAnywhereActionMove .actionImage {
@@ -7741,8 +8323,250 @@ input[type=number]::-webkit-outer-spin-button {
         width: 38vw!important;
        }
 
-       .confirmationBox.alertEl.showCurrentAutomaCardsBox .buttons .btn {
+    .confirmationBox.alertEl.showCurrentAutomaCardsBox .buttons .btn {
+    width: 12vw;
+    }
+
+    .actionInformationPanel .mainActionArea #goToMapBtn.btn {
+        width: 35vw;
+    }
+
+    #mapLayer.layer {
+        margin: 0vw auto 0!important;
+    }
+
+    .mapLayerTitle {
+        width: 19vw;
+    }
+
+    .mapLayerTitle > .helpLink {
+        top: 1vw;
+        left: 12.5vw;
+        width: 5.5vw;
+    }
+
+    #mapLayer .buttons {
+        margin: 3vw auto 0vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="3"] {
+        width: 88vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="2"] {
+        width: 59vw!important;
+    }
+
+    #mapLayer .buttons[mapBtns="1"] {
+        width: 40vw!important;
+    }
+
+    #mapLayer #exploreConquerSummary {
+        width: 85vw;
+        height: 10vw;
+    }
+
+    #mapLayer .buttons .btn {
+        float: left;
+        margin-left: 2vw;
+        width: 19vw;
+        padding: 2vw 2.9vw;
+    }
+
+    #mapLayer #playerTileSelection {
+        width: 84vw;
+        height: 12vw;
+        margin: 2vw auto 0vw;
+    }
+
+    #mapLayer #playerTileSelection .playerMapSelection {
+        width: 24vw;
+        height: 6.3vw;
+        padding-top: 1.8vw;
+        padding-bottom: 0vw;
+        border-radius: 1.5vw;
+        border: .5vw solid #000;
+        margin: 2vw 0vw 0vw 4vw;
+    }
+
+    #mapLayer #playerTileSelection #mapSelect-human.playerMapSelection {
+        margin: 2vw 0vw 0vw 0vw!important;
+    }
+
+    #mapLayer #tileLayout {
+        position: relative;
+        width: 84vw;
+        height: 85vw;
+        margin: 4vw auto 0vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapHex {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .colorOverlay {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .chosenHex {
+        width: 14.5vw;
+    }
+
+    #mapLayer #tileLayout .column1 {
+        left: 0vw;
+    }
+    
+    #mapLayer #tileLayout .column2 {
+        left: 11.5vw;
+    }
+    
+    #mapLayer #tileLayout .column3 {
+        left: 23vw;
+    }
+    
+    #mapLayer #tileLayout .column4 {
+        left: 34.5vw;
+    }
+    
+    #mapLayer #tileLayout .column5 {
+        left: 46vw;
+    }
+    
+    #mapLayer #tileLayout .column6 {
+        left: 57.5vw;
+    }
+    
+    #mapLayer #tileLayout .column7 {
+        left: 69vw;
+    }
+    
+    #mapLayer #tileLayout .row1 {
+        top: 0vw;
+    }
+    
+    #mapLayer #tileLayout .row2 {
+        top: 6.5vw;
+    }
+    
+    #mapLayer #tileLayout .row3 {
+        top: 13vw;
+    }
+    
+    #mapLayer #tileLayout .row4 {
+        top: 19.5vw;
+    }
+    
+    #mapLayer #tileLayout .row5 {
+        top: 26vw;
+    }
+    
+    #mapLayer #tileLayout .row6 {
+        top: 32.5vw;
+    }
+    
+    #mapLayer #tileLayout .row7 {
+        top: 39vw;
+    }
+    
+    #mapLayer #tileLayout .row8 {
+        top: 45.5vw;
+    }
+    
+    #mapLayer #tileLayout .row9 {
+        top: 52vw;
+    }
+    
+    #mapLayer #tileLayout .row10 {
+        top: 58.5vw;
+    }
+    
+    #mapLayer #tileLayout .row11 {
+        top: 65vw;
+    }
+    
+    #mapLayer #tileLayout .row12 {
+        top: 71.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost {
+        height: 6vw;
+        top: 3vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="1"] .mapOutpost.territoryOutpost1 {
+        left: 5.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.cityOutpost1, #mapLayer #tileLayout .tileContainer[outposts="2"] .mapOutpost.territoryOutpost1 {
+        left: 2.9vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost.cityOutpost2, #mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+        left: 7.5vw;
+    }
+
+    #mapLayer #tileLayout .tileContainer .mapOutpost.territoryOutpost2 {
+        transform: rotate(90deg);
+        top: 4vw;
+    }
+
+    .confirmationBox.alertEl.showMapInstructionsBox {
+        top: 5%;
+        width: 84vw;
+        margin-left: -42vw;
+        padding: 0px 2vw 6vw;
+    }
+
+    .showMapInstructionsBox #currentMapMoveSummary {
+        width: 54vw;
+        margin: 3vw auto 8vw;
+    }
+
+    .showMapInstructionsBox #currentExploreMapMoveSummary {
+        width: 70vw;
+        margin: 0 auto 5vw;
+    }
+
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack {
+        width: 31vw;
+        margin-top: 9vw;
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackImg {
         width: 12vw;
-       }
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack p {
+        font-size: 9vw;
+        margin-top: 0vw;
+        width: 8vw;
+    }
+    
+    .showMapInstructionsBox #currentExploreMapMoveSummary .exploreMapSummaryFavTrack .favTrackIconImg {
+        width: 10vw;
+    }
+    
+    .mapExploreTiebreakerImg {
+        width: 31vw;
+    }
+
+    .mapConquerTiebreakerImg {
+        width: 32vw;
+    }
+
+    .mapConquerToppleImg {
+        margin-top: 11vw;
+        width: 18vw;
+    }
+
+    #mapLayer .buttons #mapBackToGameBtn {
+        width: 29vw;
+    }
+
+    .confirmationBox.alertEl.showMapInstructionsBox .buttons #cancel {
+        width: 12vw!important;
+    }   
+
+    
 
 }
