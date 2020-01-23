@@ -1483,6 +1483,10 @@ input[type=range]:focus::-ms-fill-upper {
     width: 145px;
 }
 
+.nonActionInformationPanel .goToMapBtnListItem {
+    list-style: none;
+}
+
 .actionInformationPanel, .nonActionInformationPanel {
     margin-top: 12px;
     display:none;
@@ -4846,7 +4850,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .nonActionInformationPanel .goToMapBtnListItem {
         list-style: none;
-        width: 26vw;
+        width: 29vw;
         height: 8vw;
         margin-left: 22vw;
     }
