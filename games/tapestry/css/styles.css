@@ -4844,7 +4844,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin-top: 0vw;
     }
 
-    .actionInformationPanel, .nonActionInformationPanel .goToMapBtnListItem {
+    .nonActionInformationPanel .goToMapBtnListItem {
         list-style: none;
         width: 26vw;
         height: 8vw;
