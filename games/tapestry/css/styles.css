@@ -4843,6 +4843,18 @@ input[type=number]::-webkit-outer-spin-button {
     .actionInformationPanel, .nonActionInformationPanel {
         margin-top: 0vw;
     }
+
+    .actionInformationPanel, .nonActionInformationPanel .goToMapBtnListItem {
+        list-style: none;
+        width: 26vw;
+        height: 8vw;
+        margin-left: 22vw;
+    }
+
+    #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv .nonActionInformationPanel #goToMapBtn.btn {
+        margin: 0vw auto 2vw;
+        width: 23vw;
+    }
     
     .actionInformationPanel.conquerActionMove, .actionInformationPanel.conquerAnywhereActionMove, .actionInformationPanel.conquerAndTapestryActionMove {
         width: 67vw;
@@ -7526,6 +7538,18 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 2vw!important;
     }
 
+    .actionInformationPanel, .nonActionInformationPanel .goToMapBtnListItem {
+        list-style: none;
+        width: 38vw;
+        height: 10vw;
+        margin-left: 22vw;
+    }
+
+    #incomeLayer #incomeInformation .civBonus #incomeAutomaCiv .nonActionInformationPanel #goToMapBtn.btn {
+        margin: 0vw auto 2vw;
+        width: 35vw;
+    }
+
 
     .actionInformationPanel .mainActionArea .btn, .actionInformationPanel .btn {
         margin: 3vw auto 0vw;
@@ -8363,7 +8387,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     #mapLayer #exploreConquerSummary {
         width: 85vw;
-        height: 10vw;
+        height: auto;
     }
 
     #mapLayer .buttons .btn {
