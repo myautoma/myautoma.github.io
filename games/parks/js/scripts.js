@@ -1,12 +1,10 @@
 var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 var basicSites = ['Forest', 'Mountain', 'Valley', 'Ocean', 'Vista'];
 var advancedSites = ['Lookout*', 'Wildlife*', 'River*', 'Lodge*'];
-
 var finalizedSites = [];
-
 var seasonNum = 1;
 
-$(document).on(touchEvent, '#randomize', function() {
+$(document).on(touchEvent, '#startGame', function() {
 
     if($('#fourToFivePlayersCheckbox input').prop("checked") == true){
         basicSites.push('Waterfall');
@@ -21,20 +19,24 @@ $(document).on(touchEvent, '#randomize', function() {
     }
 
     adjustUI();
-    generateTrail(seasonNum)
+    generateTrail()
 
 })
 
 $(document).on(touchEvent, '#nextSeason', function() {
     seasonNum++;
-    generateTrail(seasonNum)
-
+    generateTrail()
 })
 
 $(document).on(touchEvent, '#prevSeason', function() {
     seasonNum--;
-    generateTrail(seasonNum)
+    generateTrail()
+})
 
+$(document).on(touchEvent, '#randomize', function() {
+    let seasonIndex = seasonNum - 1;
+    shuffle(finalizedSites[seasonIndex]);
+    generateTrail(seasonNum)
 })
 
 function adjustUI() {
@@ -42,28 +44,29 @@ function adjustUI() {
 
     var buttonsHTML = '<button id="prevSeason" class="button is-danger is-light">Previous Season</button>';
     buttonsHTML += '<button id="nextSeason" class="button is-success is-light">Next Season</button>';
+    buttonsHTML += '<br />';
+    buttonsHTML += '<button id="randomize" class="button is-link is-light">Randomize</button>';
     $('#buttons').html(buttonsHTML);
 
     $('#mainTitle').after('<h3 class="subtitle is-3">Season <span id="currentSeason">1</span></h3>')
 }
 
-function generateTrail(season) {
+function generateTrail() {
 
-    $('#currentSeason').html(season)
+    $('#currentSeason').html(seasonNum)
 
-    if(season == 1) {
+    if(seasonNum == 1) {
         $('#prevSeason').hide();
-    } else if (season == 4) {
+    } else if (seasonNum == 4) {
         $('#nextSeason').hide();
     } else {
         $('#prevSeason').show();
         $('#nextSeason').show();
     }
 
-    let seasonIndex = season - 1;
+    let seasonIndex = seasonNum - 1;
 
     let trailHTML = '';
-
     trailHTML += '<ol id="trailList">';
 
     for (let i = 0; i < finalizedSites[seasonIndex].length; i++) {
@@ -75,8 +78,6 @@ function generateTrail(season) {
     $('#trail').html(trailHTML)
 
 }
-
-
 
 function shuffle(a) {
     var j, x, i;
