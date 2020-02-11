@@ -40,8 +40,8 @@ $(document).on(touchEvent, '#prevSeason', function() {
 function adjustUI() {
     $('#fourToFivePlayersCheckbox').remove();
 
-    var buttonsHTML = '<button id="nextSeason" class="button is-success is-light">Next Season</button>';
-    buttonsHTML += '<button id="prevSeason" class="button is-danger is-light">Previous Season</button>';
+    var buttonsHTML = '<button id="prevSeason" class="button is-danger is-light">Previous Season</button>';
+    buttonsHTML += '<button id="nextSeason" class="button is-success is-light">Next Season</button>';
     $('#buttons').html(buttonsHTML);
 
     $('#mainTitle').after('<h3 class="subtitle is-3">Season <span id="currentSeason">1</span></h3>')
