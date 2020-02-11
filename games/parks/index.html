@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PARKS Solo Helper</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<div id="container">
+
+		<h1 id="mainTitle" class="title is-1">PARKS</h1>
+
+		<div class="rows is-centered is-hcentered">
+			<div id="fourToFivePlayersCheckbox" class="row is-narrow has-text-centered">
+				<p>This application will randomly generate the<br />trail based on how many players are playing.</p>
+				<input type="checkbox" name="playerCount" value="fourToFivePlayers">
+				<label for="playerCount">4-5 Players</label>
+			</div>
+			<div id="buttons" class="row is-narrow has-text-centered">
+				<button id="randomize" class="button is-link is-light">Start Game</button>
+			</div>
+			<div class="row is-narrow has-text-centered">
+				<div id="trail"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

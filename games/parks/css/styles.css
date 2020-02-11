@@ -1,0 +1,27 @@
+* {
+	user-select: none;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+#fourToFivePlayersCheckbox {
+	margin-bottom:14px;
+}
+
+#buttons {
+	margin-bottom:15px;
+}
+
+#randomize, #prevSeason {
+    margin: 0px 10px;
+}
+
+.bold {
+	font-weight:bold;
+}
