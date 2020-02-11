@@ -18,8 +18,12 @@ p {
 	margin-bottom:15px;
 }
 
-#randomize, #prevSeason {
-    margin: 0px 10px;
+button {
+	width:150px;
+}
+
+#startGame, #nextSeason, #prevSeason {
+    margin: 0px 10px 10px;
 }
 
 .bold {
