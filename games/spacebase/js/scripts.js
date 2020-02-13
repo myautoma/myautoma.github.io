@@ -43,10 +43,12 @@ $(document).on(touchEvent, '#nextTurn', function() {
 
 function adjustUI() {
   $('#sliderContainer').remove();
-
+  
   var gameInfoHTML = '<p id="winningScore">Winning Score: <span class="bold">' + winningScore + '</span></p>';
   gameInfoHTML += '<p id="turnNum">Turns Remaining: <span class="bold">' + totalTurns + '</span></p>';
   gameInfoHTML += '<p id="playerTurn">Current Turn: <span class="bold has-text-link">' + players[playerNum] + '</span></p>';
+
+  gameInfoHTML += '<span id="moveHistory" class="tag is-warning showHideModalElement">Move History</span>';
 
   $('#buttons').before(gameInfoHTML)
 
@@ -72,15 +74,25 @@ function rollDice() {
   var colorClass;
 
   if(playerNum == 0) {
-    colorClass = 'is-info';
-    $('.has-text-danger').removeClass('has-text-danger').addClass('has-text-link')
+    colorClass = 'info';
+    $('#playerTurn .has-text-danger').removeClass('has-text-danger').addClass('has-text-link')
   } else {
-    colorClass = 'is-danger';
-    $('.has-text-link').removeClass('has-text-link').addClass('has-text-danger')
+    colorClass = 'danger';
+    $('#playerTurn .has-text-link').removeClass('has-text-link').addClass('has-text-danger')
   }
 
-  var diceResultsHTML = '<p class="subtitle is-4"><span class="dice tag ' + colorClass + ' is-large">' + dice1 + '</span><span class="dice tag ' + colorClass + ' is-large">' + dice2 + '</span></p>';
+  var diceResultsHTML = '<p class="subtitle is-4"><span class="dice tag is-' + colorClass + ' is-large">' + dice1 + '</span><span class="dice tag is-' + colorClass + ' is-large">' + dice2 + '</span></p>';
 
   $('#diceResults').html(diceResultsHTML)
+  $('#moveHistoryContent').append('<p class="bold has-text-' + colorClass + '">' + dice1 + ', ' + dice2 + '</p>');
 
+}
+
+$(document).on(touchEvent, '.showHideModalElement', function() {
+  showHideModal()
+})
+
+
+function showHideModal() {
+  $('.modal').toggleClass('is-active');
 }
