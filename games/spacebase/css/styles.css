@@ -68,3 +68,13 @@ input[type=range].slider:not([orient=vertical]).has-output+output, input[type=ra
     padding-left: 1em!important;
     padding-right: 1em!important;
 }
+
+#moveHistory {
+	margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 102px;
+    padding-top: 2px;
+    cursor: hand;
+    cursor: pointer;
+}
