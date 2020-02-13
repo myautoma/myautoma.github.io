@@ -45,6 +45,10 @@ button {
 	margin: 0px 5px;
 }
 
+#startGame {
+	margin-top: 20px;
+}
+
 #winningScore, #playerTurn {
 	margin-bottom: 7px;
 }
