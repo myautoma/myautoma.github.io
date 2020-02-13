@@ -19,7 +19,9 @@ $(document).on(touchEvent, '#nextTurn', function() {
     $('#turnNum span').html(totalTurns);
 
     if(totalTurns == 0) {
-      $('#buttons').remove();
+      $('#buttons').hide();
+      $('#playerTurn').hide();
+      $('#diceInfo').hide();
       $('#diceResults').html('<p class="has-text-danger title is-4">The AI Win!</p>')
       return;
     }
