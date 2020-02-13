@@ -1,0 +1,66 @@
+* {
+	user-select: none;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#buttons {
+	margin-bottom:15px;
+}
+
+button {
+	width:150px;
+}
+
+#nextTurn {
+	margin-top: 10px;
+    display:none;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#sliderContainer .slider {
+	width:200px;
+    margin: 0px 0px 20px 0px;
+}
+
+#diceResults {
+	margin-top: 17px;
+}
+
+.dice {
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    padding: 3px 13px;
+	margin: 0px 5px;
+}
+
+#winningScore, #playerTurn {
+	margin-bottom: 7px;
+}
+
+input[type=range].slider:not([orient=vertical]).has-output+output {
+    display: block!important;
+    margin: 0 auto!important;
+}
+
+input[type=range].slider:not([orient=vertical]).has-output+output, input[type=range].slider:not([orient=vertical]).has-output-tooltip+output {
+	padding: 0.6rem .8rem!important;
+	font-size: 1rem!important;
+    line-height: 1rem!important;
+}
+
+.tag:not(body) {
+    padding-left: 1em!important;
+    padding-right: 1em!important;
+}
