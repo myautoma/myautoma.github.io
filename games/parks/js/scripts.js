@@ -13,7 +13,7 @@ $(document).on(touchEvent, '#startGame', function() {
     for (let i = 0; i < 4; i++) {
         let thisAdvancedSiteIndex = Math.floor(Math.random()*advancedSites.length);
         let thisAdvancedSite = advancedSites.splice(thisAdvancedSiteIndex, 1);
-        basicSites.push('<span class="bold">' + thisAdvancedSite + '</span>');
+        basicSites.push('<span id="advSite-' + (i + 1) + '" class="bold advSite">' + thisAdvancedSite + '</span>');
         shuffle(basicSites);
         finalizedSites[i] = basicSites.slice()  
     }
@@ -76,6 +76,8 @@ function generateTrail() {
     trailHTML += '</ol>';
 
     $('#trail').html(trailHTML)
+
+    $('#advSite-' + seasonNum).append('  <span class="has-text-danger is-size-7">New</span>')
 
 }
 
