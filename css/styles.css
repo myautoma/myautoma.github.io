@@ -83,7 +83,7 @@ h2 {
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 265px;
+    width: 235px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.95);
     color: #000;
@@ -129,7 +129,7 @@ h2 {
     }
 
     .tooltip .tooltiptext {
-        width: 42vw;
+        width: 43vw;
         padding: 2vw 2vw 2vw 2vw;
         border-radius: 3vw;
         top: 2vw;
