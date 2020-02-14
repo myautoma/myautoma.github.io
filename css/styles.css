@@ -1,6 +1,13 @@
 body {
 	margin: 0;
+}
+
+body:not(.tag) {
 	font-family: 'Permanent Marker', cursive;
+}
+
+span.tag.is-danger {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif!important;
 }
 
 h2 {
@@ -76,11 +83,12 @@ h2 {
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 195px;
+    width: 265px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.95);
     color: #000;
     border: 2px dotted #000;
-    text-align: left;
+    text-align: center;
     padding: 7px 11px;
     border-radius: 6px;
     position: absolute;
