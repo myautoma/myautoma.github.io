@@ -2,10 +2,6 @@ body {
 	margin: 0;
 }
 
-html {
-    overflow-y: hidden!important;
-}
-
 body:not(.tag) {
 	font-family: 'Permanent Marker', cursive;
 }
