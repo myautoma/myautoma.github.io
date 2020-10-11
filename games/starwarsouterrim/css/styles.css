@@ -1,3 +1,9 @@
+.currentVersionInfo {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .confirmationBox {
     font-size: 20px;
 }
@@ -275,14 +281,29 @@
     float: none;
 }
 
+.characterContainer .chosenCardInfo h4 {
+    font-size: 18px!important;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
 .characterContainer .chosenCardInfo h3, .characterContainer .chosenCardInfo p {
     font-size: 18px!important;
     margin: 0px 0px 5px 0px;
     text-align:left!important;
 }
 
+.characterContainer .chosenCardInfo p.italic {
+    margin: 4px 0px 8px 0px!important;
+}
+
+.characterContainer .chosenCardInfo ol, .characterContainer .chosenCardInfo ul {
+    margin-top: 9px;
+}
+
 .characterContainer .chosenCardInfo li {
     font-size: 18px;
+    margin-bottom: 4px;
 }
 
 .confirmationBox.alertEl.actionTypeAlertBox.showInstructions {
@@ -341,6 +362,12 @@
 
 .confirmationBox.alertEl.actionTypeAlertBox.moveHistoryCard .buttons[btns="1"] {
     margin-top: 20px;
+}
+
+.characterNotesLinkInContent {
+    color: #0099ff;
+    cursor:hand;
+    cursor:pointer;
 }
 
 
@@ -647,6 +674,11 @@
 
     .characterContainer .chosenCardInfo li {
         font-size: 2.5vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .characterContainer .chosenCardInfo p.italic {
+        margin: 1vw 0vw 1.5vw 0vw!important;
     }
 
     .characterContainer .chosenCardInfo ul, .characterContainer .chosenCardInfo ol {
@@ -654,8 +686,9 @@
     }
 
     .characterContainer .chosenCardInfo h4 {
-        font-size: 2.8vw;
-        margin-bottom: 0vw;
+        font-size: 2.6vw!important;
+        margin-bottom: 2vw;
+        margin-top: 3vw;
     }
 
     .confirmationBox a:not(.confirmationBoxLink):not(.helpLink) {
@@ -1022,18 +1055,23 @@
 
     .characterContainer .chosenCardInfo li {
         font-size: 3.8vw;
-        line-height: 5vw;
+        line-height: 4.5vw;
+        margin-bottom: 2vw;
     }
 
     .characterContainer .chosenCardInfo ul, .characterContainer .chosenCardInfo ol {
         padding-left: 2vw;
-        margin: 0vw 0vw 2vw 0vw;
+        margin: 0vw 0vw 4vw 0vw;
     }
 
     .characterContainer .chosenCardInfo h4 {
-        font-size: 4vw;
-        margin-bottom: 1vw;
-        margin-top: 0vw;
+        font-size: 4vw!important;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+    }
+
+    .characterContainer .chosenCardInfo p.italic {
+        margin: 1vw 0vw 1.5vw 0vw!important;
     }
 
     #bobaFettCharacterNotes.confirmationBox, #bosskCharacterNotes.confirmationBox, #ig88CharacterNotes.confirmationBox, #ketsuOnyoCharacterNotes.confirmationBox {
