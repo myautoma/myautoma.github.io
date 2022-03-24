@@ -214,11 +214,6 @@ a {
     cursor: pointer;
 }
 
-.btn:active {
-	/* position:relative;
-	top:1px; */
-}
-
 .redBtn {
 	-moz-box-shadow:inset 2px 2px 14px -1px #bf3e13;
 	-webkit-box-shadow:inset 2px 2px 14px -1px #bf3e13;
@@ -300,6 +295,32 @@ a {
 	background-color:#5cb811;
 }
 
+.orangeBtn {
+    -moz-box-shadow: inset 2px 2px 14px -1px #ffb000;
+    -webkit-box-shadow: inset 2px 2px 14px -1px #ffb000;
+    box-shadow: inset 2px 2px 14px -1px #ffb000;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fea201), color-stop(1, #c49000));
+    background: -moz-linear-gradient(top, #fea201 5%, #c49000 100%);
+    background: -webkit-linear-gradient(top, #fea201 5%, #c49000 100%);
+    background: -o-linear-gradient(top, #fea201 5%, #c49000 100%);
+    background: -ms-linear-gradient(top, #fea201 5%, #c49000 100%);
+    background: linear-gradient(to bottom, #fea201 5%, #c49000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fea201', endColorstr='#c49000',GradientType=0);
+    background-color: #8a6616;
+    border: 1px solid #8a6616;
+    text-shadow: 2px 2px 1px #9b7a00;
+}
+
+.orangeBtn:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c49000), color-stop(1, #fea201));
+	background:-moz-linear-gradient(top, #c49000 5%, #fea201 100%);
+	background:-webkit-linear-gradient(top, #c49000 5%, #fea201 100%);
+	background:-o-linear-gradient(top, #c49000 5%, #fea201 100%);
+	background:-ms-linear-gradient(top, #c49000 5%, #fea201 100%);
+	background:linear-gradient(to bottom, #c49000 5%, #fea201 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c49000', endColorstr='#fea201',GradientType=0);
+	background-color:#c49000;
+}
 
 .btn.disabled, .btn.disabled:hover, .greyBtn {
 	-moz-box-shadow:inset 2px 2px 14px -1px #91b8b3;
@@ -342,7 +363,8 @@ a {
     width: 104px;
 }
 
-.buttons:after, .gameActionInfo:after {
+.buttons:after,
+.gameActionInfo:after {
 	content: " ";
     display: block;
     height: 0;
@@ -361,9 +383,9 @@ a {
     width: 500px;
 }
 
-.buttons[btns="3"] .btn {
-    /* width: 424px; */
-}
+/* .buttons[btns="3"] .btn {
+    width: 424px;
+} */
 
 .confirmationBox .buttons[btns="2"] {
     width: 358px;
@@ -507,6 +529,7 @@ a {
     color: #FFF;
     margin: 0 0 2px 0;
     padding: 15px 10px;
+    letter-spacing: 1px;
   }
 
   .helpInfoTrigger span {
