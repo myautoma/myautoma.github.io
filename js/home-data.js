@@ -128,7 +128,7 @@ var homePageData = {
             img: 'tapestry-expansions.jpg',
             linkType: 'internal',
             linkURL: 'tapestryexp',
-            bggLink: '',
+            bggLink: 'https://boardgamegeek.com/geeklist/272024/item/8862120#item8862120',
             tags: {
                 'content': 'Experimental',
                 'color': 'danger'
