@@ -1,10 +1,18 @@
-function preload(arrayOfImages) {
-    $(arrayOfImages).each(function(){
-        $('<img/>')[0].src = this;
-    });
-}
-
-preload([
+const preload = src => new Promise(function(resolve, reject) {
+    const img = new Image();
+    img.onload = function() {
+      resolve(img);
+    }
+    img.onerror = reject;
+    img.src = src;
+  });
+  
+  const preloadAll = sources =>
+    Promise.all(
+      sources.map(
+        preload));
+  
+  const sources = [
     'img/cards/1.jpg',
 	'img/cards/2.jpg',
 	'img/cards/3.jpg',
@@ -20,4 +28,8 @@ preload([
 	'../../img/minus.png',
 	'../../img/plus.png',
 	'../../img/question.png'
-]);
+];
+  
+preloadAll(sources)
+  .then(images => initiateGameElements())
+  .catch(err => console.error('Failed', err));
