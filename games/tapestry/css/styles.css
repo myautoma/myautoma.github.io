@@ -1,3 +1,128 @@
+/* .el-to-clear:after{
+    content: " ";
+    display:block;
+    clear:both;
+    height:0;
+} */
+
+
+
+/* 
+    __                      __ _              
+   / /   ____   ____ _ ____/ /(_)____   ____ _
+  / /   / __ \ / __ `// __  // // __ \ / __ `/
+ / /___/ /_/ // /_/ // /_/ // // / / // /_/ / 
+/_____/\____/ \__,_/ \__,_//_//_/ /_/ \__, /  
+    __                               /____/   
+   / /   ____ _ __  __ ___   _____            
+  / /   / __ `// / / // _ \ / ___/            
+ / /___/ /_/ // /_/ //  __// /                
+/_____/\__,_/ \__, / \___//_/ 
+             /____/                           
+            
+*/
+
+#loaderLayer {
+    display: block;
+    padding-top: 0px;
+    height: 80vh;
+}
+
+#loaderLayer .loader-parent {
+    padding: 0px;
+    display: block;
+    color: #e5e5e4;
+    font-family: Helvetica;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+#loaderLayer .loader-parent .loader-container {
+    max-width: 960px;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+#loaderLayer .loader-parent .loader-container .loader-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    transition: opacity .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#loaderLayer .loader-parent .loader-container .loader-wrapper .loading-message {
+    font-weight: bold;
+    color: #3eaf56;
+    font-size: 22px;
+}
+
+#loaderLayer .loader-parent .loader-container .loader-wrapper .loader.is-loading {
+    height: 180px;
+    width: 180px;
+    opacity: 1;
+    z-index: 1;
+    -webkit-animation: spinAround 1s infinite linear;
+    animation: spinAround 1s infinite linear;
+    border: 4px solid #3eaf56;
+    border-radius: 290486px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+@-webkit-keyframes spinAround {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* 
+    __                      __ _              
+   / /   ____   ____ _ ____/ /(_)____   ____ _
+  / /   / __ \ / __ `// __  // // __ \ / __ `/
+ / /___/ /_/ // /_/ // /_/ // // / / // /_/ / 
+/_____/\____/ \__,_/ \__,_//_//_/ /_/ \__, /  
+    __                               /____/   
+   / /   ____ _ __  __ ___   _____            
+  / /   / __ `// / / // _ \ / ___/            
+ / /___/ /_/ // /_/ //  __// /                
+/_____/\__,_/ \__, / \___//_/ 
+             /____/                           
+            
+*/
+
+p, ol, li, a, h3, td, tr, div {
+    font-family: 'Roboto Condensed', sans-serif!important;
+}
+
 .confirmationBox.showCurrentAutomaCardsBox, .confirmationBox.showCurrentAutomaCardsMoveHistoryBox {
     top: 5%;
     margin-left: -270px;
