@@ -1,3 +1,7 @@
+p, ol, li, a, h3, td, tr, div {
+    font-family: 'Roboto Condensed', sans-serif!important;
+}
+
 .currentVersionInfo {
     text-align: center;
     font-style: italic;
